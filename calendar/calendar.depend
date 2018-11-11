@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1541938170 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/main.c
+	<stdio.h>
+	<stdlib.h>
+

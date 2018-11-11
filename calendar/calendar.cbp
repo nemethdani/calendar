@@ -31,9 +31,13 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="eventrecord.h" />
+		<Unit filename="file.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="search.h" />
+		<Unit filename="structures.h" />
 		<Extensions>
 			<envvars />
 			<code_completion />
