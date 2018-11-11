@@ -3,6 +3,11 @@
 #include <stdlib.h>
 #include "file.h"
 
+
+void filesave(EventList* eventlist){
+    printf("saved\n");
+    mainmenu(eventlist);
+}
 void newevent(EventList* eventlist){
     printf("newevent\n");
 }
@@ -34,9 +39,28 @@ void savemenu(EventList* eventlist){
     callmenu(meret,menupontok);
 
 }
-void exitmenu(){
-    printf("exit\n");
+void exitmenu(EventList* eventlist){
+
+    printf("(1) Kilepes mentessel\n(2) Kilepes mentes nelkul\n(3) Vissza\n");
+    int command;
+    while(scanf("%d",&command)!=1 || command<1 || command>3)
+        printf("nincs ilyen parancs\n");
+    switch(command){
+    case 1:{
+        //mentofuggveny
+        exit(0);}
+        break;
+    case 2:
+        exit(0);
+        break;
+    case 3:
+        mainmenu(eventlist);
+        break;
+
+    };
+
 }
+
 
 int printmenu(MenuPont* menupontok){
     int i;
