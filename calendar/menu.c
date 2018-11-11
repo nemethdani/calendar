@@ -1,15 +1,38 @@
 #include "menu.h"
 #include "structures.h"
 #include <stdlib.h>
+#include "file.h"
 
-void newevent(){
+void newevent(EventList* eventlist){
     printf("newevent\n");
 }
-void searchmenu(){
+
+void mainmenu(EventList* eventlist){
+    MenuPont menupontok[] = {
+       { "Uj esemeny", newevent },
+       { "Kereses", searchmenu },
+       { "Mentes", savemenu },
+       { "Kilepes", exitmenu },
+       { NULL, NULL }   /* végjel */
+    };
+
+    int meret=printmenu(menupontok);
+    callmenu(meret,menupontok);
+}
+
+void searchmenu(EventList* eventlist){
     printf("search\n");
 }
-void savemenu(){
-    printf("save\n");
+void savemenu(EventList* eventlist){
+    MenuPont menupontok[] = {
+       { "Mentes", filesave },
+       { "Megse", mainmenu },
+       { NULL, NULL }   /* végjel */
+    };
+
+    int meret=printmenu(menupontok);
+    callmenu(meret,menupontok);
+
 }
 void exitmenu(){
     printf("exit\n");
@@ -23,10 +46,10 @@ int printmenu(MenuPont* menupontok){
     return meret;
 }
 
-void callmenu(int meret, MenuPont* menupontok){
+void callmenu(int meret, MenuPont* menupontok, EventList* eventlist){
     int valasztas;
     while(!(scanf("%d",&valasztas)==1 && 0 < valasztas && valasztas < meret)){
         printf("Nincs ilyen menüpont\n");
     }
-    menupontok[valasztas-1].pfv();
+    menupontok[valasztas-1].pfv(eventlist);
 }

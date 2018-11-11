@@ -32,7 +32,7 @@ typedef struct SearchConditions{
     int week,month,day;
 }SearchConditions;
 
-typedef void (*MenuFv)(void);
+typedef void (*MenuFv)(EventList*);
 
 typedef struct {
    char const *nev;

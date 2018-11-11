@@ -13,16 +13,7 @@ int main(){
     EventList eventlist=initeventlist();
     //load data
 
-    MenuPont menupontok[] = {
-       { "Uj esemeny", newevent },
-       { "Kereses", searchmenu },
-       { "Mentes", savemenu },
-       { "Kilepes", exitmenu },
-       { NULL, NULL }   /* végjel */
-    };
-
-    int meret=printmenu(menupontok);
-    callmenu(meret,menupontok);
+    mainmenu();
 
     printf("Hello world!\n");
     return 0;

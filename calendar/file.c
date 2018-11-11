@@ -3,6 +3,9 @@
 #include <stdbool.h>
 #include "structures.h"
 
+void filesave(EventList* eventlist){
+    printf("saved\n");
+}
 
 //bool calendarload(EventList* eventlist){
 //    if(eventlist==NULL) return false;

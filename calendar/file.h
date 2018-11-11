@@ -2,9 +2,10 @@
 #define FILE_H_INCLUDED
 
 #include <stdio.h>
+#include "structures.h"
 
 void fileload();
-void filesave();
+void filesave(EventList* eventlist);
 
 
 #endif // FILE_H_INCLUDED
