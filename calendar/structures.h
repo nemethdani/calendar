@@ -27,10 +27,16 @@ typedef struct FindList{
     FoundEvent* last;
 }FindList;
 
-typed struct SearchConditions{
+typedef struct SearchConditions{
     char* name;
     int week,month,day;
-    int week,month,day;
 }SearchConditions;
+
+typedef void (*MenuFv)(void);
+
+typedef struct {
+   char const *nev;
+   MenuFv pfv;
+} MenuPont;
 
 #endif // STRUCTURES_H_INCLUDED

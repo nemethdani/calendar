@@ -1,5 +1,35 @@
 # depslib dependency file v1.0
-1541938170 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/main.c
+1541961512 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/main.c
 	<stdio.h>
 	<stdlib.h>
+	"structures.h"
+	"file.h"
+	"list.h"
+	"menu.h"
+	<stdlib.h>
+
+1541960061 /home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/structures.h
+
+1541958398 /home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.h
+	<stdio.h>
+
+1541959663 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.c
+	"file.h"
+	<stdio.h>
+	<stdbool.h>
+	"structures.h"
+
+1541959797 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.c
+	"list.h"
+
+1541959824 /home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.h
+	"structures.h"
+
+1541961526 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.c
+	"menu.h"
+	"structures.h"
+	<stdlib.h>
+
+1541961024 /home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.h
+	"structures.h"
 
