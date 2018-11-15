@@ -14,7 +14,10 @@ int main(){
     //load data
 
     mainmenu();
+    scanmainmenu(&eventlist);
 
-    printf("Hello world!\n");
+
+
+
     return 0;
 }

@@ -36,9 +36,17 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="file.h" />
+		<Unit filename="list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="list.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menu.h" />
 		<Unit filename="search.h" />
 		<Unit filename="structures.h" />
 		<Extensions>

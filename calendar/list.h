@@ -4,6 +4,7 @@
 #include "structures.h"
 
 EventList initeventlist();
+void insertevent(EventList* eventlist);
 
 
 #endif // LIST_H_INCLUDED

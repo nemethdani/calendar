@@ -10,3 +10,7 @@ EventList initeventlist(){
     eventlist.last->prev=eventlist.first;
     return eventlist;
 }
+
+void insertevent(EventList* eventlist){
+    printf("event inserted\n");
+}
