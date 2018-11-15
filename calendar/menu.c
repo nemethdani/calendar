@@ -2,6 +2,9 @@
 #include "structures.h"
 #include <stdlib.h>
 #include "file.h"
+#include <stdio.h>
+#include <string.h>
+#include <stdbool.h>
 
 
 void filesave(EventList* eventlist){
@@ -30,24 +33,34 @@ void newevent(EventList* eventlist){
 }
 
 
-char *hosszu_sort_olvas(int hossz) {
-    int db = 0;
-    char *sor = (char*) malloc(sizeof(char) * 1);
-    sor[0] = '\0';
-    char ujkar;
-    while (scanf("%c", &ujkar) == 1 && ujkar != '\n') {
-        /* itt a tömb nyújtása */
-        char *ujtomb = (char*) malloc(sizeof(char) * (db+1+1));
-        for (int i = 0; i < db; ++i)
-            ujtomb[i] = sor[i];
-        free(sor);
-        sor = ujtomb;
-        ujtomb[db] = ujkar;
-        ujtomb[db+1] = '\0';
-        ++db;
-    }
+char *hosszu_sort_olvas(int bufferhossz) {
+    //int db = 0;
+    char *sor = (char*) malloc(sizeof(char) * (bufferhossz+1));
 
-    return sor;
+    for (int i=0;i<bufferhossz+1;i++)
+        sor[i]='\0';
+    bool first=true;
+    while(first || strlen(sor)>=bufferhossz && sor[bufferhossz-1]!='\n'){
+         first=false;
+         fgets(sor,bufferhossz+1,stdin);
+         if(strlen(sor)>=bufferhossz && sor[bufferhossz-1]!='\n'){
+            printf("tul hosszu: max %d karaktert irjal\n",bufferhossz-1);
+            while ((getchar()) != '\n');
+        }
+    }
+    //sor[bufferhossz+1]='\0';
+    int ujhossz;
+    if(strlen(sor)==10 && sor[bufferhossz-1]!='\n') ujhossz=bufferhossz;
+    else ujhossz=strlen(sor);
+    char *uj=(char*) malloc(sizeof(char)*ujhossz);
+    int i;
+    for (i=0;sor[i]!='\n';i++)
+        uj[i]=sor[i];
+    uj[i]='\0';
+    free(sor);
+
+
+    return uj;
 }
 
 void mainmenu(){
