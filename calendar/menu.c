@@ -91,16 +91,16 @@ void scanmainmenu(EventList* eventlist){
             break;
         case 3:
             savemenu(eventlist);
-            scansavemenu();
+            //scansavemenu();
             break;
         case 4:
             exitmenu(eventlist);
-            scanexitmenu();
+           // scanexitmenu();
             break;
         default:
-            printf("nincs ilyen menupont");
-            scanmainmenu(eventlist);
-            getchar();
+            printf("nincs ilyen menupont\n\n");
+            //scanmainmenu(eventlist);
+            //getchar();
             break;
 
 
@@ -118,55 +118,51 @@ void savemenu(EventList* eventlist){
        { "Megse", mainmenu },
        { NULL, NULL }   /* végjel */
     };
-
+    int choice=1;
+    while(choice){
     int meret=printmenu(menupontok);
     //callmenu(meret,menupontok);
+    choice=scansavemenu(eventlist);
+    }
 
 }
 
-void scansavemenu(EventList* eventlist){
+int scansavemenu(EventList* eventlist){
     int valasztas=0;
     scanf("%d",&valasztas);
     getchar;
     switch(valasztas){
         case 1:
             filesave(eventlist);
-            mainmenu(eventlist);
-            scanmainmenu(eventlist);
+            return 0;
+            //mainmenu(eventlist);
+            //scanmainmenu(eventlist);
             break;
         case 2:
-            mainmenu(eventlist);
-            scanmainmenu(eventlist);
+            //mainmenu(eventlist);
+            //scanmainmenu(eventlist);
+            return 0;
+            break;
         default:
-            printf("nincs ilyen menupont");
-            scansavemenu(eventlist);
+            printf("nincs ilyen menupont\n");
+            //scansavemenu(eventlist);
             break;
     }
 }
 
 void exitmenu(EventList* eventlist){
+    int choice=1;
+    while(choice){
 
     printf("(1) Kilepes mentessel\n(2) Kilepes mentes nelkul\n(3) Vissza\n");
-//    int command;
-//    while(scanf("%d",&command)!=1 || command<1 || command>3)
-//        printf("nincs ilyen parancs\n");
-//    switch(command){
-//    case 1:{
-//        //mentofuggveny
-//        exit(0);}
-//        break;
-//    case 2:
-//        exit(0);
-//        break;
-//    case 3:
-//        mainmenu(eventlist);
-//        break;
+    choice=scanexitmenu(eventlist);
+}
 
 
 
 }
 
-void scanexitmenu(EventList* eventlist){
+int scanexitmenu(EventList* eventlist){
     int command;
     while(scanf("%d",&command)!=1 || command<1 || command>3){
         getchar();
@@ -181,8 +177,7 @@ void scanexitmenu(EventList* eventlist){
             exit(0);
             break;
         case 3:
-            mainmenu(eventlist);
-            scanmainmenu(eventlist);
+            return 0;
             break;
     }
 }

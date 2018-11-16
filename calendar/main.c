@@ -12,9 +12,10 @@ int main(){
 
     EventList eventlist=initeventlist();
     //load data
-
+while(1){
     mainmenu();
     scanmainmenu(&eventlist);
+}
 
 
 
