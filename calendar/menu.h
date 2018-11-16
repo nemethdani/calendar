@@ -7,5 +7,6 @@ void searchmenu();
 void savemenu();
 void exitmenu();
 int printmenu(MenuPont* menupontok);
+char *hosszu_sort_olvas(int bufferhossz);
 
 #endif // MENU_H_INCLUDED

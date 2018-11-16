@@ -1,6 +1,8 @@
 #ifndef STRUCTURES_H_INCLUDED
 #define STRUCTURES_H_INCLUDED
 
+#include <time.h>
+
 typedef struct Event{
     int year,month,day;
     int starthour, startmin, endhour, endmin;
@@ -38,5 +40,7 @@ typedef struct {
    char const *nev;
    MenuFv pfv;
 } MenuPont;
+
+
 
 #endif // STRUCTURES_H_INCLUDED

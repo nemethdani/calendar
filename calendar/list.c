@@ -1,16 +1,73 @@
 #include "list.h"
+#include <stdlib.h>
+#include "structures.h"
+#include <time.h>
 
-EventList initeventlist(){
-    EventList eventlist;
-    Event* first=(Event*) malloc(sizeof(Event));
-    Event* last=(Event*) malloc(sizeof(Event));
-    eventlist.first=first;
-    eventlist.last=last;
-    eventlist.first->next=eventlist.last;
-    eventlist.last->prev=eventlist.first;
+EventList* initeventlist(){
+    EventList* eventlist=(EventList*) malloc(sizeof(EventList));
+    Event* sentinel1=(Event*) malloc(sizeof(Event));
+    sentinel1->prev=NULL;
+    Event* sentinel2=(Event*) malloc(sizeof(Event));
+    sentinel1->next=NULL;
+    eventlist->first=sentinel1;
+    eventlist->last=sentinel2;
+    eventlist->first->next=eventlist->last;
+    eventlist->last->prev=eventlist->first;
     return eventlist;
 }
+Event* createevent(int ev, int honap, int nap, int ora, int perc, int bora, int bperc, char* nev,char* hely,char* comment){
+    Event *event=(Event*) malloc(sizeof(Event));
+    if(event==NULL) return NULL;
+    //event.date=date;
+    event->year=ev;
+    event->month=honap;
+    event->day=nap;
+    event->starthour=ora;
+    event->startmin=perc;
 
-void insertevent(EventList* eventlist){
-    printf("event inserted\n");
+    event->endhour=bora;
+    event->endmin=bperc;
+
+    event->name=nev;
+    event->location=hely;
+    event->comment=comment;
+    event->prev=NULL;
+    event->next=NULL;
+
+    return event;
+}
+void insertevent(EventList* eventlist,Event* event){
+    if(eventlist==NULL) return NULL;
+    if(event==NULL) return NULL;
+
+    Event* moving;
+    moving=eventlist->last->prev;
+    while(moving!=eventlist->first &&  (starttime(moving) > starttime(event))){
+        moving=moving->prev;
+    }
+    event->prev=moving;
+    event->next=moving->next;
+
+    moving->next->prev=event;
+    moving->next=event;
+
+
+    return event;
+}
+
+int starttime(Event* event){
+    Tm start;
+    start.tm_year=event->year;
+    start.tm_mon=event->month;
+    start.tm_mday=event->day;
+    start.tm_hour=event->starthour;
+    start.tm_min=event->startmin;
+
+
+
+    return mktime(&start);
+}
+
+void printevent_short(Event* event){
+    printf("%d.%d.%d %d:%d %s\n",event->year,event->month,event->day,event->starthour,event->startmin,event->name);
 }

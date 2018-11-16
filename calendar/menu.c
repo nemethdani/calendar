@@ -5,6 +5,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
+#include "list.h"
+
 
 
 void filesave(EventList* eventlist){
@@ -24,12 +26,29 @@ void newevent(EventList* eventlist){
         getchar();
         printf("probald ujra\n");
     };
+    printf("Mi az esemeny befejezo ideje? (oo:pp)\n");
+    int bora,bperc;
+    while(scanf("%d:%d",&bora,&bperc)!=2 || bora>24 || bora<0 || bperc>60 || bperc<0){
+        getchar();
+        printf("probald ujra\n");
+    };
     printf("Mi az esemeny neve? (max 127 karakter)\n");
+    getchar();
+    char* nev=hosszu_sort_olvas(128);
+    printf("Mi az esemeny helye? (max 127 karakter)\n");
+    char* hely=hosszu_sort_olvas(128);
+    printf("Van megjegyzesed? (max 255 karakter)\n");
+    char* megjegyzes=hosszu_sort_olvas(256);
 
 
 
 
-    insertevent(eventlist);
+
+    Event* event=createevent(ev,honap,nap,ora,perc,bora,bperc,nev,hely,megjegyzes);
+    if(event==NULL) printf("null event\n");
+    //printf("%d",(event->year));
+    //printevent_short(event);
+    insertevent(eventlist,event);
 }
 
 
@@ -113,16 +132,17 @@ void searchmenu(EventList* eventlist){
     printf("search\n");
 }
 void savemenu(EventList* eventlist){
-    MenuPont menupontok[] = {
-       { "Mentes", filesave },
-       { "Megse", mainmenu },
-       { NULL, NULL }   /* végjel */
-    };
+//    MenuPont menupontok[] = {
+//       { "Mentes", filesave },
+//       { "Megse", mainmenu },
+//       { NULL, NULL }   /* végjel */
+//    };
     int choice=1;
     while(choice){
-    int meret=printmenu(menupontok);
-    //callmenu(meret,menupontok);
-    choice=scansavemenu(eventlist);
+        printf("(1) Mentes\n(2) Megse\n");
+        //int meret=printmenu(menupontok);
+        //callmenu(meret,menupontok);
+        choice=scansavemenu(eventlist);
     }
 
 }

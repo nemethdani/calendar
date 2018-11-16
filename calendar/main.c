@@ -10,13 +10,15 @@
 
 int main(){
 
-    EventList eventlist=initeventlist();
+    EventList* eventlist=initeventlist();
     //load data
-while(1){
-    mainmenu();
-    scanmainmenu(&eventlist);
-}
+    while(1){
+        mainmenu();
+        scanmainmenu(eventlist);
+    };
 
+//    Event* event=createevent(1990,3,26,14,45,15,56,"dani","bp","nincs");
+//    printevent_short(event);
 
 
 
