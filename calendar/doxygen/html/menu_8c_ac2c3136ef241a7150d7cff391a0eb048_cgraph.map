@@ -1,3 +1,6 @@
 <map id="newevent" name="newevent">
-<area shape="rect" id="node2" href="$list_8c.html#a148d8df58c05284eaccc34a0e25604aa" title="insertevent" alt="" coords="132,5,219,32"/>
+<area shape="rect" id="node2" href="$menu_8c.html#ab9ac014b764791c1dc71c187dca898f7" title="hosszu_sort_olvas" alt="" coords="132,5,263,32"/>
+<area shape="rect" id="node3" href="$list_8c.html#a24fd1b37eee54600b66c42e86b52244a" title="createevent" alt="" coords="152,56,243,83"/>
+<area shape="rect" id="node4" href="$list_8c.html#a7ef519287e473ee333204280a5d91403" title="insertevent" alt="" coords="154,107,241,133"/>
+<area shape="rect" id="node5" href="$list_8c.html#a8f7708495c6e39bb6e712218711b331f" title="starttime" alt="" coords="311,107,384,133"/>
 </map>

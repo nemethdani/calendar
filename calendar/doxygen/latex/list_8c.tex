@@ -1,47 +1,100 @@
 \hypertarget{list_8c}{}\section{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.c File Reference}
 \label{list_8c}\index{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.\+c@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.\+c}}
 {\ttfamily \#include \char`\"{}list.\+h\char`\"{}}\newline
-Include dependency graph for list.\+c\+:\nopagebreak
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}structures.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+Include dependency graph for list.\+c\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=232pt]{list_8c__incl}
+\includegraphics[width=290pt]{list_8c__incl}
 \end{center}
 \end{figure}
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-\hyperlink{struct_event_list}{Event\+List} \hyperlink{list_8c_a6a18ac7cf7cdd7a3ca82573488ae8f93}{initeventlist} ()
+\hyperlink{struct_event_list}{Event\+List} $\ast$ \hyperlink{list_8c_a48f44148563512bd32274821f478bd1b}{initeventlist} ()
 \item 
-void \hyperlink{list_8c_a148d8df58c05284eaccc34a0e25604aa}{insertevent} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
+\hyperlink{struct_event}{Event} $\ast$ \hyperlink{list_8c_a24fd1b37eee54600b66c42e86b52244a}{createevent} (int ev, int honap, int nap, int ora, int perc, int bora, int bperc, char $\ast$nev, char $\ast$hely, char $\ast$comment)
+\item 
+void \hyperlink{list_8c_a7ef519287e473ee333204280a5d91403}{insertevent} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist, \hyperlink{struct_event}{Event} $\ast$event)
+\item 
+int \hyperlink{list_8c_a8f7708495c6e39bb6e712218711b331f}{starttime} (\hyperlink{struct_event}{Event} $\ast$event)
+\item 
+void \hyperlink{list_8c_a2561d96be1299fd3f5730c6d82143709}{printevent\+\_\+short} (\hyperlink{struct_event}{Event} $\ast$event)
 \end{DoxyCompactItemize}
 
 
 \subsection{Function Documentation}
-\mbox{\Hypertarget{list_8c_a6a18ac7cf7cdd7a3ca82573488ae8f93}\label{list_8c_a6a18ac7cf7cdd7a3ca82573488ae8f93}} 
-\index{list.\+c@{list.\+c}!initeventlist@{initeventlist}}
-\index{initeventlist@{initeventlist}!list.\+c@{list.\+c}}
-\subsubsection{\texorpdfstring{initeventlist()}{initeventlist()}}
-{\footnotesize\ttfamily \hyperlink{struct_event_list}{Event\+List} initeventlist (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
-
-Here is the caller graph for this function\+:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=220pt]{list_8c_a6a18ac7cf7cdd7a3ca82573488ae8f93_icgraph}
-\end{center}
-\end{figure}
-\mbox{\Hypertarget{list_8c_a148d8df58c05284eaccc34a0e25604aa}\label{list_8c_a148d8df58c05284eaccc34a0e25604aa}} 
-\index{list.\+c@{list.\+c}!insertevent@{insertevent}}
-\index{insertevent@{insertevent}!list.\+c@{list.\+c}}
-\subsubsection{\texorpdfstring{insertevent()}{insertevent()}}
-{\footnotesize\ttfamily void insertevent (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
+\mbox{\Hypertarget{list_8c_a24fd1b37eee54600b66c42e86b52244a}\label{list_8c_a24fd1b37eee54600b66c42e86b52244a}} 
+\index{list.\+c@{list.\+c}!createevent@{createevent}}
+\index{createevent@{createevent}!list.\+c@{list.\+c}}
+\subsubsection{\texorpdfstring{createevent()}{createevent()}}
+{\footnotesize\ttfamily \hyperlink{struct_event}{Event}$\ast$ createevent (\begin{DoxyParamCaption}\item[{int}]{ev,  }\item[{int}]{honap,  }\item[{int}]{nap,  }\item[{int}]{ora,  }\item[{int}]{perc,  }\item[{int}]{bora,  }\item[{int}]{bperc,  }\item[{char $\ast$}]{nev,  }\item[{char $\ast$}]{hely,  }\item[{char $\ast$}]{comment }\end{DoxyParamCaption})}
 
 Here is the caller graph for this function\+:
 \nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{list_8c_a148d8df58c05284eaccc34a0e25604aa_icgraph}
+\includegraphics[width=350pt]{list_8c_a24fd1b37eee54600b66c42e86b52244a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{list_8c_a48f44148563512bd32274821f478bd1b}\label{list_8c_a48f44148563512bd32274821f478bd1b}} 
+\index{list.\+c@{list.\+c}!initeventlist@{initeventlist}}
+\index{initeventlist@{initeventlist}!list.\+c@{list.\+c}}
+\subsubsection{\texorpdfstring{initeventlist()}{initeventlist()}}
+{\footnotesize\ttfamily \hyperlink{struct_event_list}{Event\+List}$\ast$ initeventlist (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=220pt]{list_8c_a48f44148563512bd32274821f478bd1b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{list_8c_a7ef519287e473ee333204280a5d91403}\label{list_8c_a7ef519287e473ee333204280a5d91403}} 
+\index{list.\+c@{list.\+c}!insertevent@{insertevent}}
+\index{insertevent@{insertevent}!list.\+c@{list.\+c}}
+\subsubsection{\texorpdfstring{insertevent()}{insertevent()}}
+{\footnotesize\ttfamily void insertevent (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist,  }\item[{\hyperlink{struct_event}{Event} $\ast$}]{event }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=236pt]{list_8c_a7ef519287e473ee333204280a5d91403_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{list_8c_a7ef519287e473ee333204280a5d91403_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{list_8c_a2561d96be1299fd3f5730c6d82143709}\label{list_8c_a2561d96be1299fd3f5730c6d82143709}} 
+\index{list.\+c@{list.\+c}!printevent\+\_\+short@{printevent\+\_\+short}}
+\index{printevent\+\_\+short@{printevent\+\_\+short}!list.\+c@{list.\+c}}
+\subsubsection{\texorpdfstring{printevent\+\_\+short()}{printevent\_short()}}
+{\footnotesize\ttfamily void printevent\+\_\+short (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event}{Event} $\ast$}]{event }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{list_8c_a8f7708495c6e39bb6e712218711b331f}\label{list_8c_a8f7708495c6e39bb6e712218711b331f}} 
+\index{list.\+c@{list.\+c}!starttime@{starttime}}
+\index{starttime@{starttime}!list.\+c@{list.\+c}}
+\subsubsection{\texorpdfstring{starttime()}{starttime()}}
+{\footnotesize\ttfamily int starttime (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event}{Event} $\ast$}]{event }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{list_8c_a8f7708495c6e39bb6e712218711b331f_icgraph}
 \end{center}
 \end{figure}

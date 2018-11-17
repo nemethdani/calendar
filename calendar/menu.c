@@ -10,7 +10,9 @@
 
 
 void filesave(EventList* eventlist){
-    printf("saved\n");
+    if(calendarsave(eventlist)) printf("saved\n");
+    else printf("nem sikerult menteni\n");
+
     //mainmenu(eventlist);
 }
 void newevent(EventList* eventlist){

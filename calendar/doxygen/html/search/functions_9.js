@@ -10,5 +10,6 @@ var searchData=
   ['searchbymonth',['searchbymonth',['../search_8h.html#a511dfb46b2aeef0ee327210db2db833e',1,'search.h']]],
   ['searchbyname',['searchbyname',['../search_8h.html#a172239d6163f6a36cd7961c600f1b577',1,'search.h']]],
   ['searchbyweek',['searchbyweek',['../search_8h.html#a78bea9792e8cb9aecb33a18b15089744',1,'search.h']]],
-  ['searchmenu',['searchmenu',['../menu_8c.html#a38d64ff02f60ebcb1988655ea12540a6',1,'searchmenu(EventList *eventlist):&#160;menu.c'],['../menu_8h.html#a10d0e656ac5ff3a51135fee280274efa',1,'searchmenu():&#160;menu.h']]]
+  ['searchmenu',['searchmenu',['../menu_8c.html#a38d64ff02f60ebcb1988655ea12540a6',1,'searchmenu(EventList *eventlist):&#160;menu.c'],['../menu_8h.html#a10d0e656ac5ff3a51135fee280274efa',1,'searchmenu():&#160;menu.h']]],
+  ['starttime',['starttime',['../list_8c.html#a8f7708495c6e39bb6e712218711b331f',1,'list.c']]]
 ];

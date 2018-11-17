@@ -15,5 +15,6 @@ var searchData=
   ['searchmenu',['searchmenu',['../menu_8c.html#a38d64ff02f60ebcb1988655ea12540a6',1,'searchmenu(EventList *eventlist):&#160;menu.c'],['../menu_8h.html#a10d0e656ac5ff3a51135fee280274efa',1,'searchmenu():&#160;menu.h']]],
   ['starthour',['starthour',['../struct_event.html#ad40616cbc61c79a6caf6c8c2464bab8d',1,'Event']]],
   ['startmin',['startmin',['../struct_event.html#a6a7bf86ae11349bf260da9abce25452a',1,'Event']]],
+  ['starttime',['starttime',['../list_8c.html#a8f7708495c6e39bb6e712218711b331f',1,'list.c']]],
   ['structures_2eh',['structures.h',['../structures_8h.html',1,'']]]
 ];

@@ -1,11 +1,14 @@
 <map id="mainmenu" name="mainmenu">
-<area shape="rect" id="node2" href="$menu_8c.html#ac2c3136ef241a7150d7cff391a0eb048" title="newevent" alt="" coords="143,5,222,32"/>
-<area shape="rect" id="node4" href="$menu_8c.html#a38d64ff02f60ebcb1988655ea12540a6" title="searchmenu" alt="" coords="136,56,229,83"/>
-<area shape="rect" id="node5" href="$menu_8c.html#aa28daf84be098b64b8dfea8a88050f13" title="savemenu" alt="" coords="141,107,224,133"/>
-<area shape="rect" id="node8" href="$menu_8c.html#ac651d3838f4da7bf6055fa839621e289" title="exitmenu" alt="" coords="145,157,220,184"/>
-<area shape="rect" id="node10" href="$menu_8c.html#a1aa7ba6b6941a272c34eea491e4a650d" title="printmenu" alt="" coords="143,208,222,235"/>
-<area shape="rect" id="node3" href="$list_8c.html#a148d8df58c05284eaccc34a0e25604aa" title="insertevent" alt="" coords="289,5,376,32"/>
-<area shape="rect" id="node6" href="$menu_8c.html#a6ef5647864065ede4ef3b2773cbb9e8d" title="scansavemenu" alt="" coords="277,107,388,133"/>
-<area shape="rect" id="node7" href="$menu_8c.html#afc715bc6c0b9a9e85af15dc509a8d34b" title="filesave" alt="" coords="436,132,503,159"/>
-<area shape="rect" id="node9" href="$menu_8c.html#aa12eba16d2e2bd5dfc70240d19bd5c8e" title="scanexitmenu" alt="" coords="281,157,384,184"/>
+<area shape="rect" id="node2" href="$menu_8c.html#ac2c3136ef241a7150d7cff391a0eb048" title="newevent" alt="" coords="143,56,222,83"/>
+<area shape="rect" id="node7" href="$menu_8c.html#a38d64ff02f60ebcb1988655ea12540a6" title="searchmenu" alt="" coords="136,107,229,133"/>
+<area shape="rect" id="node8" href="$menu_8c.html#aa28daf84be098b64b8dfea8a88050f13" title="savemenu" alt="" coords="141,157,224,184"/>
+<area shape="rect" id="node11" href="$menu_8c.html#ac651d3838f4da7bf6055fa839621e289" title="exitmenu" alt="" coords="145,208,220,235"/>
+<area shape="rect" id="node13" href="$menu_8c.html#a1aa7ba6b6941a272c34eea491e4a650d" title="printmenu" alt="" coords="143,259,222,285"/>
+<area shape="rect" id="node3" href="$menu_8c.html#ab9ac014b764791c1dc71c187dca898f7" title="hosszu_sort_olvas" alt="" coords="277,5,408,32"/>
+<area shape="rect" id="node4" href="$list_8c.html#a24fd1b37eee54600b66c42e86b52244a" title="createevent" alt="" coords="297,56,388,83"/>
+<area shape="rect" id="node5" href="$list_8c.html#a7ef519287e473ee333204280a5d91403" title="insertevent" alt="" coords="299,107,386,133"/>
+<area shape="rect" id="node6" href="$list_8c.html#a8f7708495c6e39bb6e712218711b331f" title="starttime" alt="" coords="456,107,529,133"/>
+<area shape="rect" id="node9" href="$menu_8c.html#a6ef5647864065ede4ef3b2773cbb9e8d" title="scansavemenu" alt="" coords="287,157,398,184"/>
+<area shape="rect" id="node10" href="$menu_8c.html#afc715bc6c0b9a9e85af15dc509a8d34b" title="filesave" alt="" coords="459,183,526,209"/>
+<area shape="rect" id="node12" href="$menu_8c.html#aa12eba16d2e2bd5dfc70240d19bd5c8e" title="scanexitmenu" alt="" coords="291,208,394,235"/>
 </map>

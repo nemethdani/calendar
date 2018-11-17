@@ -5,6 +5,7 @@
 #include "list.h"
 #include "menu.h"
 #include <stdlib.h>
+#include <stdbool.h>
 
 
 
@@ -12,6 +13,7 @@ int main(){
 
     EventList* eventlist=initeventlist();
     //load data
+    if(calendarload(eventlist)==false) printf("nem sikerult betolteni a fajlt\n");
     while(1){
         mainmenu();
         scanmainmenu(eventlist);
