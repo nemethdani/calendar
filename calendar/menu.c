@@ -158,7 +158,7 @@ void searchmenu(EventList* eventlist){
             break;
         case '3':
         case 'h':
-            //searchbytime(week,eventlist);
+            searchbyweek(eventlist);
             break;
         case '4':
         case 'o':

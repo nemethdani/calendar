@@ -41,6 +41,7 @@ typedef struct {
    MenuFv pfv;
 } MenuPont;
 
+typedef struct tm Tm;
 
 
 #endif // STRUCTURES_H_INCLUDED
