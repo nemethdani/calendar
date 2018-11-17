@@ -6,8 +6,14 @@
 #include <string.h>
 #include <stdbool.h>
 #include "list.h"
+#include "search.h"
 
-
+char scaninput(){
+    char input;
+    scanf(" %c",&input);
+    input=tolower(input);
+    return input;
+}
 
 void filesave(EventList* eventlist){
     if(calendarsave(eventlist)) printf("saved\n");
@@ -131,7 +137,40 @@ void scanmainmenu(EventList* eventlist){
 }
 
 void searchmenu(EventList* eventlist){
-    printf("search\n");
+    char choice;
+    while(choice!='5' && choice!='v'){
+
+        printf("\nHogyan szeretnel keresni?\n");
+        printf("(1) (E)semeny neve szerint\n");
+        printf("(2) (N)ap szerint\n");
+        printf("(3) (H)et szerint\n");
+        printf("(4) H(o)nap szerint\n\n");
+        printf("(5) (V)issza a fomenube\n");
+        choice=scaninput();
+        switch(choice){
+        case '1':
+        case 'e':
+            searchbyname(eventlist);
+            break;
+        case '2':
+        case 'n':
+            //searchbytime(day,eventlist);
+            break;
+        case '3':
+        case 'h':
+            //searchbytime(week,eventlist);
+            break;
+        case '4':
+        case 'o':
+            //searchbytime(month,eventlist);
+            break;
+        case '5':
+        case 'v':
+            //mainmenu(eventlist);
+            break;
+        default: printf("nincs ilyen menupont, probald ujra!\n");
+        }
+    }
 }
 void savemenu(EventList* eventlist){
 //    MenuPont menupontok[] = {
@@ -220,3 +259,4 @@ void callmenu(int meret, MenuPont* menupontok, EventList* eventlist){
     }
     menupontok[valasztas-1].pfv(eventlist);
 }
+
