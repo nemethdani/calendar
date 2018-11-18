@@ -155,15 +155,21 @@ void searchmenu(EventList* eventlist){
             break;
         case 2:
 
-            choice=searchbyday(eventlist);
+            //choice=searchbyday(eventlist);
+            choice=searchactual(eventlist,byday);
+            while(choice==2) choice=searchbyday(eventlist);
             break;
         case 3:
 
-            choice=searchbyweek(eventlist);
+            //choice=searchbyweek(eventlist);
+            choice=searchactual(eventlist,byweek);
+            while(choice==3) choice=searchbyweek(eventlist);
             break;
         case 4:
 
-            choice=searchbymonth(eventlist);
+            //choice=searchbymonth(eventlist);
+            choice=searchactual(eventlist,bymonth);
+            while(choice==4) choice=searchbymonth(eventlist);
             break;
         case 5:
 

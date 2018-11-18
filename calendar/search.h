@@ -5,6 +5,7 @@
 #include "structures.h"
 
 typedef enum IterMode{insertion,lookup}IterMode;
+typedef enum SearchBy{byweek,byday,bymonth}SearchBy;
 
 SearchConditions printsearchmenu();
 int searchbyname(EventList* eventlist);

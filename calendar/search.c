@@ -52,6 +52,36 @@ int searchiter(EventList* eventlist, SearchConditions condition){
 
 }
 
+int searchactual(EventList* eventlist,SearchBy searchmode){
+  time_t rawtime;
+  struct tm * timeinfo;
+  SearchConditions cond;
+  cond.name=NULL;
+
+
+  time (&rawtime);
+  timeinfo = localtime (&rawtime);
+  cond.year=timeinfo->tm_year+1900;
+  switch(searchmode){
+    case byweek:
+        cond.week=tmtoweek(timeinfo);
+        break;
+    case bymonth:
+        cond.week=NULL;
+        cond.month=timeinfo->tm_mon+1;
+        cond.day=NULL;
+        break;
+    case byday:
+        cond.week=NULL;
+        cond.month=timeinfo->tm_mon+1;
+        cond.day=timeinfo->tm_mday;
+        break;
+  };
+  int choice=searchiter(eventlist,cond);
+  return choice;
+
+}
+
 int searchbyname(EventList* eventlist){
     printf("\nIrj be legalabb 3 osszefuggo karaktert az esemeny nevebol!\n");
     char search[128]={0};
@@ -172,7 +202,7 @@ int printfindlist(FindList* findlist, SearchConditions condition){
             newchoice=3;
         }
         else if(condition.month!=NULL && condition.day==NULL){
-            printf("(%d) Uj kereses het szerint\n",i++);
+            printf("(%d) Uj kereses ho szerint\n",i++);
             newchoice=4;
         }
         else{printf("(%d) Uj kereses nap szerint\n",i++);
