@@ -162,7 +162,7 @@ void searchmenu(EventList* eventlist){
             break;
         case '4':
         case 'o':
-            //searchbytime(month,eventlist);
+            searchbymonth(eventlist);
             break;
         case '5':
         case 'v':

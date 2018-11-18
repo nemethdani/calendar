@@ -8,7 +8,7 @@ typedef enum IterMode{insertion,lookup}IterMode;
 
 SearchConditions printsearchmenu();
 void searchbyname(EventList* eventlist);
-SearchConditions searchbymonth();
+void searchbymonth(EventList* eventlist);
 void searchbyweek(EventList* eventlist);
 Tm* eventtotm(Event* event);
 SearchConditions searchbyday();

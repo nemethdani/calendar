@@ -31,7 +31,7 @@ typedef struct FindList{
 
 typedef struct SearchConditions{
     char* name;
-    int week,month,day;
+    int year,week,month,day;
 }SearchConditions;
 
 typedef void (*MenuFv)(EventList*);
