@@ -137,16 +137,17 @@ void scanmainmenu(EventList* eventlist){
 }
 
 void searchmenu(EventList* eventlist){
-    int choice;
+    int choice=0;
     while(choice!=5){
-
-        printf("\nHogyan szeretnel keresni?\n");
-        printf("(1) Esemeny neve szerint\n");
-        printf("(2) Nap szerint\n");
-        printf("(3) Het szerint\n");
-        printf("(4) Honap szerint\n\n");
-        printf("(5) Vissza a fomenube\n");
-        choice=scaninput();
+        if(!(choice>=1 && choice<=4)){
+            printf("\nHogyan szeretnel keresni?\n");
+            printf("(1) Esemeny neve szerint\n");
+            printf("(2) Nap szerint\n");
+            printf("(3) Het szerint\n");
+            printf("(4) Honap szerint\n\n");
+            printf("(5) Vissza a fomenube\n");
+            choice=scaninput();
+        }
         switch(choice){
         case 1:
 

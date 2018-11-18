@@ -153,7 +153,8 @@ Tm* eventtotm(Event* event){
 int printfindlist(FindList* findlist, SearchConditions condition){
 
     int choice=1;
-    while(choice!=5){
+    int newchoice=0;
+    while(choice!=5 && choice!=0){
         FoundEvent* fe=findlist->first->nextfound;
         int i=1;
         while(fe->nextfound!=NULL){
@@ -162,17 +163,27 @@ int printfindlist(FindList* findlist, SearchConditions condition){
             fe=fe->nextfound;
             i++;
         }
-        if(condition.name!=NULL)
+        if(condition.name!=NULL){
             printf("(%d) Uj kereses nev szerint\n",i++);
-        else if(condition.name==NULL && condition.week!=NULL)
+            newchoice=1;
+        }
+        else if(condition.name==NULL && condition.week!=NULL){
             printf("(%d) Uj kereses het szerint\n",i++);
-        else if(condition.month!=NULL && condition.day==NULL)
+            newchoice=3;
+        }
+        else if(condition.month!=NULL && condition.day==NULL){
             printf("(%d) Uj kereses het szerint\n",i++);
-        else printf("(%d) Uj kereses nap szerint\n",i++);
+            newchoice=4;
+        }
+        else{printf("(%d) Uj kereses nap szerint\n",i++);
+            newchoice=2;
+        }
         printf("(%d) Kereses mashogy\n",i++);
         printf("(%d) Fomenu\n",i++);
         printf("\nHova szeretnel menni?\n");
         choice=scanfindlist(i,findlist);
+        if(choice==1 && newchoice!=0)
+            return newchoice;
     }
     return choice;
 }
@@ -191,6 +202,7 @@ int scanfindlist(int i, FindList* findlist){
         //eventrecord(fe->foundevent);
         printeventrecord(fe->foundevent);
     }
+    else if(valasztas==i-3) return 1;
     else if(valasztas==i-2) return 0;
     else if(valasztas==i-1) return 5;
 }
