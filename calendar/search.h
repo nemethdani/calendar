@@ -11,7 +11,7 @@ void searchbyname(EventList* eventlist);
 void searchbymonth(EventList* eventlist);
 void searchbyweek(EventList* eventlist);
 Tm* eventtotm(Event* event);
-SearchConditions searchbyday();
+void searchbyday(EventList* eventlist);
 void scansearchmenucommand();
 bool istrueevent(bool condition);
 //void iterevents(bool backward, EventList eventlist, Itermode itermode);

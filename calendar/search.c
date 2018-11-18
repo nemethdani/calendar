@@ -37,6 +37,10 @@ void searchiter(EventList* eventlist, SearchConditions condition){
                 iter->year==condition.year &&
                 iter->month==condition.month)
                     inserttofindlist(&findlist,iter);
+        else if(condition.year==iter->year &&
+                condition.month==iter->month &&
+                condition.day==iter->day)
+                    inserttofindlist(&findlist,iter);
 
 
         iter=iter->prev;
@@ -84,6 +88,19 @@ void searchbymonth(EventList* eventlist){
     bymonth.month=month;
     bymonth.day=NULL;
     searchiter(eventlist,bymonth);
+}
+
+void searchbyday(EventList* eventlist){
+    printf("Hanyadik ev, hanyadik ho,hanyadik nap?(eeee.hh.nn)\n");
+    int month,year,day;
+    scanf("%d.%d.%d",&year,&month,&day);
+    SearchConditions byday;
+    byday.name=NULL;
+    byday.week=NULL;
+    byday.year=year;
+    byday.month=month;
+    byday.day=day;
+    searchiter(eventlist,byday);
 }
 
 void inserttofindlist(FindList* findlist,Event* event){
