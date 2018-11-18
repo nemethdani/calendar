@@ -9,9 +9,9 @@
 #include "search.h"
 
 char scaninput(){
-    char input;
-    scanf(" %c",&input);
-    input=tolower(input);
+    int input;
+    scanf("%d",&input);
+
     return input;
 }
 
@@ -137,35 +137,35 @@ void scanmainmenu(EventList* eventlist){
 }
 
 void searchmenu(EventList* eventlist){
-    char choice;
-    while(choice!='5' && choice!='v'){
+    int choice;
+    while(choice!=5){
 
         printf("\nHogyan szeretnel keresni?\n");
-        printf("(1) (E)semeny neve szerint\n");
-        printf("(2) (N)ap szerint\n");
-        printf("(3) (H)et szerint\n");
-        printf("(4) H(o)nap szerint\n\n");
-        printf("(5) (V)issza a fomenube\n");
+        printf("(1) Esemeny neve szerint\n");
+        printf("(2) Nap szerint\n");
+        printf("(3) Het szerint\n");
+        printf("(4) Honap szerint\n\n");
+        printf("(5) Vissza a fomenube\n");
         choice=scaninput();
         switch(choice){
-        case '1':
-        case 'e':
-            searchbyname(eventlist);
+        case 1:
+
+            choice=searchbyname(eventlist);
             break;
-        case '2':
-        case 'n':
-            searchbyday(eventlist);
+        case 2:
+
+            choice=searchbyday(eventlist);
             break;
-        case '3':
-        case 'h':
-            searchbyweek(eventlist);
+        case 3:
+
+            choice=searchbyweek(eventlist);
             break;
-        case '4':
-        case 'o':
-            searchbymonth(eventlist);
+        case 4:
+
+            choice=searchbymonth(eventlist);
             break;
-        case '5':
-        case 'v':
+        case 5:
+
             //mainmenu(eventlist);
             break;
         default: printf("nincs ilyen menupont, probald ujra!\n");

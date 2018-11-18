@@ -7,11 +7,11 @@
 typedef enum IterMode{insertion,lookup}IterMode;
 
 SearchConditions printsearchmenu();
-void searchbyname(EventList* eventlist);
-void searchbymonth(EventList* eventlist);
-void searchbyweek(EventList* eventlist);
+int searchbyname(EventList* eventlist);
+int searchbymonth(EventList* eventlist);
+int searchbyweek(EventList* eventlist);
 Tm* eventtotm(Event* event);
-void searchbyday(EventList* eventlist);
+int searchbyday(EventList* eventlist);
 void scansearchmenucommand();
 bool istrueevent(bool condition);
 //void iterevents(bool backward, EventList eventlist, Itermode itermode);

@@ -4,8 +4,9 @@
 #include <string.h>
 #include <stdbool.h>
 #include <time.h>
+#include <stdio.h>
 
-void searchiter(EventList* eventlist, SearchConditions condition){
+int searchiter(EventList* eventlist, SearchConditions condition){
     Event* iter=eventlist->last->prev;
     FindList findlist;
     FoundEvent sentinel1;
@@ -45,12 +46,13 @@ void searchiter(EventList* eventlist, SearchConditions condition){
 
         iter=iter->prev;
     }
-    printfindlist(findlist);
+    int choice=printfindlist(&findlist,condition);
+    return choice;
 
 
 }
 
-void searchbyname(EventList* eventlist){
+int searchbyname(EventList* eventlist){
     printf("\nIrj be legalabb 3 osszefuggo karaktert az esemeny nevebol!\n");
     char search[128]={0};
     bool first=true;
@@ -61,11 +63,12 @@ void searchbyname(EventList* eventlist){
     }
     SearchConditions byname;
     byname.name=search;
-    searchiter(eventlist,byname);
+    int choice=searchiter(eventlist,byname);
+    return choice;
     //searchbyname_iter(eventlist,&search);
 }
 
-void searchbyweek(EventList* eventlist){
+int searchbyweek(EventList* eventlist){
     printf("Hanyadik ev, hanyadik het? (eeee.hh)\n");
     int week,year;
     scanf("%d.%d",&year,&week);
@@ -73,11 +76,12 @@ void searchbyweek(EventList* eventlist){
     byweek.name=NULL;
     byweek.week=week;
     byweek.year=year;
-    searchiter(eventlist,byweek);
+    int choice=searchiter(eventlist,byweek);
+    return choice;
 
 }
 
-void searchbymonth(EventList* eventlist){
+int searchbymonth(EventList* eventlist){
     printf("Hanyadik ev, hanyadik ho?(eeee.hh)\n");
     int month,year;
     scanf("%d.%d",&year,&month);
@@ -87,10 +91,11 @@ void searchbymonth(EventList* eventlist){
     bymonth.year=year;
     bymonth.month=month;
     bymonth.day=NULL;
-    searchiter(eventlist,bymonth);
+    int choice=searchiter(eventlist,bymonth);
+    return choice;
 }
 
-void searchbyday(EventList* eventlist){
+int searchbyday(EventList* eventlist){
     printf("Hanyadik ev, hanyadik ho,hanyadik nap?(eeee.hh.nn)\n");
     int month,year,day;
     scanf("%d.%d.%d",&year,&month,&day);
@@ -100,7 +105,8 @@ void searchbyday(EventList* eventlist){
     byday.year=year;
     byday.month=month;
     byday.day=day;
-    searchiter(eventlist,byday);
+    int choice=searchiter(eventlist,byday);
+    return choice;
 }
 
 void inserttofindlist(FindList* findlist,Event* event){
@@ -144,10 +150,47 @@ Tm* eventtotm(Event* event){
     mktime(start);
     return start;
 }
-void printfindlist(FindList findlist){
-    FoundEvent* fe=findlist.first->nextfound;
-    while(fe->nextfound!=NULL){
-        printevent_short(fe->foundevent);
-        fe=fe->nextfound;
+int printfindlist(FindList* findlist, SearchConditions condition){
+
+    int choice=1;
+    while(choice!=5){
+        FoundEvent* fe=findlist->first->nextfound;
+        int i=1;
+        while(fe->nextfound!=NULL){
+            printf("(%d) ",i);
+            printevent_short(fe->foundevent);
+            fe=fe->nextfound;
+            i++;
+        }
+        if(condition.name!=NULL)
+            printf("(%d) Uj kereses nev szerint\n",i++);
+        else if(condition.name==NULL && condition.week!=NULL)
+            printf("(%d) Uj kereses het szerint\n",i++);
+        else if(condition.month!=NULL && condition.day==NULL)
+            printf("(%d) Uj kereses het szerint\n",i++);
+        else printf("(%d) Uj kereses nap szerint\n",i++);
+        printf("(%d) Kereses mashogy\n",i++);
+        printf("(%d) Fomenu\n",i++);
+        printf("\nHova szeretnel menni?\n");
+        choice=scanfindlist(i,findlist);
     }
+    return choice;
+}
+
+int scanfindlist(int i, FindList* findlist){
+    int valasztas=0;
+    scanf("%d",&valasztas);
+    getchar;
+    if(valasztas<=i-4 && valasztas>=1){
+        FoundEvent* fe=findlist->first->nextfound;
+        int szamlalo=1;
+        while(szamlalo!=valasztas){
+            fe=fe->nextfound;
+            i++;
+        };
+        //eventrecord(fe->foundevent);
+        printeventrecord(fe->foundevent);
+    }
+    else if(valasztas==i-2) return 0;
+    else if(valasztas==i-1) return 5;
 }
