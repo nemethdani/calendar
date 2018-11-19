@@ -16,7 +16,7 @@
 	<stdio.h>
 	"structures.h"
 
-1542467994 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.c
+1542633418 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.c
 	"file.h"
 	<stdio.h>
 	<stdbool.h>
@@ -33,7 +33,7 @@
 	"structures.h"
 	<time.h>
 
-1542628303 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.c
+1542634784 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.c
 	"menu.h"
 	"structures.h"
 	<stdlib.h>
@@ -45,14 +45,14 @@
 	"search.h"
 	"eventrecord.h"
 
-1542385737 /home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.h
+1542634798 /home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.h
 	"structures.h"
 
 1542566033 /home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/search.h
 	<stdbool.h>
 	"structures.h"
 
-1542629756 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/search.c
+1542632657 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/search.c
 	"search.h"
 	"structures.h"
 	<stdlib.h>
@@ -61,7 +61,7 @@
 	<time.h>
 	<stdio.h>
 
-1542629934 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.c
+1542634886 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.c
 	"eventrecord.h"
 	"structures.h"
 	<stdio.h>

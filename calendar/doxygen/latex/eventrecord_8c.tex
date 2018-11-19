@@ -3,34 +3,41 @@
 {\ttfamily \#include \char`\"{}eventrecord.\+h\char`\"{}}\newline
 {\ttfamily \#include \char`\"{}structures.\+h\char`\"{}}\newline
 {\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
 Include dependency graph for eventrecord.\+c\+:
 \nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=258pt]{eventrecord_8c__incl}
+\includegraphics[width=332pt]{eventrecord_8c__incl}
 \end{center}
 \end{figure}
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-\hyperlink{eventrecord_8c_a11934cc1b696462c4e57812dacc83f6a}{printeventrecord} (\hyperlink{struct_event}{Event} $\ast$event)
+void \hyperlink{eventrecord_8c_afd63217de3b7f7269aa3ee9d14b6b578}{free\+\_\+event} (\hyperlink{struct_event}{Event} $\ast$event)
+\item 
+void \hyperlink{eventrecord_8c_af69a5ee77b139263897d5e6bfe7d7f2a}{deleteevent} (\hyperlink{struct_event}{Event} $\ast$event)
+\item 
+int \hyperlink{eventrecord_8c_a9b64fb7501bab380e6146ef4a4f558c7}{scanrecordcommand} (bool isnewevent, int i, \hyperlink{struct_event}{Event} $\ast$event, \hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
+\item 
+int \hyperlink{eventrecord_8c_a43a7dc247171d596d8d808776d8d40f5}{printeventrecord} (\hyperlink{struct_event}{Event} $\ast$event, \hyperlink{struct_search_conditions}{Search\+Conditions} condition, \hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
 \end{DoxyCompactItemize}
 
 
 \subsection{Function Documentation}
-\mbox{\Hypertarget{eventrecord_8c_a11934cc1b696462c4e57812dacc83f6a}\label{eventrecord_8c_a11934cc1b696462c4e57812dacc83f6a}} 
-\index{eventrecord.\+c@{eventrecord.\+c}!printeventrecord@{printeventrecord}}
-\index{printeventrecord@{printeventrecord}!eventrecord.\+c@{eventrecord.\+c}}
-\subsubsection{\texorpdfstring{printeventrecord()}{printeventrecord()}}
-{\footnotesize\ttfamily printeventrecord (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event}{Event} $\ast$}]{event }\end{DoxyParamCaption})}
+\mbox{\Hypertarget{eventrecord_8c_af69a5ee77b139263897d5e6bfe7d7f2a}\label{eventrecord_8c_af69a5ee77b139263897d5e6bfe7d7f2a}} 
+\index{eventrecord.\+c@{eventrecord.\+c}!deleteevent@{deleteevent}}
+\index{deleteevent@{deleteevent}!eventrecord.\+c@{eventrecord.\+c}}
+\subsubsection{\texorpdfstring{deleteevent()}{deleteevent()}}
+{\footnotesize\ttfamily void deleteevent (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event}{Event} $\ast$}]{event }\end{DoxyParamCaption})}
 
 Here is the call graph for this function\+:
 \nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=288pt]{eventrecord_8c_a11934cc1b696462c4e57812dacc83f6a_cgraph}
+\includegraphics[width=245pt]{eventrecord_8c_af69a5ee77b139263897d5e6bfe7d7f2a_cgraph}
 \end{center}
 \end{figure}
 Here is the caller graph for this function\+:
@@ -38,6 +45,64 @@ Here is the caller graph for this function\+:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{eventrecord_8c_a11934cc1b696462c4e57812dacc83f6a_icgraph}
+\includegraphics[width=350pt]{eventrecord_8c_af69a5ee77b139263897d5e6bfe7d7f2a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{eventrecord_8c_afd63217de3b7f7269aa3ee9d14b6b578}\label{eventrecord_8c_afd63217de3b7f7269aa3ee9d14b6b578}} 
+\index{eventrecord.\+c@{eventrecord.\+c}!free\+\_\+event@{free\+\_\+event}}
+\index{free\+\_\+event@{free\+\_\+event}!eventrecord.\+c@{eventrecord.\+c}}
+\subsubsection{\texorpdfstring{free\+\_\+event()}{free\_event()}}
+{\footnotesize\ttfamily void free\+\_\+event (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event}{Event} $\ast$}]{event }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{eventrecord_8c_afd63217de3b7f7269aa3ee9d14b6b578_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{eventrecord_8c_a43a7dc247171d596d8d808776d8d40f5}\label{eventrecord_8c_a43a7dc247171d596d8d808776d8d40f5}} 
+\index{eventrecord.\+c@{eventrecord.\+c}!printeventrecord@{printeventrecord}}
+\index{printeventrecord@{printeventrecord}!eventrecord.\+c@{eventrecord.\+c}}
+\subsubsection{\texorpdfstring{printeventrecord()}{printeventrecord()}}
+{\footnotesize\ttfamily int printeventrecord (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event}{Event} $\ast$}]{event,  }\item[{\hyperlink{struct_search_conditions}{Search\+Conditions}}]{condition,  }\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{eventrecord_8c_a43a7dc247171d596d8d808776d8d40f5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{eventrecord_8c_a43a7dc247171d596d8d808776d8d40f5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{eventrecord_8c_a9b64fb7501bab380e6146ef4a4f558c7}\label{eventrecord_8c_a9b64fb7501bab380e6146ef4a4f558c7}} 
+\index{eventrecord.\+c@{eventrecord.\+c}!scanrecordcommand@{scanrecordcommand}}
+\index{scanrecordcommand@{scanrecordcommand}!eventrecord.\+c@{eventrecord.\+c}}
+\subsubsection{\texorpdfstring{scanrecordcommand()}{scanrecordcommand()}}
+{\footnotesize\ttfamily int scanrecordcommand (\begin{DoxyParamCaption}\item[{bool}]{isnewevent,  }\item[{int}]{i,  }\item[{\hyperlink{struct_event}{Event} $\ast$}]{event,  }\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{eventrecord_8c_a9b64fb7501bab380e6146ef4a4f558c7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{eventrecord_8c_a9b64fb7501bab380e6146ef4a4f558c7_icgraph}
 \end{center}
 \end{figure}

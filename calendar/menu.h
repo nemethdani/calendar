@@ -2,7 +2,7 @@
 #define MENU_H_INCLUDED
 #include "structures.h"
 
-void newevent();
+
 void searchmenu();
 void savemenu();
 void exitmenu();

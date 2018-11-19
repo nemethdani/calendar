@@ -2,9 +2,10 @@ var searchData=
 [
   ['savemenu',['savemenu',['../menu_8c.html#aa28daf84be098b64b8dfea8a88050f13',1,'savemenu(EventList *eventlist):&#160;menu.c'],['../menu_8h.html#a928aa131670ac3515aaacdeebb3e278a',1,'savemenu():&#160;menu.h']]],
   ['scanexitmenu',['scanexitmenu',['../menu_8c.html#aa12eba16d2e2bd5dfc70240d19bd5c8e',1,'menu.c']]],
-  ['scanfindlist',['scanfindlist',['../search_8c.html#a1bf81a11e19a6be70b3549a1e2fb5e70',1,'search.c']]],
+  ['scanfindlist',['scanfindlist',['../search_8c.html#a70f4e24bc56ccfdd7d63df4a84054538',1,'search.c']]],
   ['scaninput',['scaninput',['../menu_8c.html#a033e355dbab3723c9d57e8f3e6fe52e1',1,'menu.c']]],
   ['scanmainmenu',['scanmainmenu',['../menu_8c.html#a8e572ab27981dcd7144340fd25a24c80',1,'menu.c']]],
+  ['scanrecordcommand',['scanrecordcommand',['../eventrecord_8c.html#a9b64fb7501bab380e6146ef4a4f558c7',1,'eventrecord.c']]],
   ['scansavemenu',['scansavemenu',['../menu_8c.html#a6ef5647864065ede4ef3b2773cbb9e8d',1,'menu.c']]],
   ['scansearchmenucommand',['scansearchmenucommand',['../search_8h.html#a0f8621e6b7b99ea3d6916f50078cb656',1,'search.h']]],
   ['search_2ec',['search.c',['../search_8c.html',1,'']]],

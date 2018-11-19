@@ -23,7 +23,7 @@ void filesave(EventList* eventlist){
 
     //mainmenu(eventlist);
 }
-void newevent(EventList* eventlist){
+int newevent(EventList* eventlist){
     printf("Mi az esemeny datuma? (eeee.hh.nn)\n");
     int ev, honap, nap;
     while(scanf("%d.%d.%d",&ev,&honap,&nap)!=3 || honap>12 || honap<1 || nap>31 || nap<1){
@@ -61,7 +61,8 @@ void newevent(EventList* eventlist){
     insertevent(eventlist,event);
     SearchConditions cond;
     cond.name=NULL; cond.month=0; cond.week=0;
-    printeventrecord(event,cond);
+    int choice=printeventrecord(event,cond,eventlist);
+    return choice;
 }
 
 
@@ -114,7 +115,7 @@ void scanmainmenu(EventList* eventlist){
     getchar();
     switch(valasztas){
         case 1:
-            newevent(eventlist);
+            while(newevent(eventlist)==1);
             //scaneventrecord();
             break;
         case 2:
@@ -129,6 +130,7 @@ void scanmainmenu(EventList* eventlist){
             exitmenu(eventlist);
            // scanexitmenu();
             break;
+        case 5: break;
         default:
             printf("nincs ilyen menupont\n\n");
             //scanmainmenu(eventlist);

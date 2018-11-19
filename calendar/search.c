@@ -46,7 +46,7 @@ int searchiter(EventList* eventlist, SearchConditions condition){
 
         iter=iter->prev;
     }
-    int choice=printfindlist(&findlist,condition);
+    int choice=printfindlist(&findlist,condition,eventlist);
     return choice;
 
 
@@ -180,7 +180,7 @@ Tm* eventtotm(Event* event){
     mktime(start);
     return start;
 }
-int printfindlist(FindList* findlist, SearchConditions condition){
+int printfindlist(FindList* findlist, SearchConditions condition,EventList* eventlist){
 
     int choice=1;
     int newchoice=0;
@@ -211,14 +211,14 @@ int printfindlist(FindList* findlist, SearchConditions condition){
         printf("(%d) Kereses mashogy\n",i++);
         printf("(%d) Fomenu\n",i++);
         printf("\nHova szeretnel menni?\n");
-        choice=scanfindlist(i,findlist,condition);
+        choice=scanfindlist(i,findlist,condition,eventlist);
         if(choice==1 && newchoice!=0)
             return newchoice;
     }
     return choice;
 }
 
-int scanfindlist(int i, FindList* findlist,SearchConditions condition){
+int scanfindlist(int i, FindList* findlist,SearchConditions condition,EventList* eventlist){
     int valasztas=0;
     scanf("%d",&valasztas);
     getchar;
@@ -230,7 +230,7 @@ int scanfindlist(int i, FindList* findlist,SearchConditions condition){
             szamlalo++;
         };
         //eventrecord(fe->foundevent);
-        int recordchoice=printeventrecord(fe->foundevent,condition);
+        int recordchoice=printeventrecord(fe->foundevent,condition,eventlist);
         return recordchoice;
     }
     else if(valasztas==i-3) return 1; //kereses ugyanigy

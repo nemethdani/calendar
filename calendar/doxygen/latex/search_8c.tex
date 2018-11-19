@@ -7,8 +7,7 @@
 {\ttfamily \#include $<$stdbool.\+h$>$}\newline
 {\ttfamily \#include $<$time.\+h$>$}\newline
 {\ttfamily \#include $<$stdio.\+h$>$}\newline
-Include dependency graph for search.\+c\+:
-\nopagebreak
+Include dependency graph for search.\+c\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -36,9 +35,9 @@ int \hyperlink{search_8c_a4e80bfd47c2fef45e9f6f50632544931}{tmtoweek} (\hyperlin
 \item 
 \hyperlink{list_8h_affc453d30a4a6ce81ed778fd04d2d256}{Tm} $\ast$ \hyperlink{search_8c_aa13cd0a956bc531fe1e1329b6aebdef9}{eventtotm} (\hyperlink{struct_event}{Event} $\ast$event)
 \item 
-int \hyperlink{search_8c_ad125ca3bc57ac537e0c541460bcc420a}{printfindlist} (\hyperlink{struct_find_list}{Find\+List} $\ast$findlist, \hyperlink{struct_search_conditions}{Search\+Conditions} condition)
+int \hyperlink{search_8c_a4fc3c2695bbc6aacac6fcdddbbc2c9ea}{printfindlist} (\hyperlink{struct_find_list}{Find\+List} $\ast$findlist, \hyperlink{struct_search_conditions}{Search\+Conditions} condition, \hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
 \item 
-int \hyperlink{search_8c_a1bf81a11e19a6be70b3549a1e2fb5e70}{scanfindlist} (int i, \hyperlink{struct_find_list}{Find\+List} $\ast$findlist)
+int \hyperlink{search_8c_a70f4e24bc56ccfdd7d63df4a84054538}{scanfindlist} (int i, \hyperlink{struct_find_list}{Find\+List} $\ast$findlist, \hyperlink{struct_search_conditions}{Search\+Conditions} condition, \hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
 \end{DoxyCompactItemize}
 
 
@@ -49,8 +48,7 @@ int \hyperlink{search_8c_a1bf81a11e19a6be70b3549a1e2fb5e70}{scanfindlist} (int i
 \subsubsection{\texorpdfstring{eventtotm()}{eventtotm()}}
 {\footnotesize\ttfamily \hyperlink{list_8h_affc453d30a4a6ce81ed778fd04d2d256}{Tm}$\ast$ eventtotm (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event}{Event} $\ast$}]{event }\end{DoxyParamCaption})}
 
-Here is the caller graph for this function\+:
-\nopagebreak
+Here is the caller graph for this function\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -63,26 +61,25 @@ Here is the caller graph for this function\+:
 \subsubsection{\texorpdfstring{inserttofindlist()}{inserttofindlist()}}
 {\footnotesize\ttfamily void inserttofindlist (\begin{DoxyParamCaption}\item[{\hyperlink{struct_find_list}{Find\+List} $\ast$}]{findlist,  }\item[{\hyperlink{struct_event}{Event} $\ast$}]{event }\end{DoxyParamCaption})}
 
-Here is the caller graph for this function\+:
-\nopagebreak
+Here is the caller graph for this function\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{search_8c_ace601ce27f555e73988b2db946d1ca5e_icgraph}
 \end{center}
 \end{figure}
-\mbox{\Hypertarget{search_8c_ad125ca3bc57ac537e0c541460bcc420a}\label{search_8c_ad125ca3bc57ac537e0c541460bcc420a}} 
+\mbox{\Hypertarget{search_8c_a4fc3c2695bbc6aacac6fcdddbbc2c9ea}\label{search_8c_a4fc3c2695bbc6aacac6fcdddbbc2c9ea}} 
 \index{search.\+c@{search.\+c}!printfindlist@{printfindlist}}
 \index{printfindlist@{printfindlist}!search.\+c@{search.\+c}}
 \subsubsection{\texorpdfstring{printfindlist()}{printfindlist()}}
-{\footnotesize\ttfamily int printfindlist (\begin{DoxyParamCaption}\item[{\hyperlink{struct_find_list}{Find\+List} $\ast$}]{findlist,  }\item[{\hyperlink{struct_search_conditions}{Search\+Conditions}}]{condition }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily int printfindlist (\begin{DoxyParamCaption}\item[{\hyperlink{struct_find_list}{Find\+List} $\ast$}]{findlist,  }\item[{\hyperlink{struct_search_conditions}{Search\+Conditions}}]{condition,  }\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
 
 Here is the call graph for this function\+:
 \nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{search_8c_ad125ca3bc57ac537e0c541460bcc420a_cgraph}
+\includegraphics[width=350pt]{search_8c_a4fc3c2695bbc6aacac6fcdddbbc2c9ea_cgraph}
 \end{center}
 \end{figure}
 Here is the caller graph for this function\+:
@@ -90,21 +87,21 @@ Here is the caller graph for this function\+:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{search_8c_ad125ca3bc57ac537e0c541460bcc420a_icgraph}
+\includegraphics[width=350pt]{search_8c_a4fc3c2695bbc6aacac6fcdddbbc2c9ea_icgraph}
 \end{center}
 \end{figure}
-\mbox{\Hypertarget{search_8c_a1bf81a11e19a6be70b3549a1e2fb5e70}\label{search_8c_a1bf81a11e19a6be70b3549a1e2fb5e70}} 
+\mbox{\Hypertarget{search_8c_a70f4e24bc56ccfdd7d63df4a84054538}\label{search_8c_a70f4e24bc56ccfdd7d63df4a84054538}} 
 \index{search.\+c@{search.\+c}!scanfindlist@{scanfindlist}}
 \index{scanfindlist@{scanfindlist}!search.\+c@{search.\+c}}
 \subsubsection{\texorpdfstring{scanfindlist()}{scanfindlist()}}
-{\footnotesize\ttfamily int scanfindlist (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{\hyperlink{struct_find_list}{Find\+List} $\ast$}]{findlist }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily int scanfindlist (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{\hyperlink{struct_find_list}{Find\+List} $\ast$}]{findlist,  }\item[{\hyperlink{struct_search_conditions}{Search\+Conditions}}]{condition,  }\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
 
 Here is the call graph for this function\+:
 \nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{search_8c_a1bf81a11e19a6be70b3549a1e2fb5e70_cgraph}
+\includegraphics[width=350pt]{search_8c_a70f4e24bc56ccfdd7d63df4a84054538_cgraph}
 \end{center}
 \end{figure}
 Here is the caller graph for this function\+:
@@ -112,7 +109,7 @@ Here is the caller graph for this function\+:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{search_8c_a1bf81a11e19a6be70b3549a1e2fb5e70_icgraph}
+\includegraphics[width=350pt]{search_8c_a70f4e24bc56ccfdd7d63df4a84054538_icgraph}
 \end{center}
 \end{figure}
 \mbox{\Hypertarget{search_8c_a9a7e3230097d2f97a58082ff6eb864ac}\label{search_8c_a9a7e3230097d2f97a58082ff6eb864ac}} 
