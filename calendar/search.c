@@ -211,14 +211,14 @@ int printfindlist(FindList* findlist, SearchConditions condition){
         printf("(%d) Kereses mashogy\n",i++);
         printf("(%d) Fomenu\n",i++);
         printf("\nHova szeretnel menni?\n");
-        choice=scanfindlist(i,findlist);
+        choice=scanfindlist(i,findlist,condition);
         if(choice==1 && newchoice!=0)
             return newchoice;
     }
     return choice;
 }
 
-int scanfindlist(int i, FindList* findlist){
+int scanfindlist(int i, FindList* findlist,SearchConditions condition){
     int valasztas=0;
     scanf("%d",&valasztas);
     getchar;
@@ -230,9 +230,10 @@ int scanfindlist(int i, FindList* findlist){
             i++;
         };
         //eventrecord(fe->foundevent);
-        printeventrecord(fe->foundevent);
+        int recordchoice=printeventrecord(fe->foundevent,condition);
+        return recordchoice;
     }
-    else if(valasztas==i-3) return 1;
-    else if(valasztas==i-2) return 0;
-    else if(valasztas==i-1) return 5;
+    else if(valasztas==i-3) return 1; //kereses ugyanigy
+    else if(valasztas==i-2) return 0; //kereses mashogy
+    else if(valasztas==i-1) return 5; //fomenu
 }

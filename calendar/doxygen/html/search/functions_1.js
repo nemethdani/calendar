@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['deleteevent',['deleteevent',['../eventrecord_8h.html#a956d94312c69935d2165a38255faa2ed',1,'eventrecord.h']]]
+  ['dstrcpy',['dstrcpy',['../file_8c.html#a36d5c6b5abd971ee26b1d1ee32d3919c',1,'file.c']]]
 ];

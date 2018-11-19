@@ -67,10 +67,23 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="structures_8h_source.html">structures.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for search.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="search_8h__incl.png" border="0" usemap="#_2home_2dani_2_documents_2egyetem_2prog1_2nagyhazi_2hazi2_2calendar2_2calendar_2search_8h" alt=""/></div>
+<map name="_2home_2dani_2_documents_2egyetem_2prog1_2nagyhazi_2hazi2_2calendar2_2calendar_2search_8h" id="_2home_2dani_2_documents_2egyetem_2prog1_2nagyhazi_2hazi2_2calendar2_2calendar_2search_8h">
+<area shape="rect" id="node3" href="structures_8h.html" title="structures.h" alt="" coords="104,124,195,151"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="search_8h__dep__incl.png" border="0" usemap="#_2home_2dani_2_documents_2egyetem_2prog1_2nagyhazi_2hazi2_2calendar2_2calendar_2search_8hdep" alt=""/></div>
+<map name="_2home_2dani_2_documents_2egyetem_2prog1_2nagyhazi_2hazi2_2calendar2_2calendar_2search_8hdep" id="_2home_2dani_2_documents_2egyetem_2prog1_2nagyhazi_2hazi2_2calendar2_2calendar_2search_8hdep">
+<area shape="rect" id="node2" href="menu_8c.html" title="/home/dani/Documents\l/egyetem/prog1/nagyhazi\l/hazi2/calendar2/calendar/menu.c" alt="" coords="5,131,223,187"/>
+<area shape="rect" id="node3" href="search_8c.html" title="/home/dani/Documents\l/egyetem/prog1/nagyhazi\l/hazi2/calendar2/calendar\l/search.c" alt="" coords="247,124,418,195"/>
+</map>
 </div>
 </div>
 <p><a href="search_8h_source.html">Go to the source code of this file.</a></p>
@@ -79,6 +92,8 @@ Include dependency graph for search.h:</div>
 Typedefs</h2></td></tr>
 <tr class="memitem:ab07bc07038beac9bcfcd18563aaafd98"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="search_8h.html#a8b6f11d89a64318f6ea5ed9503536af0">IterMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="search_8h.html#ab07bc07038beac9bcfcd18563aaafd98">IterMode</a></td></tr>
 <tr class="separator:ab07bc07038beac9bcfcd18563aaafd98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ab4e565bcf990b57e010007e13bec43"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="search_8h.html#af9df49b17c9441844cafc15064ec50fc">SearchBy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="search_8h.html#a2ab4e565bcf990b57e010007e13bec43">SearchBy</a></td></tr>
+<tr class="separator:a2ab4e565bcf990b57e010007e13bec43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -86,27 +101,34 @@ Enumerations</h2></td></tr>
 <a class="el" href="search_8h.html#a8b6f11d89a64318f6ea5ed9503536af0af853170f899ff11b964b84176b4f6cb5">lookup</a>
  }</td></tr>
 <tr class="separator:a8b6f11d89a64318f6ea5ed9503536af0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9df49b17c9441844cafc15064ec50fc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="search_8h.html#af9df49b17c9441844cafc15064ec50fc">SearchBy</a> { <a class="el" href="search_8h.html#af9df49b17c9441844cafc15064ec50fca22234af7e39a964f41baef92fdd17c14">byweek</a>, 
+<a class="el" href="search_8h.html#af9df49b17c9441844cafc15064ec50fca5efad3bcd6c0ae75087b25e99c9483fa">byday</a>, 
+<a class="el" href="search_8h.html#af9df49b17c9441844cafc15064ec50fca1079e56084842bedf75f880e98175b84">bymonth</a>
+ }</td></tr>
+<tr class="separator:af9df49b17c9441844cafc15064ec50fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a86beead6855359b860e20b9788a42be1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_search_conditions.html">SearchConditions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="search_8h.html#a86beead6855359b860e20b9788a42be1">printsearchmenu</a> ()</td></tr>
 <tr class="separator:a86beead6855359b860e20b9788a42be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a172239d6163f6a36cd7961c600f1b577"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_search_conditions.html">SearchConditions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="search_8h.html#a172239d6163f6a36cd7961c600f1b577">searchbyname</a> ()</td></tr>
-<tr class="separator:a172239d6163f6a36cd7961c600f1b577"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a511dfb46b2aeef0ee327210db2db833e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_search_conditions.html">SearchConditions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="search_8h.html#a511dfb46b2aeef0ee327210db2db833e">searchbymonth</a> ()</td></tr>
-<tr class="separator:a511dfb46b2aeef0ee327210db2db833e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78bea9792e8cb9aecb33a18b15089744"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_search_conditions.html">SearchConditions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="search_8h.html#a78bea9792e8cb9aecb33a18b15089744">searchbyweek</a> ()</td></tr>
-<tr class="separator:a78bea9792e8cb9aecb33a18b15089744"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10de51e6e0df1f30dd6f9d8e1f60973b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_search_conditions.html">SearchConditions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="search_8h.html#a10de51e6e0df1f30dd6f9d8e1f60973b">searchbyday</a> ()</td></tr>
-<tr class="separator:a10de51e6e0df1f30dd6f9d8e1f60973b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adaf3bc7221b1fe4f2cffb3aaea00415d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="search_8h.html#adaf3bc7221b1fe4f2cffb3aaea00415d">searchbyname</a> (<a class="el" href="struct_event_list.html">EventList</a> *eventlist)</td></tr>
+<tr class="separator:adaf3bc7221b1fe4f2cffb3aaea00415d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2a6873263c1a8146c04126b48f8431e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="search_8h.html#ac2a6873263c1a8146c04126b48f8431e">searchbymonth</a> (<a class="el" href="struct_event_list.html">EventList</a> *eventlist)</td></tr>
+<tr class="separator:ac2a6873263c1a8146c04126b48f8431e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b219250779d3af5972611513010a013"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="search_8h.html#a6b219250779d3af5972611513010a013">searchbyweek</a> (<a class="el" href="struct_event_list.html">EventList</a> *eventlist)</td></tr>
+<tr class="separator:a6b219250779d3af5972611513010a013"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa13cd0a956bc531fe1e1329b6aebdef9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="list_8h.html#affc453d30a4a6ce81ed778fd04d2d256">Tm</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="search_8h.html#aa13cd0a956bc531fe1e1329b6aebdef9">eventtotm</a> (<a class="el" href="struct_event.html">Event</a> *event)</td></tr>
+<tr class="separator:aa13cd0a956bc531fe1e1329b6aebdef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a5f902f17fae2dda3b8ec6bb7e1a6e9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="search_8h.html#a5a5f902f17fae2dda3b8ec6bb7e1a6e9">searchbyday</a> (<a class="el" href="struct_event_list.html">EventList</a> *eventlist)</td></tr>
+<tr class="separator:a5a5f902f17fae2dda3b8ec6bb7e1a6e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f8621e6b7b99ea3d6916f50078cb656"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="search_8h.html#a0f8621e6b7b99ea3d6916f50078cb656">scansearchmenucommand</a> ()</td></tr>
 <tr class="separator:a0f8621e6b7b99ea3d6916f50078cb656"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a91cb7eb3963d4319ea48be3acb2a43"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="search_8h.html#a3a91cb7eb3963d4319ea48be3acb2a43">istrueevent</a> (bool condition)</td></tr>
 <tr class="separator:a3a91cb7eb3963d4319ea48be3acb2a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47fb9f78a942abf6fc84477f517af0ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="search_8h.html#a47fb9f78a942abf6fc84477f517af0ab">iterevents</a> (bool backward, <a class="el" href="struct_event_list.html">EventList</a> eventlist, Itermode itermode)</td></tr>
-<tr class="separator:a47fb9f78a942abf6fc84477f517af0ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ef66f55c5dda5a05143e2e2d89be55e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="search_8h.html#a7ef66f55c5dda5a05143e2e2d89be55e">puttofindlist</a> (<a class="el" href="struct_event.html">Event</a> *event)</td></tr>
 <tr class="separator:a7ef66f55c5dda5a05143e2e2d89be55e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace601ce27f555e73988b2db946d1ca5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="search_8h.html#ace601ce27f555e73988b2db946d1ca5e">inserttofindlist</a> (<a class="el" href="struct_find_list.html">FindList</a> *findlist, <a class="el" href="struct_event.html">Event</a> *event)</td></tr>
+<tr class="separator:ace601ce27f555e73988b2db946d1ca5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="ab07bc07038beac9bcfcd18563aaafd98"></a>
@@ -117,6 +139,20 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef enum <a class="el" href="search_8h.html#a8b6f11d89a64318f6ea5ed9503536af0">IterMode</a> <a class="el" href="search_8h.html#a8b6f11d89a64318f6ea5ed9503536af0">IterMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2ab4e565bcf990b57e010007e13bec43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ab4e565bcf990b57e010007e13bec43">&#9670;&nbsp;</a></span>SearchBy</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="search_8h.html#af9df49b17c9441844cafc15064ec50fc">SearchBy</a> <a class="el" href="search_8h.html#af9df49b17c9441844cafc15064ec50fc">SearchBy</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -142,7 +178,106 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="af9df49b17c9441844cafc15064ec50fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9df49b17c9441844cafc15064ec50fc">&#9670;&nbsp;</a></span>SearchBy</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="search_8h.html#af9df49b17c9441844cafc15064ec50fc">SearchBy</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af9df49b17c9441844cafc15064ec50fca22234af7e39a964f41baef92fdd17c14"></a>byweek&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af9df49b17c9441844cafc15064ec50fca5efad3bcd6c0ae75087b25e99c9483fa"></a>byday&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af9df49b17c9441844cafc15064ec50fca1079e56084842bedf75f880e98175b84"></a>bymonth&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="aa13cd0a956bc531fe1e1329b6aebdef9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa13cd0a956bc531fe1e1329b6aebdef9">&#9670;&nbsp;</a></span>eventtotm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="list_8h.html#affc453d30a4a6ce81ed778fd04d2d256">Tm</a>* eventtotm </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_event.html">Event</a> *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="search_8h_aa13cd0a956bc531fe1e1329b6aebdef9_icgraph.png" border="0" usemap="#search_8h_aa13cd0a956bc531fe1e1329b6aebdef9_icgraph" alt=""/></div>
+<map name="search_8h_aa13cd0a956bc531fe1e1329b6aebdef9_icgraph" id="search_8h_aa13cd0a956bc531fe1e1329b6aebdef9_icgraph">
+<area shape="rect" id="node2" href="search_8c.html#a199722ea7869f598848648238f88d274" title="searchiter" alt="" coords="133,107,212,133"/>
+<area shape="rect" id="node3" href="search_8c.html#a9a7e3230097d2f97a58082ff6eb864ac" title="searchactual" alt="" coords="267,5,363,32"/>
+<area shape="rect" id="node8" href="search_8h.html#adaf3bc7221b1fe4f2cffb3aaea00415d" title="searchbyname" alt="" coords="262,56,369,83"/>
+<area shape="rect" id="node9" href="search_8h.html#a6b219250779d3af5972611513010a013" title="searchbyweek" alt="" coords="262,107,369,133"/>
+<area shape="rect" id="node10" href="search_8h.html#ac2a6873263c1a8146c04126b48f8431e" title="searchbymonth" alt="" coords="260,157,371,184"/>
+<area shape="rect" id="node11" href="search_8h.html#a5a5f902f17fae2dda3b8ec6bb7e1a6e9" title="searchbyday" alt="" coords="267,208,363,235"/>
+<area shape="rect" id="node4" href="menu_8c.html#a38d64ff02f60ebcb1988655ea12540a6" title="searchmenu" alt="" coords="419,107,512,133"/>
+<area shape="rect" id="node5" href="menu_8c.html#ac86d3169260f5cacd0f792743957b054" title="mainmenu" alt="" coords="574,81,657,108"/>
+<area shape="rect" id="node7" href="menu_8c.html#a8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="560,132,671,159"/>
+<area shape="rect" id="node6" href="main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="719,107,769,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ace601ce27f555e73988b2db946d1ca5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace601ce27f555e73988b2db946d1ca5e">&#9670;&nbsp;</a></span>inserttofindlist()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void inserttofindlist </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_find_list.html">FindList</a> *&#160;</td>
+          <td class="paramname"><em>findlist</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_event.html">Event</a> *&#160;</td>
+          <td class="paramname"><em>event</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="search_8h_ace601ce27f555e73988b2db946d1ca5e_icgraph.png" border="0" usemap="#search_8h_ace601ce27f555e73988b2db946d1ca5e_icgraph" alt=""/></div>
+<map name="search_8h_ace601ce27f555e73988b2db946d1ca5e_icgraph" id="search_8h_ace601ce27f555e73988b2db946d1ca5e_icgraph">
+<area shape="rect" id="node2" href="search_8c.html#a199722ea7869f598848648238f88d274" title="searchiter" alt="" coords="156,107,235,133"/>
+<area shape="rect" id="node3" href="search_8c.html#a9a7e3230097d2f97a58082ff6eb864ac" title="searchactual" alt="" coords="290,5,386,32"/>
+<area shape="rect" id="node8" href="search_8h.html#adaf3bc7221b1fe4f2cffb3aaea00415d" title="searchbyname" alt="" coords="285,56,391,83"/>
+<area shape="rect" id="node9" href="search_8h.html#a6b219250779d3af5972611513010a013" title="searchbyweek" alt="" coords="285,107,391,133"/>
+<area shape="rect" id="node10" href="search_8h.html#ac2a6873263c1a8146c04126b48f8431e" title="searchbymonth" alt="" coords="283,157,393,184"/>
+<area shape="rect" id="node11" href="search_8h.html#a5a5f902f17fae2dda3b8ec6bb7e1a6e9" title="searchbyday" alt="" coords="290,208,386,235"/>
+<area shape="rect" id="node4" href="menu_8c.html#a38d64ff02f60ebcb1988655ea12540a6" title="searchmenu" alt="" coords="441,107,535,133"/>
+<area shape="rect" id="node5" href="menu_8c.html#ac86d3169260f5cacd0f792743957b054" title="mainmenu" alt="" coords="597,81,679,108"/>
+<area shape="rect" id="node7" href="menu_8c.html#a8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="583,132,693,159"/>
+<area shape="rect" id="node6" href="main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="741,107,792,133"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a3a91cb7eb3963d4319ea48be3acb2a43"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3a91cb7eb3963d4319ea48be3acb2a43">&#9670;&nbsp;</a></span>istrueevent()</h2>
 
@@ -155,40 +290,6 @@ Functions</h2></td></tr>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>condition</em></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a47fb9f78a942abf6fc84477f517af0ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47fb9f78a942abf6fc84477f517af0ab">&#9670;&nbsp;</a></span>iterevents()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void iterevents </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>backward</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_event_list.html">EventList</a>&#160;</td>
-          <td class="paramname"><em>eventlist</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Itermode&#160;</td>
-          <td class="paramname"><em>itermode</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -247,71 +348,179 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a10de51e6e0df1f30dd6f9d8e1f60973b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10de51e6e0df1f30dd6f9d8e1f60973b">&#9670;&nbsp;</a></span>searchbyday()</h2>
+<a id="a5a5f902f17fae2dda3b8ec6bb7e1a6e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a5f902f17fae2dda3b8ec6bb7e1a6e9">&#9670;&nbsp;</a></span>searchbyday()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_search_conditions.html">SearchConditions</a> searchbyday </td>
+          <td class="memname">int searchbyday </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="struct_event_list.html">EventList</a> *&#160;</td>
+          <td class="paramname"><em>eventlist</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="search_8h_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_cgraph.png" border="0" usemap="#search_8h_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_cgraph" alt=""/></div>
+<map name="search_8h_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_cgraph" id="search_8h_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_cgraph">
+<area shape="rect" id="node2" href="search_8c.html#a199722ea7869f598848648238f88d274" title="searchiter" alt="" coords="149,81,228,108"/>
+<area shape="rect" id="node3" href="search_8c.html#ace601ce27f555e73988b2db946d1ca5e" title="inserttofindlist" alt="" coords="276,5,379,32"/>
+<area shape="rect" id="node4" href="search_8c.html#aa13cd0a956bc531fe1e1329b6aebdef9" title="eventtotm" alt="" coords="287,56,367,83"/>
+<area shape="rect" id="node5" href="search_8c.html#a4e80bfd47c2fef45e9f6f50632544931" title="tmtoweek" alt="" coords="288,107,367,133"/>
+<area shape="rect" id="node6" href="search_8c.html#ad125ca3bc57ac537e0c541460bcc420a" title="printfindlist" alt="" coords="285,157,370,184"/>
+<area shape="rect" id="node7" href="list_8c.html#a2561d96be1299fd3f5730c6d82143709" title="printevent_short" alt="" coords="725,157,840,184"/>
+<area shape="rect" id="node8" href="search_8c.html#a1bf81a11e19a6be70b3549a1e2fb5e70" title="scanfindlist" alt="" coords="427,183,515,209"/>
+<area shape="rect" id="node9" href="eventrecord_8c.html#a11934cc1b696462c4e57812dacc83f6a" title="printeventrecord" alt="" coords="563,183,677,209"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="search_8h_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_icgraph.png" border="0" usemap="#search_8h_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_icgraph" alt=""/></div>
+<map name="search_8h_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_icgraph" id="search_8h_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_icgraph">
+<area shape="rect" id="node2" href="menu_8c.html#a38d64ff02f60ebcb1988655ea12540a6" title="searchmenu" alt="" coords="149,31,243,57"/>
+<area shape="rect" id="node3" href="menu_8c.html#ac86d3169260f5cacd0f792743957b054" title="mainmenu" alt="" coords="305,5,387,32"/>
+<area shape="rect" id="node5" href="menu_8c.html#a8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="291,56,401,83"/>
+<area shape="rect" id="node4" href="main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="449,31,500,57"/>
+</map>
+</div>
 
 </div>
 </div>
-<a id="a511dfb46b2aeef0ee327210db2db833e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a511dfb46b2aeef0ee327210db2db833e">&#9670;&nbsp;</a></span>searchbymonth()</h2>
+<a id="ac2a6873263c1a8146c04126b48f8431e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2a6873263c1a8146c04126b48f8431e">&#9670;&nbsp;</a></span>searchbymonth()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_search_conditions.html">SearchConditions</a> searchbymonth </td>
+          <td class="memname">int searchbymonth </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="struct_event_list.html">EventList</a> *&#160;</td>
+          <td class="paramname"><em>eventlist</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="search_8h_ac2a6873263c1a8146c04126b48f8431e_cgraph.png" border="0" usemap="#search_8h_ac2a6873263c1a8146c04126b48f8431e_cgraph" alt=""/></div>
+<map name="search_8h_ac2a6873263c1a8146c04126b48f8431e_cgraph" id="search_8h_ac2a6873263c1a8146c04126b48f8431e_cgraph">
+<area shape="rect" id="node2" href="search_8c.html#a199722ea7869f598848648238f88d274" title="searchiter" alt="" coords="164,81,243,108"/>
+<area shape="rect" id="node3" href="search_8c.html#ace601ce27f555e73988b2db946d1ca5e" title="inserttofindlist" alt="" coords="291,5,393,32"/>
+<area shape="rect" id="node4" href="search_8c.html#aa13cd0a956bc531fe1e1329b6aebdef9" title="eventtotm" alt="" coords="302,56,382,83"/>
+<area shape="rect" id="node5" href="search_8c.html#a4e80bfd47c2fef45e9f6f50632544931" title="tmtoweek" alt="" coords="303,107,381,133"/>
+<area shape="rect" id="node6" href="search_8c.html#ad125ca3bc57ac537e0c541460bcc420a" title="printfindlist" alt="" coords="299,157,385,184"/>
+<area shape="rect" id="node7" href="list_8c.html#a2561d96be1299fd3f5730c6d82143709" title="printevent_short" alt="" coords="740,157,855,184"/>
+<area shape="rect" id="node8" href="search_8c.html#a1bf81a11e19a6be70b3549a1e2fb5e70" title="scanfindlist" alt="" coords="441,183,529,209"/>
+<area shape="rect" id="node9" href="eventrecord_8c.html#a11934cc1b696462c4e57812dacc83f6a" title="printeventrecord" alt="" coords="577,183,692,209"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="search_8h_ac2a6873263c1a8146c04126b48f8431e_icgraph.png" border="0" usemap="#search_8h_ac2a6873263c1a8146c04126b48f8431e_icgraph" alt=""/></div>
+<map name="search_8h_ac2a6873263c1a8146c04126b48f8431e_icgraph" id="search_8h_ac2a6873263c1a8146c04126b48f8431e_icgraph">
+<area shape="rect" id="node2" href="menu_8c.html#a38d64ff02f60ebcb1988655ea12540a6" title="searchmenu" alt="" coords="164,31,257,57"/>
+<area shape="rect" id="node3" href="menu_8c.html#ac86d3169260f5cacd0f792743957b054" title="mainmenu" alt="" coords="319,5,402,32"/>
+<area shape="rect" id="node5" href="menu_8c.html#a8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="305,56,416,83"/>
+<area shape="rect" id="node4" href="main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="464,31,515,57"/>
+</map>
+</div>
 
 </div>
 </div>
-<a id="a172239d6163f6a36cd7961c600f1b577"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a172239d6163f6a36cd7961c600f1b577">&#9670;&nbsp;</a></span>searchbyname()</h2>
+<a id="adaf3bc7221b1fe4f2cffb3aaea00415d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaf3bc7221b1fe4f2cffb3aaea00415d">&#9670;&nbsp;</a></span>searchbyname()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_search_conditions.html">SearchConditions</a> searchbyname </td>
+          <td class="memname">int searchbyname </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="struct_event_list.html">EventList</a> *&#160;</td>
+          <td class="paramname"><em>eventlist</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="search_8h_adaf3bc7221b1fe4f2cffb3aaea00415d_cgraph.png" border="0" usemap="#search_8h_adaf3bc7221b1fe4f2cffb3aaea00415d_cgraph" alt=""/></div>
+<map name="search_8h_adaf3bc7221b1fe4f2cffb3aaea00415d_cgraph" id="search_8h_adaf3bc7221b1fe4f2cffb3aaea00415d_cgraph">
+<area shape="rect" id="node2" href="search_8c.html#a199722ea7869f598848648238f88d274" title="searchiter" alt="" coords="160,81,239,108"/>
+<area shape="rect" id="node3" href="search_8c.html#ace601ce27f555e73988b2db946d1ca5e" title="inserttofindlist" alt="" coords="287,5,389,32"/>
+<area shape="rect" id="node4" href="search_8c.html#aa13cd0a956bc531fe1e1329b6aebdef9" title="eventtotm" alt="" coords="298,56,378,83"/>
+<area shape="rect" id="node5" href="search_8c.html#a4e80bfd47c2fef45e9f6f50632544931" title="tmtoweek" alt="" coords="299,107,377,133"/>
+<area shape="rect" id="node6" href="search_8c.html#ad125ca3bc57ac537e0c541460bcc420a" title="printfindlist" alt="" coords="295,157,381,184"/>
+<area shape="rect" id="node7" href="list_8c.html#a2561d96be1299fd3f5730c6d82143709" title="printevent_short" alt="" coords="736,157,851,184"/>
+<area shape="rect" id="node8" href="search_8c.html#a1bf81a11e19a6be70b3549a1e2fb5e70" title="scanfindlist" alt="" coords="437,183,525,209"/>
+<area shape="rect" id="node9" href="eventrecord_8c.html#a11934cc1b696462c4e57812dacc83f6a" title="printeventrecord" alt="" coords="573,183,688,209"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="search_8h_adaf3bc7221b1fe4f2cffb3aaea00415d_icgraph.png" border="0" usemap="#search_8h_adaf3bc7221b1fe4f2cffb3aaea00415d_icgraph" alt=""/></div>
+<map name="search_8h_adaf3bc7221b1fe4f2cffb3aaea00415d_icgraph" id="search_8h_adaf3bc7221b1fe4f2cffb3aaea00415d_icgraph">
+<area shape="rect" id="node2" href="menu_8c.html#a38d64ff02f60ebcb1988655ea12540a6" title="searchmenu" alt="" coords="160,31,253,57"/>
+<area shape="rect" id="node3" href="menu_8c.html#ac86d3169260f5cacd0f792743957b054" title="mainmenu" alt="" coords="315,5,398,32"/>
+<area shape="rect" id="node5" href="menu_8c.html#a8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="301,56,412,83"/>
+<area shape="rect" id="node4" href="main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="460,31,511,57"/>
+</map>
+</div>
 
 </div>
 </div>
-<a id="a78bea9792e8cb9aecb33a18b15089744"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78bea9792e8cb9aecb33a18b15089744">&#9670;&nbsp;</a></span>searchbyweek()</h2>
+<a id="a6b219250779d3af5972611513010a013"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b219250779d3af5972611513010a013">&#9670;&nbsp;</a></span>searchbyweek()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_search_conditions.html">SearchConditions</a> searchbyweek </td>
+          <td class="memname">int searchbyweek </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="struct_event_list.html">EventList</a> *&#160;</td>
+          <td class="paramname"><em>eventlist</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="search_8h_a6b219250779d3af5972611513010a013_cgraph.png" border="0" usemap="#search_8h_a6b219250779d3af5972611513010a013_cgraph" alt=""/></div>
+<map name="search_8h_a6b219250779d3af5972611513010a013_cgraph" id="search_8h_a6b219250779d3af5972611513010a013_cgraph">
+<area shape="rect" id="node2" href="search_8c.html#a199722ea7869f598848648238f88d274" title="searchiter" alt="" coords="160,81,239,108"/>
+<area shape="rect" id="node3" href="search_8c.html#ace601ce27f555e73988b2db946d1ca5e" title="inserttofindlist" alt="" coords="287,5,389,32"/>
+<area shape="rect" id="node4" href="search_8c.html#aa13cd0a956bc531fe1e1329b6aebdef9" title="eventtotm" alt="" coords="298,56,378,83"/>
+<area shape="rect" id="node5" href="search_8c.html#a4e80bfd47c2fef45e9f6f50632544931" title="tmtoweek" alt="" coords="299,107,377,133"/>
+<area shape="rect" id="node6" href="search_8c.html#ad125ca3bc57ac537e0c541460bcc420a" title="printfindlist" alt="" coords="295,157,381,184"/>
+<area shape="rect" id="node7" href="list_8c.html#a2561d96be1299fd3f5730c6d82143709" title="printevent_short" alt="" coords="736,157,851,184"/>
+<area shape="rect" id="node8" href="search_8c.html#a1bf81a11e19a6be70b3549a1e2fb5e70" title="scanfindlist" alt="" coords="437,183,525,209"/>
+<area shape="rect" id="node9" href="eventrecord_8c.html#a11934cc1b696462c4e57812dacc83f6a" title="printeventrecord" alt="" coords="573,183,688,209"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="search_8h_a6b219250779d3af5972611513010a013_icgraph.png" border="0" usemap="#search_8h_a6b219250779d3af5972611513010a013_icgraph" alt=""/></div>
+<map name="search_8h_a6b219250779d3af5972611513010a013_icgraph" id="search_8h_a6b219250779d3af5972611513010a013_icgraph">
+<area shape="rect" id="node2" href="menu_8c.html#a38d64ff02f60ebcb1988655ea12540a6" title="searchmenu" alt="" coords="160,31,253,57"/>
+<area shape="rect" id="node3" href="menu_8c.html#ac86d3169260f5cacd0f792743957b054" title="mainmenu" alt="" coords="315,5,398,32"/>
+<area shape="rect" id="node5" href="menu_8c.html#a8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="301,56,412,83"/>
+<area shape="rect" id="node4" href="main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="460,31,511,57"/>
+</map>
+</div>
 
 </div>
 </div>

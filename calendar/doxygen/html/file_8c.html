@@ -58,6 +58,8 @@ $(function() {
 
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.c File Reference</div>  </div>
 </div><!--header-->
@@ -66,16 +68,126 @@ $(function() {
 <code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="structures_8h_source.html">structures.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="list_8h_source.html">list.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for file.c:</div>
 <div class="dyncontent">
 <div class="center"><img src="file_8c__incl.png" border="0" usemap="#_2home_2dani_2_documents_2egyetem_2prog1_2nagyhazi_2hazi2_2calendar2_2calendar_2file_8c" alt=""/></div>
 <map name="_2home_2dani_2_documents_2egyetem_2prog1_2nagyhazi_2hazi2_2calendar2_2calendar_2file_8c" id="_2home_2dani_2_documents_2egyetem_2prog1_2nagyhazi_2hazi2_2calendar2_2calendar_2file_8c">
-<area shape="rect" id="node2" href="file_8h.html" title="file.h" alt="" coords="67,109,117,136"/>
-<area shape="rect" id="node4" href="structures_8h.html" title="structures.h" alt="" coords="103,184,193,211"/>
+<area shape="rect" id="node2" href="file_8h.html" title="file.h" alt="" coords="43,109,93,136"/>
+<area shape="rect" id="node4" href="structures_8h.html" title="structures.h" alt="" coords="124,184,215,211"/>
+<area shape="rect" id="node7" href="list_8h.html" title="list.h" alt="" coords="267,109,317,136"/>
 </map>
 </div>
-</div></div><!-- contents -->
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a36d5c6b5abd971ee26b1d1ee32d3919c"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="file_8c.html#a36d5c6b5abd971ee26b1d1ee32d3919c">dstrcpy</a> (char *str)</td></tr>
+<tr class="separator:a36d5c6b5abd971ee26b1d1ee32d3919c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3ba45c99ca47b62544bd6c4c18f0844"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="file_8c.html#ab3ba45c99ca47b62544bd6c4c18f0844">calendarload</a> (<a class="el" href="struct_event_list.html">EventList</a> *eventlist)</td></tr>
+<tr class="separator:ab3ba45c99ca47b62544bd6c4c18f0844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a894fe0f62442d90fb5a74f2087f78207"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="file_8c.html#a894fe0f62442d90fb5a74f2087f78207">calendarsave</a> (<a class="el" href="struct_event_list.html">EventList</a> *eventlist)</td></tr>
+<tr class="separator:a894fe0f62442d90fb5a74f2087f78207"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ab3ba45c99ca47b62544bd6c4c18f0844"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3ba45c99ca47b62544bd6c4c18f0844">&#9670;&nbsp;</a></span>calendarload()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool calendarload </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_event_list.html">EventList</a> *&#160;</td>
+          <td class="paramname"><em>eventlist</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="file_8c_ab3ba45c99ca47b62544bd6c4c18f0844_cgraph.png" border="0" usemap="#file_8c_ab3ba45c99ca47b62544bd6c4c18f0844_cgraph" alt=""/></div>
+<map name="file_8c_ab3ba45c99ca47b62544bd6c4c18f0844_cgraph" id="file_8c_ab3ba45c99ca47b62544bd6c4c18f0844_cgraph">
+<area shape="rect" id="node2" href="list_8c.html#a24fd1b37eee54600b66c42e86b52244a" title="createevent" alt="" coords="148,5,239,32"/>
+<area shape="rect" id="node3" href="file_8c.html#a36d5c6b5abd971ee26b1d1ee32d3919c" title="dstrcpy" alt="" coords="161,56,226,83"/>
+<area shape="rect" id="node4" href="list_8c.html#a7ef519287e473ee333204280a5d91403" title="insertevent" alt="" coords="150,107,237,133"/>
+<area shape="rect" id="node5" href="list_8c.html#a8f7708495c6e39bb6e712218711b331f" title="starttime" alt="" coords="287,107,360,133"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="file_8c_ab3ba45c99ca47b62544bd6c4c18f0844_icgraph.png" border="0" usemap="#file_8c_ab3ba45c99ca47b62544bd6c4c18f0844_icgraph" alt=""/></div>
+<map name="file_8c_ab3ba45c99ca47b62544bd6c4c18f0844_icgraph" id="file_8c_ab3ba45c99ca47b62544bd6c4c18f0844_icgraph">
+<area shape="rect" id="node2" href="main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="148,5,199,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a894fe0f62442d90fb5a74f2087f78207"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a894fe0f62442d90fb5a74f2087f78207">&#9670;&nbsp;</a></span>calendarsave()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool calendarsave </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_event_list.html">EventList</a> *&#160;</td>
+          <td class="paramname"><em>eventlist</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="file_8c_a894fe0f62442d90fb5a74f2087f78207_icgraph.png" border="0" usemap="#file_8c_a894fe0f62442d90fb5a74f2087f78207_icgraph" alt=""/></div>
+<map name="file_8c_a894fe0f62442d90fb5a74f2087f78207_icgraph" id="file_8c_a894fe0f62442d90fb5a74f2087f78207_icgraph">
+<area shape="rect" id="node2" href="menu_8c.html#afc715bc6c0b9a9e85af15dc509a8d34b" title="filesave" alt="" coords="152,31,219,57"/>
+<area shape="rect" id="node3" href="menu_8c.html#a6ef5647864065ede4ef3b2773cbb9e8d" title="scansavemenu" alt="" coords="267,5,377,32"/>
+<area shape="rect" id="node8" href="menu_8c.html#aa12eba16d2e2bd5dfc70240d19bd5c8e" title="scanexitmenu" alt="" coords="271,56,373,83"/>
+<area shape="rect" id="node4" href="menu_8c.html#aa28daf84be098b64b8dfea8a88050f13" title="savemenu" alt="" coords="425,5,508,32"/>
+<area shape="rect" id="node5" href="menu_8c.html#ac86d3169260f5cacd0f792743957b054" title="mainmenu" alt="" coords="570,5,653,32"/>
+<area shape="rect" id="node7" href="menu_8c.html#a8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="556,56,667,83"/>
+<area shape="rect" id="node6" href="main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="715,31,765,57"/>
+<area shape="rect" id="node9" href="menu_8c.html#ac651d3838f4da7bf6055fa839621e289" title="exitmenu" alt="" coords="429,56,504,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a36d5c6b5abd971ee26b1d1ee32d3919c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36d5c6b5abd971ee26b1d1ee32d3919c">&#9670;&nbsp;</a></span>dstrcpy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* dstrcpy </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="file_8c_a36d5c6b5abd971ee26b1d1ee32d3919c_icgraph.png" border="0" usemap="#file_8c_a36d5c6b5abd971ee26b1d1ee32d3919c_icgraph" alt=""/></div>
+<map name="file_8c_a36d5c6b5abd971ee26b1d1ee32d3919c_icgraph" id="file_8c_a36d5c6b5abd971ee26b1d1ee32d3919c_icgraph">
+<area shape="rect" id="node2" href="file_8c.html#ab3ba45c99ca47b62544bd6c4c18f0844" title="calendarload" alt="" coords="119,5,213,32"/>
+<area shape="rect" id="node3" href="main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="261,5,312,32"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

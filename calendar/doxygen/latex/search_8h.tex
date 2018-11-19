@@ -1,17 +1,29 @@
 \hypertarget{search_8h}{}\section{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/search.h File Reference}
 \label{search_8h}\index{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/search.\+h@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/search.\+h}}
 {\ttfamily \#include $<$stdbool.\+h$>$}\newline
-Include dependency graph for search.\+h\+:\nopagebreak
+{\ttfamily \#include \char`\"{}structures.\+h\char`\"{}}\newline
+Include dependency graph for search.\+h\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=208pt]{search_8h__incl}
+\includegraphics[width=222pt]{search_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{search_8h__dep__incl}
 \end{center}
 \end{figure}
 \subsection*{Typedefs}
 \begin{DoxyCompactItemize}
 \item 
 typedef enum \hyperlink{search_8h_a8b6f11d89a64318f6ea5ed9503536af0}{Iter\+Mode} \hyperlink{search_8h_ab07bc07038beac9bcfcd18563aaafd98}{Iter\+Mode}
+\item 
+typedef enum \hyperlink{search_8h_af9df49b17c9441844cafc15064ec50fc}{Search\+By} \hyperlink{search_8h_a2ab4e565bcf990b57e010007e13bec43}{Search\+By}
 \end{DoxyCompactItemize}
 \subsection*{Enumerations}
 \begin{DoxyCompactItemize}
@@ -19,27 +31,34 @@ typedef enum \hyperlink{search_8h_a8b6f11d89a64318f6ea5ed9503536af0}{Iter\+Mode}
 enum \hyperlink{search_8h_a8b6f11d89a64318f6ea5ed9503536af0}{Iter\+Mode} \{ \hyperlink{search_8h_a8b6f11d89a64318f6ea5ed9503536af0ad271af53d7bcd825751a5b200b29fcb1}{insertion}, 
 \hyperlink{search_8h_a8b6f11d89a64318f6ea5ed9503536af0af853170f899ff11b964b84176b4f6cb5}{lookup}
  \}
+\item 
+enum \hyperlink{search_8h_af9df49b17c9441844cafc15064ec50fc}{Search\+By} \{ \hyperlink{search_8h_af9df49b17c9441844cafc15064ec50fca22234af7e39a964f41baef92fdd17c14}{byweek}, 
+\hyperlink{search_8h_af9df49b17c9441844cafc15064ec50fca5efad3bcd6c0ae75087b25e99c9483fa}{byday}, 
+\hyperlink{search_8h_af9df49b17c9441844cafc15064ec50fca1079e56084842bedf75f880e98175b84}{bymonth}
+ \}
 \end{DoxyCompactItemize}
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
 \hyperlink{struct_search_conditions}{Search\+Conditions} \hyperlink{search_8h_a86beead6855359b860e20b9788a42be1}{printsearchmenu} ()
 \item 
-\hyperlink{struct_search_conditions}{Search\+Conditions} \hyperlink{search_8h_a172239d6163f6a36cd7961c600f1b577}{searchbyname} ()
+int \hyperlink{search_8h_adaf3bc7221b1fe4f2cffb3aaea00415d}{searchbyname} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
 \item 
-\hyperlink{struct_search_conditions}{Search\+Conditions} \hyperlink{search_8h_a511dfb46b2aeef0ee327210db2db833e}{searchbymonth} ()
+int \hyperlink{search_8h_ac2a6873263c1a8146c04126b48f8431e}{searchbymonth} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
 \item 
-\hyperlink{struct_search_conditions}{Search\+Conditions} \hyperlink{search_8h_a78bea9792e8cb9aecb33a18b15089744}{searchbyweek} ()
+int \hyperlink{search_8h_a6b219250779d3af5972611513010a013}{searchbyweek} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
 \item 
-\hyperlink{struct_search_conditions}{Search\+Conditions} \hyperlink{search_8h_a10de51e6e0df1f30dd6f9d8e1f60973b}{searchbyday} ()
+\hyperlink{list_8h_affc453d30a4a6ce81ed778fd04d2d256}{Tm} $\ast$ \hyperlink{search_8h_aa13cd0a956bc531fe1e1329b6aebdef9}{eventtotm} (\hyperlink{struct_event}{Event} $\ast$event)
+\item 
+int \hyperlink{search_8h_a5a5f902f17fae2dda3b8ec6bb7e1a6e9}{searchbyday} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
 \item 
 void \hyperlink{search_8h_a0f8621e6b7b99ea3d6916f50078cb656}{scansearchmenucommand} ()
 \item 
 bool \hyperlink{search_8h_a3a91cb7eb3963d4319ea48be3acb2a43}{istrueevent} (bool condition)
 \item 
-void \hyperlink{search_8h_a47fb9f78a942abf6fc84477f517af0ab}{iterevents} (bool backward, \hyperlink{struct_event_list}{Event\+List} eventlist, Itermode itermode)
-\item 
 void \hyperlink{search_8h_a7ef66f55c5dda5a05143e2e2d89be55e}{puttofindlist} (\hyperlink{struct_event}{Event} $\ast$event)
+\item 
+void \hyperlink{search_8h_ace601ce27f555e73988b2db946d1ca5e}{inserttofindlist} (\hyperlink{struct_find_list}{Find\+List} $\ast$findlist, \hyperlink{struct_event}{Event} $\ast$event)
 \end{DoxyCompactItemize}
 
 
@@ -49,6 +68,12 @@ void \hyperlink{search_8h_a7ef66f55c5dda5a05143e2e2d89be55e}{puttofindlist} (\hy
 \index{Iter\+Mode@{Iter\+Mode}!search.\+h@{search.\+h}}
 \subsubsection{\texorpdfstring{Iter\+Mode}{IterMode}}
 {\footnotesize\ttfamily typedef enum \hyperlink{search_8h_a8b6f11d89a64318f6ea5ed9503536af0}{Iter\+Mode} \hyperlink{search_8h_a8b6f11d89a64318f6ea5ed9503536af0}{Iter\+Mode}}
+
+\mbox{\Hypertarget{search_8h_a2ab4e565bcf990b57e010007e13bec43}\label{search_8h_a2ab4e565bcf990b57e010007e13bec43}} 
+\index{search.\+h@{search.\+h}!Search\+By@{Search\+By}}
+\index{Search\+By@{Search\+By}!search.\+h@{search.\+h}}
+\subsubsection{\texorpdfstring{Search\+By}{SearchBy}}
+{\footnotesize\ttfamily typedef enum \hyperlink{search_8h_af9df49b17c9441844cafc15064ec50fc}{Search\+By} \hyperlink{search_8h_af9df49b17c9441844cafc15064ec50fc}{Search\+By}}
 
 
 
@@ -69,20 +94,62 @@ lookup&\\
 \hline
 
 \end{DoxyEnumFields}
+\mbox{\Hypertarget{search_8h_af9df49b17c9441844cafc15064ec50fc}\label{search_8h_af9df49b17c9441844cafc15064ec50fc}} 
+\index{search.\+h@{search.\+h}!Search\+By@{Search\+By}}
+\index{Search\+By@{Search\+By}!search.\+h@{search.\+h}}
+\subsubsection{\texorpdfstring{Search\+By}{SearchBy}}
+{\footnotesize\ttfamily enum \hyperlink{search_8h_af9df49b17c9441844cafc15064ec50fc}{Search\+By}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{byweek@{byweek}!search.\+h@{search.\+h}}\index{search.\+h@{search.\+h}!byweek@{byweek}}}\mbox{\Hypertarget{search_8h_af9df49b17c9441844cafc15064ec50fca22234af7e39a964f41baef92fdd17c14}\label{search_8h_af9df49b17c9441844cafc15064ec50fca22234af7e39a964f41baef92fdd17c14}} 
+byweek&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{byday@{byday}!search.\+h@{search.\+h}}\index{search.\+h@{search.\+h}!byday@{byday}}}\mbox{\Hypertarget{search_8h_af9df49b17c9441844cafc15064ec50fca5efad3bcd6c0ae75087b25e99c9483fa}\label{search_8h_af9df49b17c9441844cafc15064ec50fca5efad3bcd6c0ae75087b25e99c9483fa}} 
+byday&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{bymonth@{bymonth}!search.\+h@{search.\+h}}\index{search.\+h@{search.\+h}!bymonth@{bymonth}}}\mbox{\Hypertarget{search_8h_af9df49b17c9441844cafc15064ec50fca1079e56084842bedf75f880e98175b84}\label{search_8h_af9df49b17c9441844cafc15064ec50fca1079e56084842bedf75f880e98175b84}} 
+bymonth&\\
+\hline
+
+\end{DoxyEnumFields}
 
 
 \subsection{Function Documentation}
+\mbox{\Hypertarget{search_8h_aa13cd0a956bc531fe1e1329b6aebdef9}\label{search_8h_aa13cd0a956bc531fe1e1329b6aebdef9}} 
+\index{search.\+h@{search.\+h}!eventtotm@{eventtotm}}
+\index{eventtotm@{eventtotm}!search.\+h@{search.\+h}}
+\subsubsection{\texorpdfstring{eventtotm()}{eventtotm()}}
+{\footnotesize\ttfamily \hyperlink{list_8h_affc453d30a4a6ce81ed778fd04d2d256}{Tm}$\ast$ eventtotm (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event}{Event} $\ast$}]{event }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{search_8h_aa13cd0a956bc531fe1e1329b6aebdef9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{search_8h_ace601ce27f555e73988b2db946d1ca5e}\label{search_8h_ace601ce27f555e73988b2db946d1ca5e}} 
+\index{search.\+h@{search.\+h}!inserttofindlist@{inserttofindlist}}
+\index{inserttofindlist@{inserttofindlist}!search.\+h@{search.\+h}}
+\subsubsection{\texorpdfstring{inserttofindlist()}{inserttofindlist()}}
+{\footnotesize\ttfamily void inserttofindlist (\begin{DoxyParamCaption}\item[{\hyperlink{struct_find_list}{Find\+List} $\ast$}]{findlist,  }\item[{\hyperlink{struct_event}{Event} $\ast$}]{event }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{search_8h_ace601ce27f555e73988b2db946d1ca5e_icgraph}
+\end{center}
+\end{figure}
 \mbox{\Hypertarget{search_8h_a3a91cb7eb3963d4319ea48be3acb2a43}\label{search_8h_a3a91cb7eb3963d4319ea48be3acb2a43}} 
 \index{search.\+h@{search.\+h}!istrueevent@{istrueevent}}
 \index{istrueevent@{istrueevent}!search.\+h@{search.\+h}}
 \subsubsection{\texorpdfstring{istrueevent()}{istrueevent()}}
 {\footnotesize\ttfamily bool istrueevent (\begin{DoxyParamCaption}\item[{bool}]{condition }\end{DoxyParamCaption})}
-
-\mbox{\Hypertarget{search_8h_a47fb9f78a942abf6fc84477f517af0ab}\label{search_8h_a47fb9f78a942abf6fc84477f517af0ab}} 
-\index{search.\+h@{search.\+h}!iterevents@{iterevents}}
-\index{iterevents@{iterevents}!search.\+h@{search.\+h}}
-\subsubsection{\texorpdfstring{iterevents()}{iterevents()}}
-{\footnotesize\ttfamily void iterevents (\begin{DoxyParamCaption}\item[{bool}]{backward,  }\item[{\hyperlink{struct_event_list}{Event\+List}}]{eventlist,  }\item[{Itermode}]{itermode }\end{DoxyParamCaption})}
 
 \mbox{\Hypertarget{search_8h_a86beead6855359b860e20b9788a42be1}\label{search_8h_a86beead6855359b860e20b9788a42be1}} 
 \index{search.\+h@{search.\+h}!printsearchmenu@{printsearchmenu}}
@@ -102,27 +169,91 @@ lookup&\\
 \subsubsection{\texorpdfstring{scansearchmenucommand()}{scansearchmenucommand()}}
 {\footnotesize\ttfamily void scansearchmenucommand (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-\mbox{\Hypertarget{search_8h_a10de51e6e0df1f30dd6f9d8e1f60973b}\label{search_8h_a10de51e6e0df1f30dd6f9d8e1f60973b}} 
+\mbox{\Hypertarget{search_8h_a5a5f902f17fae2dda3b8ec6bb7e1a6e9}\label{search_8h_a5a5f902f17fae2dda3b8ec6bb7e1a6e9}} 
 \index{search.\+h@{search.\+h}!searchbyday@{searchbyday}}
 \index{searchbyday@{searchbyday}!search.\+h@{search.\+h}}
 \subsubsection{\texorpdfstring{searchbyday()}{searchbyday()}}
-{\footnotesize\ttfamily \hyperlink{struct_search_conditions}{Search\+Conditions} searchbyday (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily int searchbyday (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
 
-\mbox{\Hypertarget{search_8h_a511dfb46b2aeef0ee327210db2db833e}\label{search_8h_a511dfb46b2aeef0ee327210db2db833e}} 
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{search_8h_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{search_8h_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{search_8h_ac2a6873263c1a8146c04126b48f8431e}\label{search_8h_ac2a6873263c1a8146c04126b48f8431e}} 
 \index{search.\+h@{search.\+h}!searchbymonth@{searchbymonth}}
 \index{searchbymonth@{searchbymonth}!search.\+h@{search.\+h}}
 \subsubsection{\texorpdfstring{searchbymonth()}{searchbymonth()}}
-{\footnotesize\ttfamily \hyperlink{struct_search_conditions}{Search\+Conditions} searchbymonth (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily int searchbymonth (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
 
-\mbox{\Hypertarget{search_8h_a172239d6163f6a36cd7961c600f1b577}\label{search_8h_a172239d6163f6a36cd7961c600f1b577}} 
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{search_8h_ac2a6873263c1a8146c04126b48f8431e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{search_8h_ac2a6873263c1a8146c04126b48f8431e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{search_8h_adaf3bc7221b1fe4f2cffb3aaea00415d}\label{search_8h_adaf3bc7221b1fe4f2cffb3aaea00415d}} 
 \index{search.\+h@{search.\+h}!searchbyname@{searchbyname}}
 \index{searchbyname@{searchbyname}!search.\+h@{search.\+h}}
 \subsubsection{\texorpdfstring{searchbyname()}{searchbyname()}}
-{\footnotesize\ttfamily \hyperlink{struct_search_conditions}{Search\+Conditions} searchbyname (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily int searchbyname (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
 
-\mbox{\Hypertarget{search_8h_a78bea9792e8cb9aecb33a18b15089744}\label{search_8h_a78bea9792e8cb9aecb33a18b15089744}} 
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{search_8h_adaf3bc7221b1fe4f2cffb3aaea00415d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{search_8h_adaf3bc7221b1fe4f2cffb3aaea00415d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{search_8h_a6b219250779d3af5972611513010a013}\label{search_8h_a6b219250779d3af5972611513010a013}} 
 \index{search.\+h@{search.\+h}!searchbyweek@{searchbyweek}}
 \index{searchbyweek@{searchbyweek}!search.\+h@{search.\+h}}
 \subsubsection{\texorpdfstring{searchbyweek()}{searchbyweek()}}
-{\footnotesize\ttfamily \hyperlink{struct_search_conditions}{Search\+Conditions} searchbyweek (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily int searchbyweek (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
 
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{search_8h_a6b219250779d3af5972611513010a013_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{search_8h_a6b219250779d3af5972611513010a013_icgraph}
+\end{center}
+\end{figure}

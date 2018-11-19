@@ -1,10 +1,11 @@
 var searchData=
 [
-  ['file_2ec',['file.c',['../file_8c.html',1,'']]],
-  ['file_2eh',['file.h',['../file_8h.html',1,'']]],
-  ['fileload',['fileload',['../file_8h.html#a31d677237f8b1f618a6183133eae616d',1,'file.h']]],
-  ['filesave',['filesave',['../file_8h.html#afc715bc6c0b9a9e85af15dc509a8d34b',1,'filesave(EventList *eventlist):&#160;menu.c'],['../menu_8c.html#afc715bc6c0b9a9e85af15dc509a8d34b',1,'filesave(EventList *eventlist):&#160;menu.c']]],
-  ['findlist',['FindList',['../struct_find_list.html',1,'FindList'],['../structures_8h.html#ad7aca260cf976ef8a90cbe97ab5dba48',1,'FindList():&#160;structures.h']]],
-  ['first',['first',['../struct_event_list.html#ab866d72c6e161e5eb85d4940b0dbc62e',1,'EventList::first()'],['../struct_find_list.html#a9f9781ae49412999177095cb5e8c79d1',1,'FindList::first()']]],
-  ['foundevent',['FoundEvent',['../struct_found_event.html',1,'FoundEvent'],['../struct_found_event.html#a9fb10dd8687d775ac50c8824bde19d67',1,'FoundEvent::foundevent()'],['../structures_8h.html#ac0286403197d5147979a4986c9425222',1,'FoundEvent():&#160;structures.h']]]
+  ['endhour',['endhour',['../struct_event.html#a23ec0f5427aad3f169339f21523d2041',1,'Event']]],
+  ['endmin',['endmin',['../struct_event.html#ac9b41151b48114ff949e78b68a81572b',1,'Event']]],
+  ['event',['Event',['../struct_event.html',1,'Event'],['../structures_8h.html#a607b119a19e65e2c1c7a606f21ab7a46',1,'Event():&#160;structures.h']]],
+  ['eventlist',['EventList',['../struct_event_list.html',1,'EventList'],['../structures_8h.html#a7faf24c32c52b92939a97982baf9dedf',1,'EventList():&#160;structures.h']]],
+  ['eventrecord_2ec',['eventrecord.c',['../eventrecord_8c.html',1,'']]],
+  ['eventrecord_2eh',['eventrecord.h',['../eventrecord_8h.html',1,'']]],
+  ['eventtotm',['eventtotm',['../search_8c.html#aa13cd0a956bc531fe1e1329b6aebdef9',1,'eventtotm(Event *event):&#160;search.c'],['../search_8h.html#aa13cd0a956bc531fe1e1329b6aebdef9',1,'eventtotm(Event *event):&#160;search.c']]],
+  ['exitmenu',['exitmenu',['../menu_8c.html#ac651d3838f4da7bf6055fa839621e289',1,'exitmenu(EventList *eventlist):&#160;menu.c'],['../menu_8h.html#ada5bc1a6285c236343ce8a43ac9ab6cc',1,'exitmenu():&#160;menu.h']]]
 ];

@@ -40,80 +40,100 @@
 \contentsline {subsubsection}{\numberline {3.6.1.2}month}{12}{subsubsection.3.6.1.2}
 \contentsline {subsubsection}{\numberline {3.6.1.3}name}{12}{subsubsection.3.6.1.3}
 \contentsline {subsubsection}{\numberline {3.6.1.4}week}{12}{subsubsection.3.6.1.4}
+\contentsline {subsubsection}{\numberline {3.6.1.5}year}{12}{subsubsection.3.6.1.5}
 \contentsline {chapter}{\numberline {4}File Documentation}{13}{chapter.4}
-\contentsline {section}{\numberline {4.1}/home/dani/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.h File Reference}{13}{section.4.1}
+\contentsline {section}{\numberline {4.1}/home/dani/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.c File Reference}{13}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Function Documentation}{14}{subsection.4.1.1}
-\contentsline {subsubsection}{\numberline {4.1.1.1}deleteevent()}{14}{subsubsection.4.1.1.1}
-\contentsline {subsubsection}{\numberline {4.1.1.2}modifyevent()}{14}{subsubsection.4.1.1.2}
-\contentsline {subsubsection}{\numberline {4.1.1.3}printevent()}{14}{subsubsection.4.1.1.3}
-\contentsline {subsubsection}{\numberline {4.1.1.4}printrecordmenu()}{14}{subsubsection.4.1.1.4}
-\contentsline {subsubsection}{\numberline {4.1.1.5}savetofile()}{14}{subsubsection.4.1.1.5}
-\contentsline {section}{\numberline {4.2}/home/dani/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.c File Reference}{15}{section.4.2}
-\contentsline {section}{\numberline {4.3}/home/dani/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.h File Reference}{15}{section.4.3}
+\contentsline {subsubsection}{\numberline {4.1.1.1}printeventrecord()}{14}{subsubsection.4.1.1.1}
+\contentsline {section}{\numberline {4.2}/home/dani/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.h File Reference}{14}{section.4.2}
+\contentsline {section}{\numberline {4.3}/home/dani/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.c File Reference}{15}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Function Documentation}{16}{subsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.1.1}fileload()}{16}{subsubsection.4.3.1.1}
-\contentsline {subsubsection}{\numberline {4.3.1.2}filesave()}{17}{subsubsection.4.3.1.2}
-\contentsline {section}{\numberline {4.4}/home/dani/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.c File Reference}{17}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Function Documentation}{18}{subsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.1.1}createevent()}{18}{subsubsection.4.4.1.1}
-\contentsline {subsubsection}{\numberline {4.4.1.2}initeventlist()}{18}{subsubsection.4.4.1.2}
-\contentsline {subsubsection}{\numberline {4.4.1.3}insertevent()}{19}{subsubsection.4.4.1.3}
-\contentsline {subsubsection}{\numberline {4.4.1.4}printevent\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}short()}{19}{subsubsection.4.4.1.4}
-\contentsline {subsubsection}{\numberline {4.4.1.5}starttime()}{20}{subsubsection.4.4.1.5}
-\contentsline {section}{\numberline {4.5}/home/dani/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.h File Reference}{20}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Typedef Documentation}{21}{subsection.4.5.1}
-\contentsline {subsubsection}{\numberline {4.5.1.1}Tm}{21}{subsubsection.4.5.1.1}
-\contentsline {subsection}{\numberline {4.5.2}Function Documentation}{21}{subsection.4.5.2}
-\contentsline {subsubsection}{\numberline {4.5.2.1}createevent()}{22}{subsubsection.4.5.2.1}
-\contentsline {subsubsection}{\numberline {4.5.2.2}initeventlist()}{22}{subsubsection.4.5.2.2}
-\contentsline {subsubsection}{\numberline {4.5.2.3}insertevent()}{23}{subsubsection.4.5.2.3}
-\contentsline {subsubsection}{\numberline {4.5.2.4}printevent\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}short()}{23}{subsubsection.4.5.2.4}
-\contentsline {section}{\numberline {4.6}/home/dani/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/main.c File Reference}{23}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Function Documentation}{24}{subsection.4.6.1}
-\contentsline {subsubsection}{\numberline {4.6.1.1}main()}{24}{subsubsection.4.6.1.1}
-\contentsline {section}{\numberline {4.7}/home/dani/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.c File Reference}{25}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}Function Documentation}{25}{subsection.4.7.1}
-\contentsline {subsubsection}{\numberline {4.7.1.1}callmenu()}{26}{subsubsection.4.7.1.1}
-\contentsline {subsubsection}{\numberline {4.7.1.2}exitmenu()}{26}{subsubsection.4.7.1.2}
-\contentsline {subsubsection}{\numberline {4.7.1.3}filesave()}{26}{subsubsection.4.7.1.3}
-\contentsline {subsubsection}{\numberline {4.7.1.4}hosszu\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}sort\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}olvas()}{27}{subsubsection.4.7.1.4}
-\contentsline {subsubsection}{\numberline {4.7.1.5}mainmenu()}{27}{subsubsection.4.7.1.5}
-\contentsline {subsubsection}{\numberline {4.7.1.6}newevent()}{28}{subsubsection.4.7.1.6}
-\contentsline {subsubsection}{\numberline {4.7.1.7}printmenu()}{29}{subsubsection.4.7.1.7}
-\contentsline {subsubsection}{\numberline {4.7.1.8}savemenu()}{29}{subsubsection.4.7.1.8}
-\contentsline {subsubsection}{\numberline {4.7.1.9}scanexitmenu()}{30}{subsubsection.4.7.1.9}
-\contentsline {subsubsection}{\numberline {4.7.1.10}scanmainmenu()}{30}{subsubsection.4.7.1.10}
-\contentsline {subsubsection}{\numberline {4.7.1.11}scansavemenu()}{31}{subsubsection.4.7.1.11}
-\contentsline {subsubsection}{\numberline {4.7.1.12}searchmenu()}{32}{subsubsection.4.7.1.12}
-\contentsline {section}{\numberline {4.8}/home/dani/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.h File Reference}{32}{section.4.8}
-\contentsline {subsection}{\numberline {4.8.1}Function Documentation}{33}{subsection.4.8.1}
-\contentsline {subsubsection}{\numberline {4.8.1.1}exitmenu()}{33}{subsubsection.4.8.1.1}
-\contentsline {subsubsection}{\numberline {4.8.1.2}hosszu\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}sort\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}olvas()}{33}{subsubsection.4.8.1.2}
-\contentsline {subsubsection}{\numberline {4.8.1.3}newevent()}{34}{subsubsection.4.8.1.3}
-\contentsline {subsubsection}{\numberline {4.8.1.4}printmenu()}{34}{subsubsection.4.8.1.4}
-\contentsline {subsubsection}{\numberline {4.8.1.5}savemenu()}{34}{subsubsection.4.8.1.5}
-\contentsline {subsubsection}{\numberline {4.8.1.6}searchmenu()}{34}{subsubsection.4.8.1.6}
-\contentsline {section}{\numberline {4.9}/home/dani/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/search.h File Reference}{35}{section.4.9}
-\contentsline {subsection}{\numberline {4.9.1}Typedef Documentation}{35}{subsection.4.9.1}
-\contentsline {subsubsection}{\numberline {4.9.1.1}Iter\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Mode}{36}{subsubsection.4.9.1.1}
-\contentsline {subsection}{\numberline {4.9.2}Enumeration Type Documentation}{36}{subsection.4.9.2}
-\contentsline {subsubsection}{\numberline {4.9.2.1}Iter\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Mode}{36}{subsubsection.4.9.2.1}
-\contentsline {subsection}{\numberline {4.9.3}Function Documentation}{36}{subsection.4.9.3}
-\contentsline {subsubsection}{\numberline {4.9.3.1}istrueevent()}{36}{subsubsection.4.9.3.1}
-\contentsline {subsubsection}{\numberline {4.9.3.2}iterevents()}{36}{subsubsection.4.9.3.2}
-\contentsline {subsubsection}{\numberline {4.9.3.3}printsearchmenu()}{36}{subsubsection.4.9.3.3}
-\contentsline {subsubsection}{\numberline {4.9.3.4}puttofindlist()}{37}{subsubsection.4.9.3.4}
-\contentsline {subsubsection}{\numberline {4.9.3.5}scansearchmenucommand()}{37}{subsubsection.4.9.3.5}
-\contentsline {subsubsection}{\numberline {4.9.3.6}searchbyday()}{37}{subsubsection.4.9.3.6}
-\contentsline {subsubsection}{\numberline {4.9.3.7}searchbymonth()}{37}{subsubsection.4.9.3.7}
-\contentsline {subsubsection}{\numberline {4.9.3.8}searchbyname()}{37}{subsubsection.4.9.3.8}
-\contentsline {subsubsection}{\numberline {4.9.3.9}searchbyweek()}{37}{subsubsection.4.9.3.9}
-\contentsline {section}{\numberline {4.10}/home/dani/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/structures.h File Reference}{38}{section.4.10}
-\contentsline {subsection}{\numberline {4.10.1}Typedef Documentation}{39}{subsection.4.10.1}
-\contentsline {subsubsection}{\numberline {4.10.1.1}Event}{39}{subsubsection.4.10.1.1}
-\contentsline {subsubsection}{\numberline {4.10.1.2}Event\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}List}{39}{subsubsection.4.10.1.2}
-\contentsline {subsubsection}{\numberline {4.10.1.3}Find\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}List}{39}{subsubsection.4.10.1.3}
-\contentsline {subsubsection}{\numberline {4.10.1.4}Found\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Event}{39}{subsubsection.4.10.1.4}
-\contentsline {subsubsection}{\numberline {4.10.1.5}Menu\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Fv}{39}{subsubsection.4.10.1.5}
-\contentsline {subsubsection}{\numberline {4.10.1.6}Search\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Conditions}{39}{subsubsection.4.10.1.6}
-\contentsline {chapter}{Index}{41}{section*.71}
+\contentsline {subsubsection}{\numberline {4.3.1.1}calendarload()}{16}{subsubsection.4.3.1.1}
+\contentsline {subsubsection}{\numberline {4.3.1.2}calendarsave()}{17}{subsubsection.4.3.1.2}
+\contentsline {subsubsection}{\numberline {4.3.1.3}dstrcpy()}{18}{subsubsection.4.3.1.3}
+\contentsline {section}{\numberline {4.4}/home/dani/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.h File Reference}{18}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Function Documentation}{19}{subsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.1.1}fileload()}{19}{subsubsection.4.4.1.1}
+\contentsline {subsubsection}{\numberline {4.4.1.2}filesave()}{19}{subsubsection.4.4.1.2}
+\contentsline {section}{\numberline {4.5}/home/dani/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.c File Reference}{20}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Function Documentation}{20}{subsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.1.1}createevent()}{21}{subsubsection.4.5.1.1}
+\contentsline {subsubsection}{\numberline {4.5.1.2}initeventlist()}{21}{subsubsection.4.5.1.2}
+\contentsline {subsubsection}{\numberline {4.5.1.3}insertevent()}{22}{subsubsection.4.5.1.3}
+\contentsline {subsubsection}{\numberline {4.5.1.4}printevent\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}short()}{22}{subsubsection.4.5.1.4}
+\contentsline {subsubsection}{\numberline {4.5.1.5}starttime()}{23}{subsubsection.4.5.1.5}
+\contentsline {section}{\numberline {4.6}/home/dani/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.h File Reference}{23}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Typedef Documentation}{24}{subsection.4.6.1}
+\contentsline {subsubsection}{\numberline {4.6.1.1}Tm}{24}{subsubsection.4.6.1.1}
+\contentsline {subsection}{\numberline {4.6.2}Function Documentation}{24}{subsection.4.6.2}
+\contentsline {subsubsection}{\numberline {4.6.2.1}createevent()}{25}{subsubsection.4.6.2.1}
+\contentsline {subsubsection}{\numberline {4.6.2.2}initeventlist()}{25}{subsubsection.4.6.2.2}
+\contentsline {subsubsection}{\numberline {4.6.2.3}insertevent()}{26}{subsubsection.4.6.2.3}
+\contentsline {subsubsection}{\numberline {4.6.2.4}printevent\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}short()}{26}{subsubsection.4.6.2.4}
+\contentsline {section}{\numberline {4.7}/home/dani/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/main.c File Reference}{27}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Function Documentation}{27}{subsection.4.7.1}
+\contentsline {subsubsection}{\numberline {4.7.1.1}main()}{27}{subsubsection.4.7.1.1}
+\contentsline {section}{\numberline {4.8}/home/dani/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.c File Reference}{28}{section.4.8}
+\contentsline {subsection}{\numberline {4.8.1}Function Documentation}{29}{subsection.4.8.1}
+\contentsline {subsubsection}{\numberline {4.8.1.1}callmenu()}{29}{subsubsection.4.8.1.1}
+\contentsline {subsubsection}{\numberline {4.8.1.2}exitmenu()}{29}{subsubsection.4.8.1.2}
+\contentsline {subsubsection}{\numberline {4.8.1.3}filesave()}{30}{subsubsection.4.8.1.3}
+\contentsline {subsubsection}{\numberline {4.8.1.4}hosszu\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}sort\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}olvas()}{30}{subsubsection.4.8.1.4}
+\contentsline {subsubsection}{\numberline {4.8.1.5}mainmenu()}{31}{subsubsection.4.8.1.5}
+\contentsline {subsubsection}{\numberline {4.8.1.6}newevent()}{31}{subsubsection.4.8.1.6}
+\contentsline {subsubsection}{\numberline {4.8.1.7}printmenu()}{32}{subsubsection.4.8.1.7}
+\contentsline {subsubsection}{\numberline {4.8.1.8}savemenu()}{32}{subsubsection.4.8.1.8}
+\contentsline {subsubsection}{\numberline {4.8.1.9}scanexitmenu()}{33}{subsubsection.4.8.1.9}
+\contentsline {subsubsection}{\numberline {4.8.1.10}scaninput()}{34}{subsubsection.4.8.1.10}
+\contentsline {subsubsection}{\numberline {4.8.1.11}scanmainmenu()}{34}{subsubsection.4.8.1.11}
+\contentsline {subsubsection}{\numberline {4.8.1.12}scansavemenu()}{35}{subsubsection.4.8.1.12}
+\contentsline {subsubsection}{\numberline {4.8.1.13}searchmenu()}{35}{subsubsection.4.8.1.13}
+\contentsline {section}{\numberline {4.9}/home/dani/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.h File Reference}{36}{section.4.9}
+\contentsline {subsection}{\numberline {4.9.1}Function Documentation}{37}{subsection.4.9.1}
+\contentsline {subsubsection}{\numberline {4.9.1.1}exitmenu()}{37}{subsubsection.4.9.1.1}
+\contentsline {subsubsection}{\numberline {4.9.1.2}hosszu\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}sort\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}olvas()}{37}{subsubsection.4.9.1.2}
+\contentsline {subsubsection}{\numberline {4.9.1.3}newevent()}{38}{subsubsection.4.9.1.3}
+\contentsline {subsubsection}{\numberline {4.9.1.4}printmenu()}{38}{subsubsection.4.9.1.4}
+\contentsline {subsubsection}{\numberline {4.9.1.5}savemenu()}{38}{subsubsection.4.9.1.5}
+\contentsline {subsubsection}{\numberline {4.9.1.6}searchmenu()}{38}{subsubsection.4.9.1.6}
+\contentsline {section}{\numberline {4.10}/home/dani/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/search.c File Reference}{38}{section.4.10}
+\contentsline {subsection}{\numberline {4.10.1}Function Documentation}{39}{subsection.4.10.1}
+\contentsline {subsubsection}{\numberline {4.10.1.1}eventtotm()}{39}{subsubsection.4.10.1.1}
+\contentsline {subsubsection}{\numberline {4.10.1.2}inserttofindlist()}{40}{subsubsection.4.10.1.2}
+\contentsline {subsubsection}{\numberline {4.10.1.3}printfindlist()}{40}{subsubsection.4.10.1.3}
+\contentsline {subsubsection}{\numberline {4.10.1.4}scanfindlist()}{41}{subsubsection.4.10.1.4}
+\contentsline {subsubsection}{\numberline {4.10.1.5}searchactual()}{42}{subsubsection.4.10.1.5}
+\contentsline {subsubsection}{\numberline {4.10.1.6}searchbyday()}{42}{subsubsection.4.10.1.6}
+\contentsline {subsubsection}{\numberline {4.10.1.7}searchbymonth()}{43}{subsubsection.4.10.1.7}
+\contentsline {subsubsection}{\numberline {4.10.1.8}searchbyname()}{44}{subsubsection.4.10.1.8}
+\contentsline {subsubsection}{\numberline {4.10.1.9}searchbyweek()}{44}{subsubsection.4.10.1.9}
+\contentsline {subsubsection}{\numberline {4.10.1.10}searchiter()}{45}{subsubsection.4.10.1.10}
+\contentsline {subsubsection}{\numberline {4.10.1.11}tmtoweek()}{46}{subsubsection.4.10.1.11}
+\contentsline {section}{\numberline {4.11}/home/dani/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/search.h File Reference}{46}{section.4.11}
+\contentsline {subsection}{\numberline {4.11.1}Typedef Documentation}{47}{subsection.4.11.1}
+\contentsline {subsubsection}{\numberline {4.11.1.1}Iter\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Mode}{47}{subsubsection.4.11.1.1}
+\contentsline {subsubsection}{\numberline {4.11.1.2}Search\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}By}{48}{subsubsection.4.11.1.2}
+\contentsline {subsection}{\numberline {4.11.2}Enumeration Type Documentation}{48}{subsection.4.11.2}
+\contentsline {subsubsection}{\numberline {4.11.2.1}Iter\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Mode}{48}{subsubsection.4.11.2.1}
+\contentsline {subsubsection}{\numberline {4.11.2.2}Search\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}By}{48}{subsubsection.4.11.2.2}
+\contentsline {subsection}{\numberline {4.11.3}Function Documentation}{48}{subsection.4.11.3}
+\contentsline {subsubsection}{\numberline {4.11.3.1}eventtotm()}{48}{subsubsection.4.11.3.1}
+\contentsline {subsubsection}{\numberline {4.11.3.2}inserttofindlist()}{49}{subsubsection.4.11.3.2}
+\contentsline {subsubsection}{\numberline {4.11.3.3}istrueevent()}{49}{subsubsection.4.11.3.3}
+\contentsline {subsubsection}{\numberline {4.11.3.4}printsearchmenu()}{49}{subsubsection.4.11.3.4}
+\contentsline {subsubsection}{\numberline {4.11.3.5}puttofindlist()}{50}{subsubsection.4.11.3.5}
+\contentsline {subsubsection}{\numberline {4.11.3.6}scansearchmenucommand()}{50}{subsubsection.4.11.3.6}
+\contentsline {subsubsection}{\numberline {4.11.3.7}searchbyday()}{50}{subsubsection.4.11.3.7}
+\contentsline {subsubsection}{\numberline {4.11.3.8}searchbymonth()}{51}{subsubsection.4.11.3.8}
+\contentsline {subsubsection}{\numberline {4.11.3.9}searchbyname()}{51}{subsubsection.4.11.3.9}
+\contentsline {subsubsection}{\numberline {4.11.3.10}searchbyweek()}{52}{subsubsection.4.11.3.10}
+\contentsline {section}{\numberline {4.12}/home/dani/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/structures.h File Reference}{52}{section.4.12}
+\contentsline {subsection}{\numberline {4.12.1}Typedef Documentation}{53}{subsection.4.12.1}
+\contentsline {subsubsection}{\numberline {4.12.1.1}Event}{54}{subsubsection.4.12.1.1}
+\contentsline {subsubsection}{\numberline {4.12.1.2}Event\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}List}{54}{subsubsection.4.12.1.2}
+\contentsline {subsubsection}{\numberline {4.12.1.3}Find\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}List}{54}{subsubsection.4.12.1.3}
+\contentsline {subsubsection}{\numberline {4.12.1.4}Found\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Event}{54}{subsubsection.4.12.1.4}
+\contentsline {subsubsection}{\numberline {4.12.1.5}Menu\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Fv}{54}{subsubsection.4.12.1.5}
+\contentsline {subsubsection}{\numberline {4.12.1.6}Search\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Conditions}{54}{subsubsection.4.12.1.6}
+\contentsline {subsubsection}{\numberline {4.12.1.7}Tm}{54}{subsubsection.4.12.1.7}
+\contentsline {chapter}{Index}{55}{section*.118}

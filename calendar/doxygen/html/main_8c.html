@@ -70,15 +70,16 @@ $(function() {
 <code>#include &quot;<a class="el" href="file_8h_source.html">file.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="list_8h_source.html">list.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="menu_8h_source.html">menu.h</a>&quot;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for main.c:</div>
 <div class="dyncontent">
 <div class="center"><img src="main_8c__incl.png" border="0" usemap="#_2home_2dani_2_documents_2egyetem_2prog1_2nagyhazi_2hazi2_2calendar2_2calendar_2main_8c" alt=""/></div>
 <map name="_2home_2dani_2_documents_2egyetem_2prog1_2nagyhazi_2hazi2_2calendar2_2calendar_2main_8c" id="_2home_2dani_2_documents_2egyetem_2prog1_2nagyhazi_2hazi2_2calendar2_2calendar_2main_8c">
-<area shape="rect" id="node4" href="structures_8h.html" title="structures.h" alt="" coords="224,184,314,211"/>
-<area shape="rect" id="node6" href="file_8h.html" title="file.h" alt="" coords="110,109,161,136"/>
-<area shape="rect" id="node7" href="list_8h.html" title="list.h" alt="" coords="326,109,377,136"/>
-<area shape="rect" id="node8" href="menu_8h.html" title="menu.h" alt="" coords="236,109,302,136"/>
+<area shape="rect" id="node4" href="structures_8h.html" title="structures.h" alt="" coords="224,184,315,211"/>
+<area shape="rect" id="node6" href="file_8h.html" title="file.h" alt="" coords="111,109,161,136"/>
+<area shape="rect" id="node7" href="list_8h.html" title="list.h" alt="" coords="327,109,377,136"/>
+<area shape="rect" id="node8" href="menu_8h.html" title="menu.h" alt="" coords="237,109,302,136"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -107,21 +108,38 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.png" border="0" usemap="#main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph" alt=""/></div>
 <map name="main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph" id="main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph">
-<area shape="rect" id="node2" href="list_8c.html#a48f44148563512bd32274821f478bd1b" title="initeventlist" alt="" coords="115,5,203,32"/>
-<area shape="rect" id="node3" href="menu_8c.html#ac86d3169260f5cacd0f792743957b054" title="mainmenu" alt="" coords="118,107,201,133"/>
-<area shape="rect" id="node16" href="menu_8c.html#a8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="104,56,215,83"/>
-<area shape="rect" id="node4" href="menu_8c.html#ac2c3136ef241a7150d7cff391a0eb048" title="newevent" alt="" coords="270,107,349,133"/>
-<area shape="rect" id="node9" href="menu_8c.html#a38d64ff02f60ebcb1988655ea12540a6" title="searchmenu" alt="" coords="263,157,356,184"/>
-<area shape="rect" id="node10" href="menu_8c.html#aa28daf84be098b64b8dfea8a88050f13" title="savemenu" alt="" coords="268,56,351,83"/>
-<area shape="rect" id="node13" href="menu_8c.html#ac651d3838f4da7bf6055fa839621e289" title="exitmenu" alt="" coords="272,5,347,32"/>
-<area shape="rect" id="node15" href="menu_8c.html#a1aa7ba6b6941a272c34eea491e4a650d" title="printmenu" alt="" coords="270,208,349,235"/>
-<area shape="rect" id="node5" href="menu_8c.html#ab9ac014b764791c1dc71c187dca898f7" title="hosszu_sort_olvas" alt="" coords="404,208,535,235"/>
-<area shape="rect" id="node6" href="list_8c.html#a24fd1b37eee54600b66c42e86b52244a" title="createevent" alt="" coords="424,107,515,133"/>
-<area shape="rect" id="node7" href="list_8c.html#a7ef519287e473ee333204280a5d91403" title="insertevent" alt="" coords="426,157,513,184"/>
-<area shape="rect" id="node8" href="list_8c.html#a8f7708495c6e39bb6e712218711b331f" title="starttime" alt="" coords="583,157,656,184"/>
-<area shape="rect" id="node11" href="menu_8c.html#a6ef5647864065ede4ef3b2773cbb9e8d" title="scansavemenu" alt="" coords="414,56,525,83"/>
-<area shape="rect" id="node12" href="menu_8c.html#afc715bc6c0b9a9e85af15dc509a8d34b" title="filesave" alt="" coords="586,31,653,57"/>
-<area shape="rect" id="node14" href="menu_8c.html#aa12eba16d2e2bd5dfc70240d19bd5c8e" title="scanexitmenu" alt="" coords="418,5,521,32"/>
+<area shape="rect" id="node2" href="list_8c.html#a48f44148563512bd32274821f478bd1b" title="initeventlist" alt="" coords="115,107,203,133"/>
+<area shape="rect" id="node3" href="file_8c.html#ab3ba45c99ca47b62544bd6c4c18f0844" title="calendarload" alt="" coords="263,81,357,108"/>
+<area shape="rect" id="node8" href="menu_8c.html#ac86d3169260f5cacd0f792743957b054" title="mainmenu" alt="" coords="118,259,201,285"/>
+<area shape="rect" id="node33" href="menu_8c.html#a8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="104,208,215,235"/>
+<area shape="rect" id="node4" href="list_8c.html#a24fd1b37eee54600b66c42e86b52244a" title="createevent" alt="" coords="425,56,516,83"/>
+<area shape="rect" id="node5" href="file_8c.html#a36d5c6b5abd971ee26b1d1ee32d3919c" title="dstrcpy" alt="" coords="438,5,503,32"/>
+<area shape="rect" id="node6" href="list_8c.html#a7ef519287e473ee333204280a5d91403" title="insertevent" alt="" coords="427,107,514,133"/>
+<area shape="rect" id="node7" href="list_8c.html#a8f7708495c6e39bb6e712218711b331f" title="starttime" alt="" coords="587,107,660,133"/>
+<area shape="rect" id="node9" href="menu_8c.html#ac2c3136ef241a7150d7cff391a0eb048" title="newevent" alt="" coords="271,157,349,184"/>
+<area shape="rect" id="node11" href="menu_8c.html#a38d64ff02f60ebcb1988655ea12540a6" title="searchmenu" alt="" coords="263,360,357,387"/>
+<area shape="rect" id="node26" href="menu_8c.html#aa28daf84be098b64b8dfea8a88050f13" title="savemenu" alt="" coords="269,208,351,235"/>
+<area shape="rect" id="node30" href="menu_8c.html#ac651d3838f4da7bf6055fa839621e289" title="exitmenu" alt="" coords="273,259,347,285"/>
+<area shape="rect" id="node32" href="menu_8c.html#a1aa7ba6b6941a272c34eea491e4a650d" title="printmenu" alt="" coords="271,411,349,437"/>
+<area shape="rect" id="node10" href="menu_8c.html#ab9ac014b764791c1dc71c187dca898f7" title="hosszu_sort_olvas" alt="" coords="405,157,536,184"/>
+<area shape="rect" id="node12" href="menu_8c.html#a033e355dbab3723c9d57e8f3e6fe52e1" title="scaninput" alt="" coords="431,411,510,437"/>
+<area shape="rect" id="node13" href="search_8c.html#adaf3bc7221b1fe4f2cffb3aaea00415d" title="searchbyname" alt="" coords="417,461,524,488"/>
+<area shape="rect" id="node22" href="search_8c.html#a9a7e3230097d2f97a58082ff6eb864ac" title="searchactual" alt="" coords="423,563,519,589"/>
+<area shape="rect" id="node23" href="search_8c.html#a5a5f902f17fae2dda3b8ec6bb7e1a6e9" title="searchbyday" alt="" coords="423,512,519,539"/>
+<area shape="rect" id="node24" href="search_8c.html#a6b219250779d3af5972611513010a013" title="searchbyweek" alt="" coords="417,309,524,336"/>
+<area shape="rect" id="node25" href="search_8c.html#ac2a6873263c1a8146c04126b48f8431e" title="searchbymonth" alt="" coords="415,360,526,387"/>
+<area shape="rect" id="node14" href="search_8c.html#a199722ea7869f598848648238f88d274" title="searchiter" alt="" coords="584,461,663,488"/>
+<area shape="rect" id="node15" href="search_8c.html#ace601ce27f555e73988b2db946d1ca5e" title="inserttofindlist" alt="" coords="711,512,813,539"/>
+<area shape="rect" id="node16" href="search_8c.html#aa13cd0a956bc531fe1e1329b6aebdef9" title="eventtotm" alt="" coords="722,411,802,437"/>
+<area shape="rect" id="node17" href="search_8c.html#a4e80bfd47c2fef45e9f6f50632544931" title="tmtoweek" alt="" coords="723,563,801,589"/>
+<area shape="rect" id="node18" href="search_8c.html#ad125ca3bc57ac537e0c541460bcc420a" title="printfindlist" alt="" coords="719,461,805,488"/>
+<area shape="rect" id="node19" href="list_8c.html#a2561d96be1299fd3f5730c6d82143709" title="printevent_short" alt="" coords="1160,461,1275,488"/>
+<area shape="rect" id="node20" href="search_8c.html#a1bf81a11e19a6be70b3549a1e2fb5e70" title="scanfindlist" alt="" coords="861,487,949,513"/>
+<area shape="rect" id="node21" href="eventrecord_8c.html#a11934cc1b696462c4e57812dacc83f6a" title="printeventrecord" alt="" coords="997,487,1112,513"/>
+<area shape="rect" id="node27" href="menu_8c.html#a6ef5647864065ede4ef3b2773cbb9e8d" title="scansavemenu" alt="" coords="415,208,526,235"/>
+<area shape="rect" id="node28" href="menu_8c.html#afc715bc6c0b9a9e85af15dc509a8d34b" title="filesave" alt="" coords="590,233,657,260"/>
+<area shape="rect" id="node29" href="file_8c.html#a894fe0f62442d90fb5a74f2087f78207" title="calendarsave" alt="" coords="713,233,811,260"/>
+<area shape="rect" id="node31" href="menu_8c.html#aa12eba16d2e2bd5dfc70240d19bd5c8e" title="scanexitmenu" alt="" coords="419,259,522,285"/>
 </map>
 </div>
 

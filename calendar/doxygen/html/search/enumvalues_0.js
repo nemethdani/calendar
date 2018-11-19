@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['insertion',['insertion',['../search_8h.html#a8b6f11d89a64318f6ea5ed9503536af0ad271af53d7bcd825751a5b200b29fcb1',1,'search.h']]]
+  ['byday',['byday',['../search_8h.html#af9df49b17c9441844cafc15064ec50fca5efad3bcd6c0ae75087b25e99c9483fa',1,'search.h']]],
+  ['bymonth',['bymonth',['../search_8h.html#af9df49b17c9441844cafc15064ec50fca1079e56084842bedf75f880e98175b84',1,'search.h']]],
+  ['byweek',['byweek',['../search_8h.html#af9df49b17c9441844cafc15064ec50fca22234af7e39a964f41baef92fdd17c14',1,'search.h']]]
 ];

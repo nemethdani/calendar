@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['callmenu',['callmenu',['../menu_8c.html#a00af175f266f31d352be878cfb5d5640',1,'menu.c']]],
-  ['comment',['comment',['../struct_event.html#a25dae25c3bf9b28d54eb4df7afb2a491',1,'Event']]],
-  ['createevent',['createevent',['../list_8c.html#a24fd1b37eee54600b66c42e86b52244a',1,'createevent(int ev, int honap, int nap, int ora, int perc, int bora, int bperc, char *nev, char *hely, char *comment):&#160;list.c'],['../list_8h.html#a24fd1b37eee54600b66c42e86b52244a',1,'createevent(int ev, int honap, int nap, int ora, int perc, int bora, int bperc, char *nev, char *hely, char *comment):&#160;list.c']]]
+  ['byday',['byday',['../search_8h.html#af9df49b17c9441844cafc15064ec50fca5efad3bcd6c0ae75087b25e99c9483fa',1,'search.h']]],
+  ['bymonth',['bymonth',['../search_8h.html#af9df49b17c9441844cafc15064ec50fca1079e56084842bedf75f880e98175b84',1,'search.h']]],
+  ['byweek',['byweek',['../search_8h.html#af9df49b17c9441844cafc15064ec50fca22234af7e39a964f41baef92fdd17c14',1,'search.h']]]
 ];

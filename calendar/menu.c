@@ -7,10 +7,12 @@
 #include <stdbool.h>
 #include "list.h"
 #include "search.h"
+#include "eventrecord.h"
 
 char scaninput(){
     int input;
     scanf("%d",&input);
+    getchar();
 
     return input;
 }
@@ -57,6 +59,9 @@ void newevent(EventList* eventlist){
     //printf("%d",(event->year));
     //printevent_short(event);
     insertevent(eventlist,event);
+    SearchConditions cond;
+    cond.name=NULL; cond.month=0; cond.week=0;
+    printeventrecord(event,cond);
 }
 
 
@@ -175,7 +180,9 @@ void searchmenu(EventList* eventlist){
 
             //mainmenu(eventlist);
             break;
-        default: printf("nincs ilyen menupont, probald ujra!\n");
+        default:
+            printf("nincs ilyen menupont, probald ujra!\n");
+            break;
         }
     }
 }
