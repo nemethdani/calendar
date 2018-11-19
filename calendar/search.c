@@ -227,7 +227,7 @@ int scanfindlist(int i, FindList* findlist,SearchConditions condition){
         int szamlalo=1;
         while(szamlalo!=valasztas){
             fe=fe->nextfound;
-            i++;
+            szamlalo++;
         };
         //eventrecord(fe->foundevent);
         int recordchoice=printeventrecord(fe->foundevent,condition);
