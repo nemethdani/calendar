@@ -47,6 +47,15 @@ int searchiter(EventList* eventlist, SearchConditions condition){
         iter=iter->prev;
     }
     int choice=printfindlist(&findlist,condition,eventlist);
+
+    FoundEvent* fiter=findlist.first->nextfound;
+    FoundEvent* ftemp;
+    while(fiter!=findlist.last){
+        ftemp=fiter->nextfound;
+        free(fiter);
+        fiter=ftemp;
+    }
+
     return choice;
 
 

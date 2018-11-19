@@ -21,7 +21,7 @@ int main(){
 
 //    Event* event=createevent(1990,3,26,14,45,15,56,"dani","bp","nincs");
 //    printevent_short(event);
-
+    freeEventList(eventlist); //csaka biztonság kedvéért
 
 
     return 0;

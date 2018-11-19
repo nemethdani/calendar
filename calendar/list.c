@@ -15,6 +15,18 @@ EventList* initeventlist(){
     eventlist->last->prev=eventlist->first;
     return eventlist;
 }
+
+void freeEventList(EventList* eventlist){
+    Event* list=eventlist->first;
+    while(list){
+        Event* list_temp=list->next;
+        free_event(list);
+        list=list_temp;
+    }
+    free(eventlist);
+    return;
+}
+
 Event* createevent(int ev, int honap, int nap, int ora, int perc, int bora, int bperc, char* nev,char* hely,char* comment){
     Event *event=(Event*) malloc(sizeof(Event));
     if(event==NULL) return NULL;

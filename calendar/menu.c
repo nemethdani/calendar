@@ -211,6 +211,7 @@ int scansavemenu(EventList* eventlist){
     switch(valasztas){
         case 1:
             filesave(eventlist);
+
             return 0;
             //mainmenu(eventlist);
             //scanmainmenu(eventlist);
@@ -248,10 +249,12 @@ int scanexitmenu(EventList* eventlist){
     switch(command){
         case 1:
             filesave(eventlist);
+            freeEventList(eventlist);
             exit(0);
             break;
         case 2:
             exit(0);
+            freeEventList(eventlist);
             break;
         case 3:
             return 0;
