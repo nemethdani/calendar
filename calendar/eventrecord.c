@@ -5,6 +5,44 @@
 #include "menu.h"
 //#include "list.c"
 
+moveevent(Event* event,EventList* eventlist,ModBy modby){
+    switch(modby){
+    case bydate:
+        printf("Mi az esemeny datuma? (eeee.hh.nn)\n");
+        int ev, honap, nap;
+        while(scanf("%d.%d.%d",&ev,&honap,&nap)!=3 || honap>12 || honap<1 || nap>31 || nap<1){
+            getchar();
+            printf("probald ujra\n");
+        };
+        event->year=ev; event->month=honap; event->day=nap;
+        break;
+
+    case bystart:
+        printf("Mi az esemeny kezdo ideje? (oo:pp)\n");
+        int ora,perc;
+        while(scanf("%d:%d",&ora,&perc)!=2 || ora>24 || ora<0 || perc>60 || perc<0){
+            getchar();
+            printf("probald ujra\n");
+        };
+        event->starthour=ora; event->startmin=perc;
+        break;
+    case byend:
+        printf("Mi az esemeny befejezo ideje? (oo:pp)\n");
+        int bora,bperc;
+        while(scanf("%d:%d",&bora,&bperc)!=2 || bora>24 || bora<0 || bperc>60 || bperc<0){
+            getchar();
+            printf("probald ujra\n");
+        };
+        event->endhour=bora; event->endmin=bperc;
+        break;
+
+    }
+    event->prev->next=event->next;
+    event->next->prev=event->prev;
+    insertevent(eventlist,event);
+
+}
+
 void free_event(Event* event){
     free(event->comment);
     free(event->name);
@@ -31,7 +69,7 @@ int scanrecordcommand(bool isnewevent, int i,Event* event,EventList* eventlist){
     scanf("%d",&valasztas);
     getchar;
     if(valasztas==i-1) return 5; //fomenu
-    if(valasztas==1){
+    else if(valasztas==1){
             free(event->name);
             printf("Mi az esemeny neve? (max 127 karakter)\n");
             getchar();
@@ -39,6 +77,9 @@ int scanrecordcommand(bool isnewevent, int i,Event* event,EventList* eventlist){
             event->name=newname;
             return 2;
     }
+    else if(valasztas==2) moveevent(event,eventlist,bydate);
+    else if(valasztas==3) moveevent(event,eventlist,bystart);
+    else if(valasztas==4) moveevent(event,eventlist,byend);
     else if(valasztas==5){
         free(event->location);
         getchar();

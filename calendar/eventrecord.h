@@ -4,7 +4,7 @@
 #include "structures.h"
 
 
-
+typedef enum ModBy{bydate,bystart,byend}ModBy;
 
 
 #endif // EVENTRECORD_H_INCLUDED
