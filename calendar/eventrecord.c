@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include "menu.h"
+#include "debugmalloc.h"
 //#include "list.c"
 
 moveevent(Event* event,EventList* eventlist,ModBy modby){
@@ -44,9 +45,10 @@ moveevent(Event* event,EventList* eventlist,ModBy modby){
 }
 
 void free_event(Event* event){
-    free(event->comment);
-    free(event->name);
-    free(event->location);
+
+    if(event->name!=NULL) free(event->name);
+    if(event->location!=NULL) free(event->location);
+    if(event->comment!=NULL) free(event->comment);
     free(event);
 }
 

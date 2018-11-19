@@ -5,6 +5,7 @@
 #include <stdbool.h>
 #include <time.h>
 #include <stdio.h>
+#include "debugmalloc.h"
 
 int searchiter(EventList* eventlist, SearchConditions condition){
     Event* iter=eventlist->last->prev;

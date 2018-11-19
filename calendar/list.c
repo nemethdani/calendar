@@ -2,13 +2,20 @@
 #include <stdlib.h>
 #include "structures.h"
 #include <time.h>
+#include "debugmalloc.h"
 
 EventList* initeventlist(){
     EventList* eventlist=(EventList*) malloc(sizeof(EventList));
     Event* sentinel1=(Event*) malloc(sizeof(Event));
     sentinel1->prev=NULL;
+    sentinel1->name=NULL;
+    sentinel1->location=NULL;
+    sentinel1->comment=NULL;
     Event* sentinel2=(Event*) malloc(sizeof(Event));
-    sentinel1->next=NULL;
+    sentinel2->next=NULL;
+    sentinel2->name=NULL;
+    sentinel2->location=NULL;
+    sentinel2->comment=NULL;
     eventlist->first=sentinel1;
     eventlist->last=sentinel2;
     eventlist->first->next=eventlist->last;

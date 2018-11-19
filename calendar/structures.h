@@ -3,6 +3,7 @@
 
 #include <time.h>
 
+
 typedef struct Event{
     int year,month,day;
     int starthour, startmin, endhour, endmin;

@@ -3,6 +3,7 @@
 #include <stdbool.h>
 #include "structures.h"
 #include "list.h"
+#include "debugmalloc.h"
 
 char* dstrcpy(char* str){
     int len=strlen(str)+1;

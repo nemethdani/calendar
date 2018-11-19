@@ -6,6 +6,7 @@
 #include "menu.h"
 #include <stdlib.h>
 #include <stdbool.h>
+#include "debugmalloc.h"
 
 
 

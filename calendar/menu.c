@@ -8,6 +8,7 @@
 #include "list.h"
 #include "search.h"
 #include "eventrecord.h"
+#include "debugmalloc.h"
 
 char scaninput(){
     int input;
@@ -253,8 +254,9 @@ int scanexitmenu(EventList* eventlist){
             exit(0);
             break;
         case 2:
-            exit(0);
             freeEventList(eventlist);
+            exit(0);
+
             break;
         case 3:
             return 0;
