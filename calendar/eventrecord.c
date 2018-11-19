@@ -2,6 +2,7 @@
 #include "structures.h"
 #include <stdio.h>
 #include <stdbool.h>
+#include "menu.h"
 //#include "list.c"
 
 void free_event(Event* event){
@@ -30,6 +31,28 @@ int scanrecordcommand(bool isnewevent, int i,Event* event,EventList* eventlist){
     scanf("%d",&valasztas);
     getchar;
     if(valasztas==i-1) return 5; //fomenu
+    if(valasztas==1){
+            free(event->name);
+            printf("Mi az esemeny neve? (max 127 karakter)\n");
+            getchar();
+            char* newname=hosszu_sort_olvas(128);
+            event->name=newname;
+            return 2;
+    }
+    else if(valasztas==5){
+        free(event->location);
+        getchar();
+        printf("Mi az esemeny helye? (max 127 karakter)\n");
+        event->location=hosszu_sort_olvas(128);
+        return 2;
+    }
+    else if(valasztas==6){
+        free(event->comment);
+        getchar();
+        printf("Van megjegyzesed? (max 255 karakter)\n");
+        event->comment=hosszu_sort_olvas(256);
+        return 2;
+    }
     if(!isnewevent){
         if (valasztas==i-2) return 0; //kereses mashogy
         else if (valasztas==i-3) return 1; //kereses ugyanigy

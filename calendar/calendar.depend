@@ -33,7 +33,7 @@
 	"structures.h"
 	<time.h>
 
-1542634784 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.c
+1542635749 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.c
 	"menu.h"
 	"structures.h"
 	<stdlib.h>
@@ -61,7 +61,7 @@
 	<time.h>
 	<stdio.h>
 
-1542634886 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.c
+1542638033 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.c
 	"eventrecord.h"
 	"structures.h"
 	<stdio.h>
