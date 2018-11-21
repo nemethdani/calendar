@@ -1,0 +1,12 @@
+<map id="scanrecordcommand" name="scanrecordcommand">
+<area shape="rect" id="node2" href="$menu_8c.html#ab9ac014b764791c1dc71c187dca898f7" title="hosszu_sort_olvas" alt="" coords="196,5,327,32"/>
+<area shape="rect" id="node3" href="$group__eventrecord.html#ga610dc34a1e251a16311ca7ac15f64e05" title="moveevent" alt="" coords="218,56,305,83"/>
+<area shape="rect" id="node6" href="$group__eventrecord.html#gaf69a5ee77b139263897d5e6bfe7d7f2a" title="deleteevent" alt="" coords="217,107,306,133"/>
+<area shape="rect" id="node8" href="$menu_8c.html#aa28daf84be098b64b8dfea8a88050f13" title="savemenu" alt="" coords="220,157,303,184"/>
+<area shape="rect" id="node4" href="$list_8c.html#a7ef519287e473ee333204280a5d91403" title="insertevent" alt="" coords="387,56,473,83"/>
+<area shape="rect" id="node5" href="$list_8c.html#a8f7708495c6e39bb6e712218711b331f" title="starttime" alt="" coords="533,56,607,83"/>
+<area shape="rect" id="node7" href="$list_8c.html#afd63217de3b7f7269aa3ee9d14b6b578" title="free_event" alt="" coords="389,107,471,133"/>
+<area shape="rect" id="node9" href="$menu_8c.html#a6ef5647864065ede4ef3b2773cbb9e8d" title="scansavemenu" alt="" coords="375,157,485,184"/>
+<area shape="rect" id="node10" href="$menu_8c.html#afc715bc6c0b9a9e85af15dc509a8d34b" title="filesave" alt="" coords="537,157,603,184"/>
+<area shape="rect" id="node11" href="$group__file.html#ga7f69872489b7c1c4bcdd125319a87b2e" title="calendarsave" alt="" coords="655,157,753,184"/>
+</map>

@@ -4,11 +4,28 @@
 //#include <stdio.h>
 #include "structures.h"
 #include <stdbool.h>
+/**
+* @defgroup file File kezelő
+* adatok fájlba mentése és ebből betöltése
+* @{
+*/
 
-char* dstrcpy(char* str);
-bool calendarload(EventList* eventlist);
-bool calendarsave(EventList* eventlist);
-
+/** String másolása dinamikusan foglalt tömbbe
+* @param karakterstringre mutató pointer
+* @return dinamikusan foglalt karaktertömb lezáró nullával
+*/
+char* dstrcpy(char const* str);
+/** Betölti az adatokat a naptar.txt fajlbol
+* @param eventlist: EventList-re mutató pointer: ebbe a már inicializált listába töltjük be az adatokat
+* @return false, ha nem sikerült végrehajtani, egyébként true
+*/
+bool calendarload(EventList const* eventlist);
+/** Elmenti az adatokat a naptar.txt fajlba
+* @param eventlist: EventList-re mutató pointer: ebből a listából mentjük ki az adatokat
+* @return false, ha nem sikerült végrehajtani, egyébként true
+*/
+bool calendarsave(EventList const* eventlist);
+/** @} */
 
 
 #endif // FILE_H_INCLUDED

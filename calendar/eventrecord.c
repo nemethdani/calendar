@@ -61,7 +61,7 @@ void deleteevent(Event* event){
 
 }
 
-int scanrecordcommand(bool isnewevent, int i,Event* event,EventList* eventlist){
+int scanrecordcommand(bool isnewevent, int i,Event* event,EventList const* eventlist){
     int valasztas=0;
     scanf("%d",&valasztas);
     getchar;

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['file',['file',['../struct_lefoglalt.html#a353d29f9f9cc0db6fca9d49b5f88d34d',1,'Lefoglalt']]],
+  ['file',['file',['../struct_lefoglalt.html#a353d29f9f9cc0db6fca9d49b5f88d34d',1,'Lefoglalt::file()'],['../group__file.html',1,'(Global Namespace)']]],
   ['file_2ec',['file.c',['../file_8c.html',1,'']]],
   ['file_2eh',['file.h',['../file_8h.html',1,'']]],
   ['filesave',['filesave',['../menu_8c.html#afc715bc6c0b9a9e85af15dc509a8d34b',1,'filesave(EventList *eventlist):&#160;menu.c'],['../menu_8h.html#afc715bc6c0b9a9e85af15dc509a8d34b',1,'filesave(EventList *eventlist):&#160;menu.c']]],

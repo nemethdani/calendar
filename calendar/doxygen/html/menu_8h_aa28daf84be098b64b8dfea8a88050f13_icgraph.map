@@ -1,7 +1,7 @@
 <map id="savemenu" name="savemenu">
-<area shape="rect" id="node2" href="$eventrecord_8h.html#a9b64fb7501bab380e6146ef4a4f558c7" title="scanrecordcommand" alt="" coords="136,171,279,198"/>
+<area shape="rect" id="node2" href="$group__eventrecord.html#gac6e06e3186496cd8eb6618baf3ca9d3e" title="scanrecordcommand" alt="" coords="136,171,279,198"/>
 <area shape="rect" id="node5" href="$menu_8h.html#a8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="1185,134,1296,161"/>
-<area shape="rect" id="node3" href="$eventrecord_8h.html#a43a7dc247171d596d8d808776d8d40f5" title="printeventrecord" alt="" coords="327,134,441,161"/>
+<area shape="rect" id="node3" href="$group__eventrecord.html#ga43a7dc247171d596d8d808776d8d40f5" title="printeventrecord" alt="" coords="327,134,441,161"/>
 <area shape="rect" id="node4" href="$menu_8h.html#a069c1b762e46bba28b1f38b87d8d58aa" title="newevent" alt="" coords="629,7,707,34"/>
 <area shape="rect" id="node7" href="$searchui_8h.html#a70f4e24bc56ccfdd7d63df4a84054538" title="scanfindlist" alt="" coords="489,134,577,161"/>
 <area shape="rect" id="node6" href="$main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1344,134,1395,161"/>

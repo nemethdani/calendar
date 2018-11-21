@@ -7,14 +7,14 @@
 #include "debugmalloc.h"
 
 
-char* dstrcpy(char* str){
+char* dstrcpy(char const* str){
     int len=strlen(str)+1;
     char* uj=(char*) malloc(sizeof(char)*len);
     strcpy(uj,str);
     return uj;
 }
 
-bool calendarload(EventList* eventlist){
+bool calendarload(EventList const* eventlist){
     if(eventlist==NULL) return false;
 
     FILE *fp; /* fájl mutató (file pointer/handle) */
@@ -50,7 +50,7 @@ bool calendarload(EventList* eventlist){
     return true;
 }
 
-bool calendarsave(EventList* eventlist){
+bool calendarsave(EventList const* eventlist){
     FILE *fp; /* fájl mutató (file pointer/handle) */
 
     fp = fopen("naptar.txt", "wt"); /* megnyitás */
@@ -83,4 +83,6 @@ bool calendarsave(EventList* eventlist){
     fclose(fp);
     return true;
 }
+
+
 

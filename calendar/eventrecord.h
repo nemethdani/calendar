@@ -40,7 +40,7 @@ void deleteevent(Event* event);
             1: kereses ugyanigy vagy új esemény
             -1:talalati lista
 */
-int scanrecordcommand(bool isnewevent, int i,Event* event,EventList* eventlist);
+int scanrecordcommand(bool isnewevent, int i,Event* event,EventList const* eventlist);
 /** Kiírja az esemény részleteit és a szerkesztéshez, navigációhoz kapcsolatos menüpontokat
 * majd meghívja a parancsbeolvasó fv-t.
 * @param event: Event típusra mutató pointer: a módosítandó esemény

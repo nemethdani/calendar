@@ -1,10 +1,10 @@
 <map id="starttime" name="starttime">
 <area shape="rect" id="node2" href="$list_8h.html#a7ef519287e473ee333204280a5d91403" title="insertevent" alt="" coords="127,259,213,285"/>
-<area shape="rect" id="node3" href="$eventrecord_8h.html#a610dc34a1e251a16311ca7ac15f64e05" title="moveevent" alt="" coords="261,208,348,235"/>
+<area shape="rect" id="node3" href="$group__eventrecord.html#ga610dc34a1e251a16311ca7ac15f64e05" title="moveevent" alt="" coords="261,208,348,235"/>
 <area shape="rect" id="node6" href="$menu_8h.html#a069c1b762e46bba28b1f38b87d8d58aa" title="newevent" alt="" coords="754,259,833,285"/>
-<area shape="rect" id="node18" href="$file_8h.html#ab3ba45c99ca47b62544bd6c4c18f0844" title="calendarload" alt="" coords="420,309,515,336"/>
-<area shape="rect" id="node4" href="$eventrecord_8h.html#a9b64fb7501bab380e6146ef4a4f558c7" title="scanrecordcommand" alt="" coords="396,208,539,235"/>
-<area shape="rect" id="node5" href="$eventrecord_8h.html#a43a7dc247171d596d8d808776d8d40f5" title="printeventrecord" alt="" coords="587,208,701,235"/>
+<area shape="rect" id="node18" href="$group__file.html#gaf4efa1e078c7552b2f70daf3a40039c7" title="calendarload" alt="" coords="420,309,515,336"/>
+<area shape="rect" id="node4" href="$group__eventrecord.html#gac6e06e3186496cd8eb6618baf3ca9d3e" title="scanrecordcommand" alt="" coords="396,208,539,235"/>
+<area shape="rect" id="node5" href="$group__eventrecord.html#ga43a7dc247171d596d8d808776d8d40f5" title="printeventrecord" alt="" coords="587,208,701,235"/>
 <area shape="rect" id="node9" href="$searchui_8h.html#a70f4e24bc56ccfdd7d63df4a84054538" title="scanfindlist" alt="" coords="749,169,837,196"/>
 <area shape="rect" id="node7" href="$menu_8h.html#a8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="1445,259,1556,285"/>
 <area shape="rect" id="node8" href="$main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1604,284,1655,311"/>

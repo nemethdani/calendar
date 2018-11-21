@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['calendarload',['calendarload',['../file_8c.html#ab3ba45c99ca47b62544bd6c4c18f0844',1,'calendarload(EventList *eventlist):&#160;file.c'],['../file_8h.html#ab3ba45c99ca47b62544bd6c4c18f0844',1,'calendarload(EventList *eventlist):&#160;file.c']]],
-  ['calendarsave',['calendarsave',['../file_8c.html#a894fe0f62442d90fb5a74f2087f78207',1,'calendarsave(EventList *eventlist):&#160;file.c'],['../file_8h.html#a894fe0f62442d90fb5a74f2087f78207',1,'calendarsave(EventList *eventlist):&#160;file.c']]],
+  ['calendarload',['calendarload',['../group__file.html#gaf4efa1e078c7552b2f70daf3a40039c7',1,'calendarload(EventList const *eventlist):&#160;file.c'],['../group__file.html#gaf4efa1e078c7552b2f70daf3a40039c7',1,'calendarload(EventList const *eventlist):&#160;file.c']]],
+  ['calendarsave',['calendarsave',['../group__file.html#ga7f69872489b7c1c4bcdd125319a87b2e',1,'calendarsave(EventList const *eventlist):&#160;file.c'],['../group__file.html#ga7f69872489b7c1c4bcdd125319a87b2e',1,'calendarsave(EventList const *eventlist):&#160;file.c']]],
   ['createevent',['createevent',['../list_8c.html#a24fd1b37eee54600b66c42e86b52244a',1,'createevent(int ev, int honap, int nap, int ora, int perc, int bora, int bperc, char *nev, char *hely, char *comment):&#160;list.c'],['../list_8h.html#a24fd1b37eee54600b66c42e86b52244a',1,'createevent(int ev, int honap, int nap, int ora, int perc, int bora, int bperc, char *nev, char *hely, char *comment):&#160;list.c']]]
 ];

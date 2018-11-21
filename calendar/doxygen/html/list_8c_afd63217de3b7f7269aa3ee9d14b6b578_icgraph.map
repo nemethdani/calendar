@@ -1,8 +1,8 @@
 <map id="free_event" name="free_event">
-<area shape="rect" id="node2" href="$eventrecord_8h.html#af69a5ee77b139263897d5e6bfe7d7f2a" title="deleteevent" alt="" coords="136,259,225,285"/>
+<area shape="rect" id="node2" href="$group__eventrecord.html#gaf69a5ee77b139263897d5e6bfe7d7f2a" title="deleteevent" alt="" coords="136,259,225,285"/>
 <area shape="rect" id="node17" href="$list_8h.html#a4293a94245f5abec38c480114aa58b23" title="freeEventList" alt="" coords="896,309,995,336"/>
-<area shape="rect" id="node3" href="$eventrecord_8h.html#a9b64fb7501bab380e6146ef4a4f558c7" title="scanrecordcommand" alt="" coords="273,259,416,285"/>
-<area shape="rect" id="node4" href="$eventrecord_8h.html#a43a7dc247171d596d8d808776d8d40f5" title="printeventrecord" alt="" coords="464,259,579,285"/>
+<area shape="rect" id="node3" href="$group__eventrecord.html#gac6e06e3186496cd8eb6618baf3ca9d3e" title="scanrecordcommand" alt="" coords="273,259,416,285"/>
+<area shape="rect" id="node4" href="$group__eventrecord.html#ga43a7dc247171d596d8d808776d8d40f5" title="printeventrecord" alt="" coords="464,259,579,285"/>
 <area shape="rect" id="node5" href="$menu_8h.html#a069c1b762e46bba28b1f38b87d8d58aa" title="newevent" alt="" coords="766,259,845,285"/>
 <area shape="rect" id="node8" href="$searchui_8h.html#a70f4e24bc56ccfdd7d63df4a84054538" title="scanfindlist" alt="" coords="627,183,715,209"/>
 <area shape="rect" id="node6" href="$menu_8h.html#a8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="1343,284,1453,311"/>
