@@ -9,7 +9,8 @@
 #include "debugmalloc.h"
 
 
-
+/** Inicializál egy üres eseméynlistát és feltölti adatokkal a fájlból, ha létezik a naptar.txt
+*/
 int main(){
 
     EventList* eventlist=initeventlist();

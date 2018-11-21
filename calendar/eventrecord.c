@@ -64,7 +64,7 @@ void deleteevent(Event* event){
 int scanrecordcommand(bool isnewevent, int i,Event* event,EventList const* eventlist){
     int valasztas=0;
     scanf("%d",&valasztas);
-    getchar;
+    getchar();
     if(valasztas==i-1) return 5; //fomenu
     else if(valasztas==1){
             free(event->name);
@@ -104,7 +104,8 @@ int scanrecordcommand(bool isnewevent, int i,Event* event,EventList const* event
         else if (valasztas==i-4) {savemenu(eventlist); return 2;}//mentes
         else if (valasztas==i-2) return 1;//uj esemeny
 
-    }
+    };
+    return 0;
 
 }
 
@@ -113,7 +114,7 @@ int printeventrecord(Event* event,SearchConditions condition,EventList* eventlis
     bool isnewevent=false;
     while(choice>1 && choice!=5){
         int i=1;
-        printf("\e[1;1H\e[2J");
+        //printf("\e[1;1H\e[2J");
         printf("(%d) Nev:        %s\n",i++,event->name);
         printf("(%d) Datum:      %d.%.2d.%.2d\n",i++,event->year,event->month,event->day);
         printf("(%d) Kezdes:     %.2d:%.2d\n",i++,event->starthour,event->startmin);

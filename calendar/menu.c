@@ -8,11 +8,12 @@
 #include "list.h"
 #include "search.h"
 #include "eventrecord.h"
+#include "searchui.h"
 #include "debugmalloc.h"
 
 
 
-void filesave(EventList* eventlist){
+void filesave(EventList const* eventlist){
     if(calendarsave(eventlist)) printf("saved\n");
     else printf("nem sikerult menteni\n");
 
@@ -98,10 +99,10 @@ void mainmenu(){
        { "Kereses"},
        { "Mentes"},
        { "Kilepes"},
-       { NULL, NULL }   /* végjel */
+       { NULL}   /* végjel */
     };
 
-    int meret=printmenu(menupontok);
+    printmenu(menupontok);
     //callmenu(meret,menupontok);
 }
 
@@ -140,7 +141,7 @@ void scanmainmenu(EventList* eventlist){
 }
 
 void searchmenu(EventList* eventlist){
-    printf("\e[1;1H\e[2J");
+    //printf("\e[1;1H\e[2J");
     int choice=0;
     while(choice!=5){
         if(!(choice>=1 && choice<=4)){
@@ -186,7 +187,7 @@ void searchmenu(EventList* eventlist){
         }
     }
 }
-void savemenu(EventList* eventlist){
+void savemenu(EventList const* eventlist){
 //    MenuPont menupontok[] = {
 //       { "Mentes", filesave },
 //       { "Megse", mainmenu },
@@ -202,10 +203,10 @@ void savemenu(EventList* eventlist){
 
 }
 
-int scansavemenu(EventList* eventlist){
+int scansavemenu(EventList const* eventlist){
     int valasztas=0;
     scanf("%d",&valasztas);
-    getchar;
+    getchar();
     switch(valasztas){
         case 1:
             filesave(eventlist);
@@ -223,14 +224,15 @@ int scansavemenu(EventList* eventlist){
             printf("nincs ilyen menupont\n");
             //scansavemenu(eventlist);
             break;
-    }
+    };
+    return 0;
 }
 
 void exitmenu(EventList* eventlist){
     int choice=1;
     while(choice){
-    printf("\e[1;1H\e[2J");
-    printf("(1) Kilepes mentessel\n(2) Kilepes mentes nelkul\n(3) Vissza\n");
+    //printf("\e[1;1H\e[2J");
+    printf("\n(1) Kilepes mentessel\n(2) Kilepes mentes nelkul\n(3) Vissza\n");
     choice=scanexitmenu(eventlist);
 }
 
@@ -259,16 +261,17 @@ int scanexitmenu(EventList* eventlist){
             return 0;
             break;
     }
+    return 0;
 }
 
 
-int printmenu(MenuPont* menupontok){
+void printmenu(MenuPont const* menupontok){
     int i;
-    printf("\e[1;1H\e[2J");
+    //printf("\e[1;1H\e[2J");
     for (i = 1; menupontok[i-1].nev != NULL; ++i)
         printf("(%d) %s\n", i, menupontok[i-1].nev);
-    int meret = i;
-    return meret;
+    //int meret = i;
+    //return meret;
 }
 
 //void callmenu(int meret, MenuPont* menupontok, EventList* eventlist){

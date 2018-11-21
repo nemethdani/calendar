@@ -55,7 +55,7 @@ Event* createevent(int ev, int honap, int nap, int ora, int perc, int bora, int 
 
     return event;
 }
-void insertevent(EventList* eventlist,Event* event){
+void insertevent(EventList const* eventlist,Event* event){
     if(eventlist==NULL) return NULL;
     if(event==NULL) return NULL;
 

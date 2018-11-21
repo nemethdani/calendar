@@ -46,7 +46,7 @@ Event* createevent(int ev, int honap, int nap, int ora, int perc, int bora, int 
 * @param eventlist: Ebbe az EventList típusó listába szúrjuk az eseményt. címmel adjuk meg
 * @param event: Ezt az Event típusú eseményt szúrjuk be. Címmel adjuk meg
 */
-void insertevent(EventList* eventlist,Event* event);
+void insertevent(EventList const* eventlist,Event* event);
 
 /** Létrehozza az események kezdőidejét jelző számot másodperc nagyságrendben a kezdőidő összehasonlításához
 * @param event: ennek az Event típusú eseménynek keressük a kezdőidejét. Az esemény kezdőmásodpercét nullának vettük
