@@ -81,6 +81,7 @@ int starttime(Event* event){
     start.tm_mday=event->day;
     start.tm_hour=event->starthour;
     start.tm_min=event->startmin;
+    start.tm_sec=0;
 
 
 
