@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.16)  18 NOV 2018 19:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.16)  21 NOV 2018 13:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1192,20 +1192,20 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 6.29996pt on input line 20.
+(Font)              scaled to size 6.29996pt on input line 11.
  [1
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 65.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 63.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 6.29996pt on input line 65.
- [2] [3] [4])
+(Font)              scaled to size 6.29996pt on input line 63.
+ [2] [3] [4]
+[5] [6])
 \tf@toc=\write5
 \openout5 = `refman.toc'.
 
-
-[5] [6
+ [7] [8
 
 ]
 Package hyperref Info: Option `pageanchor' set `true' on input line 138.
@@ -1219,7 +1219,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 18.66588pt on input line 141.
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
 (Font)              scaled to size 18.66588pt on input line 141.
-(./annotated.tex
+(./modules.tex
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
@@ -1232,1223 +1232,362 @@ LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
 
 ]
 Chapter 2.
-(./files.tex) [3] [4
+(./annotated.tex) [3] [4
 
 ]
 Chapter 3.
-(./struct_event.tex
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 5.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-<struct_event__coll__graph.pdf, id=806, 162.6075pt x 102.3825pt>
-File: struct_event__coll__graph.pdf Graphic file (type pdf)
-<use struct_event__coll__graph.pdf>
-Package pdftex.def Info: struct_event__coll__graph.pdf  used on input line 13.
-(pdftex.def)             Requested size: 162.0pt x 102.00731pt.
+(./files.tex) [5] [6
+
+]
+Chapter 4.
+(./group__eventrecord.tex
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 16.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 16.
+(Font)              scaled to size 10.79993pt on input line 3.
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
-(Font)              scaled to size 10.79993pt on input line 16.
-LaTeX Font Info:    Try loading font information for TS1+phv on input line 19.
+(Font)              scaled to size 10.79993pt on input line 3.
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 19.
+(Font)              scaled to size 8.99994pt on input line 6.
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
-(Font)              scaled to size 8.99994pt on input line 49.
+(Font)              scaled to size 8.99994pt on input line 36.
+LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
+(Font)              scaled to size 6.29996pt on input line 36.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 50.
- [5 <./struct_event__coll__graph.pdf>] [6]) (./struct_event_list.tex
-LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
-(Font)              scaled to size 6.29996pt on input line 1.
-<struct_event_list__coll__graph.pdf, id=860, 170.6375pt x 180.675pt>
-File: struct_event_list__coll__graph.pdf Graphic file (type pdf)
-<use struct_event_list__coll__graph.pdf>
-Package pdftex.def Info: struct_event_list__coll__graph.pdf  used on input line
- 13.
-(pdftex.def)             Requested size: 170.0pt x 180.01013pt.
- [7 <./struct_event_list__coll__graph.pdf>]) (./struct_find_list.tex
-<struct_find_list__coll__graph.pdf, id=879, 213.79875pt x 249.93375pt>
-File: struct_find_list__coll__graph.pdf Graphic file (type pdf)
-<use struct_find_list__coll__graph.pdf>
-Package pdftex.def Info: struct_find_list__coll__graph.pdf  used on input line 
-13.
-(pdftex.def)             Requested size: 213.0pt x 248.99878pt.
- [8 <./struct_find_list__coll__graph.pdf>]) (./struct_found_event.tex
-<struct_found_event__coll__graph.pdf, id=901, 213.79875pt x 171.64125pt>
-File: struct_found_event__coll__graph.pdf Graphic file (type pdf)
-<use struct_found_event__coll__graph.pdf>
-Package pdftex.def Info: struct_found_event__coll__graph.pdf  used on input lin
-e 13.
-(pdftex.def)             Requested size: 213.0pt x 170.99915pt.
- [9 <./struct_found_event__coll__graph.pdf>])
-(./struct_menu_pont.tex
-<struct_menu_pont__coll__graph.pdf, id=931, 172.645pt x 247.92625pt>
-File: struct_menu_pont__coll__graph.pdf Graphic file (type pdf)
-<use struct_menu_pont__coll__graph.pdf>
-Package pdftex.def Info: struct_menu_pont__coll__graph.pdf  used on input line 
-13.
-(pdftex.def)             Requested size: 172.0pt x 247.00258pt.
- [10 <./struct_menu_pont__coll__graph.pdf>])
-(./struct_search_conditions.tex [11]) [12]
-Chapter 4.
-(./eventrecord_8c.tex
+(Font)              scaled to size 7.19995pt on input line 37.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 37.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) [7]
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 69.
+
+Overfull \vbox (20.41457pt too high) has occurred while \output is active []
+
+
+[8]
+Underfull \hbox (badness 10000) detected at line 104
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 124
+[][][]
+ []
+
+) [9] [10
+
+]
+Chapter 5.
+(./struct_event.tex [11] [12]) (./struct_event_list.tex)
+(./struct_find_list.tex [13]) (./struct_found_event.tex)
+(./struct_lefoglalt.tex [14] [15]) (./struct_menu_pont.tex [16])
+(./struct_search_conditions.tex [17]) [18]
+Chapter 6.
+(./debugmalloc_8c.tex
+Overfull \hbox (21.96867pt too wide) in paragraph at lines 1--1
+[]\T1/phv/bc/n/14.4 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calenda
+r2/calendar/debugmalloc.c
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--11
+
+ []
+
+[19
+
+] [20]) (./debugmalloc_8h.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 22.16548pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21]
+Overfull \hbox (22.5518pt too wide) in paragraph at lines 1--1
+[]\T1/phv/bc/n/14.4 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calenda
+r2/calendar/debugmalloc.h
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+[22]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 22.16548pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23]) (./eventrecord_8c.tex
 Overfull \hbox (17.10901pt too wide) in paragraph at lines 1--1
 []\T1/phv/bc/n/14.4 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calenda
 r2/calendar/eventrecord.c
  []
 
-<eventrecord_8c__incl.pdf, id=973, 258.9675pt x 302.12875pt>
-File: eventrecord_8c__incl.pdf Graphic file (type pdf)
-<use eventrecord_8c__incl.pdf>
-Package pdftex.def Info: eventrecord_8c__incl.pdf  used on input line 11.
-(pdftex.def)             Requested size: 258.0pt x 301.03079pt.
-[13
 
- <./eventrecord_8c__incl.pdf>]
-LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 26.
-<eventrecord_8c_a11934cc1b696462c4e57812dacc83f6a_cgraph.pdf, id=990, 289.08pt 
-x 100.375pt>
-File: eventrecord_8c_a11934cc1b696462c4e57812dacc83f6a_cgraph.pdf Graphic file 
-(type pdf)
-<use eventrecord_8c_a11934cc1b696462c4e57812dacc83f6a_cgraph.pdf>
-Package pdftex.def Info: eventrecord_8c_a11934cc1b696462c4e57812dacc83f6a_cgrap
-h.pdf  used on input line 33.
-(pdftex.def)             Requested size: 288.0pt x 100.00562pt.
-<eventrecord_8c_a11934cc1b696462c4e57812dacc83f6a_icgraph.pdf, id=991, 884.3037
-6pt x 252.945pt>
-File: eventrecord_8c_a11934cc1b696462c4e57812dacc83f6a_icgraph.pdf Graphic file
- (type pdf)
-<use eventrecord_8c_a11934cc1b696462c4e57812dacc83f6a_icgraph.pdf>
-Package pdftex.def Info: eventrecord_8c_a11934cc1b696462c4e57812dacc83f6a_icgra
-ph.pdf  used on input line 41.
-(pdftex.def)             Requested size: 350.0pt x 100.1148pt.
-) (./eventrecord_8h.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--10
+
+ []
+
+[24]) (./eventrecord_8h.tex
 Overfull \hbox (17.69214pt too wide) in paragraph at lines 1--1
 []\T1/phv/bc/n/14.4 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calenda
 r2/calendar/eventrecord.h
  []
 
-<eventrecord_8h__incl.pdf, id=992, 208.78pt x 245.91875pt>
-File: eventrecord_8h__incl.pdf Graphic file (type pdf)
-<use eventrecord_8h__incl.pdf>
-Package pdftex.def Info: eventrecord_8h__incl.pdf  used on input line 8.
-(pdftex.def)             Requested size: 208.0pt x 245.0138pt.
-[14 <./eventrecord_8c_a11934cc1b696462c4e57812dacc83f6a_cgraph.pdf> <./eventrec
-ord_8c_a11934cc1b696462c4e57812dacc83f6a_icgraph.pdf
 
-pdfTeX warning: pdflatex (file ./eventrecord_8c_a11934cc1b696462c4e57812dacc83f
-6a_icgraph.pdf): PDF inclusion: multiple pdfs with page group included in a sin
-gle page
->]
-<eventrecord_8h__dep__incl.pdf, id=1012, 208.78pt x 222.8325pt>
-File: eventrecord_8h__dep__incl.pdf Graphic file (type pdf)
-<use eventrecord_8h__dep__incl.pdf>
-Package pdftex.def Info: eventrecord_8h__dep__incl.pdf  used on input line 16.
-(pdftex.def)             Requested size: 208.0pt x 222.01251pt.
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
 ) (./file_8c.tex
 Underfull \hbox (badness 5133) in paragraph at lines 1--1
 []\T1/phv/bc/n/14.4 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calenda
 r2/calendar/file.c File
  []
 
-<file_8c__incl.pdf, id=1013, 315.1775pt x 291.0875pt>
-File: file_8c__incl.pdf Graphic file (type pdf)
-<use file_8c__incl.pdf>
-Package pdftex.def Info: file_8c__incl.pdf  used on input line 13.
-(pdftex.def)             Requested size: 314.0pt x 290.01634pt.
-[15 <./eventrecord_8h__incl.pdf> <./eventrecord_8h__dep__incl.pdf
 
-pdfTeX warning: pdflatex (file ./eventrecord_8h__dep__incl.pdf): PDF inclusion:
- multiple pdfs with page group included in a single page
->]
-<file_8c_ab3ba45c99ca47b62544bd6c4c18f0844_cgraph.pdf, id=1037, 347.2975pt x 17
-6.66pt>
-File: file_8c_ab3ba45c99ca47b62544bd6c4c18f0844_cgraph.pdf Graphic file (type p
-df)
-<use file_8c_ab3ba45c99ca47b62544bd6c4c18f0844_cgraph.pdf>
-Package pdftex.def Info: file_8c_ab3ba45c99ca47b62544bd6c4c18f0844_cgraph.pdf  
-used on input line 39.
-(pdftex.def)             Requested size: 346.0pt x 176.00722pt.
- [16 <./file_8c__incl.pdf>]
-<file_8c_ab3ba45c99ca47b62544bd6c4c18f0844_icgraph.pdf, id=1053, 225.84375pt x 
-100.375pt>
-File: file_8c_ab3ba45c99ca47b62544bd6c4c18f0844_icgraph.pdf Graphic file (type 
-pdf)
-<use file_8c_ab3ba45c99ca47b62544bd6c4c18f0844_icgraph.pdf>
-Package pdftex.def Info: file_8c_ab3ba45c99ca47b62544bd6c4c18f0844_icgraph.pdf 
- used on input line 47.
-(pdftex.def)             Requested size: 225.0pt x 100.00562pt.
-<file_8c_a894fe0f62442d90fb5a74f2087f78207_icgraph.pdf, id=1055, 652.4375pt x 1
-38.5175pt>
-File: file_8c_a894fe0f62442d90fb5a74f2087f78207_icgraph.pdf Graphic file (type 
-pdf)
-<use file_8c_a894fe0f62442d90fb5a74f2087f78207_icgraph.pdf>
-Package pdftex.def Info: file_8c_a894fe0f62442d90fb5a74f2087f78207_icgraph.pdf 
- used on input line 61.
-(pdftex.def)             Requested size: 350.0pt x 74.31007pt.
-<file_8c_a36d5c6b5abd971ee26b1d1ee32d3919c_icgraph.pdf, id=1056, 311.1625pt x 1
-00.375pt>
-File: file_8c_a36d5c6b5abd971ee26b1d1ee32d3919c_icgraph.pdf Graphic file (type 
-pdf)
-<use file_8c_a36d5c6b5abd971ee26b1d1ee32d3919c_icgraph.pdf>
-Package pdftex.def Info: file_8c_a36d5c6b5abd971ee26b1d1ee32d3919c_icgraph.pdf 
- used on input line 75.
-(pdftex.def)             Requested size: 310.0pt x 100.00102pt.
-) (./file_8h.tex [17 <./file_8c_ab3ba45c99ca47b62544bd6c4c18f0844_cgraph.pdf> <
-./file_8c_ab3ba45c99ca47b62544bd6c4c18f0844_icgraph.pdf
+Underfull \hbox (badness 10000) in paragraph at lines 3--10
 
-pdfTeX warning: pdflatex (file ./file_8c_ab3ba45c99ca47b62544bd6c4c18f0844_icgr
-aph.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
-e
-> <./file_8c_a894fe0f62442d90fb5a74f2087f78207_icgraph.pdf
+ []
 
-pdfTeX warning: pdflatex (file ./file_8c_a894fe0f62442d90fb5a74f2087f78207_icgr
-aph.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
-e
->]
+[25]) (./file_8h.tex
 Underfull \hbox (badness 3884) in paragraph at lines 1--1
 []\T1/phv/bc/n/14.4 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calenda
 r2/calendar/file.h File
  []
 
-<file_8h__incl.pdf, id=1081, 232.87pt x 234.8775pt>
-File: file_8h__incl.pdf Graphic file (type pdf)
-<use file_8h__incl.pdf>
-Package pdftex.def Info: file_8h__incl.pdf  used on input line 9.
-(pdftex.def)             Requested size: 232.0pt x 234.0096pt.
-<file_8h__dep__incl.pdf, id=1082, 594.22pt x 200.75pt>
-File: file_8h__dep__incl.pdf Graphic file (type pdf)
-<use file_8h__dep__incl.pdf>
-Package pdftex.def Info: file_8h__dep__incl.pdf  used on input line 16.
-(pdftex.def)             Requested size: 350.0pt x 118.24847pt.
 
-Underfull \vbox (badness 1648) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
- [18 <./file_8c_a36d5c6b5abd971ee26b1d1ee32d3919c_icgraph.pdf> <./file_8h__incl
-.pdf
+ []
 
-pdfTeX warning: pdflatex (file ./file_8h__incl.pdf): PDF inclusion: multiple pd
-fs with page group included in a single page
->]
-<file_8h_afc715bc6c0b9a9e85af15dc509a8d34b_cgraph.pdf, id=1104, 240.9pt x 100.3
-75pt>
-File: file_8h_afc715bc6c0b9a9e85af15dc509a8d34b_cgraph.pdf Graphic file (type p
-df)
-<use file_8h_afc715bc6c0b9a9e85af15dc509a8d34b_cgraph.pdf>
-Package pdftex.def Info: file_8h_afc715bc6c0b9a9e85af15dc509a8d34b_cgraph.pdf  
-used on input line 46.
-(pdftex.def)             Requested size: 240.0pt x 100.00255pt.
-<file_8h_afc715bc6c0b9a9e85af15dc509a8d34b_icgraph.pdf, id=1105, 542.025pt x 13
-8.5175pt>
-File: file_8h_afc715bc6c0b9a9e85af15dc509a8d34b_icgraph.pdf Graphic file (type 
-pdf)
-<use file_8h_afc715bc6c0b9a9e85af15dc509a8d34b_icgraph.pdf>
-Package pdftex.def Info: file_8h_afc715bc6c0b9a9e85af15dc509a8d34b_icgraph.pdf 
- used on input line 54.
-(pdftex.def)             Requested size: 350.0pt x 89.44771pt.
-) (./list_8c.tex
+[26]) (./list_8c.tex
 Underfull \hbox (badness 5637) in paragraph at lines 1--1
 []\T1/phv/bc/n/14.4 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calenda
 r2/calendar/list.c File
  []
 
-<list_8c__incl.pdf, id=1106, 291.0875pt x 291.0875pt>
-File: list_8c__incl.pdf Graphic file (type pdf)
-<use list_8c__incl.pdf>
-Package pdftex.def Info: list_8c__incl.pdf  used on input line 11.
-(pdftex.def)             Requested size: 290.0pt x 290.02078pt.
-[19 <./file_8h__dep__incl.pdf> <./file_8h_afc715bc6c0b9a9e85af15dc509a8d34b_cgr
-aph.pdf
 
-pdfTeX warning: pdflatex (file ./file_8h_afc715bc6c0b9a9e85af15dc509a8d34b_cgra
-ph.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+Underfull \hbox (badness 10000) in paragraph at lines 3--8
 
-> <./file_8h_afc715bc6c0b9a9e85af15dc509a8d34b_icgraph.pdf
+ []
 
-pdfTeX warning: pdflatex (file ./file_8h_afc715bc6c0b9a9e85af15dc509a8d34b_icgr
-aph.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
-e
->] [20 <./list_8c__incl.pdf>]
-<list_8c_a24fd1b37eee54600b66c42e86b52244a_icgraph.pdf, id=1163, 449.68pt x 176
-.66pt>
-File: list_8c_a24fd1b37eee54600b66c42e86b52244a_icgraph.pdf Graphic file (type 
-pdf)
-<use list_8c_a24fd1b37eee54600b66c42e86b52244a_icgraph.pdf>
-Package pdftex.def Info: list_8c_a24fd1b37eee54600b66c42e86b52244a_icgraph.pdf 
- used on input line 41.
-(pdftex.def)             Requested size: 350.0pt x 137.5058pt.
-<list_8c_a48f44148563512bd32274821f478bd1b_icgraph.pdf, id=1165, 220.825pt x 10
-0.375pt>
-File: list_8c_a48f44148563512bd32274821f478bd1b_icgraph.pdf Graphic file (type 
-pdf)
-<use list_8c_a48f44148563512bd32274821f478bd1b_icgraph.pdf>
-Package pdftex.def Info: list_8c_a48f44148563512bd32274821f478bd1b_icgraph.pdf 
- used on input line 55.
-(pdftex.def)             Requested size: 220.0pt x 100.00409pt.
-<list_8c_a7ef519287e473ee333204280a5d91403_cgraph.pdf, id=1168, 236.885pt x 100
-.375pt>
-File: list_8c_a7ef519287e473ee333204280a5d91403_cgraph.pdf Graphic file (type p
-df)
-<use list_8c_a7ef519287e473ee333204280a5d91403_cgraph.pdf>
-Package pdftex.def Info: list_8c_a7ef519287e473ee333204280a5d91403_cgraph.pdf  
-used on input line 69.
-(pdftex.def)             Requested size: 236.0pt x 100.00255pt.
- [21 <./list_8c_a24fd1b37eee54600b66c42e86b52244a_icgraph.pdf> <./list_8c_a48f4
-4148563512bd32274821f478bd1b_icgraph.pdf
-
-pdfTeX warning: pdflatex (file ./list_8c_a48f44148563512bd32274821f478bd1b_icgr
-aph.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
-e
->]
-<list_8c_a7ef519287e473ee333204280a5d91403_icgraph.pdf, id=1186, 446.66875pt x 
-176.66pt>
-File: list_8c_a7ef519287e473ee333204280a5d91403_icgraph.pdf Graphic file (type 
-pdf)
-<use list_8c_a7ef519287e473ee333204280a5d91403_icgraph.pdf>
-Package pdftex.def Info: list_8c_a7ef519287e473ee333204280a5d91403_icgraph.pdf 
- used on input line 77.
-(pdftex.def)             Requested size: 350.0pt x 138.4304pt.
-<list_8c_a2561d96be1299fd3f5730c6d82143709_icgraph.pdf, id=1188, 1006.76125pt x
- 252.945pt>
-File: list_8c_a2561d96be1299fd3f5730c6d82143709_icgraph.pdf Graphic file (type 
-pdf)
-<use list_8c_a2561d96be1299fd3f5730c6d82143709_icgraph.pdf>
-Package pdftex.def Info: list_8c_a2561d96be1299fd3f5730c6d82143709_icgraph.pdf 
- used on input line 91.
-(pdftex.def)             Requested size: 350.0pt x 87.93382pt.
-<list_8c_a8f7708495c6e39bb6e712218711b331f_icgraph.pdf, id=1190, 538.01pt x 176
-.66pt>
-File: list_8c_a8f7708495c6e39bb6e712218711b331f_icgraph.pdf Graphic file (type 
-pdf)
-<use list_8c_a8f7708495c6e39bb6e712218711b331f_icgraph.pdf>
-Package pdftex.def Info: list_8c_a8f7708495c6e39bb6e712218711b331f_icgraph.pdf 
- used on input line 105.
-(pdftex.def)             Requested size: 350.0pt x 114.92467pt.
-) (./list_8h.tex [22 <./list_8c_a7ef519287e473ee333204280a5d91403_cgraph.pdf> <
-./list_8c_a7ef519287e473ee333204280a5d91403_icgraph.pdf
-
-pdfTeX warning: pdflatex (file ./list_8c_a7ef519287e473ee333204280a5d91403_icgr
-aph.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
-e
-> <./list_8c_a2561d96be1299fd3f5730c6d82143709_icgraph.pdf
-
-pdfTeX warning: pdflatex (file ./list_8c_a2561d96be1299fd3f5730c6d82143709_icgr
-aph.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
-e
->]
+[27]) (./list_8h.tex
 Underfull \hbox (badness 4303) in paragraph at lines 1--1
 []\T1/phv/bc/n/14.4 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calenda
 r2/calendar/list.h File
  []
 
-<list_8h__incl.pdf, id=1214, 232.87pt x 234.8775pt>
-File: list_8h__incl.pdf Graphic file (type pdf)
-<use list_8h__incl.pdf>
-Package pdftex.def Info: list_8h__incl.pdf  used on input line 9.
-(pdftex.def)             Requested size: 232.0pt x 234.0096pt.
-<list_8h__dep__incl.pdf, id=1215, 764.8575pt x 200.75pt>
-File: list_8h__dep__incl.pdf Graphic file (type pdf)
-<use list_8h__dep__incl.pdf>
-Package pdftex.def Info: list_8h__dep__incl.pdf  used on input line 17.
-(pdftex.def)             Requested size: 350.0pt x 91.86212pt.
 
-Underfull \vbox (badness 1087) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
- [23 <./list_8c_a8f7708495c6e39bb6e712218711b331f_icgraph.pdf> <./list_8h__incl
-.pdf
+ []
 
-pdfTeX warning: pdflatex (file ./list_8h__incl.pdf): PDF inclusion: multiple pd
-fs with page group included in a single page
->]
-<list_8h_a24fd1b37eee54600b66c42e86b52244a_icgraph.pdf, id=1247, 449.68pt x 176
-.66pt>
-File: list_8h_a24fd1b37eee54600b66c42e86b52244a_icgraph.pdf Graphic file (type 
-pdf)
-<use list_8h_a24fd1b37eee54600b66c42e86b52244a_icgraph.pdf>
-Package pdftex.def Info: list_8h_a24fd1b37eee54600b66c42e86b52244a_icgraph.pdf 
- used on input line 59.
-(pdftex.def)             Requested size: 350.0pt x 137.5058pt.
- [24 <./list_8h__dep__incl.pdf>]
-<list_8h_a48f44148563512bd32274821f478bd1b_icgraph.pdf, id=1267, 220.825pt x 10
-0.375pt>
-File: list_8h_a48f44148563512bd32274821f478bd1b_icgraph.pdf Graphic file (type 
-pdf)
-<use list_8h_a48f44148563512bd32274821f478bd1b_icgraph.pdf>
-Package pdftex.def Info: list_8h_a48f44148563512bd32274821f478bd1b_icgraph.pdf 
- used on input line 73.
-(pdftex.def)             Requested size: 220.0pt x 100.00409pt.
-<list_8h_a7ef519287e473ee333204280a5d91403_cgraph.pdf, id=1270, 236.885pt x 100
-.375pt>
-File: list_8h_a7ef519287e473ee333204280a5d91403_cgraph.pdf Graphic file (type p
-df)
-<use list_8h_a7ef519287e473ee333204280a5d91403_cgraph.pdf>
-Package pdftex.def Info: list_8h_a7ef519287e473ee333204280a5d91403_cgraph.pdf  
-used on input line 87.
-(pdftex.def)             Requested size: 236.0pt x 100.00255pt.
- [25 <./list_8h_a24fd1b37eee54600b66c42e86b52244a_icgraph.pdf> <./list_8h_a48f4
-4148563512bd32274821f478bd1b_icgraph.pdf
-
-pdfTeX warning: pdflatex (file ./list_8h_a48f44148563512bd32274821f478bd1b_icgr
-aph.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
-e
->]
-<list_8h_a7ef519287e473ee333204280a5d91403_icgraph.pdf, id=1288, 446.66875pt x 
-176.66pt>
-File: list_8h_a7ef519287e473ee333204280a5d91403_icgraph.pdf Graphic file (type 
-pdf)
-<use list_8h_a7ef519287e473ee333204280a5d91403_icgraph.pdf>
-Package pdftex.def Info: list_8h_a7ef519287e473ee333204280a5d91403_icgraph.pdf 
- used on input line 95.
-(pdftex.def)             Requested size: 350.0pt x 138.4304pt.
-<list_8h_a2561d96be1299fd3f5730c6d82143709_icgraph.pdf, id=1290, 1006.76125pt x
- 252.945pt>
-File: list_8h_a2561d96be1299fd3f5730c6d82143709_icgraph.pdf Graphic file (type 
-pdf)
-<use list_8h_a2561d96be1299fd3f5730c6d82143709_icgraph.pdf>
-Package pdftex.def Info: list_8h_a2561d96be1299fd3f5730c6d82143709_icgraph.pdf 
- used on input line 109.
-(pdftex.def)             Requested size: 350.0pt x 87.93382pt.
-) (./main_8c.tex
+[28] [29]) (./main_8c.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 []\T1/phv/bc/n/14.4 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calenda
 r2/calendar/main.c
  []
 
-<main_8c__incl.pdf, id=1291, 434.62375pt x 291.0875pt>
-File: main_8c__incl.pdf Graphic file (type pdf)
-<use main_8c__incl.pdf>
-Package pdftex.def Info: main_8c__incl.pdf  used on input line 15.
-(pdftex.def)             Requested size: 350.0pt x 234.42487pt.
-[26 <./list_8h_a7ef519287e473ee333204280a5d91403_cgraph.pdf> <./list_8h_a7ef519
-287e473ee333204280a5d91403_icgraph.pdf
 
-pdfTeX warning: pdflatex (file ./list_8h_a7ef519287e473ee333204280a5d91403_icgr
-aph.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
-e
-> <./list_8h_a2561d96be1299fd3f5730c6d82143709_icgraph.pdf
+Underfull \hbox (badness 10000) in paragraph at lines 3--11
 
-pdfTeX warning: pdflatex (file ./list_8h_a2561d96be1299fd3f5730c6d82143709_icgr
-aph.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
-e
->]
-<main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf, id=1316, 1035.87pt x 519
-.9425pt>
-File: main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf Graphic file (type p
-df)
-<use main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf>
-Package pdftex.def Info: main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf  
-used on input line 37.
-(pdftex.def)             Requested size: 350.0pt x 175.67532pt.
-) (./menu_8c.tex [27 <./main_8c__incl.pdf>]
+ []
+
+[30]) (./menu_8c.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 []\T1/phv/bc/n/14.4 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calenda
 r2/calendar/menu.c
  []
 
-<menu_8c__incl.pdf, id=1330, 564.1075pt x 291.0875pt>
-File: menu_8c__incl.pdf Graphic file (type pdf)
-<use menu_8c__incl.pdf>
-Package pdftex.def Info: menu_8c__incl.pdf  used on input line 17.
-(pdftex.def)             Requested size: 350.0pt x 180.60562pt.
-[28 <./main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf> <./menu_8c__incl.p
-df
 
-pdfTeX warning: pdflatex (file ./menu_8c__incl.pdf): PDF inclusion: multiple pd
-fs with page group included in a single page
->]
-<menu_8c_ac651d3838f4da7bf6055fa839621e289_cgraph.pdf, id=1379, 446.66875pt x 1
-00.375pt>
-File: menu_8c_ac651d3838f4da7bf6055fa839621e289_cgraph.pdf Graphic file (type p
-df)
-<use menu_8c_ac651d3838f4da7bf6055fa839621e289_cgraph.pdf>
-Package pdftex.def Info: menu_8c_ac651d3838f4da7bf6055fa839621e289_cgraph.pdf  
-used on input line 69.
-(pdftex.def)             Requested size: 350.0pt x 78.65363pt.
-<menu_8c_ac651d3838f4da7bf6055fa839621e289_icgraph.pdf, id=1380, 330.23375pt x 
-138.5175pt>
-File: menu_8c_ac651d3838f4da7bf6055fa839621e289_icgraph.pdf Graphic file (type 
-pdf)
-<use menu_8c_ac651d3838f4da7bf6055fa839621e289_icgraph.pdf>
-Package pdftex.def Info: menu_8c_ac651d3838f4da7bf6055fa839621e289_icgraph.pdf 
- used on input line 77.
-(pdftex.def)             Requested size: 329.0pt x 138.00565pt.
- [29 <./menu_8c_ac651d3838f4da7bf6055fa839621e289_cgraph.pdf> <./menu_8c_ac651d
-3838f4da7bf6055fa839621e289_icgraph.pdf
+Underfull \hbox (badness 10000) in paragraph at lines 3--14
 
-pdfTeX warning: pdflatex (file ./menu_8c_ac651d3838f4da7bf6055fa839621e289_icgr
-aph.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
-e
->]
-<menu_8c_afc715bc6c0b9a9e85af15dc509a8d34b_cgraph.pdf, id=1411, 240.9pt x 100.3
-75pt>
-File: menu_8c_afc715bc6c0b9a9e85af15dc509a8d34b_cgraph.pdf Graphic file (type p
-df)
-<use menu_8c_afc715bc6c0b9a9e85af15dc509a8d34b_cgraph.pdf>
-Package pdftex.def Info: menu_8c_afc715bc6c0b9a9e85af15dc509a8d34b_cgraph.pdf  
-used on input line 91.
-(pdftex.def)             Requested size: 240.0pt x 100.00255pt.
-<menu_8c_afc715bc6c0b9a9e85af15dc509a8d34b_icgraph.pdf, id=1412, 542.025pt x 13
-8.5175pt>
-File: menu_8c_afc715bc6c0b9a9e85af15dc509a8d34b_icgraph.pdf Graphic file (type 
-pdf)
-<use menu_8c_afc715bc6c0b9a9e85af15dc509a8d34b_icgraph.pdf>
-Package pdftex.def Info: menu_8c_afc715bc6c0b9a9e85af15dc509a8d34b_icgraph.pdf 
- used on input line 99.
-(pdftex.def)             Requested size: 350.0pt x 89.44771pt.
-<menu_8c_ab9ac014b764791c1dc71c187dca898f7_icgraph.pdf, id=1413, 467.7475pt x 1
-38.5175pt>
-File: menu_8c_ab9ac014b764791c1dc71c187dca898f7_icgraph.pdf Graphic file (type 
-pdf)
-<use menu_8c_ab9ac014b764791c1dc71c187dca898f7_icgraph.pdf>
-Package pdftex.def Info: menu_8c_ab9ac014b764791c1dc71c187dca898f7_icgraph.pdf 
- used on input line 113.
-(pdftex.def)             Requested size: 350.0pt x 103.65324pt.
-<menu_8c_ac86d3169260f5cacd0f792743957b054_cgraph.pdf, id=1414, 939.51pt x 481.
-8pt>
-File: menu_8c_ac86d3169260f5cacd0f792743957b054_cgraph.pdf Graphic file (type p
-df)
-<use menu_8c_ac86d3169260f5cacd0f792743957b054_cgraph.pdf>
-Package pdftex.def Info: menu_8c_ac86d3169260f5cacd0f792743957b054_cgraph.pdf  
-used on input line 127.
-(pdftex.def)             Requested size: 350.0pt x 179.48358pt.
- [30 <./menu_8c_afc715bc6c0b9a9e85af15dc509a8d34b_cgraph.pdf> <./menu_8c_afc715
-bc6c0b9a9e85af15dc509a8d34b_icgraph.pdf
+ []
 
-pdfTeX warning: pdflatex (file ./menu_8c_afc715bc6c0b9a9e85af15dc509a8d34b_icgr
-aph.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
-e
-> <./menu_8c_ab9ac014b764791c1dc71c187dca898f7_icgraph.pdf
-
-pdfTeX warning: pdflatex (file ./menu_8c_ab9ac014b764791c1dc71c187dca898f7_icgr
-aph.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
-e
->]
-<menu_8c_ac86d3169260f5cacd0f792743957b054_icgraph.pdf, id=1438, 216.81pt x 100
-.375pt>
-File: menu_8c_ac86d3169260f5cacd0f792743957b054_icgraph.pdf Graphic file (type 
-pdf)
-<use menu_8c_ac86d3169260f5cacd0f792743957b054_icgraph.pdf>
-Package pdftex.def Info: menu_8c_ac86d3169260f5cacd0f792743957b054_icgraph.pdf 
- used on input line 135.
-(pdftex.def)             Requested size: 216.0pt x 100.00562pt.
-<menu_8c_ac2c3136ef241a7150d7cff391a0eb048_cgraph.pdf, id=1440, 365.365pt x 176
-.66pt>
-File: menu_8c_ac2c3136ef241a7150d7cff391a0eb048_cgraph.pdf Graphic file (type p
-df)
-<use menu_8c_ac2c3136ef241a7150d7cff391a0eb048_cgraph.pdf>
-Package pdftex.def Info: menu_8c_ac2c3136ef241a7150d7cff391a0eb048_cgraph.pdf  
-used on input line 149.
-(pdftex.def)             Requested size: 350.0pt x 169.23854pt.
-<menu_8c_ac2c3136ef241a7150d7cff391a0eb048_icgraph.pdf, id=1441, 333.245pt x 13
-8.5175pt>
-File: menu_8c_ac2c3136ef241a7150d7cff391a0eb048_icgraph.pdf Graphic file (type 
-pdf)
-<use menu_8c_ac2c3136ef241a7150d7cff391a0eb048_icgraph.pdf>
-Package pdftex.def Info: menu_8c_ac2c3136ef241a7150d7cff391a0eb048_icgraph.pdf 
- used on input line 157.
-(pdftex.def)             Requested size: 332.0pt x 138.00987pt.
- [31 <./menu_8c_ac86d3169260f5cacd0f792743957b054_cgraph.pdf> <./menu_8c_ac86d3
-169260f5cacd0f792743957b054_icgraph.pdf
-
-pdfTeX warning: pdflatex (file ./menu_8c_ac86d3169260f5cacd0f792743957b054_icgr
-aph.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
-e
-> <./menu_8c_ac2c3136ef241a7150d7cff391a0eb048_cgraph.pdf
-
-pdfTeX warning: pdflatex (file ./menu_8c_ac2c3136ef241a7150d7cff391a0eb048_cgra
-ph.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-
->]
-<menu_8c_a1aa7ba6b6941a272c34eea491e4a650d_icgraph.pdf, id=1467, 312.16624pt x 
-100.375pt>
-File: menu_8c_a1aa7ba6b6941a272c34eea491e4a650d_icgraph.pdf Graphic file (type 
-pdf)
-<use menu_8c_a1aa7ba6b6941a272c34eea491e4a650d_icgraph.pdf>
-Package pdftex.def Info: menu_8c_a1aa7ba6b6941a272c34eea491e4a650d_icgraph.pdf 
- used on input line 171.
-(pdftex.def)             Requested size: 311.0pt x 100.00255pt.
-<menu_8c_aa28daf84be098b64b8dfea8a88050f13_cgraph.pdf, id=1469, 458.71375pt x 1
-00.375pt>
-File: menu_8c_aa28daf84be098b64b8dfea8a88050f13_cgraph.pdf Graphic file (type p
-df)
-<use menu_8c_aa28daf84be098b64b8dfea8a88050f13_cgraph.pdf>
-Package pdftex.def Info: menu_8c_aa28daf84be098b64b8dfea8a88050f13_cgraph.pdf  
-used on input line 185.
-(pdftex.def)             Requested size: 350.0pt x 76.59056pt.
-<menu_8c_aa28daf84be098b64b8dfea8a88050f13_icgraph.pdf, id=1470, 336.25626pt x 
-138.5175pt>
-File: menu_8c_aa28daf84be098b64b8dfea8a88050f13_icgraph.pdf Graphic file (type 
-pdf)
-<use menu_8c_aa28daf84be098b64b8dfea8a88050f13_icgraph.pdf>
-Package pdftex.def Info: menu_8c_aa28daf84be098b64b8dfea8a88050f13_icgraph.pdf 
- used on input line 193.
-(pdftex.def)             Requested size: 335.0pt x 138.00142pt.
- [32 <./menu_8c_ac2c3136ef241a7150d7cff391a0eb048_icgraph.pdf> <./menu_8c_a1aa7
-ba6b6941a272c34eea491e4a650d_icgraph.pdf
-
-pdfTeX warning: pdflatex (file ./menu_8c_a1aa7ba6b6941a272c34eea491e4a650d_icgr
-aph.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
-e
-> <./menu_8c_aa28daf84be098b64b8dfea8a88050f13_cgraph.pdf
-
-pdfTeX warning: pdflatex (file ./menu_8c_aa28daf84be098b64b8dfea8a88050f13_cgra
-ph.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-
->]
-<menu_8c_aa12eba16d2e2bd5dfc70240d19bd5c8e_cgraph.pdf, id=1495, 354.32375pt x 1
-00.375pt>
-File: menu_8c_aa12eba16d2e2bd5dfc70240d19bd5c8e_cgraph.pdf Graphic file (type p
-df)
-<use menu_8c_aa12eba16d2e2bd5dfc70240d19bd5c8e_cgraph.pdf>
-Package pdftex.def Info: menu_8c_aa12eba16d2e2bd5dfc70240d19bd5c8e_cgraph.pdf  
-used on input line 207.
-(pdftex.def)             Requested size: 350.0pt x 99.15251pt.
-<menu_8c_aa12eba16d2e2bd5dfc70240d19bd5c8e_icgraph.pdf, id=1496, 443.6575pt x 1
-38.5175pt>
-File: menu_8c_aa12eba16d2e2bd5dfc70240d19bd5c8e_icgraph.pdf Graphic file (type 
-pdf)
-<use menu_8c_aa12eba16d2e2bd5dfc70240d19bd5c8e_icgraph.pdf>
-Package pdftex.def Info: menu_8c_aa12eba16d2e2bd5dfc70240d19bd5c8e_icgraph.pdf 
- used on input line 215.
-(pdftex.def)             Requested size: 350.0pt x 109.27544pt.
-<menu_8c_a033e355dbab3723c9d57e8f3e6fe52e1_icgraph.pdf, id=1497, 439.6425pt x 1
-38.5175pt>
-File: menu_8c_a033e355dbab3723c9d57e8f3e6fe52e1_icgraph.pdf Graphic file (type 
-pdf)
-<use menu_8c_a033e355dbab3723c9d57e8f3e6fe52e1_icgraph.pdf>
-Package pdftex.def Info: menu_8c_a033e355dbab3723c9d57e8f3e6fe52e1_icgraph.pdf 
- used on input line 229.
-(pdftex.def)             Requested size: 350.0pt x 110.27728pt.
- [33 <./menu_8c_aa28daf84be098b64b8dfea8a88050f13_icgraph.pdf> <./menu_8c_aa12e
-ba16d2e2bd5dfc70240d19bd5c8e_cgraph.pdf
-
-pdfTeX warning: pdflatex (file ./menu_8c_aa12eba16d2e2bd5dfc70240d19bd5c8e_cgra
-ph.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-
-> <./menu_8c_aa12eba16d2e2bd5dfc70240d19bd5c8e_icgraph.pdf
-
-pdfTeX warning: pdflatex (file ./menu_8c_aa12eba16d2e2bd5dfc70240d19bd5c8e_icgr
-aph.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
-e
->]
-<menu_8c_a8e572ab27981dcd7144340fd25a24c80_cgraph.pdf, id=1522, 960.58875pt x 4
-81.8pt>
-File: menu_8c_a8e572ab27981dcd7144340fd25a24c80_cgraph.pdf Graphic file (type p
-df)
-<use menu_8c_a8e572ab27981dcd7144340fd25a24c80_cgraph.pdf>
-Package pdftex.def Info: menu_8c_a8e572ab27981dcd7144340fd25a24c80_cgraph.pdf  
-used on input line 243.
-(pdftex.def)             Requested size: 350.0pt x 175.55043pt.
-<menu_8c_a8e572ab27981dcd7144340fd25a24c80_icgraph.pdf, id=1523, 237.88875pt x 
-100.375pt>
-File: menu_8c_a8e572ab27981dcd7144340fd25a24c80_icgraph.pdf Graphic file (type 
-pdf)
-<use menu_8c_a8e572ab27981dcd7144340fd25a24c80_icgraph.pdf>
-Package pdftex.def Info: menu_8c_a8e572ab27981dcd7144340fd25a24c80_icgraph.pdf 
- used on input line 251.
-(pdftex.def)             Requested size: 237.0pt x 100.00409pt.
- [34 <./menu_8c_a033e355dbab3723c9d57e8f3e6fe52e1_icgraph.pdf> <./menu_8c_a8e57
-2ab27981dcd7144340fd25a24c80_cgraph.pdf
-
-pdfTeX warning: pdflatex (file ./menu_8c_a8e572ab27981dcd7144340fd25a24c80_cgra
-ph.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-
-> <./menu_8c_a8e572ab27981dcd7144340fd25a24c80_icgraph.pdf
-
-pdfTeX warning: pdflatex (file ./menu_8c_a8e572ab27981dcd7144340fd25a24c80_icgr
-aph.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
-e
->]
-<menu_8c_a6ef5647864065ede4ef3b2773cbb9e8d_cgraph.pdf, id=1548, 360.34625pt x 1
-00.375pt>
-File: menu_8c_a6ef5647864065ede4ef3b2773cbb9e8d_cgraph.pdf Graphic file (type p
-df)
-<use menu_8c_a6ef5647864065ede4ef3b2773cbb9e8d_cgraph.pdf>
-Package pdftex.def Info: menu_8c_a6ef5647864065ede4ef3b2773cbb9e8d_cgraph.pdf  
-used on input line 265.
-(pdftex.def)             Requested size: 350.0pt x 97.49226pt.
-<menu_8c_a6ef5647864065ede4ef3b2773cbb9e8d_icgraph.pdf, id=1549, 455.7025pt x 1
-38.5175pt>
-File: menu_8c_a6ef5647864065ede4ef3b2773cbb9e8d_icgraph.pdf Graphic file (type 
-pdf)
-<use menu_8c_a6ef5647864065ede4ef3b2773cbb9e8d_icgraph.pdf>
-Package pdftex.def Info: menu_8c_a6ef5647864065ede4ef3b2773cbb9e8d_icgraph.pdf 
- used on input line 273.
-(pdftex.def)             Requested size: 350.0pt x 106.39037pt.
-<menu_8c_a38d64ff02f60ebcb1988655ea12540a6_cgraph.pdf, id=1551, 826.08624pt x 2
-91.0875pt>
-File: menu_8c_a38d64ff02f60ebcb1988655ea12540a6_cgraph.pdf Graphic file (type p
-df)
-<use menu_8c_a38d64ff02f60ebcb1988655ea12540a6_cgraph.pdf>
-Package pdftex.def Info: menu_8c_a38d64ff02f60ebcb1988655ea12540a6_cgraph.pdf  
-used on input line 287.
-(pdftex.def)             Requested size: 350.0pt x 123.33078pt.
-<menu_8c_a38d64ff02f60ebcb1988655ea12540a6_icgraph.pdf, id=1552, 344.28625pt x 
-138.5175pt>
-File: menu_8c_a38d64ff02f60ebcb1988655ea12540a6_icgraph.pdf Graphic file (type 
-pdf)
-<use menu_8c_a38d64ff02f60ebcb1988655ea12540a6_icgraph.pdf>
-Package pdftex.def Info: menu_8c_a38d64ff02f60ebcb1988655ea12540a6_icgraph.pdf 
- used on input line 295.
-(pdftex.def)             Requested size: 343.0pt x 138.00142pt.
-) (./menu_8h.tex [35 <./menu_8c_a6ef5647864065ede4ef3b2773cbb9e8d_cgraph.pdf> <
-./menu_8c_a6ef5647864065ede4ef3b2773cbb9e8d_icgraph.pdf
-
-pdfTeX warning: pdflatex (file ./menu_8c_a6ef5647864065ede4ef3b2773cbb9e8d_icgr
-aph.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
-e
-> <./menu_8c_a38d64ff02f60ebcb1988655ea12540a6_cgraph.pdf
-
-pdfTeX warning: pdflatex (file ./menu_8c_a38d64ff02f60ebcb1988655ea12540a6_cgra
-ph.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-
->]
+[31] [32]) (./menu_8h.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 []\T1/phv/bc/n/14.4 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calenda
 r2/calendar/menu.h
  []
 
-<menu_8h__incl.pdf, id=1577, 243.91125pt x 234.8775pt>
-File: menu_8h__incl.pdf Graphic file (type pdf)
-<use menu_8h__incl.pdf>
-Package pdftex.def Info: menu_8h__incl.pdf  used on input line 8.
-(pdftex.def)             Requested size: 243.0pt x 234.00244pt.
-<menu_8h__dep__incl.pdf, id=1578, 423.5825pt x 200.75pt>
-File: menu_8h__dep__incl.pdf Graphic file (type pdf)
-<use menu_8h__dep__incl.pdf>
-Package pdftex.def Info: menu_8h__dep__incl.pdf  used on input line 15.
-(pdftex.def)             Requested size: 350.0pt x 165.88115pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
- [36 <./menu_8c_a38d64ff02f60ebcb1988655ea12540a6_icgraph.pdf> <./menu_8h__incl
-.pdf
+ []
 
-pdfTeX warning: pdflatex (file ./menu_8h__incl.pdf): PDF inclusion: multiple pd
-fs with page group included in a single page
->]
-<menu_8h_ab9ac014b764791c1dc71c187dca898f7_icgraph.pdf, id=1604, 467.7475pt x 1
-38.5175pt>
-File: menu_8h_ab9ac014b764791c1dc71c187dca898f7_icgraph.pdf Graphic file (type 
-pdf)
-<use menu_8h_ab9ac014b764791c1dc71c187dca898f7_icgraph.pdf>
-Package pdftex.def Info: menu_8h_ab9ac014b764791c1dc71c187dca898f7_icgraph.pdf 
- used on input line 52.
-(pdftex.def)             Requested size: 350.0pt x 103.65324pt.
- [37 <./menu_8h__dep__incl.pdf> <./menu_8h_ab9ac014b764791c1dc71c187dca898f7_ic
-graph.pdf
-
-pdfTeX warning: pdflatex (file ./menu_8h_ab9ac014b764791c1dc71c187dca898f7_icgr
-aph.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
-e
->]
-<menu_8h_a1aa7ba6b6941a272c34eea491e4a650d_icgraph.pdf, id=1630, 312.16624pt x 
-100.375pt>
-File: menu_8h_a1aa7ba6b6941a272c34eea491e4a650d_icgraph.pdf Graphic file (type 
-pdf)
-<use menu_8h_a1aa7ba6b6941a272c34eea491e4a650d_icgraph.pdf>
-Package pdftex.def Info: menu_8h_a1aa7ba6b6941a272c34eea491e4a650d_icgraph.pdf 
- used on input line 71.
-(pdftex.def)             Requested size: 311.0pt x 100.00255pt.
-) (./search_8c.tex
+[33] [34]) (./search_8c.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 []\T1/phv/bc/n/14.4 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calenda
 r2/calendar/search.c
  []
 
-<search_8c__incl.pdf, id=1631, 462.72874pt x 302.12875pt>
-File: search_8c__incl.pdf Graphic file (type pdf)
-<use search_8c__incl.pdf>
-Package pdftex.def Info: search_8c__incl.pdf  used on input line 15.
-(pdftex.def)             Requested size: 350.0pt x 228.52763pt.
-[38 <./menu_8h_a1aa7ba6b6941a272c34eea491e4a650d_icgraph.pdf>]
-<search_8c_aa13cd0a956bc531fe1e1329b6aebdef9_icgraph.pdf, id=1672, 655.44875pt 
-x 252.945pt>
-File: search_8c_aa13cd0a956bc531fe1e1329b6aebdef9_icgraph.pdf Graphic file (typ
-e pdf)
-<use search_8c_aa13cd0a956bc531fe1e1329b6aebdef9_icgraph.pdf>
-Package pdftex.def Info: search_8c_aa13cd0a956bc531fe1e1329b6aebdef9_icgraph.pd
-f  used on input line 57.
-(pdftex.def)             Requested size: 350.0pt x 135.06757pt.
- [39 <./search_8c__incl.pdf>]
-<search_8c_ace601ce27f555e73988b2db946d1ca5e_icgraph.pdf, id=1700, 672.5125pt x
- 252.945pt>
-File: search_8c_ace601ce27f555e73988b2db946d1ca5e_icgraph.pdf Graphic file (typ
-e pdf)
-<use search_8c_ace601ce27f555e73988b2db946d1ca5e_icgraph.pdf>
-Package pdftex.def Info: search_8c_ace601ce27f555e73988b2db946d1ca5e_icgraph.pd
-f  used on input line 71.
-(pdftex.def)             Requested size: 350.0pt x 131.64023pt.
-<search_8c_ad125ca3bc57ac537e0c541460bcc420a_cgraph.pdf, id=1703, 491.8375pt x 
-119.44624pt>
-File: search_8c_ad125ca3bc57ac537e0c541460bcc420a_cgraph.pdf Graphic file (type
- pdf)
-<use search_8c_ad125ca3bc57ac537e0c541460bcc420a_cgraph.pdf>
-Package pdftex.def Info: search_8c_ad125ca3bc57ac537e0c541460bcc420a_cgraph.pdf
-  used on input line 85.
-(pdftex.def)             Requested size: 350.0pt x 85.00243pt.
-<search_8c_ad125ca3bc57ac537e0c541460bcc420a_icgraph.pdf, id=1704, 659.46375pt 
-x 252.945pt>
-File: search_8c_ad125ca3bc57ac537e0c541460bcc420a_icgraph.pdf Graphic file (typ
-e pdf)
-<use search_8c_ad125ca3bc57ac537e0c541460bcc420a_icgraph.pdf>
-Package pdftex.def Info: search_8c_ad125ca3bc57ac537e0c541460bcc420a_icgraph.pd
-f  used on input line 93.
-(pdftex.def)             Requested size: 350.0pt x 134.24933pt.
- [40 <./search_8c_aa13cd0a956bc531fe1e1329b6aebdef9_icgraph.pdf> <./search_8c_a
-ce601ce27f555e73988b2db946d1ca5e_icgraph.pdf
 
-pdfTeX warning: pdflatex (file ./search_8c_ace601ce27f555e73988b2db946d1ca5e_ic
-graph.pdf): PDF inclusion: multiple pdfs with page group included in a single p
-age
-> <./search_8c_ad125ca3bc57ac537e0c541460bcc420a_cgraph.pdf
+Underfull \hbox (badness 10000) in paragraph at lines 3--11
 
-pdfTeX warning: pdflatex (file ./search_8c_ad125ca3bc57ac537e0c541460bcc420a_cg
-raph.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
-ge
->]
-<search_8c_a1bf81a11e19a6be70b3549a1e2fb5e70_cgraph.pdf, id=1729, 391.4625pt x 
-100.375pt>
-File: search_8c_a1bf81a11e19a6be70b3549a1e2fb5e70_cgraph.pdf Graphic file (type
- pdf)
-<use search_8c_a1bf81a11e19a6be70b3549a1e2fb5e70_cgraph.pdf>
-Package pdftex.def Info: search_8c_a1bf81a11e19a6be70b3549a1e2fb5e70_cgraph.pdf
-  used on input line 107.
-(pdftex.def)             Requested size: 350.0pt x 89.74852pt.
-<search_8c_a1bf81a11e19a6be70b3549a1e2fb5e70_icgraph.pdf, id=1730, 761.84625pt 
-x 252.945pt>
-File: search_8c_a1bf81a11e19a6be70b3549a1e2fb5e70_icgraph.pdf Graphic file (typ
-e pdf)
-<use search_8c_a1bf81a11e19a6be70b3549a1e2fb5e70_icgraph.pdf>
-Package pdftex.def Info: search_8c_a1bf81a11e19a6be70b3549a1e2fb5e70_icgraph.pd
-f  used on input line 115.
-(pdftex.def)             Requested size: 350.0pt x 116.20558pt.
-<search_8c_a9a7e3230097d2f97a58082ff6eb864ac_cgraph.pdf, id=1733, 708.6475pt x 
-233.87375pt>
-File: search_8c_a9a7e3230097d2f97a58082ff6eb864ac_cgraph.pdf Graphic file (type
- pdf)
-<use search_8c_a9a7e3230097d2f97a58082ff6eb864ac_cgraph.pdf>
-Package pdftex.def Info: search_8c_a9a7e3230097d2f97a58082ff6eb864ac_cgraph.pdf
-  used on input line 129.
-(pdftex.def)             Requested size: 350.0pt x 115.5127pt.
- [41 <./search_8c_ad125ca3bc57ac537e0c541460bcc420a_icgraph.pdf> <./search_8c_a
-1bf81a11e19a6be70b3549a1e2fb5e70_cgraph.pdf
+ []
 
-pdfTeX warning: pdflatex (file ./search_8c_a1bf81a11e19a6be70b3549a1e2fb5e70_cg
-raph.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
-ge
-> <./search_8c_a1bf81a11e19a6be70b3549a1e2fb5e70_icgraph.pdf
-
-pdfTeX warning: pdflatex (file ./search_8c_a1bf81a11e19a6be70b3549a1e2fb5e70_ic
-graph.pdf): PDF inclusion: multiple pdfs with page group included in a single p
-age
->]
-<search_8c_a9a7e3230097d2f97a58082ff6eb864ac_icgraph.pdf, id=1758, 452.69125pt 
-x 138.5175pt>
-File: search_8c_a9a7e3230097d2f97a58082ff6eb864ac_icgraph.pdf Graphic file (typ
-e pdf)
-<use search_8c_a9a7e3230097d2f97a58082ff6eb864ac_icgraph.pdf>
-Package pdftex.def Info: search_8c_a9a7e3230097d2f97a58082ff6eb864ac_icgraph.pd
-f  used on input line 137.
-(pdftex.def)             Requested size: 350.0pt x 107.0942pt.
-<search_8c_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_cgraph.pdf, id=1760, 708.6475pt x 
-233.87375pt>
-File: search_8c_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_cgraph.pdf Graphic file (type
- pdf)
-<use search_8c_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_cgraph.pdf>
-Package pdftex.def Info: search_8c_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_cgraph.pdf
-  used on input line 151.
-(pdftex.def)             Requested size: 350.0pt x 115.5127pt.
-<search_8c_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_icgraph.pdf, id=1761, 452.69125pt 
-x 138.5175pt>
-File: search_8c_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_icgraph.pdf Graphic file (typ
-e pdf)
-<use search_8c_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_icgraph.pdf>
-Package pdftex.def Info: search_8c_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_icgraph.pd
-f  used on input line 159.
-(pdftex.def)             Requested size: 350.0pt x 107.0942pt.
- [42 <./search_8c_a9a7e3230097d2f97a58082ff6eb864ac_cgraph.pdf> <./search_8c_a9
-a7e3230097d2f97a58082ff6eb864ac_icgraph.pdf
-
-pdfTeX warning: pdflatex (file ./search_8c_a9a7e3230097d2f97a58082ff6eb864ac_ic
-graph.pdf): PDF inclusion: multiple pdfs with page group included in a single p
-age
-> <./search_8c_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_cgraph.pdf
-
-pdfTeX warning: pdflatex (file ./search_8c_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_cg
-raph.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
-ge
->]
-<search_8c_ac2a6873263c1a8146c04126b48f8431e_cgraph.pdf, id=1786, 719.68875pt x
- 233.87375pt>
-File: search_8c_ac2a6873263c1a8146c04126b48f8431e_cgraph.pdf Graphic file (type
- pdf)
-<use search_8c_ac2a6873263c1a8146c04126b48f8431e_cgraph.pdf>
-Package pdftex.def Info: search_8c_ac2a6873263c1a8146c04126b48f8431e_cgraph.pdf
-  used on input line 173.
-(pdftex.def)             Requested size: 350.0pt x 113.73909pt.
-<search_8c_ac2a6873263c1a8146c04126b48f8431e_icgraph.pdf, id=1787, 463.7325pt x
- 138.5175pt>
-File: search_8c_ac2a6873263c1a8146c04126b48f8431e_icgraph.pdf Graphic file (typ
-e pdf)
-<use search_8c_ac2a6873263c1a8146c04126b48f8431e_icgraph.pdf>
-Package pdftex.def Info: search_8c_ac2a6873263c1a8146c04126b48f8431e_icgraph.pd
-f  used on input line 181.
-(pdftex.def)             Requested size: 350.0pt x 104.5473pt.
-<search_8c_adaf3bc7221b1fe4f2cffb3aaea00415d_cgraph.pdf, id=1789, 716.6775pt x 
-233.87375pt>
-File: search_8c_adaf3bc7221b1fe4f2cffb3aaea00415d_cgraph.pdf Graphic file (type
- pdf)
-<use search_8c_adaf3bc7221b1fe4f2cffb3aaea00415d_cgraph.pdf>
-Package pdftex.def Info: search_8c_adaf3bc7221b1fe4f2cffb3aaea00415d_cgraph.pdf
-  used on input line 195.
-(pdftex.def)             Requested size: 350.0pt x 114.21729pt.
- [43 <./search_8c_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_icgraph.pdf> <./search_8c_a
-c2a6873263c1a8146c04126b48f8431e_cgraph.pdf
-
-pdfTeX warning: pdflatex (file ./search_8c_ac2a6873263c1a8146c04126b48f8431e_cg
-raph.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
-ge
-> <./search_8c_ac2a6873263c1a8146c04126b48f8431e_icgraph.pdf
-
-pdfTeX warning: pdflatex (file ./search_8c_ac2a6873263c1a8146c04126b48f8431e_ic
-graph.pdf): PDF inclusion: multiple pdfs with page group included in a single p
-age
->]
-<search_8c_adaf3bc7221b1fe4f2cffb3aaea00415d_icgraph.pdf, id=1813, 460.72125pt 
-x 138.5175pt>
-File: search_8c_adaf3bc7221b1fe4f2cffb3aaea00415d_icgraph.pdf Graphic file (typ
-e pdf)
-<use search_8c_adaf3bc7221b1fe4f2cffb3aaea00415d_icgraph.pdf>
-Package pdftex.def Info: search_8c_adaf3bc7221b1fe4f2cffb3aaea00415d_icgraph.pd
-f  used on input line 203.
-(pdftex.def)             Requested size: 350.0pt x 105.22787pt.
-<search_8c_a6b219250779d3af5972611513010a013_cgraph.pdf, id=1815, 716.6775pt x 
-233.87375pt>
-File: search_8c_a6b219250779d3af5972611513010a013_cgraph.pdf Graphic file (type
- pdf)
-<use search_8c_a6b219250779d3af5972611513010a013_cgraph.pdf>
-Package pdftex.def Info: search_8c_a6b219250779d3af5972611513010a013_cgraph.pdf
-  used on input line 217.
-(pdftex.def)             Requested size: 350.0pt x 114.21729pt.
-<search_8c_a6b219250779d3af5972611513010a013_icgraph.pdf, id=1816, 460.72125pt 
-x 138.5175pt>
-File: search_8c_a6b219250779d3af5972611513010a013_icgraph.pdf Graphic file (typ
-e pdf)
-<use search_8c_a6b219250779d3af5972611513010a013_icgraph.pdf>
-Package pdftex.def Info: search_8c_a6b219250779d3af5972611513010a013_icgraph.pd
-f  used on input line 225.
-(pdftex.def)             Requested size: 350.0pt x 105.22787pt.
- [44 <./search_8c_adaf3bc7221b1fe4f2cffb3aaea00415d_cgraph.pdf> <./search_8c_ad
-af3bc7221b1fe4f2cffb3aaea00415d_icgraph.pdf
-
-pdfTeX warning: pdflatex (file ./search_8c_adaf3bc7221b1fe4f2cffb3aaea00415d_ic
-graph.pdf): PDF inclusion: multiple pdfs with page group included in a single p
-age
-> <./search_8c_a6b219250779d3af5972611513010a013_cgraph.pdf
-
-pdfTeX warning: pdflatex (file ./search_8c_a6b219250779d3af5972611513010a013_cg
-raph.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
-ge
->]
-<search_8c_a199722ea7869f598848648238f88d274_cgraph.pdf, id=1843, 600.2425pt x 
-233.87375pt>
-File: search_8c_a199722ea7869f598848648238f88d274_cgraph.pdf Graphic file (type
- pdf)
-<use search_8c_a199722ea7869f598848648238f88d274_cgraph.pdf>
-Package pdftex.def Info: search_8c_a199722ea7869f598848648238f88d274_cgraph.pdf
-  used on input line 239.
-(pdftex.def)             Requested size: 350.0pt x 136.37485pt.
-<search_8c_a199722ea7869f598848648238f88d274_icgraph.pdf, id=1844, 559.08875pt 
-x 252.945pt>
-File: search_8c_a199722ea7869f598848648238f88d274_icgraph.pdf Graphic file (typ
-e pdf)
-<use search_8c_a199722ea7869f598848648238f88d274_icgraph.pdf>
-Package pdftex.def Info: search_8c_a199722ea7869f598848648238f88d274_icgraph.pd
-f  used on input line 247.
-(pdftex.def)             Requested size: 350.0pt x 158.35269pt.
- [45 <./search_8c_a6b219250779d3af5972611513010a013_icgraph.pdf> <./search_8c_a
-199722ea7869f598848648238f88d274_cgraph.pdf
-
-pdfTeX warning: pdflatex (file ./search_8c_a199722ea7869f598848648238f88d274_cg
-raph.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
-ge
-> <./search_8c_a199722ea7869f598848648238f88d274_icgraph.pdf
-
-pdfTeX warning: pdflatex (file ./search_8c_a199722ea7869f598848648238f88d274_ic
-graph.pdf): PDF inclusion: multiple pdfs with page group included in a single p
-age
->]
-<search_8c_a4e80bfd47c2fef45e9f6f50632544931_icgraph.pdf, id=1869, 654.445pt x 
-252.945pt>
-File: search_8c_a4e80bfd47c2fef45e9f6f50632544931_icgraph.pdf Graphic file (typ
-e pdf)
-<use search_8c_a4e80bfd47c2fef45e9f6f50632544931_icgraph.pdf>
-Package pdftex.def Info: search_8c_a4e80bfd47c2fef45e9f6f50632544931_icgraph.pd
-f  used on input line 261.
-(pdftex.def)             Requested size: 350.0pt x 135.27599pt.
-) (./search_8h.tex
+[35]) (./search_8h.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 []\T1/phv/bc/n/14.4 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calenda
 r2/calendar/search.h
  []
 
-<search_8h__incl.pdf, id=1870, 222.8325pt x 245.91875pt>
-File: search_8h__incl.pdf Graphic file (type pdf)
-<use search_8h__incl.pdf>
-Package pdftex.def Info: search_8h__incl.pdf  used on input line 10.
-(pdftex.def)             Requested size: 222.0pt x 245.00253pt.
-<search_8h__dep__incl.pdf, id=1871, 391.4625pt x 222.8325pt>
-File: search_8h__dep__incl.pdf Graphic file (type pdf)
-<use search_8h__dep__incl.pdf>
-Package pdftex.def Info: search_8h__dep__incl.pdf  used on input line 18.
-(pdftex.def)             Requested size: 350.0pt x 199.24173pt.
-[46 <./search_8c_a4e80bfd47c2fef45e9f6f50632544931_icgraph.pdf> <./search_8h__i
-ncl.pdf
 
-pdfTeX warning: pdflatex (file ./search_8h__incl.pdf): PDF inclusion: multiple 
-pdfs with page group included in a single page
->] [47 <./search_8h__dep__incl.pdf>]
-<search_8h_aa13cd0a956bc531fe1e1329b6aebdef9_icgraph.pdf, id=1962, 655.44875pt 
-x 252.945pt>
-File: search_8h_aa13cd0a956bc531fe1e1329b6aebdef9_icgraph.pdf Graphic file (typ
-e pdf)
-<use search_8h_aa13cd0a956bc531fe1e1329b6aebdef9_icgraph.pdf>
-Package pdftex.def Info: search_8h_aa13cd0a956bc531fe1e1329b6aebdef9_icgraph.pd
-f  used on input line 131.
-(pdftex.def)             Requested size: 350.0pt x 135.06757pt.
- [48]
-<search_8h_ace601ce27f555e73988b2db946d1ca5e_icgraph.pdf, id=1971, 672.5125pt x
- 252.945pt>
-File: search_8h_ace601ce27f555e73988b2db946d1ca5e_icgraph.pdf Graphic file (typ
-e pdf)
-<use search_8h_ace601ce27f555e73988b2db946d1ca5e_icgraph.pdf>
-Package pdftex.def Info: search_8h_ace601ce27f555e73988b2db946d1ca5e_icgraph.pd
-f  used on input line 145.
-(pdftex.def)             Requested size: 350.0pt x 131.64023pt.
- [49 <./search_8h_aa13cd0a956bc531fe1e1329b6aebdef9_icgraph.pdf> <./search_8h_a
-ce601ce27f555e73988b2db946d1ca5e_icgraph.pdf
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
-pdfTeX warning: pdflatex (file ./search_8h_ace601ce27f555e73988b2db946d1ca5e_ic
-graph.pdf): PDF inclusion: multiple pdfs with page group included in a single p
-age
->]
-<search_8h_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_cgraph.pdf, id=1992, 708.6475pt x 
-233.87375pt>
-File: search_8h_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_cgraph.pdf Graphic file (type
- pdf)
-<use search_8h_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_cgraph.pdf>
-Package pdftex.def Info: search_8h_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_cgraph.pdf
-  used on input line 183.
-(pdftex.def)             Requested size: 350.0pt x 115.5127pt.
-<search_8h_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_icgraph.pdf, id=1993, 452.69125pt 
-x 138.5175pt>
-File: search_8h_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_icgraph.pdf Graphic file (typ
-e pdf)
-<use search_8h_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_icgraph.pdf>
-Package pdftex.def Info: search_8h_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_icgraph.pd
-f  used on input line 191.
-(pdftex.def)             Requested size: 350.0pt x 107.0942pt.
-<search_8h_ac2a6873263c1a8146c04126b48f8431e_cgraph.pdf, id=1995, 719.68875pt x
- 233.87375pt>
-File: search_8h_ac2a6873263c1a8146c04126b48f8431e_cgraph.pdf Graphic file (type
- pdf)
-<use search_8h_ac2a6873263c1a8146c04126b48f8431e_cgraph.pdf>
-Package pdftex.def Info: search_8h_ac2a6873263c1a8146c04126b48f8431e_cgraph.pdf
-  used on input line 205.
-(pdftex.def)             Requested size: 350.0pt x 113.73909pt.
- [50 <./search_8h_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_cgraph.pdf> <./search_8h_a5
-a5f902f17fae2dda3b8ec6bb7e1a6e9_icgraph.pdf
+ []
 
-pdfTeX warning: pdflatex (file ./search_8h_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_ic
-graph.pdf): PDF inclusion: multiple pdfs with page group included in a single p
-age
->]
-<search_8h_ac2a6873263c1a8146c04126b48f8431e_icgraph.pdf, id=2013, 463.7325pt x
- 138.5175pt>
-File: search_8h_ac2a6873263c1a8146c04126b48f8431e_icgraph.pdf Graphic file (typ
-e pdf)
-<use search_8h_ac2a6873263c1a8146c04126b48f8431e_icgraph.pdf>
-Package pdftex.def Info: search_8h_ac2a6873263c1a8146c04126b48f8431e_icgraph.pd
-f  used on input line 213.
-(pdftex.def)             Requested size: 350.0pt x 104.5473pt.
-<search_8h_adaf3bc7221b1fe4f2cffb3aaea00415d_cgraph.pdf, id=2015, 716.6775pt x 
-233.87375pt>
-File: search_8h_adaf3bc7221b1fe4f2cffb3aaea00415d_cgraph.pdf Graphic file (type
- pdf)
-<use search_8h_adaf3bc7221b1fe4f2cffb3aaea00415d_cgraph.pdf>
-Package pdftex.def Info: search_8h_adaf3bc7221b1fe4f2cffb3aaea00415d_cgraph.pdf
-  used on input line 227.
-(pdftex.def)             Requested size: 350.0pt x 114.21729pt.
-<search_8h_adaf3bc7221b1fe4f2cffb3aaea00415d_icgraph.pdf, id=2016, 460.72125pt 
-x 138.5175pt>
-File: search_8h_adaf3bc7221b1fe4f2cffb3aaea00415d_icgraph.pdf Graphic file (typ
-e pdf)
-<use search_8h_adaf3bc7221b1fe4f2cffb3aaea00415d_icgraph.pdf>
-Package pdftex.def Info: search_8h_adaf3bc7221b1fe4f2cffb3aaea00415d_icgraph.pd
-f  used on input line 235.
-(pdftex.def)             Requested size: 350.0pt x 105.22787pt.
- [51 <./search_8h_ac2a6873263c1a8146c04126b48f8431e_cgraph.pdf> <./search_8h_ac
-2a6873263c1a8146c04126b48f8431e_icgraph.pdf
+[36]
+Overfull \vbox (5.41809pt too high) has occurred while \output is active []
 
-pdfTeX warning: pdflatex (file ./search_8h_ac2a6873263c1a8146c04126b48f8431e_ic
-graph.pdf): PDF inclusion: multiple pdfs with page group included in a single p
-age
-> <./search_8h_adaf3bc7221b1fe4f2cffb3aaea00415d_cgraph.pdf
 
-pdfTeX warning: pdflatex (file ./search_8h_adaf3bc7221b1fe4f2cffb3aaea00415d_cg
-raph.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
-ge
->]
-<search_8h_a6b219250779d3af5972611513010a013_cgraph.pdf, id=2042, 716.6775pt x 
-233.87375pt>
-File: search_8h_a6b219250779d3af5972611513010a013_cgraph.pdf Graphic file (type
- pdf)
-<use search_8h_a6b219250779d3af5972611513010a013_cgraph.pdf>
-Package pdftex.def Info: search_8h_a6b219250779d3af5972611513010a013_cgraph.pdf
-  used on input line 249.
-(pdftex.def)             Requested size: 350.0pt x 114.21729pt.
-<search_8h_a6b219250779d3af5972611513010a013_icgraph.pdf, id=2043, 460.72125pt 
-x 138.5175pt>
-File: search_8h_a6b219250779d3af5972611513010a013_icgraph.pdf Graphic file (typ
-e pdf)
-<use search_8h_a6b219250779d3af5972611513010a013_icgraph.pdf>
-Package pdftex.def Info: search_8h_a6b219250779d3af5972611513010a013_icgraph.pd
-f  used on input line 257.
-(pdftex.def)             Requested size: 350.0pt x 105.22787pt.
-) (./structures_8h.tex
+[37]) (./searchui_8c.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
+
+ []
+
+[38] [39]) (./searchui_8h.tex [40]) (./structures_8h.tex
 Overfull \hbox (15.07422pt too wide) in paragraph at lines 1--1
 []\T1/phv/bc/n/14.4 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calenda
 r2/calendar/structures.h
  []
 
-<structures_8h__incl.pdf, id=2044, 208.78pt x 189.70876pt>
-File: structures_8h__incl.pdf Graphic file (type pdf)
-<use structures_8h__incl.pdf>
-Package pdftex.def Info: structures_8h__incl.pdf  used on input line 8.
-(pdftex.def)             Requested size: 208.0pt x 189.01065pt.
-[52 <./search_8h_adaf3bc7221b1fe4f2cffb3aaea00415d_icgraph.pdf> <./search_8h_a6
-b219250779d3af5972611513010a013_cgraph.pdf
 
-pdfTeX warning: pdflatex (file ./search_8h_a6b219250779d3af5972611513010a013_cg
-raph.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
-ge
-> <./search_8h_a6b219250779d3af5972611513010a013_icgraph.pdf
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
-pdfTeX warning: pdflatex (file ./search_8h_a6b219250779d3af5972611513010a013_ic
-graph.pdf): PDF inclusion: multiple pdfs with page group included in a single p
-age
->]
-<structures_8h__dep__incl.pdf, id=2068, 1155.31625pt x 312.16624pt>
-File: structures_8h__dep__incl.pdf Graphic file (type pdf)
-<use structures_8h__dep__incl.pdf>
-Package pdftex.def Info: structures_8h__dep__incl.pdf  used on input line 16.
-(pdftex.def)             Requested size: 350.0pt x 94.5699pt.
- [53 <./structures_8h__incl.pdf> <./structures_8h__dep__incl.pdf
+ []
 
-pdfTeX warning: pdflatex (file ./structures_8h__dep__incl.pdf): PDF inclusion: 
-multiple pdfs with page group included in a single page
->]) [54] (./refman.ind
-Overfull \hbox (134.84177pt too wide) in paragraph at lines 3--5
+[41] [42]) [43] [44
+
+] (./refman.ind
+Overfull \hbox (138.65775pt too wide) in paragraph at lines 3--5
+[]\T1/phv/m/n/10 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/
+calendar/debugmalloc.[]
+ []
+
+
+Overfull \hbox (138.65775pt too wide) in paragraph at lines 5--7
+[]\T1/phv/m/n/10 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/
+calendar/debugmalloc.[]
+ []
+
+
+Overfull \hbox (134.84177pt too wide) in paragraph at lines 7--9
 []\T1/phv/m/n/10 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/
 calendar/eventrecord.[]
  []
 
 
-Overfull \hbox (134.84177pt too wide) in paragraph at lines 5--7
+Overfull \hbox (134.84177pt too wide) in paragraph at lines 9--11
 []\T1/phv/m/n/10 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/
 calendar/eventrecord.[]
  []
 
 
-Overfull \hbox (99.1845pt too wide) in paragraph at lines 7--9
+Overfull \hbox (99.1845pt too wide) in paragraph at lines 11--13
 []\T1/phv/m/n/10 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/
 calendar/file.[]
  []
 
 
-Overfull \hbox (99.1845pt too wide) in paragraph at lines 9--11
+Overfull \hbox (99.1845pt too wide) in paragraph at lines 13--15
 []\T1/phv/m/n/10 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/
 calendar/file.[]
  []
 
 
-Overfull \hbox (98.81535pt too wide) in paragraph at lines 11--13
+Overfull \hbox (98.81535pt too wide) in paragraph at lines 15--17
 []\T1/phv/m/n/10 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/
 calendar/list.[]
  []
 
 
-Overfull \hbox (98.81535pt too wide) in paragraph at lines 13--15
+Overfull \hbox (98.81535pt too wide) in paragraph at lines 17--19
 []\T1/phv/m/n/10 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/
 calendar/list.[]
  []
 
 
-Overfull \hbox (107.32025pt too wide) in paragraph at lines 15--17
+Overfull \hbox (107.32025pt too wide) in paragraph at lines 19--21
 []\T1/phv/m/n/10 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/
 calendar/main.[]
  []
 
 
-Overfull \hbox (110.2362pt too wide) in paragraph at lines 17--19
+Overfull \hbox (110.2362pt too wide) in paragraph at lines 21--23
 []\T1/phv/m/n/10 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/
 calendar/menu.[]
  []
 
 
-Overfull \hbox (110.2362pt too wide) in paragraph at lines 19--21
+Overfull \hbox (110.2362pt too wide) in paragraph at lines 23--25
 []\T1/phv/m/n/10 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/
 calendar/menu.[]
  []
 
 
-Overfull \hbox (114.82617pt too wide) in paragraph at lines 21--23
+Overfull \hbox (114.82617pt too wide) in paragraph at lines 25--27
 []\T1/phv/m/n/10 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/
 calendar/search.[]
  []
 
 
-Overfull \hbox (114.82617pt too wide) in paragraph at lines 23--25
+Overfull \hbox (114.82617pt too wide) in paragraph at lines 27--29
 []\T1/phv/m/n/10 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/
 calendar/search.[]
  []
 
 
-Overfull \hbox (127.32684pt too wide) in paragraph at lines 25--27
+Overfull \hbox (121.82803pt too wide) in paragraph at lines 29--31
+[]\T1/phv/m/n/10 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/
+calendar/searchui.[]
+ []
+
+
+Overfull \hbox (121.82803pt too wide) in paragraph at lines 31--33
+[]\T1/phv/m/n/10 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/
+calendar/searchui.[]
+ []
+
+
+Overfull \hbox (127.32684pt too wide) in paragraph at lines 33--35
 []\T1/phv/m/n/10 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/
 calendar/structures.[]
  []
 
-[55
+[45
 
 
-
-] [56] [57])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
+] [46] [47] [48])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
  (./refman.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: 92323709733DA72C6E4AD74C864DF89D;29287.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
+(rerunfilecheck)             Checksum: E029C8A28A76EBEDFB741881D22073AA;44292.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 184.
  ) 
 Here is how much of TeX's memory you used:
- 15981 strings out of 494923
- 252938 string characters out of 6180741
- 309213 words of memory out of 5000000
- 18488 multiletter control sequences out of 15000+600000
- 55780 words of font info for 77 fonts, out of 8000000 for 9000
+ 15692 strings out of 494923
+ 233681 string characters out of 6180741
+ 316831 words of memory out of 5000000
+ 18236 multiletter control sequences out of 15000+600000
+ 58796 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 53i,16n,92p,611b,555s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,16n,92p,1612b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/
@@ -2458,11 +1597,12 @@ ublic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/cour
 ier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8ac.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on refman.pdf (65 pages, 400058 bytes).
+texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on refman.pdf (58 pages, 216584 bytes).
 PDF statistics:
- 2482 PDF objects out of 2487 (max. 8388607)
- 2193 compressed objects within 22 object streams
- 433 named destinations out of 1000 (max. 500000)
- 1588 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2470 PDF objects out of 2487 (max. 8388607)
+ 2367 compressed objects within 24 object streams
+ 473 named destinations out of 1000 (max. 500000)
+ 1665 words of extra memory for PDF output out of 10000 (max. 10000000)
 

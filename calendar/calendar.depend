@@ -67,7 +67,7 @@
 	<stdio.h>
 	"debugmalloc.h"
 
-1542789923 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.c
+1542791875 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.c
 	"eventrecord.h"
 	"structures.h"
 	<stdio.h>
@@ -76,7 +76,7 @@
 	"list.h"
 	"debugmalloc.h"
 
-1542789289 /home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.h
+1542801232 /home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.h
 	"structures.h"
 	<stdbool.h>
 

@@ -1,6 +1,6 @@
 <map id="scanrecordcommand" name="scanrecordcommand">
 <area shape="rect" id="node2" href="$menu_8c.html#ab9ac014b764791c1dc71c187dca898f7" title="hosszu_sort_olvas" alt="" coords="196,5,327,32"/>
-<area shape="rect" id="node3" href="$eventrecord_8c.html#a1f347b6ac8e5ca0727f6ec1ec1d068da" title="moveevent" alt="" coords="218,56,305,83"/>
+<area shape="rect" id="node3" href="$eventrecord_8c.html#a610dc34a1e251a16311ca7ac15f64e05" title="moveevent" alt="" coords="218,56,305,83"/>
 <area shape="rect" id="node6" href="$eventrecord_8c.html#af69a5ee77b139263897d5e6bfe7d7f2a" title="deleteevent" alt="" coords="217,107,306,133"/>
 <area shape="rect" id="node8" href="$menu_8c.html#aa28daf84be098b64b8dfea8a88050f13" title="savemenu" alt="" coords="220,157,303,184"/>
 <area shape="rect" id="node4" href="$list_8c.html#a7ef519287e473ee333204280a5d91403" title="insertevent" alt="" coords="387,56,473,83"/>

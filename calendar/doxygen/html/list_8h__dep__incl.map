@@ -1,7 +1,7 @@
 <map id="/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.h" name="/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.h">
-<area shape="rect" id="node2" href="$list_8c.html" title="/home/dani/Documents\l/egyetem/prog1/nagyhazi\l/hazi2/calendar2/calendar/list.c" alt="" coords="5,109,208,165"/>
-<area shape="rect" id="node4" href="$file_8c.html" title="/home/dani/Documents\l/egyetem/prog1/nagyhazi\l/hazi2/calendar2/calendar/file.c" alt="" coords="232,109,435,165"/>
-<area shape="rect" id="node5" href="$main_8c.html" title="/home/dani/Documents\l/egyetem/prog1/nagyhazi\l/hazi2/calendar2/calendar/main.c" alt="" coords="459,109,672,165"/>
-<area shape="rect" id="node6" href="$menu_8c.html" title="/home/dani/Documents\l/egyetem/prog1/nagyhazi\l/hazi2/calendar2/calendar/menu.c" alt="" coords="697,109,914,165"/>
-<area shape="rect" id="node3" href="$eventrecord_8c.html" title="/home/dani/Documents\l/egyetem/prog1/nagyhazi\l/hazi2/calendar2/calendar\l/eventrecord.c" alt="" coords="21,213,192,284"/>
+<area shape="rect" id="node2" href="$eventrecord_8c.html" title="/home/dani/Documents\l/egyetem/prog1/nagyhazi\l/hazi2/calendar2/calendar\l/eventrecord.c" alt="" coords="5,109,176,180"/>
+<area shape="rect" id="node3" href="$file_8c.html" title="/home/dani/Documents\l/egyetem/prog1/nagyhazi\l/hazi2/calendar2/calendar/file.c" alt="" coords="200,117,403,173"/>
+<area shape="rect" id="node4" href="$list_8c.html" title="/home/dani/Documents\l/egyetem/prog1/nagyhazi\l/hazi2/calendar2/calendar/list.c" alt="" coords="427,117,629,173"/>
+<area shape="rect" id="node5" href="$main_8c.html" title="/home/dani/Documents\l/egyetem/prog1/nagyhazi\l/hazi2/calendar2/calendar/main.c" alt="" coords="653,117,867,173"/>
+<area shape="rect" id="node6" href="$menu_8c.html" title="/home/dani/Documents\l/egyetem/prog1/nagyhazi\l/hazi2/calendar2/calendar/menu.c" alt="" coords="891,117,1109,173"/>
 </map>

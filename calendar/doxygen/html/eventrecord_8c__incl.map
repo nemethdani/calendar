@@ -1,8 +1,7 @@
 <map id="/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.c" name="/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.c">
-<area shape="rect" id="node2" href="$eventrecord_8h.html" title="eventrecord.h" alt="" coords="252,199,354,225"/>
-<area shape="rect" id="node3" href="$structures_8h.html" title="structures.h" alt="" coords="26,273,116,300"/>
-<area shape="rect" id="node7" href="$menu_8h.html" title="menu.h" alt="" coords="30,124,96,151"/>
-<area shape="rect" id="node8" href="$list_8c.html" title="list.c" alt="" coords="167,124,218,151"/>
-<area shape="rect" id="node11" href="$debugmalloc_8h.html" title="debugmalloc.h" alt="" coords="378,199,484,225"/>
-<area shape="rect" id="node9" href="$list_8h.html" title="list.h" alt="" coords="127,199,178,225"/>
+<area shape="rect" id="node2" href="$eventrecord_8h.html" title="eventrecord.h" alt="" coords="221,124,322,151"/>
+<area shape="rect" id="node3" href="$structures_8h.html" title="structures.h" alt="" coords="63,199,154,225"/>
+<area shape="rect" id="node7" href="$menu_8h.html" title="menu.h" alt="" coords="5,124,71,151"/>
+<area shape="rect" id="node8" href="$list_8h.html" title="list.h" alt="" coords="146,124,197,151"/>
+<area shape="rect" id="node9" href="$debugmalloc_8h.html" title="debugmalloc.h" alt="" coords="397,124,503,151"/>
 </map>

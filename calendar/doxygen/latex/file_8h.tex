@@ -1,55 +1,34 @@
 \hypertarget{file_8h}{}\section{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.h File Reference}
 \label{file_8h}\index{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.\+h@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.\+h}}
-{\ttfamily \#include $<$stdio.\+h$>$}\newline
 {\ttfamily \#include \char`\"{}structures.\+h\char`\"{}}\newline
-Include dependency graph for file.\+h\+:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=232pt]{file_8h__incl}
-\end{center}
-\end{figure}
-This graph shows which files directly or indirectly include this file\+:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=350pt]{file_8h__dep__incl}
-\end{center}
-\end{figure}
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-void \hyperlink{file_8h_a31d677237f8b1f618a6183133eae616d}{fileload} ()
+char $\ast$ \hyperlink{file_8h_a36d5c6b5abd971ee26b1d1ee32d3919c}{dstrcpy} (char $\ast$str)
 \item 
-void \hyperlink{file_8h_afc715bc6c0b9a9e85af15dc509a8d34b}{filesave} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
+bool \hyperlink{file_8h_ab3ba45c99ca47b62544bd6c4c18f0844}{calendarload} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
+\item 
+bool \hyperlink{file_8h_a894fe0f62442d90fb5a74f2087f78207}{calendarsave} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
 \end{DoxyCompactItemize}
 
 
 \subsection{Function Documentation}
-\mbox{\Hypertarget{file_8h_a31d677237f8b1f618a6183133eae616d}\label{file_8h_a31d677237f8b1f618a6183133eae616d}} 
-\index{file.\+h@{file.\+h}!fileload@{fileload}}
-\index{fileload@{fileload}!file.\+h@{file.\+h}}
-\subsubsection{\texorpdfstring{fileload()}{fileload()}}
-{\footnotesize\ttfamily void fileload (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+\mbox{\Hypertarget{file_8h_ab3ba45c99ca47b62544bd6c4c18f0844}\label{file_8h_ab3ba45c99ca47b62544bd6c4c18f0844}} 
+\index{file.\+h@{file.\+h}!calendarload@{calendarload}}
+\index{calendarload@{calendarload}!file.\+h@{file.\+h}}
+\subsubsection{\texorpdfstring{calendarload()}{calendarload()}}
+{\footnotesize\ttfamily bool calendarload (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
 
-\mbox{\Hypertarget{file_8h_afc715bc6c0b9a9e85af15dc509a8d34b}\label{file_8h_afc715bc6c0b9a9e85af15dc509a8d34b}} 
-\index{file.\+h@{file.\+h}!filesave@{filesave}}
-\index{filesave@{filesave}!file.\+h@{file.\+h}}
-\subsubsection{\texorpdfstring{filesave()}{filesave()}}
-{\footnotesize\ttfamily void filesave (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
+\mbox{\Hypertarget{file_8h_a894fe0f62442d90fb5a74f2087f78207}\label{file_8h_a894fe0f62442d90fb5a74f2087f78207}} 
+\index{file.\+h@{file.\+h}!calendarsave@{calendarsave}}
+\index{calendarsave@{calendarsave}!file.\+h@{file.\+h}}
+\subsubsection{\texorpdfstring{calendarsave()}{calendarsave()}}
+{\footnotesize\ttfamily bool calendarsave (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=240pt]{file_8h_afc715bc6c0b9a9e85af15dc509a8d34b_cgraph}
-\end{center}
-\end{figure}
-Here is the caller graph for this function\+:
-\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=350pt]{file_8h_afc715bc6c0b9a9e85af15dc509a8d34b_icgraph}
-\end{center}
-\end{figure}
+\mbox{\Hypertarget{file_8h_a36d5c6b5abd971ee26b1d1ee32d3919c}\label{file_8h_a36d5c6b5abd971ee26b1d1ee32d3919c}} 
+\index{file.\+h@{file.\+h}!dstrcpy@{dstrcpy}}
+\index{dstrcpy@{dstrcpy}!file.\+h@{file.\+h}}
+\subsubsection{\texorpdfstring{dstrcpy()}{dstrcpy()}}
+{\footnotesize\ttfamily char$\ast$ dstrcpy (\begin{DoxyParamCaption}\item[{char $\ast$}]{str }\end{DoxyParamCaption})}
+

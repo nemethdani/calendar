@@ -5,6 +5,5 @@ var searchData=
   ['line',['line',['../struct_lefoglalt.html#a05ef0c4dbeec4fc8ccb225de9c26d896',1,'Lefoglalt']]],
   ['list_2ec',['list.c',['../list_8c.html',1,'']]],
   ['list_2eh',['list.h',['../list_8h.html',1,'']]],
-  ['location',['location',['../struct_event.html#a6a0d5603410d5eda93c0ff341966cce1',1,'Event']]],
-  ['lookup',['lookup',['../search_8h.html#a8b6f11d89a64318f6ea5ed9503536af0af853170f899ff11b964b84176b4f6cb5',1,'search.h']]]
+  ['location',['location',['../struct_event.html#a6a0d5603410d5eda93c0ff341966cce1',1,'Event']]]
 ];

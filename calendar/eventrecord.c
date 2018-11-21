@@ -7,7 +7,7 @@
 #include "debugmalloc.h"
 //#include "list.c"
 
-void moveevent(Event* event,EventList* eventlist,ModBy modby){
+void moveevent(Event* event,EventList const* eventlist,ModBy modby){
     switch(modby){
     case bydate:
         printf("Mi az esemeny datuma? (eeee.hh.nn)\n");

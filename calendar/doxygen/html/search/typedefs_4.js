@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['menufv',['MenuFv',['../structures_8h.html#aa04041873905737ffeb12c611f7c5bde',1,'structures.h']]],
-  ['modby',['ModBy',['../eventrecord_8h.html#a362ee478a7a01737cf42d32360eda02e',1,'eventrecord.h']]]
+  ['searchby',['SearchBy',['../search_8h.html#a2ab4e565bcf990b57e010007e13bec43',1,'search.h']]],
+  ['searchconditions',['SearchConditions',['../structures_8h.html#adc5706147428e7cb68faa6fb19085d7a',1,'structures.h']]]
 ];
