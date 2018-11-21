@@ -68,6 +68,7 @@ $(function() {
 <code>#include &lt;stdlib.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="structures_8h_source.html">structures.h</a>&quot;</code><br />
 <code>#include &lt;time.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="debugmalloc_8h_source.html">debugmalloc.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for list.c:</div>
 <div class="dyncontent">
@@ -75,6 +76,15 @@ Include dependency graph for list.c:</div>
 <map name="_2home_2dani_2_documents_2egyetem_2prog1_2nagyhazi_2hazi2_2calendar2_2calendar_2list_8c" id="_2home_2dani_2_documents_2egyetem_2prog1_2nagyhazi_2hazi2_2calendar2_2calendar_2list_8c">
 <area shape="rect" id="node2" href="list_8h.html" title="list.h" alt="" coords="96,109,147,136"/>
 <area shape="rect" id="node3" href="structures_8h.html" title="structures.h" alt="" coords="5,184,96,211"/>
+<area shape="rect" id="node6" href="debugmalloc_8h.html" title="debugmalloc.h" alt="" coords="272,109,379,136"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="list_8c__dep__incl.png" border="0" usemap="#_2home_2dani_2_documents_2egyetem_2prog1_2nagyhazi_2hazi2_2calendar2_2calendar_2list_8cdep" alt=""/></div>
+<map name="_2home_2dani_2_documents_2egyetem_2prog1_2nagyhazi_2hazi2_2calendar2_2calendar_2list_8cdep" id="_2home_2dani_2_documents_2egyetem_2prog1_2nagyhazi_2hazi2_2calendar2_2calendar_2list_8cdep">
+<area shape="rect" id="node2" href="eventrecord_8c.html" title="/home/dani/Documents\l/egyetem/prog1/nagyhazi\l/hazi2/calendar2/calendar\l/eventrecord.c" alt="" coords="21,109,192,180"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -82,14 +92,16 @@ Include dependency graph for list.c:</div>
 Functions</h2></td></tr>
 <tr class="memitem:a48f44148563512bd32274821f478bd1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_event_list.html">EventList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8c.html#a48f44148563512bd32274821f478bd1b">initeventlist</a> ()</td></tr>
 <tr class="separator:a48f44148563512bd32274821f478bd1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4293a94245f5abec38c480114aa58b23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8c.html#a4293a94245f5abec38c480114aa58b23">freeEventList</a> (<a class="el" href="struct_event_list.html">EventList</a> *eventlist)</td></tr>
+<tr class="separator:a4293a94245f5abec38c480114aa58b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24fd1b37eee54600b66c42e86b52244a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_event.html">Event</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8c.html#a24fd1b37eee54600b66c42e86b52244a">createevent</a> (int ev, int honap, int nap, int ora, int perc, int bora, int bperc, char *nev, char *hely, char *comment)</td></tr>
 <tr class="separator:a24fd1b37eee54600b66c42e86b52244a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ef519287e473ee333204280a5d91403"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8c.html#a7ef519287e473ee333204280a5d91403">insertevent</a> (<a class="el" href="struct_event_list.html">EventList</a> *eventlist, <a class="el" href="struct_event.html">Event</a> *event)</td></tr>
 <tr class="separator:a7ef519287e473ee333204280a5d91403"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f7708495c6e39bb6e712218711b331f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8c.html#a8f7708495c6e39bb6e712218711b331f">starttime</a> (<a class="el" href="struct_event.html">Event</a> *event)</td></tr>
 <tr class="separator:a8f7708495c6e39bb6e712218711b331f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2561d96be1299fd3f5730c6d82143709"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8c.html#a2561d96be1299fd3f5730c6d82143709">printevent_short</a> (<a class="el" href="struct_event.html">Event</a> *event)</td></tr>
-<tr class="separator:a2561d96be1299fd3f5730c6d82143709"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd63217de3b7f7269aa3ee9d14b6b578"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8c.html#afd63217de3b7f7269aa3ee9d14b6b578">free_event</a> (<a class="el" href="struct_event.html">Event</a> *event)</td></tr>
+<tr class="separator:afd63217de3b7f7269aa3ee9d14b6b578"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a24fd1b37eee54600b66c42e86b52244a"></a>
@@ -171,10 +183,92 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="list_8c_a24fd1b37eee54600b66c42e86b52244a_icgraph.png" border="0" usemap="#list_8c_a24fd1b37eee54600b66c42e86b52244a_icgraph" alt=""/></div>
 <map name="list_8c_a24fd1b37eee54600b66c42e86b52244a_icgraph" id="list_8c_a24fd1b37eee54600b66c42e86b52244a_icgraph">
 <area shape="rect" id="node2" href="file_8c.html#ab3ba45c99ca47b62544bd6c4c18f0844" title="calendarload" alt="" coords="144,5,239,32"/>
-<area shape="rect" id="node4" href="menu_8c.html#ac2c3136ef241a7150d7cff391a0eb048" title="newevent" alt="" coords="152,56,231,83"/>
+<area shape="rect" id="node4" href="menu_8c.html#a069c1b762e46bba28b1f38b87d8d58aa" title="newevent" alt="" coords="152,56,231,83"/>
 <area shape="rect" id="node3" href="main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="445,56,496,83"/>
 <area shape="rect" id="node5" href="menu_8c.html#ac86d3169260f5cacd0f792743957b054" title="mainmenu" alt="" coords="301,56,383,83"/>
 <area shape="rect" id="node6" href="menu_8c.html#a8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="287,107,397,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="afd63217de3b7f7269aa3ee9d14b6b578"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd63217de3b7f7269aa3ee9d14b6b578">&#9670;&nbsp;</a></span>free_event()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void free_event </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_event.html">Event</a> *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="list_8c_afd63217de3b7f7269aa3ee9d14b6b578_icgraph.png" border="0" usemap="#list_8c_afd63217de3b7f7269aa3ee9d14b6b578_icgraph" alt=""/></div>
+<map name="list_8c_afd63217de3b7f7269aa3ee9d14b6b578_icgraph" id="list_8c_afd63217de3b7f7269aa3ee9d14b6b578_icgraph">
+<area shape="rect" id="node2" href="eventrecord_8h.html#af69a5ee77b139263897d5e6bfe7d7f2a" title="deleteevent" alt="" coords="136,259,225,285"/>
+<area shape="rect" id="node18" href="list_8c.html#a4293a94245f5abec38c480114aa58b23" title="freeEventList" alt="" coords="896,309,995,336"/>
+<area shape="rect" id="node3" href="eventrecord_8h.html#a9b64fb7501bab380e6146ef4a4f558c7" title="scanrecordcommand" alt="" coords="273,259,416,285"/>
+<area shape="rect" id="node4" href="eventrecord_8h.html#a43a7dc247171d596d8d808776d8d40f5" title="printeventrecord" alt="" coords="464,259,579,285"/>
+<area shape="rect" id="node5" href="menu_8c.html#a069c1b762e46bba28b1f38b87d8d58aa" title="newevent" alt="" coords="1209,259,1287,285"/>
+<area shape="rect" id="node9" href="searchui_8h.html#a70f4e24bc56ccfdd7d63df4a84054538" title="scanfindlist" alt="" coords="627,169,715,196"/>
+<area shape="rect" id="node6" href="menu_8c.html#ac86d3169260f5cacd0f792743957b054" title="mainmenu" alt="" coords="1357,309,1439,336"/>
+<area shape="rect" id="node8" href="menu_8c.html#a8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="1343,259,1453,285"/>
+<area shape="rect" id="node7" href="main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1501,309,1552,336"/>
+<area shape="rect" id="node10" href="searchui_8h.html#a4fc3c2695bbc6aacac6fcdddbbc2c9ea" title="printfindlist" alt="" coords="763,144,848,171"/>
+<area shape="rect" id="node11" href="search_8c.html#a199722ea7869f598848648238f88d274" title="searchiter" alt="" coords="906,132,985,159"/>
+<area shape="rect" id="node12" href="search_8c.html#a9a7e3230097d2f97a58082ff6eb864ac" title="searchactual" alt="" coords="1050,208,1146,235"/>
+<area shape="rect" id="node14" href="searchui_8h.html#adaf3bc7221b1fe4f2cffb3aaea00415d" title="searchbyname" alt="" coords="1045,107,1151,133"/>
+<area shape="rect" id="node15" href="searchui_8h.html#a6b219250779d3af5972611513010a013" title="searchbyweek" alt="" coords="1045,157,1151,184"/>
+<area shape="rect" id="node16" href="searchui_8h.html#ac2a6873263c1a8146c04126b48f8431e" title="searchbymonth" alt="" coords="1043,5,1153,32"/>
+<area shape="rect" id="node17" href="searchui_8h.html#a5a5f902f17fae2dda3b8ec6bb7e1a6e9" title="searchbyday" alt="" coords="1050,56,1146,83"/>
+<area shape="rect" id="node13" href="menu_8c.html#a38d64ff02f60ebcb1988655ea12540a6" title="searchmenu" alt="" coords="1201,208,1295,235"/>
+<area shape="rect" id="node19" href="menu_8c.html#aa12eba16d2e2bd5dfc70240d19bd5c8e" title="scanexitmenu" alt="" coords="1047,309,1149,336"/>
+<area shape="rect" id="node20" href="menu_8c.html#ac651d3838f4da7bf6055fa839621e289" title="exitmenu" alt="" coords="1211,309,1285,336"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a4293a94245f5abec38c480114aa58b23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4293a94245f5abec38c480114aa58b23">&#9670;&nbsp;</a></span>freeEventList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void freeEventList </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_event_list.html">EventList</a> *&#160;</td>
+          <td class="paramname"><em>eventlist</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="list_8c_a4293a94245f5abec38c480114aa58b23_cgraph.png" border="0" usemap="#list_8c_a4293a94245f5abec38c480114aa58b23_cgraph" alt=""/></div>
+<map name="list_8c_a4293a94245f5abec38c480114aa58b23_cgraph" id="list_8c_a4293a94245f5abec38c480114aa58b23_cgraph">
+<area shape="rect" id="node2" href="list_8c.html#afd63217de3b7f7269aa3ee9d14b6b578" title="free_event" alt="" coords="152,5,235,32"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="list_8c_a4293a94245f5abec38c480114aa58b23_icgraph.png" border="0" usemap="#list_8c_a4293a94245f5abec38c480114aa58b23_icgraph" alt=""/></div>
+<map name="list_8c_a4293a94245f5abec38c480114aa58b23_icgraph" id="list_8c_a4293a94245f5abec38c480114aa58b23_icgraph">
+<area shape="rect" id="node2" href="main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="584,33,635,60"/>
+<area shape="rect" id="node3" href="menu_8c.html#aa12eba16d2e2bd5dfc70240d19bd5c8e" title="scanexitmenu" alt="" coords="152,33,255,60"/>
+<area shape="rect" id="node4" href="menu_8c.html#ac651d3838f4da7bf6055fa839621e289" title="exitmenu" alt="" coords="303,33,377,60"/>
+<area shape="rect" id="node5" href="menu_8c.html#ac86d3169260f5cacd0f792743957b054" title="mainmenu" alt="" coords="439,33,522,60"/>
+<area shape="rect" id="node6" href="menu_8c.html#a8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="425,84,536,111"/>
 </map>
 </div>
 
@@ -243,47 +337,23 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="list_8c_a7ef519287e473ee333204280a5d91403_icgraph.png" border="0" usemap="#list_8c_a7ef519287e473ee333204280a5d91403_icgraph" alt=""/></div>
 <map name="list_8c_a7ef519287e473ee333204280a5d91403_icgraph" id="list_8c_a7ef519287e473ee333204280a5d91403_icgraph">
-<area shape="rect" id="node2" href="file_8c.html#ab3ba45c99ca47b62544bd6c4c18f0844" title="calendarload" alt="" coords="140,5,235,32"/>
-<area shape="rect" id="node4" href="menu_8c.html#ac2c3136ef241a7150d7cff391a0eb048" title="newevent" alt="" coords="148,56,227,83"/>
-<area shape="rect" id="node3" href="main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="441,56,492,83"/>
-<area shape="rect" id="node5" href="menu_8c.html#ac86d3169260f5cacd0f792743957b054" title="mainmenu" alt="" coords="297,56,379,83"/>
-<area shape="rect" id="node6" href="menu_8c.html#a8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="283,107,393,133"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a2561d96be1299fd3f5730c6d82143709"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2561d96be1299fd3f5730c6d82143709">&#9670;&nbsp;</a></span>printevent_short()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void printevent_short </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_event.html">Event</a> *&#160;</td>
-          <td class="paramname"><em>event</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="list_8c_a2561d96be1299fd3f5730c6d82143709_icgraph.png" border="0" usemap="#list_8c_a2561d96be1299fd3f5730c6d82143709_icgraph" alt=""/></div>
-<map name="list_8c_a2561d96be1299fd3f5730c6d82143709_icgraph" id="list_8c_a2561d96be1299fd3f5730c6d82143709_icgraph">
-<area shape="rect" id="node2" href="search_8c.html#a4fc3c2695bbc6aacac6fcdddbbc2c9ea" title="printfindlist" alt="" coords="168,107,253,133"/>
-<area shape="rect" id="node3" href="search_8c.html#a199722ea7869f598848648238f88d274" title="searchiter" alt="" coords="301,107,380,133"/>
-<area shape="rect" id="node4" href="search_8c.html#a9a7e3230097d2f97a58082ff6eb864ac" title="searchactual" alt="" coords="435,5,531,32"/>
-<area shape="rect" id="node9" href="search_8h.html#adaf3bc7221b1fe4f2cffb3aaea00415d" title="searchbyname" alt="" coords="430,56,537,83"/>
-<area shape="rect" id="node10" href="search_8h.html#a6b219250779d3af5972611513010a013" title="searchbyweek" alt="" coords="430,107,537,133"/>
-<area shape="rect" id="node11" href="search_8h.html#ac2a6873263c1a8146c04126b48f8431e" title="searchbymonth" alt="" coords="428,157,539,184"/>
-<area shape="rect" id="node12" href="search_8h.html#a5a5f902f17fae2dda3b8ec6bb7e1a6e9" title="searchbyday" alt="" coords="435,208,531,235"/>
-<area shape="rect" id="node5" href="menu_8c.html#a38d64ff02f60ebcb1988655ea12540a6" title="searchmenu" alt="" coords="587,107,680,133"/>
-<area shape="rect" id="node6" href="menu_8c.html#ac86d3169260f5cacd0f792743957b054" title="mainmenu" alt="" coords="742,81,825,108"/>
-<area shape="rect" id="node8" href="menu_8c.html#a8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="728,132,839,159"/>
-<area shape="rect" id="node7" href="main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="887,107,937,133"/>
+<area shape="rect" id="node2" href="eventrecord_8h.html#a1f347b6ac8e5ca0727f6ec1ec1d068da" title="moveevent" alt="" coords="140,195,227,221"/>
+<area shape="rect" id="node5" href="menu_8c.html#a069c1b762e46bba28b1f38b87d8d58aa" title="newevent" alt="" coords="767,220,846,247"/>
+<area shape="rect" id="node18" href="file_8c.html#ab3ba45c99ca47b62544bd6c4c18f0844" title="calendarload" alt="" coords="299,323,393,349"/>
+<area shape="rect" id="node3" href="eventrecord_8h.html#a9b64fb7501bab380e6146ef4a4f558c7" title="scanrecordcommand" alt="" coords="275,195,417,221"/>
+<area shape="rect" id="node4" href="eventrecord_8h.html#a43a7dc247171d596d8d808776d8d40f5" title="printeventrecord" alt="" coords="465,195,580,221"/>
+<area shape="rect" id="node9" href="searchui_8h.html#a70f4e24bc56ccfdd7d63df4a84054538" title="scanfindlist" alt="" coords="628,141,716,168"/>
+<area shape="rect" id="node6" href="menu_8c.html#ac86d3169260f5cacd0f792743957b054" title="mainmenu" alt="" coords="1338,284,1421,311"/>
+<area shape="rect" id="node8" href="menu_8c.html#a8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="1324,233,1435,260"/>
+<area shape="rect" id="node7" href="main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1483,284,1533,311"/>
+<area shape="rect" id="node10" href="searchui_8h.html#a4fc3c2695bbc6aacac6fcdddbbc2c9ea" title="printfindlist" alt="" coords="764,140,849,167"/>
+<area shape="rect" id="node11" href="search_8c.html#a199722ea7869f598848648238f88d274" title="searchiter" alt="" coords="897,139,976,165"/>
+<area shape="rect" id="node12" href="search_8c.html#a9a7e3230097d2f97a58082ff6eb864ac" title="searchactual" alt="" coords="1031,233,1127,260"/>
+<area shape="rect" id="node14" href="searchui_8h.html#adaf3bc7221b1fe4f2cffb3aaea00415d" title="searchbyname" alt="" coords="1026,183,1133,209"/>
+<area shape="rect" id="node15" href="searchui_8h.html#a6b219250779d3af5972611513010a013" title="searchbyweek" alt="" coords="1026,31,1133,57"/>
+<area shape="rect" id="node16" href="searchui_8h.html#ac2a6873263c1a8146c04126b48f8431e" title="searchbymonth" alt="" coords="1024,81,1135,108"/>
+<area shape="rect" id="node17" href="searchui_8h.html#a5a5f902f17fae2dda3b8ec6bb7e1a6e9" title="searchbyday" alt="" coords="1031,132,1127,159"/>
+<area shape="rect" id="node13" href="menu_8c.html#a38d64ff02f60ebcb1988655ea12540a6" title="searchmenu" alt="" coords="1183,233,1276,260"/>
 </map>
 </div>
 
@@ -309,12 +379,24 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="list_8c_a8f7708495c6e39bb6e712218711b331f_icgraph.png" border="0" usemap="#list_8c_a8f7708495c6e39bb6e712218711b331f_icgraph" alt=""/></div>
 <map name="list_8c_a8f7708495c6e39bb6e712218711b331f_icgraph" id="list_8c_a8f7708495c6e39bb6e712218711b331f_icgraph">
-<area shape="rect" id="node2" href="list_8h.html#a7ef519287e473ee333204280a5d91403" title="insertevent" alt="" coords="127,31,213,57"/>
-<area shape="rect" id="node3" href="file_8c.html#ab3ba45c99ca47b62544bd6c4c18f0844" title="calendarload" alt="" coords="261,5,356,32"/>
-<area shape="rect" id="node5" href="menu_8c.html#ac2c3136ef241a7150d7cff391a0eb048" title="newevent" alt="" coords="269,56,348,83"/>
-<area shape="rect" id="node4" href="main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="563,56,613,83"/>
-<area shape="rect" id="node6" href="menu_8c.html#ac86d3169260f5cacd0f792743957b054" title="mainmenu" alt="" coords="418,56,501,83"/>
-<area shape="rect" id="node7" href="menu_8c.html#a8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="404,107,515,133"/>
+<area shape="rect" id="node2" href="list_8h.html#a7ef519287e473ee333204280a5d91403" title="insertevent" alt="" coords="127,245,213,272"/>
+<area shape="rect" id="node3" href="eventrecord_8h.html#a1f347b6ac8e5ca0727f6ec1ec1d068da" title="moveevent" alt="" coords="261,195,348,221"/>
+<area shape="rect" id="node6" href="menu_8c.html#a069c1b762e46bba28b1f38b87d8d58aa" title="newevent" alt="" coords="889,220,967,247"/>
+<area shape="rect" id="node19" href="file_8c.html#ab3ba45c99ca47b62544bd6c4c18f0844" title="calendarload" alt="" coords="420,323,515,349"/>
+<area shape="rect" id="node4" href="eventrecord_8h.html#a9b64fb7501bab380e6146ef4a4f558c7" title="scanrecordcommand" alt="" coords="396,195,539,221"/>
+<area shape="rect" id="node5" href="eventrecord_8h.html#a43a7dc247171d596d8d808776d8d40f5" title="printeventrecord" alt="" coords="587,195,701,221"/>
+<area shape="rect" id="node10" href="searchui_8h.html#a70f4e24bc56ccfdd7d63df4a84054538" title="scanfindlist" alt="" coords="749,141,837,168"/>
+<area shape="rect" id="node7" href="menu_8c.html#ac86d3169260f5cacd0f792743957b054" title="mainmenu" alt="" coords="1459,284,1542,311"/>
+<area shape="rect" id="node9" href="menu_8c.html#a8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="1445,233,1556,260"/>
+<area shape="rect" id="node8" href="main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1604,284,1655,311"/>
+<area shape="rect" id="node11" href="searchui_8h.html#a4fc3c2695bbc6aacac6fcdddbbc2c9ea" title="printfindlist" alt="" coords="885,140,971,167"/>
+<area shape="rect" id="node12" href="search_8c.html#a199722ea7869f598848648238f88d274" title="searchiter" alt="" coords="1019,139,1097,165"/>
+<area shape="rect" id="node13" href="search_8c.html#a9a7e3230097d2f97a58082ff6eb864ac" title="searchactual" alt="" coords="1153,233,1249,260"/>
+<area shape="rect" id="node15" href="searchui_8h.html#adaf3bc7221b1fe4f2cffb3aaea00415d" title="searchbyname" alt="" coords="1147,183,1254,209"/>
+<area shape="rect" id="node16" href="searchui_8h.html#a6b219250779d3af5972611513010a013" title="searchbyweek" alt="" coords="1147,31,1254,57"/>
+<area shape="rect" id="node17" href="searchui_8h.html#ac2a6873263c1a8146c04126b48f8431e" title="searchbymonth" alt="" coords="1145,81,1256,108"/>
+<area shape="rect" id="node18" href="searchui_8h.html#a5a5f902f17fae2dda3b8ec6bb7e1a6e9" title="searchbyday" alt="" coords="1153,132,1249,159"/>
+<area shape="rect" id="node14" href="menu_8c.html#a38d64ff02f60ebcb1988655ea12540a6" title="searchmenu" alt="" coords="1304,233,1397,260"/>
 </map>
 </div>
 

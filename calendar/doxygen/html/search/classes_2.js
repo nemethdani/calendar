@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['menupont',['MenuPont',['../struct_menu_pont.html',1,'']]]
+  ['lefoglalt',['Lefoglalt',['../struct_lefoglalt.html',1,'']]]
 ];

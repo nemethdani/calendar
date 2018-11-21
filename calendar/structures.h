@@ -37,7 +37,7 @@ typedef struct SearchConditions{
 
 typedef void (*MenuFv)(EventList*);
 
-typedef struct {
+typedef struct MenuPont{
    char const *nev;
    MenuFv pfv;
 } MenuPont;

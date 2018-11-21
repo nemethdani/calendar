@@ -87,6 +87,10 @@ int starttime(Event* event){
     return mktime(&start);
 }
 
-void printevent_short(Event* event){
-    printf("%d.%d.%d %d:%d %s\n",event->year,event->month,event->day,event->starthour,event->startmin,event->name);
+void free_event(Event* event){
+
+    if(event->name!=NULL) free(event->name);
+    if(event->location!=NULL) free(event->location);
+    if(event->comment!=NULL) free(event->comment);
+    free(event);
 }

@@ -3,10 +3,11 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include "menu.h"
+#include "list.h"
 #include "debugmalloc.h"
 //#include "list.c"
 
-moveevent(Event* event,EventList* eventlist,ModBy modby){
+void moveevent(Event* event,EventList* eventlist,ModBy modby){
     switch(modby){
     case bydate:
         printf("Mi az esemeny datuma? (eeee.hh.nn)\n");
@@ -44,13 +45,7 @@ moveevent(Event* event,EventList* eventlist,ModBy modby){
 
 }
 
-void free_event(Event* event){
 
-    if(event->name!=NULL) free(event->name);
-    if(event->location!=NULL) free(event->location);
-    if(event->comment!=NULL) free(event->comment);
-    free(event);
-}
 
 void deleteevent(Event* event){
     printf("tenyleg törölni szeretned? (i)/(n)");

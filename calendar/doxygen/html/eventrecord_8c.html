@@ -68,20 +68,27 @@ $(function() {
 <code>#include &quot;<a class="el" href="structures_8h_source.html">structures.h</a>&quot;</code><br />
 <code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="menu_8h_source.html">menu.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="list_8c.html">list.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="debugmalloc_8h_source.html">debugmalloc.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for eventrecord.c:</div>
 <div class="dyncontent">
 <div class="center"><img src="eventrecord_8c__incl.png" border="0" usemap="#_2home_2dani_2_documents_2egyetem_2prog1_2nagyhazi_2hazi2_2calendar2_2calendar_2eventrecord_8c" alt=""/></div>
 <map name="_2home_2dani_2_documents_2egyetem_2prog1_2nagyhazi_2hazi2_2calendar2_2calendar_2eventrecord_8c" id="_2home_2dani_2_documents_2egyetem_2prog1_2nagyhazi_2hazi2_2calendar2_2calendar_2eventrecord_8c">
-<area shape="rect" id="node2" href="eventrecord_8h.html" title="eventrecord.h" alt="" coords="5,124,107,151"/>
-<area shape="rect" id="node3" href="structures_8h.html" title="structures.h" alt="" coords="55,199,145,225"/>
+<area shape="rect" id="node2" href="eventrecord_8h.html" title="eventrecord.h" alt="" coords="252,199,354,225"/>
+<area shape="rect" id="node3" href="structures_8h.html" title="structures.h" alt="" coords="26,273,116,300"/>
+<area shape="rect" id="node7" href="menu_8h.html" title="menu.h" alt="" coords="30,124,96,151"/>
+<area shape="rect" id="node8" href="list_8c.html" title="list.c" alt="" coords="167,124,218,151"/>
+<area shape="rect" id="node11" href="debugmalloc_8h.html" title="debugmalloc.h" alt="" coords="378,199,484,225"/>
+<area shape="rect" id="node9" href="list_8h.html" title="list.h" alt="" coords="127,199,178,225"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:afd63217de3b7f7269aa3ee9d14b6b578"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eventrecord_8c.html#afd63217de3b7f7269aa3ee9d14b6b578">free_event</a> (<a class="el" href="struct_event.html">Event</a> *event)</td></tr>
-<tr class="separator:afd63217de3b7f7269aa3ee9d14b6b578"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f347b6ac8e5ca0727f6ec1ec1d068da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eventrecord_8c.html#a1f347b6ac8e5ca0727f6ec1ec1d068da">moveevent</a> (<a class="el" href="struct_event.html">Event</a> *event, <a class="el" href="struct_event_list.html">EventList</a> *eventlist, <a class="el" href="eventrecord_8h.html#a643f8b09cbc45afc4ad36b27c077b1fd">ModBy</a> modby)</td></tr>
+<tr class="separator:a1f347b6ac8e5ca0727f6ec1ec1d068da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af69a5ee77b139263897d5e6bfe7d7f2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eventrecord_8c.html#af69a5ee77b139263897d5e6bfe7d7f2a">deleteevent</a> (<a class="el" href="struct_event.html">Event</a> *event)</td></tr>
 <tr class="separator:af69a5ee77b139263897d5e6bfe7d7f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b64fb7501bab380e6146ef4a4f558c7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eventrecord_8c.html#a9b64fb7501bab380e6146ef4a4f558c7">scanrecordcommand</a> (bool isnewevent, int i, <a class="el" href="struct_event.html">Event</a> *event, <a class="el" href="struct_event_list.html">EventList</a> *eventlist)</td></tr>
@@ -110,7 +117,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="eventrecord_8c_af69a5ee77b139263897d5e6bfe7d7f2a_cgraph.png" border="0" usemap="#eventrecord_8c_af69a5ee77b139263897d5e6bfe7d7f2a_cgraph" alt=""/></div>
 <map name="eventrecord_8c_af69a5ee77b139263897d5e6bfe7d7f2a_cgraph" id="eventrecord_8c_af69a5ee77b139263897d5e6bfe7d7f2a_cgraph">
-<area shape="rect" id="node2" href="eventrecord_8c.html#afd63217de3b7f7269aa3ee9d14b6b578" title="free_event" alt="" coords="143,5,225,32"/>
+<area shape="rect" id="node2" href="list_8c.html#afd63217de3b7f7269aa3ee9d14b6b578" title="free_event" alt="" coords="143,5,225,32"/>
 </map>
 </div>
 <div class="dynheader">
@@ -118,62 +125,86 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="eventrecord_8c_af69a5ee77b139263897d5e6bfe7d7f2a_icgraph.png" border="0" usemap="#eventrecord_8c_af69a5ee77b139263897d5e6bfe7d7f2a_icgraph" alt=""/></div>
 <map name="eventrecord_8c_af69a5ee77b139263897d5e6bfe7d7f2a_icgraph" id="eventrecord_8c_af69a5ee77b139263897d5e6bfe7d7f2a_icgraph">
-<area shape="rect" id="node2" href="eventrecord_8c.html#a9b64fb7501bab380e6146ef4a4f558c7" title="scanrecordcommand" alt="" coords="143,68,285,95"/>
-<area shape="rect" id="node3" href="eventrecord_8c.html#a43a7dc247171d596d8d808776d8d40f5" title="printeventrecord" alt="" coords="333,68,448,95"/>
-<area shape="rect" id="node4" href="menu_8c.html#ac2c3136ef241a7150d7cff391a0eb048" title="newevent" alt="" coords="1058,68,1137,95"/>
-<area shape="rect" id="node8" href="search_8c.html#a70f4e24bc56ccfdd7d63df4a84054538" title="scanfindlist" alt="" coords="496,94,584,120"/>
+<area shape="rect" id="node2" href="eventrecord_8h.html#a9b64fb7501bab380e6146ef4a4f558c7" title="scanrecordcommand" alt="" coords="143,68,285,95"/>
+<area shape="rect" id="node3" href="eventrecord_8h.html#a43a7dc247171d596d8d808776d8d40f5" title="printeventrecord" alt="" coords="333,68,448,95"/>
+<area shape="rect" id="node4" href="menu_8c.html#a069c1b762e46bba28b1f38b87d8d58aa" title="newevent" alt="" coords="1058,68,1137,95"/>
+<area shape="rect" id="node8" href="searchui_8h.html#a70f4e24bc56ccfdd7d63df4a84054538" title="scanfindlist" alt="" coords="496,94,584,120"/>
 <area shape="rect" id="node5" href="menu_8c.html#ac86d3169260f5cacd0f792743957b054" title="mainmenu" alt="" coords="1206,68,1289,95"/>
 <area shape="rect" id="node7" href="menu_8c.html#a8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="1192,119,1303,146"/>
 <area shape="rect" id="node6" href="main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1351,94,1401,120"/>
-<area shape="rect" id="node9" href="search_8c.html#a4fc3c2695bbc6aacac6fcdddbbc2c9ea" title="printfindlist" alt="" coords="632,107,717,134"/>
+<area shape="rect" id="node9" href="searchui_8h.html#a4fc3c2695bbc6aacac6fcdddbbc2c9ea" title="printfindlist" alt="" coords="632,107,717,134"/>
 <area shape="rect" id="node10" href="search_8c.html#a199722ea7869f598848648238f88d274" title="searchiter" alt="" coords="765,132,844,159"/>
-<area shape="rect" id="node11" href="search_8c.html#a9a7e3230097d2f97a58082ff6eb864ac" title="searchactual" alt="" coords="899,94,995,120"/>
-<area shape="rect" id="node13" href="search_8h.html#adaf3bc7221b1fe4f2cffb3aaea00415d" title="searchbyname" alt="" coords="894,144,1001,171"/>
-<area shape="rect" id="node14" href="search_8h.html#a6b219250779d3af5972611513010a013" title="searchbyweek" alt="" coords="894,195,1001,222"/>
-<area shape="rect" id="node15" href="search_8h.html#ac2a6873263c1a8146c04126b48f8431e" title="searchbymonth" alt="" coords="892,246,1003,272"/>
-<area shape="rect" id="node16" href="search_8h.html#a5a5f902f17fae2dda3b8ec6bb7e1a6e9" title="searchbyday" alt="" coords="899,43,995,70"/>
+<area shape="rect" id="node11" href="search_8c.html#a9a7e3230097d2f97a58082ff6eb864ac" title="searchactual" alt="" coords="899,195,995,222"/>
+<area shape="rect" id="node13" href="searchui_8h.html#adaf3bc7221b1fe4f2cffb3aaea00415d" title="searchbyname" alt="" coords="894,246,1001,272"/>
+<area shape="rect" id="node14" href="searchui_8h.html#a6b219250779d3af5972611513010a013" title="searchbyweek" alt="" coords="894,43,1001,70"/>
+<area shape="rect" id="node15" href="searchui_8h.html#ac2a6873263c1a8146c04126b48f8431e" title="searchbymonth" alt="" coords="892,94,1003,120"/>
+<area shape="rect" id="node16" href="searchui_8h.html#a5a5f902f17fae2dda3b8ec6bb7e1a6e9" title="searchbyday" alt="" coords="899,144,995,171"/>
 <area shape="rect" id="node12" href="menu_8c.html#a38d64ff02f60ebcb1988655ea12540a6" title="searchmenu" alt="" coords="1051,119,1144,146"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="afd63217de3b7f7269aa3ee9d14b6b578"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd63217de3b7f7269aa3ee9d14b6b578">&#9670;&nbsp;</a></span>free_event()</h2>
+<a id="a1f347b6ac8e5ca0727f6ec1ec1d068da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f347b6ac8e5ca0727f6ec1ec1d068da">&#9670;&nbsp;</a></span>moveevent()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void free_event </td>
+          <td class="memname">void moveevent </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_event.html">Event</a> *&#160;</td>
-          <td class="paramname"><em>event</em></td><td>)</td>
+          <td class="paramname"><em>event</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="struct_event_list.html">EventList</a> *&#160;</td>
+          <td class="paramname"><em>eventlist</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="eventrecord_8h.html#a643f8b09cbc45afc4ad36b27c077b1fd">ModBy</a>&#160;</td>
+          <td class="paramname"><em>modby</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="eventrecord_8c_a1f347b6ac8e5ca0727f6ec1ec1d068da_cgraph.png" border="0" usemap="#eventrecord_8c_a1f347b6ac8e5ca0727f6ec1ec1d068da_cgraph" alt=""/></div>
+<map name="eventrecord_8c_a1f347b6ac8e5ca0727f6ec1ec1d068da_cgraph" id="eventrecord_8c_a1f347b6ac8e5ca0727f6ec1ec1d068da_cgraph">
+<area shape="rect" id="node2" href="list_8c.html#a7ef519287e473ee333204280a5d91403" title="insertevent" alt="" coords="140,5,227,32"/>
+<area shape="rect" id="node3" href="list_8c.html#a8f7708495c6e39bb6e712218711b331f" title="starttime" alt="" coords="275,5,348,32"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="eventrecord_8c_afd63217de3b7f7269aa3ee9d14b6b578_icgraph.png" border="0" usemap="#eventrecord_8c_afd63217de3b7f7269aa3ee9d14b6b578_icgraph" alt=""/></div>
-<map name="eventrecord_8c_afd63217de3b7f7269aa3ee9d14b6b578_icgraph" id="eventrecord_8c_afd63217de3b7f7269aa3ee9d14b6b578_icgraph">
-<area shape="rect" id="node2" href="eventrecord_8c.html#af69a5ee77b139263897d5e6bfe7d7f2a" title="deleteevent" alt="" coords="136,68,225,95"/>
-<area shape="rect" id="node3" href="eventrecord_8c.html#a9b64fb7501bab380e6146ef4a4f558c7" title="scanrecordcommand" alt="" coords="273,68,416,95"/>
-<area shape="rect" id="node4" href="eventrecord_8c.html#a43a7dc247171d596d8d808776d8d40f5" title="printeventrecord" alt="" coords="464,68,579,95"/>
-<area shape="rect" id="node5" href="menu_8c.html#ac2c3136ef241a7150d7cff391a0eb048" title="newevent" alt="" coords="1189,68,1267,95"/>
-<area shape="rect" id="node9" href="search_8c.html#a70f4e24bc56ccfdd7d63df4a84054538" title="scanfindlist" alt="" coords="627,94,715,120"/>
-<area shape="rect" id="node6" href="menu_8c.html#ac86d3169260f5cacd0f792743957b054" title="mainmenu" alt="" coords="1337,68,1419,95"/>
-<area shape="rect" id="node8" href="menu_8c.html#a8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="1323,119,1433,146"/>
-<area shape="rect" id="node7" href="main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1481,94,1532,120"/>
-<area shape="rect" id="node10" href="search_8c.html#a4fc3c2695bbc6aacac6fcdddbbc2c9ea" title="printfindlist" alt="" coords="763,107,848,134"/>
-<area shape="rect" id="node11" href="search_8c.html#a199722ea7869f598848648238f88d274" title="searchiter" alt="" coords="896,132,975,159"/>
-<area shape="rect" id="node12" href="search_8c.html#a9a7e3230097d2f97a58082ff6eb864ac" title="searchactual" alt="" coords="1030,94,1126,120"/>
-<area shape="rect" id="node14" href="search_8h.html#adaf3bc7221b1fe4f2cffb3aaea00415d" title="searchbyname" alt="" coords="1025,144,1131,171"/>
-<area shape="rect" id="node15" href="search_8h.html#a6b219250779d3af5972611513010a013" title="searchbyweek" alt="" coords="1025,195,1131,222"/>
-<area shape="rect" id="node16" href="search_8h.html#ac2a6873263c1a8146c04126b48f8431e" title="searchbymonth" alt="" coords="1023,246,1133,272"/>
-<area shape="rect" id="node17" href="search_8h.html#a5a5f902f17fae2dda3b8ec6bb7e1a6e9" title="searchbyday" alt="" coords="1030,43,1126,70"/>
-<area shape="rect" id="node13" href="menu_8c.html#a38d64ff02f60ebcb1988655ea12540a6" title="searchmenu" alt="" coords="1181,119,1275,146"/>
+<div class="center"><img src="eventrecord_8c_a1f347b6ac8e5ca0727f6ec1ec1d068da_icgraph.png" border="0" usemap="#eventrecord_8c_a1f347b6ac8e5ca0727f6ec1ec1d068da_icgraph" alt=""/></div>
+<map name="eventrecord_8c_a1f347b6ac8e5ca0727f6ec1ec1d068da_icgraph" id="eventrecord_8c_a1f347b6ac8e5ca0727f6ec1ec1d068da_icgraph">
+<area shape="rect" id="node2" href="eventrecord_8h.html#a9b64fb7501bab380e6146ef4a4f558c7" title="scanrecordcommand" alt="" coords="140,68,283,95"/>
+<area shape="rect" id="node3" href="eventrecord_8h.html#a43a7dc247171d596d8d808776d8d40f5" title="printeventrecord" alt="" coords="331,68,445,95"/>
+<area shape="rect" id="node4" href="menu_8c.html#a069c1b762e46bba28b1f38b87d8d58aa" title="newevent" alt="" coords="1055,68,1134,95"/>
+<area shape="rect" id="node8" href="searchui_8h.html#a70f4e24bc56ccfdd7d63df4a84054538" title="scanfindlist" alt="" coords="493,94,581,120"/>
+<area shape="rect" id="node5" href="menu_8c.html#ac86d3169260f5cacd0f792743957b054" title="mainmenu" alt="" coords="1203,68,1286,95"/>
+<area shape="rect" id="node7" href="menu_8c.html#a8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="1189,119,1300,146"/>
+<area shape="rect" id="node6" href="main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1348,94,1399,120"/>
+<area shape="rect" id="node9" href="searchui_8h.html#a4fc3c2695bbc6aacac6fcdddbbc2c9ea" title="printfindlist" alt="" coords="629,107,715,134"/>
+<area shape="rect" id="node10" href="search_8c.html#a199722ea7869f598848648238f88d274" title="searchiter" alt="" coords="763,132,841,159"/>
+<area shape="rect" id="node11" href="search_8c.html#a9a7e3230097d2f97a58082ff6eb864ac" title="searchactual" alt="" coords="897,195,993,222"/>
+<area shape="rect" id="node13" href="searchui_8h.html#adaf3bc7221b1fe4f2cffb3aaea00415d" title="searchbyname" alt="" coords="891,246,998,272"/>
+<area shape="rect" id="node14" href="searchui_8h.html#a6b219250779d3af5972611513010a013" title="searchbyweek" alt="" coords="891,43,998,70"/>
+<area shape="rect" id="node15" href="searchui_8h.html#ac2a6873263c1a8146c04126b48f8431e" title="searchbymonth" alt="" coords="889,94,1000,120"/>
+<area shape="rect" id="node16" href="searchui_8h.html#a5a5f902f17fae2dda3b8ec6bb7e1a6e9" title="searchbyday" alt="" coords="897,144,993,171"/>
+<area shape="rect" id="node12" href="menu_8c.html#a38d64ff02f60ebcb1988655ea12540a6" title="searchmenu" alt="" coords="1048,119,1141,146"/>
 </map>
 </div>
 
@@ -215,13 +246,17 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="eventrecord_8c_a43a7dc247171d596d8d808776d8d40f5_cgraph.png" border="0" usemap="#eventrecord_8c_a43a7dc247171d596d8d808776d8d40f5_cgraph" alt=""/></div>
 <map name="eventrecord_8c_a43a7dc247171d596d8d808776d8d40f5_cgraph" id="eventrecord_8c_a43a7dc247171d596d8d808776d8d40f5_cgraph">
-<area shape="rect" id="node2" href="eventrecord_8c.html#a9b64fb7501bab380e6146ef4a4f558c7" title="scanrecordcommand" alt="" coords="168,31,311,57"/>
-<area shape="rect" id="node3" href="eventrecord_8c.html#af69a5ee77b139263897d5e6bfe7d7f2a" title="deleteevent" alt="" coords="359,5,448,32"/>
-<area shape="rect" id="node5" href="menu_8c.html#aa28daf84be098b64b8dfea8a88050f13" title="savemenu" alt="" coords="362,56,445,83"/>
-<area shape="rect" id="node4" href="eventrecord_8c.html#afd63217de3b7f7269aa3ee9d14b6b578" title="free_event" alt="" coords="510,5,593,32"/>
-<area shape="rect" id="node6" href="menu_8c.html#a6ef5647864065ede4ef3b2773cbb9e8d" title="scansavemenu" alt="" coords="496,56,607,83"/>
-<area shape="rect" id="node7" href="menu_8c.html#afc715bc6c0b9a9e85af15dc509a8d34b" title="filesave" alt="" coords="655,56,721,83"/>
-<area shape="rect" id="node8" href="file_8c.html#a894fe0f62442d90fb5a74f2087f78207" title="calendarsave" alt="" coords="769,56,868,83"/>
+<area shape="rect" id="node2" href="eventrecord_8c.html#a9b64fb7501bab380e6146ef4a4f558c7" title="scanrecordcommand" alt="" coords="168,81,311,108"/>
+<area shape="rect" id="node3" href="menu_8c.html#ab9ac014b764791c1dc71c187dca898f7" title="hosszu_sort_olvas" alt="" coords="359,5,489,32"/>
+<area shape="rect" id="node4" href="eventrecord_8c.html#a1f347b6ac8e5ca0727f6ec1ec1d068da" title="moveevent" alt="" coords="381,56,467,83"/>
+<area shape="rect" id="node7" href="eventrecord_8c.html#af69a5ee77b139263897d5e6bfe7d7f2a" title="deleteevent" alt="" coords="379,107,469,133"/>
+<area shape="rect" id="node9" href="menu_8c.html#aa28daf84be098b64b8dfea8a88050f13" title="savemenu" alt="" coords="383,157,465,184"/>
+<area shape="rect" id="node5" href="list_8c.html#a7ef519287e473ee333204280a5d91403" title="insertevent" alt="" coords="549,56,636,83"/>
+<area shape="rect" id="node6" href="list_8c.html#a8f7708495c6e39bb6e712218711b331f" title="starttime" alt="" coords="696,56,769,83"/>
+<area shape="rect" id="node8" href="list_8c.html#afd63217de3b7f7269aa3ee9d14b6b578" title="free_event" alt="" coords="551,107,634,133"/>
+<area shape="rect" id="node10" href="menu_8c.html#a6ef5647864065ede4ef3b2773cbb9e8d" title="scansavemenu" alt="" coords="537,157,648,184"/>
+<area shape="rect" id="node11" href="menu_8c.html#afc715bc6c0b9a9e85af15dc509a8d34b" title="filesave" alt="" coords="699,157,766,184"/>
+<area shape="rect" id="node12" href="file_8c.html#a894fe0f62442d90fb5a74f2087f78207" title="calendarsave" alt="" coords="817,157,916,184"/>
 </map>
 </div>
 <div class="dynheader">
@@ -229,18 +264,18 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="eventrecord_8c_a43a7dc247171d596d8d808776d8d40f5_icgraph.png" border="0" usemap="#eventrecord_8c_a43a7dc247171d596d8d808776d8d40f5_icgraph" alt=""/></div>
 <map name="eventrecord_8c_a43a7dc247171d596d8d808776d8d40f5_icgraph" id="eventrecord_8c_a43a7dc247171d596d8d808776d8d40f5_icgraph">
-<area shape="rect" id="node2" href="menu_8c.html#ac2c3136ef241a7150d7cff391a0eb048" title="newevent" alt="" coords="730,68,809,95"/>
-<area shape="rect" id="node6" href="search_8c.html#a70f4e24bc56ccfdd7d63df4a84054538" title="scanfindlist" alt="" coords="168,94,256,120"/>
+<area shape="rect" id="node2" href="menu_8c.html#a069c1b762e46bba28b1f38b87d8d58aa" title="newevent" alt="" coords="730,68,809,95"/>
+<area shape="rect" id="node6" href="searchui_8h.html#a70f4e24bc56ccfdd7d63df4a84054538" title="scanfindlist" alt="" coords="168,94,256,120"/>
 <area shape="rect" id="node3" href="menu_8c.html#ac86d3169260f5cacd0f792743957b054" title="mainmenu" alt="" coords="878,68,961,95"/>
 <area shape="rect" id="node5" href="menu_8c.html#a8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="864,119,975,146"/>
 <area shape="rect" id="node4" href="main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1023,94,1073,120"/>
-<area shape="rect" id="node7" href="search_8c.html#a4fc3c2695bbc6aacac6fcdddbbc2c9ea" title="printfindlist" alt="" coords="304,107,389,134"/>
+<area shape="rect" id="node7" href="searchui_8h.html#a4fc3c2695bbc6aacac6fcdddbbc2c9ea" title="printfindlist" alt="" coords="304,107,389,134"/>
 <area shape="rect" id="node8" href="search_8c.html#a199722ea7869f598848648238f88d274" title="searchiter" alt="" coords="437,132,516,159"/>
-<area shape="rect" id="node9" href="search_8c.html#a9a7e3230097d2f97a58082ff6eb864ac" title="searchactual" alt="" coords="571,94,667,120"/>
-<area shape="rect" id="node11" href="search_8h.html#adaf3bc7221b1fe4f2cffb3aaea00415d" title="searchbyname" alt="" coords="566,144,673,171"/>
-<area shape="rect" id="node12" href="search_8h.html#a6b219250779d3af5972611513010a013" title="searchbyweek" alt="" coords="566,195,673,222"/>
-<area shape="rect" id="node13" href="search_8h.html#ac2a6873263c1a8146c04126b48f8431e" title="searchbymonth" alt="" coords="564,246,675,272"/>
-<area shape="rect" id="node14" href="search_8h.html#a5a5f902f17fae2dda3b8ec6bb7e1a6e9" title="searchbyday" alt="" coords="571,43,667,70"/>
+<area shape="rect" id="node9" href="search_8c.html#a9a7e3230097d2f97a58082ff6eb864ac" title="searchactual" alt="" coords="571,195,667,222"/>
+<area shape="rect" id="node11" href="searchui_8h.html#adaf3bc7221b1fe4f2cffb3aaea00415d" title="searchbyname" alt="" coords="566,246,673,272"/>
+<area shape="rect" id="node12" href="searchui_8h.html#a6b219250779d3af5972611513010a013" title="searchbyweek" alt="" coords="566,43,673,70"/>
+<area shape="rect" id="node13" href="searchui_8h.html#ac2a6873263c1a8146c04126b48f8431e" title="searchbymonth" alt="" coords="564,94,675,120"/>
+<area shape="rect" id="node14" href="searchui_8h.html#a5a5f902f17fae2dda3b8ec6bb7e1a6e9" title="searchbyday" alt="" coords="571,144,667,171"/>
 <area shape="rect" id="node10" href="menu_8c.html#a38d64ff02f60ebcb1988655ea12540a6" title="searchmenu" alt="" coords="723,119,816,146"/>
 </map>
 </div>
@@ -289,12 +324,16 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="eventrecord_8c_a9b64fb7501bab380e6146ef4a4f558c7_cgraph.png" border="0" usemap="#eventrecord_8c_a9b64fb7501bab380e6146ef4a4f558c7_cgraph" alt=""/></div>
 <map name="eventrecord_8c_a9b64fb7501bab380e6146ef4a4f558c7_cgraph" id="eventrecord_8c_a9b64fb7501bab380e6146ef4a4f558c7_cgraph">
-<area shape="rect" id="node2" href="eventrecord_8c.html#af69a5ee77b139263897d5e6bfe7d7f2a" title="deleteevent" alt="" coords="196,5,285,32"/>
-<area shape="rect" id="node4" href="menu_8c.html#aa28daf84be098b64b8dfea8a88050f13" title="savemenu" alt="" coords="199,56,282,83"/>
-<area shape="rect" id="node3" href="eventrecord_8c.html#afd63217de3b7f7269aa3ee9d14b6b578" title="free_event" alt="" coords="347,5,430,32"/>
-<area shape="rect" id="node5" href="menu_8c.html#a6ef5647864065ede4ef3b2773cbb9e8d" title="scansavemenu" alt="" coords="333,56,444,83"/>
-<area shape="rect" id="node6" href="menu_8c.html#afc715bc6c0b9a9e85af15dc509a8d34b" title="filesave" alt="" coords="492,56,559,83"/>
-<area shape="rect" id="node7" href="file_8c.html#a894fe0f62442d90fb5a74f2087f78207" title="calendarsave" alt="" coords="607,56,705,83"/>
+<area shape="rect" id="node2" href="menu_8c.html#ab9ac014b764791c1dc71c187dca898f7" title="hosszu_sort_olvas" alt="" coords="196,5,327,32"/>
+<area shape="rect" id="node3" href="eventrecord_8c.html#a1f347b6ac8e5ca0727f6ec1ec1d068da" title="moveevent" alt="" coords="218,56,305,83"/>
+<area shape="rect" id="node6" href="eventrecord_8c.html#af69a5ee77b139263897d5e6bfe7d7f2a" title="deleteevent" alt="" coords="217,107,306,133"/>
+<area shape="rect" id="node8" href="menu_8c.html#aa28daf84be098b64b8dfea8a88050f13" title="savemenu" alt="" coords="220,157,303,184"/>
+<area shape="rect" id="node4" href="list_8c.html#a7ef519287e473ee333204280a5d91403" title="insertevent" alt="" coords="387,56,473,83"/>
+<area shape="rect" id="node5" href="list_8c.html#a8f7708495c6e39bb6e712218711b331f" title="starttime" alt="" coords="533,56,607,83"/>
+<area shape="rect" id="node7" href="list_8c.html#afd63217de3b7f7269aa3ee9d14b6b578" title="free_event" alt="" coords="389,107,471,133"/>
+<area shape="rect" id="node9" href="menu_8c.html#a6ef5647864065ede4ef3b2773cbb9e8d" title="scansavemenu" alt="" coords="375,157,485,184"/>
+<area shape="rect" id="node10" href="menu_8c.html#afc715bc6c0b9a9e85af15dc509a8d34b" title="filesave" alt="" coords="537,157,603,184"/>
+<area shape="rect" id="node11" href="file_8c.html#a894fe0f62442d90fb5a74f2087f78207" title="calendarsave" alt="" coords="655,157,753,184"/>
 </map>
 </div>
 <div class="dynheader">
@@ -302,19 +341,19 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="eventrecord_8c_a9b64fb7501bab380e6146ef4a4f558c7_icgraph.png" border="0" usemap="#eventrecord_8c_a9b64fb7501bab380e6146ef4a4f558c7_icgraph" alt=""/></div>
 <map name="eventrecord_8c_a9b64fb7501bab380e6146ef4a4f558c7_icgraph" id="eventrecord_8c_a9b64fb7501bab380e6146ef4a4f558c7_icgraph">
-<area shape="rect" id="node2" href="eventrecord_8c.html#a43a7dc247171d596d8d808776d8d40f5" title="printeventrecord" alt="" coords="196,68,311,95"/>
-<area shape="rect" id="node3" href="menu_8c.html#ac2c3136ef241a7150d7cff391a0eb048" title="newevent" alt="" coords="921,68,999,95"/>
-<area shape="rect" id="node7" href="search_8c.html#a70f4e24bc56ccfdd7d63df4a84054538" title="scanfindlist" alt="" coords="359,94,447,120"/>
+<area shape="rect" id="node2" href="eventrecord_8h.html#a43a7dc247171d596d8d808776d8d40f5" title="printeventrecord" alt="" coords="196,68,311,95"/>
+<area shape="rect" id="node3" href="menu_8c.html#a069c1b762e46bba28b1f38b87d8d58aa" title="newevent" alt="" coords="921,68,999,95"/>
+<area shape="rect" id="node7" href="searchui_8h.html#a70f4e24bc56ccfdd7d63df4a84054538" title="scanfindlist" alt="" coords="359,94,447,120"/>
 <area shape="rect" id="node4" href="menu_8c.html#ac86d3169260f5cacd0f792743957b054" title="mainmenu" alt="" coords="1069,68,1151,95"/>
 <area shape="rect" id="node6" href="menu_8c.html#a8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="1055,119,1165,146"/>
 <area shape="rect" id="node5" href="main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1213,94,1264,120"/>
-<area shape="rect" id="node8" href="search_8c.html#a4fc3c2695bbc6aacac6fcdddbbc2c9ea" title="printfindlist" alt="" coords="495,107,580,134"/>
+<area shape="rect" id="node8" href="searchui_8h.html#a4fc3c2695bbc6aacac6fcdddbbc2c9ea" title="printfindlist" alt="" coords="495,107,580,134"/>
 <area shape="rect" id="node9" href="search_8c.html#a199722ea7869f598848648238f88d274" title="searchiter" alt="" coords="628,132,707,159"/>
-<area shape="rect" id="node10" href="search_8c.html#a9a7e3230097d2f97a58082ff6eb864ac" title="searchactual" alt="" coords="762,94,858,120"/>
-<area shape="rect" id="node12" href="search_8h.html#adaf3bc7221b1fe4f2cffb3aaea00415d" title="searchbyname" alt="" coords="757,144,863,171"/>
-<area shape="rect" id="node13" href="search_8h.html#a6b219250779d3af5972611513010a013" title="searchbyweek" alt="" coords="757,195,863,222"/>
-<area shape="rect" id="node14" href="search_8h.html#ac2a6873263c1a8146c04126b48f8431e" title="searchbymonth" alt="" coords="755,246,865,272"/>
-<area shape="rect" id="node15" href="search_8h.html#a5a5f902f17fae2dda3b8ec6bb7e1a6e9" title="searchbyday" alt="" coords="762,43,858,70"/>
+<area shape="rect" id="node10" href="search_8c.html#a9a7e3230097d2f97a58082ff6eb864ac" title="searchactual" alt="" coords="762,195,858,222"/>
+<area shape="rect" id="node12" href="searchui_8h.html#adaf3bc7221b1fe4f2cffb3aaea00415d" title="searchbyname" alt="" coords="757,246,863,272"/>
+<area shape="rect" id="node13" href="searchui_8h.html#a6b219250779d3af5972611513010a013" title="searchbyweek" alt="" coords="757,43,863,70"/>
+<area shape="rect" id="node14" href="searchui_8h.html#ac2a6873263c1a8146c04126b48f8431e" title="searchbymonth" alt="" coords="755,94,865,120"/>
+<area shape="rect" id="node15" href="searchui_8h.html#a5a5f902f17fae2dda3b8ec6bb7e1a6e9" title="searchbyday" alt="" coords="762,144,858,171"/>
 <area shape="rect" id="node11" href="menu_8c.html#a38d64ff02f60ebcb1988655ea12540a6" title="searchmenu" alt="" coords="913,119,1007,146"/>
 </map>
 </div>

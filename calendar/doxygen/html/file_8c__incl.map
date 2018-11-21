@@ -1,5 +1,6 @@
 <map id="/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.c" name="/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.c">
-<area shape="rect" id="node2" href="$file_8h.html" title="file.h" alt="" coords="43,109,93,136"/>
-<area shape="rect" id="node4" href="$structures_8h.html" title="structures.h" alt="" coords="124,184,215,211"/>
-<area shape="rect" id="node7" href="$list_8h.html" title="list.h" alt="" coords="267,109,317,136"/>
+<area shape="rect" id="node2" href="$file_8h.html" title="file.h" alt="" coords="71,109,121,136"/>
+<area shape="rect" id="node4" href="$structures_8h.html" title="structures.h" alt="" coords="93,184,184,211"/>
+<area shape="rect" id="node7" href="$list_8h.html" title="list.h" alt="" coords="196,109,247,136"/>
+<area shape="rect" id="node8" href="$debugmalloc_8h.html" title="debugmalloc.h" alt="" coords="321,109,428,136"/>
 </map>

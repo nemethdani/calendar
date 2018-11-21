@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['file_2ec',['file.c',['../file_8c.html',1,'']]],
-  ['file_2eh',['file.h',['../file_8h.html',1,'']]]
+  ['eventrecord_2ec',['eventrecord.c',['../eventrecord_8c.html',1,'']]],
+  ['eventrecord_2eh',['eventrecord.h',['../eventrecord_8h.html',1,'']]]
 ];

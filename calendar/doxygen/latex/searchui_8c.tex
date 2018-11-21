@@ -1,0 +1,179 @@
+\hypertarget{searchui_8c}{}\section{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/searchui.c File Reference}
+\label{searchui_8c}\index{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/searchui.\+c@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/searchui.\+c}}
+{\ttfamily \#include \char`\"{}structures.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+Include dependency graph for searchui.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=286pt]{searchui_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{searchui_8c_adaf3bc7221b1fe4f2cffb3aaea00415d}{searchbyname} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
+\item 
+int \hyperlink{searchui_8c_a6b219250779d3af5972611513010a013}{searchbyweek} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
+\item 
+int \hyperlink{searchui_8c_ac2a6873263c1a8146c04126b48f8431e}{searchbymonth} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
+\item 
+int \hyperlink{searchui_8c_a5a5f902f17fae2dda3b8ec6bb7e1a6e9}{searchbyday} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
+\item 
+int \hyperlink{searchui_8c_a4fc3c2695bbc6aacac6fcdddbbc2c9ea}{printfindlist} (\hyperlink{struct_find_list}{Find\+List} $\ast$findlist, \hyperlink{struct_search_conditions}{Search\+Conditions} condition, \hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
+\item 
+int \hyperlink{searchui_8c_a70f4e24bc56ccfdd7d63df4a84054538}{scanfindlist} (int i, \hyperlink{struct_find_list}{Find\+List} $\ast$findlist, \hyperlink{struct_search_conditions}{Search\+Conditions} condition, \hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
+\item 
+void \hyperlink{searchui_8c_a2561d96be1299fd3f5730c6d82143709}{printevent\+\_\+short} (\hyperlink{struct_event}{Event} $\ast$event)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{searchui_8c_a2561d96be1299fd3f5730c6d82143709}\label{searchui_8c_a2561d96be1299fd3f5730c6d82143709}} 
+\index{searchui.\+c@{searchui.\+c}!printevent\+\_\+short@{printevent\+\_\+short}}
+\index{printevent\+\_\+short@{printevent\+\_\+short}!searchui.\+c@{searchui.\+c}}
+\subsubsection{\texorpdfstring{printevent\+\_\+short()}{printevent\_short()}}
+{\footnotesize\ttfamily void printevent\+\_\+short (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event}{Event} $\ast$}]{event }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{searchui_8c_a2561d96be1299fd3f5730c6d82143709_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{searchui_8c_a4fc3c2695bbc6aacac6fcdddbbc2c9ea}\label{searchui_8c_a4fc3c2695bbc6aacac6fcdddbbc2c9ea}} 
+\index{searchui.\+c@{searchui.\+c}!printfindlist@{printfindlist}}
+\index{printfindlist@{printfindlist}!searchui.\+c@{searchui.\+c}}
+\subsubsection{\texorpdfstring{printfindlist()}{printfindlist()}}
+{\footnotesize\ttfamily int printfindlist (\begin{DoxyParamCaption}\item[{\hyperlink{struct_find_list}{Find\+List} $\ast$}]{findlist,  }\item[{\hyperlink{struct_search_conditions}{Search\+Conditions}}]{condition,  }\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{searchui_8c_a4fc3c2695bbc6aacac6fcdddbbc2c9ea_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{searchui_8c_a4fc3c2695bbc6aacac6fcdddbbc2c9ea_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{searchui_8c_a70f4e24bc56ccfdd7d63df4a84054538}\label{searchui_8c_a70f4e24bc56ccfdd7d63df4a84054538}} 
+\index{searchui.\+c@{searchui.\+c}!scanfindlist@{scanfindlist}}
+\index{scanfindlist@{scanfindlist}!searchui.\+c@{searchui.\+c}}
+\subsubsection{\texorpdfstring{scanfindlist()}{scanfindlist()}}
+{\footnotesize\ttfamily int scanfindlist (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{\hyperlink{struct_find_list}{Find\+List} $\ast$}]{findlist,  }\item[{\hyperlink{struct_search_conditions}{Search\+Conditions}}]{condition,  }\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{searchui_8c_a70f4e24bc56ccfdd7d63df4a84054538_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{searchui_8c_a70f4e24bc56ccfdd7d63df4a84054538_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{searchui_8c_a5a5f902f17fae2dda3b8ec6bb7e1a6e9}\label{searchui_8c_a5a5f902f17fae2dda3b8ec6bb7e1a6e9}} 
+\index{searchui.\+c@{searchui.\+c}!searchbyday@{searchbyday}}
+\index{searchbyday@{searchbyday}!searchui.\+c@{searchui.\+c}}
+\subsubsection{\texorpdfstring{searchbyday()}{searchbyday()}}
+{\footnotesize\ttfamily int searchbyday (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{searchui_8c_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{searchui_8c_a5a5f902f17fae2dda3b8ec6bb7e1a6e9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{searchui_8c_ac2a6873263c1a8146c04126b48f8431e}\label{searchui_8c_ac2a6873263c1a8146c04126b48f8431e}} 
+\index{searchui.\+c@{searchui.\+c}!searchbymonth@{searchbymonth}}
+\index{searchbymonth@{searchbymonth}!searchui.\+c@{searchui.\+c}}
+\subsubsection{\texorpdfstring{searchbymonth()}{searchbymonth()}}
+{\footnotesize\ttfamily int searchbymonth (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{searchui_8c_ac2a6873263c1a8146c04126b48f8431e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{searchui_8c_ac2a6873263c1a8146c04126b48f8431e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{searchui_8c_adaf3bc7221b1fe4f2cffb3aaea00415d}\label{searchui_8c_adaf3bc7221b1fe4f2cffb3aaea00415d}} 
+\index{searchui.\+c@{searchui.\+c}!searchbyname@{searchbyname}}
+\index{searchbyname@{searchbyname}!searchui.\+c@{searchui.\+c}}
+\subsubsection{\texorpdfstring{searchbyname()}{searchbyname()}}
+{\footnotesize\ttfamily int searchbyname (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{searchui_8c_adaf3bc7221b1fe4f2cffb3aaea00415d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{searchui_8c_adaf3bc7221b1fe4f2cffb3aaea00415d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{searchui_8c_a6b219250779d3af5972611513010a013}\label{searchui_8c_a6b219250779d3af5972611513010a013}} 
+\index{searchui.\+c@{searchui.\+c}!searchbyweek@{searchbyweek}}
+\index{searchbyweek@{searchbyweek}!searchui.\+c@{searchui.\+c}}
+\subsubsection{\texorpdfstring{searchbyweek()}{searchbyweek()}}
+{\footnotesize\ttfamily int searchbyweek (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{searchui_8c_a6b219250779d3af5972611513010a013_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{searchui_8c_a6b219250779d3af5972611513010a013_icgraph}
+\end{center}
+\end{figure}

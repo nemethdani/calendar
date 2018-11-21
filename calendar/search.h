@@ -4,20 +4,14 @@
 #include <stdbool.h>
 #include "structures.h"
 
-typedef enum IterMode{insertion,lookup}IterMode;
+//typedef enum IterMode{insertion,lookup}IterMode;
 typedef enum SearchBy{byweek,byday,bymonth}SearchBy;
 
-SearchConditions printsearchmenu();
-int searchbyname(EventList* eventlist);
-int searchbymonth(EventList* eventlist);
-int searchbyweek(EventList* eventlist);
-Tm* eventtotm(Event* event);
-int searchbyday(EventList* eventlist);
-void scansearchmenucommand();
-bool istrueevent(bool condition);
-//void iterevents(bool backward, EventList eventlist, Itermode itermode);
-void puttofindlist(Event* event);
+int searchiter(EventList* eventlist, SearchConditions condition);
+int searchactual(EventList* eventlist,SearchBy searchmode);
 void inserttofindlist(FindList* findlist,Event* event);
+int tmtoweek(Tm* tm);
+Tm* eventtotm(Event* event);
 
 
 #endif // SEARCH_H_INCLUDED

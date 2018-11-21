@@ -1,11 +1,14 @@
 #ifndef FILE_H_INCLUDED
 #define FILE_H_INCLUDED
 
-#include <stdio.h>
+//#include <stdio.h>
 #include "structures.h"
+#include <stdbool.h>
 
-void fileload();
-void filesave(EventList* eventlist);
+char* dstrcpy(char* str);
+bool calendarload(EventList* eventlist);
+bool calendarsave(EventList* eventlist);
+
 
 
 #endif // FILE_H_INCLUDED

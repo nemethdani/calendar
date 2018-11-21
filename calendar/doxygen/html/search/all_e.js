@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['year',['year',['../struct_event.html#abeac221e38b7b9ce7df8722c842bf671',1,'Event::year()'],['../struct_search_conditions.html#abeac221e38b7b9ce7df8722c842bf671',1,'SearchConditions::year()']]]
+  ['usernek',['usernek',['../struct_lefoglalt.html#a58c09d4017310a90fad327e926330b96',1,'Lefoglalt']]]
 ];

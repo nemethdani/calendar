@@ -4,18 +4,21 @@
 {\ttfamily \#include \char`\"{}structures.\+h\char`\"{}}\newline
 {\ttfamily \#include $<$stdio.\+h$>$}\newline
 {\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}menu.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}list.\+c\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}debugmalloc.\+h\char`\"{}}\newline
 Include dependency graph for eventrecord.\+c\+:
 \nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=332pt]{eventrecord_8c__incl}
+\includegraphics[width=350pt]{eventrecord_8c__incl}
 \end{center}
 \end{figure}
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-void \hyperlink{eventrecord_8c_afd63217de3b7f7269aa3ee9d14b6b578}{free\+\_\+event} (\hyperlink{struct_event}{Event} $\ast$event)
+void \hyperlink{eventrecord_8c_a1f347b6ac8e5ca0727f6ec1ec1d068da}{moveevent} (\hyperlink{struct_event}{Event} $\ast$event, \hyperlink{struct_event_list}{Event\+List} $\ast$eventlist, \hyperlink{eventrecord_8h_a643f8b09cbc45afc4ad36b27c077b1fd}{Mod\+By} modby)
 \item 
 void \hyperlink{eventrecord_8c_af69a5ee77b139263897d5e6bfe7d7f2a}{deleteevent} (\hyperlink{struct_event}{Event} $\ast$event)
 \item 
@@ -48,18 +51,26 @@ Here is the caller graph for this function\+:
 \includegraphics[width=350pt]{eventrecord_8c_af69a5ee77b139263897d5e6bfe7d7f2a_icgraph}
 \end{center}
 \end{figure}
-\mbox{\Hypertarget{eventrecord_8c_afd63217de3b7f7269aa3ee9d14b6b578}\label{eventrecord_8c_afd63217de3b7f7269aa3ee9d14b6b578}} 
-\index{eventrecord.\+c@{eventrecord.\+c}!free\+\_\+event@{free\+\_\+event}}
-\index{free\+\_\+event@{free\+\_\+event}!eventrecord.\+c@{eventrecord.\+c}}
-\subsubsection{\texorpdfstring{free\+\_\+event()}{free\_event()}}
-{\footnotesize\ttfamily void free\+\_\+event (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event}{Event} $\ast$}]{event }\end{DoxyParamCaption})}
+\mbox{\Hypertarget{eventrecord_8c_a1f347b6ac8e5ca0727f6ec1ec1d068da}\label{eventrecord_8c_a1f347b6ac8e5ca0727f6ec1ec1d068da}} 
+\index{eventrecord.\+c@{eventrecord.\+c}!moveevent@{moveevent}}
+\index{moveevent@{moveevent}!eventrecord.\+c@{eventrecord.\+c}}
+\subsubsection{\texorpdfstring{moveevent()}{moveevent()}}
+{\footnotesize\ttfamily void moveevent (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event}{Event} $\ast$}]{event,  }\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist,  }\item[{\hyperlink{eventrecord_8h_a643f8b09cbc45afc4ad36b27c077b1fd}{Mod\+By}}]{modby }\end{DoxyParamCaption})}
 
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{eventrecord_8c_a1f347b6ac8e5ca0727f6ec1ec1d068da_cgraph}
+\end{center}
+\end{figure}
 Here is the caller graph for this function\+:
 \nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{eventrecord_8c_afd63217de3b7f7269aa3ee9d14b6b578_icgraph}
+\includegraphics[width=350pt]{eventrecord_8c_a1f347b6ac8e5ca0727f6ec1ec1d068da_icgraph}
 \end{center}
 \end{figure}
 \mbox{\Hypertarget{eventrecord_8c_a43a7dc247171d596d8d808776d8d40f5}\label{eventrecord_8c_a43a7dc247171d596d8d808776d8d40f5}} 

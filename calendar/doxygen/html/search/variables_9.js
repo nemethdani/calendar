@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['week',['week',['../struct_search_conditions.html#a3560bdec25d509ef8f4f02409eaa9f1d',1,'SearchConditions']]]
+  ['usernek',['usernek',['../struct_lefoglalt.html#a58c09d4017310a90fad327e926330b96',1,'Lefoglalt']]]
 ];

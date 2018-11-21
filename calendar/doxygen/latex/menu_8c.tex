@@ -10,6 +10,7 @@
 {\ttfamily \#include \char`\"{}list.\+h\char`\"{}}\newline
 {\ttfamily \#include \char`\"{}search.\+h\char`\"{}}\newline
 {\ttfamily \#include \char`\"{}eventrecord.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}debugmalloc.\+h\char`\"{}}\newline
 Include dependency graph for menu.\+c\+:
 \nopagebreak
 \begin{figure}[H]
@@ -25,7 +26,7 @@ char \hyperlink{menu_8c_a033e355dbab3723c9d57e8f3e6fe52e1}{scaninput} ()
 \item 
 void \hyperlink{menu_8c_afc715bc6c0b9a9e85af15dc509a8d34b}{filesave} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
 \item 
-void \hyperlink{menu_8c_ac2c3136ef241a7150d7cff391a0eb048}{newevent} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
+int \hyperlink{menu_8c_a069c1b762e46bba28b1f38b87d8d58aa}{newevent} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
 \item 
 char $\ast$ \hyperlink{menu_8c_ab9ac014b764791c1dc71c187dca898f7}{hosszu\+\_\+sort\+\_\+olvas} (int bufferhossz)
 \item 
@@ -62,14 +63,16 @@ void \hyperlink{menu_8c_a00af175f266f31d352be878cfb5d5640}{callmenu} (int meret,
 \subsubsection{\texorpdfstring{exitmenu()}{exitmenu()}}
 {\footnotesize\ttfamily void exitmenu (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:\nopagebreak
+Here is the call graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{menu_8c_ac651d3838f4da7bf6055fa839621e289_cgraph}
 \end{center}
 \end{figure}
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -82,7 +85,8 @@ Here is the caller graph for this function\+:\nopagebreak
 \subsubsection{\texorpdfstring{filesave()}{filesave()}}
 {\footnotesize\ttfamily void filesave (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:\nopagebreak
+Here is the call graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -133,18 +137,18 @@ Here is the caller graph for this function\+:
 \includegraphics[width=216pt]{menu_8c_ac86d3169260f5cacd0f792743957b054_icgraph}
 \end{center}
 \end{figure}
-\mbox{\Hypertarget{menu_8c_ac2c3136ef241a7150d7cff391a0eb048}\label{menu_8c_ac2c3136ef241a7150d7cff391a0eb048}} 
+\mbox{\Hypertarget{menu_8c_a069c1b762e46bba28b1f38b87d8d58aa}\label{menu_8c_a069c1b762e46bba28b1f38b87d8d58aa}} 
 \index{menu.\+c@{menu.\+c}!newevent@{newevent}}
 \index{newevent@{newevent}!menu.\+c@{menu.\+c}}
 \subsubsection{\texorpdfstring{newevent()}{newevent()}}
-{\footnotesize\ttfamily void newevent (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily int newevent (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
 
 Here is the call graph for this function\+:
 \nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{menu_8c_ac2c3136ef241a7150d7cff391a0eb048_cgraph}
+\includegraphics[width=350pt]{menu_8c_a069c1b762e46bba28b1f38b87d8d58aa_cgraph}
 \end{center}
 \end{figure}
 Here is the caller graph for this function\+:
@@ -152,7 +156,7 @@ Here is the caller graph for this function\+:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=332pt]{menu_8c_ac2c3136ef241a7150d7cff391a0eb048_icgraph}
+\includegraphics[width=332pt]{menu_8c_a069c1b762e46bba28b1f38b87d8d58aa_icgraph}
 \end{center}
 \end{figure}
 \mbox{\Hypertarget{menu_8c_a1aa7ba6b6941a272c34eea491e4a650d}\label{menu_8c_a1aa7ba6b6941a272c34eea491e4a650d}} 

@@ -1,4 +1,5 @@
 <map id="/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.h" name="/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.h">
-<area shape="rect" id="node2" href="$main_8c.html" title="/home/dani/Documents\l/egyetem/prog1/nagyhazi\l/hazi2/calendar2/calendar/main.c" alt="" coords="5,109,219,165"/>
-<area shape="rect" id="node3" href="$menu_8c.html" title="/home/dani/Documents\l/egyetem/prog1/nagyhazi\l/hazi2/calendar2/calendar/menu.c" alt="" coords="243,109,461,165"/>
+<area shape="rect" id="node2" href="$eventrecord_8c.html" title="/home/dani/Documents\l/egyetem/prog1/nagyhazi\l/hazi2/calendar2/calendar\l/eventrecord.c" alt="" coords="5,109,176,180"/>
+<area shape="rect" id="node3" href="$main_8c.html" title="/home/dani/Documents\l/egyetem/prog1/nagyhazi\l/hazi2/calendar2/calendar/main.c" alt="" coords="200,117,413,173"/>
+<area shape="rect" id="node4" href="$menu_8c.html" title="/home/dani/Documents\l/egyetem/prog1/nagyhazi\l/hazi2/calendar2/calendar/menu.c" alt="" coords="438,117,655,173"/>
 </map>

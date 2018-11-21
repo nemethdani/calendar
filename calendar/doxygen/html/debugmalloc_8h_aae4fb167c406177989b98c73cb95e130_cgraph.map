@@ -1,0 +1,6 @@
+<map id="debugmalloc_realloc" name="debugmalloc_realloc">
+<area shape="rect" id="node2" href="$debugmalloc_8c.html#ab7c0c062a428bb154778a9ca6eb40e04" title="debugmalloc_realloc_full" alt="" coords="193,56,357,83"/>
+<area shape="rect" id="node3" href="$debugmalloc_8c.html#ac93439c705b1780a2e0c0392f0fb29ac" title="debugmalloc_malloc_full" alt="" coords="405,5,569,32"/>
+<area shape="rect" id="node4" href="$debugmalloc_8c.html#a37c186b2e2e471ef7f0a50f98046017e" title="debugmalloc_free_full" alt="" coords="413,56,561,83"/>
+<area shape="rect" id="node5" href="$debugmalloc_8c.html#a8c9ec70628a684e1d6e2781f10a9ce74" title="debugmalloc_hash" alt="" coords="422,107,553,133"/>
+</map>

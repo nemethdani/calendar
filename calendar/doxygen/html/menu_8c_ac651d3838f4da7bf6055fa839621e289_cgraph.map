@@ -1,5 +1,7 @@
 <map id="exitmenu" name="exitmenu">
-<area shape="rect" id="node2" href="$menu_8c.html#aa12eba16d2e2bd5dfc70240d19bd5c8e" title="scanexitmenu" alt="" coords="128,5,231,32"/>
-<area shape="rect" id="node3" href="$menu_8c.html#afc715bc6c0b9a9e85af15dc509a8d34b" title="filesave" alt="" coords="279,5,345,32"/>
-<area shape="rect" id="node4" href="$file_8c.html#a894fe0f62442d90fb5a74f2087f78207" title="calendarsave" alt="" coords="393,5,492,32"/>
+<area shape="rect" id="node2" href="$menu_8c.html#aa12eba16d2e2bd5dfc70240d19bd5c8e" title="scanexitmenu" alt="" coords="128,31,231,57"/>
+<area shape="rect" id="node3" href="$menu_8c.html#afc715bc6c0b9a9e85af15dc509a8d34b" title="filesave" alt="" coords="295,5,361,32"/>
+<area shape="rect" id="node5" href="$list_8c.html#a4293a94245f5abec38c480114aa58b23" title="freeEventList" alt="" coords="279,56,377,83"/>
+<area shape="rect" id="node4" href="$file_8c.html#a894fe0f62442d90fb5a74f2087f78207" title="calendarsave" alt="" coords="425,5,524,32"/>
+<area shape="rect" id="node6" href="$list_8c.html#afd63217de3b7f7269aa3ee9d14b6b578" title="free_event" alt="" coords="433,56,516,83"/>
 </map>

@@ -10,13 +10,7 @@
 #include "eventrecord.h"
 #include "debugmalloc.h"
 
-char scaninput(){
-    int input;
-    scanf("%d",&input);
-    getchar();
 
-    return input;
-}
 
 void filesave(EventList* eventlist){
     if(calendarsave(eventlist)) printf("saved\n");
@@ -67,7 +61,7 @@ int newevent(EventList* eventlist){
 }
 
 
-char *hosszu_sort_olvas(int bufferhossz) {
+char *hosszu_sort_olvas(int bufferhossz){
     //int db = 0;
     char *sor = (char*) malloc(sizeof(char) * (bufferhossz+1));
 
@@ -273,11 +267,11 @@ int printmenu(MenuPont* menupontok){
     return meret;
 }
 
-void callmenu(int meret, MenuPont* menupontok, EventList* eventlist){
-    int valasztas;
-    while(!(scanf("%d",&valasztas)==1 && 0 < valasztas && valasztas < meret)){
-        printf("Nincs ilyen menüpont\n");
-    }
-    menupontok[valasztas-1].pfv(eventlist);
-}
+//void callmenu(int meret, MenuPont* menupontok, EventList* eventlist){
+//    int valasztas;
+//    while(!(scanf("%d",&valasztas)==1 && 0 < valasztas && valasztas < meret)){
+//        printf("Nincs ilyen menüpont\n");
+//    }
+//    menupontok[valasztas-1].pfv(eventlist);
+//}
 

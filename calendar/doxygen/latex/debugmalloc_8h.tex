@@ -1,0 +1,200 @@
+\hypertarget{debugmalloc_8h}{}\section{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/debugmalloc.h File Reference}
+\label{debugmalloc_8h}\index{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/debugmalloc.\+h@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/debugmalloc.\+h}}
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+Include dependency graph for debugmalloc.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{debugmalloc_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{debugmalloc_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{debugmalloc_8h_a183c59bc3a5f5116f8490a9335db33a3}{malloc}(X)~\hyperlink{debugmalloc_8h_ac93439c705b1780a2e0c0392f0fb29ac}{debugmalloc\+\_\+malloc\+\_\+full}(X, \char`\"{}malloc\char`\"{}, \#X, \+\_\+\+\_\+\+F\+I\+L\+E\+\_\+\+\_\+, \+\_\+\+\_\+\+L\+I\+N\+E\+\_\+\+\_\+, false)
+\item 
+\#define \hyperlink{debugmalloc_8h_a1df39f6160f230fb8ed801481dbde0c0}{calloc}(X,  Y)~\hyperlink{debugmalloc_8h_ac93439c705b1780a2e0c0392f0fb29ac}{debugmalloc\+\_\+malloc\+\_\+full}(X$\ast$Y, \char`\"{}calloc\char`\"{}, \#X \char`\"{}, \char`\"{} \#Y, \+\_\+\+\_\+\+F\+I\+L\+E\+\_\+\+\_\+, \+\_\+\+\_\+\+L\+I\+N\+E\+\_\+\+\_\+, true)
+\item 
+\#define \hyperlink{debugmalloc_8h_adcb4d5ff54f988a9e07d7640e0b333e5}{realloc}(P,  X)~\hyperlink{debugmalloc_8h_a4668760068bcb278408fe4299c91ed42}{debugmalloc\+\_\+realloc\+\_\+full}(P, X, \char`\"{}realloc\char`\"{}, \#X, \+\_\+\+\_\+\+F\+I\+L\+E\+\_\+\+\_\+, \+\_\+\+\_\+\+L\+I\+N\+E\+\_\+\+\_\+)
+\item 
+\#define \hyperlink{debugmalloc_8h_aa7943e5d135734f6801bebcc37401fc0}{free}(P)~\hyperlink{debugmalloc_8h_a37c186b2e2e471ef7f0a50f98046017e}{debugmalloc\+\_\+free\+\_\+full}(P, \char`\"{}free\char`\"{}, \+\_\+\+\_\+\+F\+I\+L\+E\+\_\+\+\_\+, \+\_\+\+\_\+\+L\+I\+N\+E\+\_\+\+\_\+)
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{debugmalloc_8h_a5a4971a7e15f7777b075985f0dc76624}{debugmalloc\+\_\+naplofajl} (char const $\ast$nev)
+\item 
+void \hyperlink{debugmalloc_8h_af4f3fa6b1dbe5a06127d3074fee25758}{debugmalloc\+\_\+dump} ()
+\item 
+void $\ast$ \hyperlink{debugmalloc_8h_ac93439c705b1780a2e0c0392f0fb29ac}{debugmalloc\+\_\+malloc\+\_\+full} (size\+\_\+t meret, char const $\ast$fv, char const $\ast$cel, char const $\ast$file, unsigned line, bool zero)
+\item 
+void $\ast$ \hyperlink{debugmalloc_8h_a4668760068bcb278408fe4299c91ed42}{debugmalloc\+\_\+realloc\+\_\+full} (void $\ast$regimem, size\+\_\+t newsize, char const $\ast$fv, char const $\ast$cel, char const $\ast$file, unsigned line)
+\item 
+void \hyperlink{debugmalloc_8h_a37c186b2e2e471ef7f0a50f98046017e}{debugmalloc\+\_\+free\+\_\+full} (void $\ast$mem, char const $\ast$fv, char const $\ast$file, unsigned line)
+\item 
+void $\ast$ \hyperlink{debugmalloc_8h_a2114257904b92a949d3fcc0eda775aaf}{debugmalloc\+\_\+malloc} (size\+\_\+t meret)
+\item 
+void $\ast$ \hyperlink{debugmalloc_8h_ad88e4b22596045c845856b2e11ddbff9}{debugmalloc\+\_\+calloc} (size\+\_\+t nmemb, size\+\_\+t meret)
+\item 
+void $\ast$ \hyperlink{debugmalloc_8h_aae4fb167c406177989b98c73cb95e130}{debugmalloc\+\_\+realloc} (void $\ast$regimem, size\+\_\+t meret)
+\item 
+void \hyperlink{debugmalloc_8h_aaefe8f6631edc5b13d5801390295740c}{debugmalloc\+\_\+free} (void $\ast$mem)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{debugmalloc_8h_a1df39f6160f230fb8ed801481dbde0c0}\label{debugmalloc_8h_a1df39f6160f230fb8ed801481dbde0c0}} 
+\index{debugmalloc.\+h@{debugmalloc.\+h}!calloc@{calloc}}
+\index{calloc@{calloc}!debugmalloc.\+h@{debugmalloc.\+h}}
+\subsubsection{\texorpdfstring{calloc}{calloc}}
+{\footnotesize\ttfamily \#define calloc(\begin{DoxyParamCaption}\item[{}]{X,  }\item[{}]{Y }\end{DoxyParamCaption})~\hyperlink{debugmalloc_8h_ac93439c705b1780a2e0c0392f0fb29ac}{debugmalloc\+\_\+malloc\+\_\+full}(X$\ast$Y, \char`\"{}calloc\char`\"{}, \#X \char`\"{}, \char`\"{} \#Y, \+\_\+\+\_\+\+F\+I\+L\+E\+\_\+\+\_\+, \+\_\+\+\_\+\+L\+I\+N\+E\+\_\+\+\_\+, true)}
+
+\mbox{\Hypertarget{debugmalloc_8h_aa7943e5d135734f6801bebcc37401fc0}\label{debugmalloc_8h_aa7943e5d135734f6801bebcc37401fc0}} 
+\index{debugmalloc.\+h@{debugmalloc.\+h}!free@{free}}
+\index{free@{free}!debugmalloc.\+h@{debugmalloc.\+h}}
+\subsubsection{\texorpdfstring{free}{free}}
+{\footnotesize\ttfamily \#define free(\begin{DoxyParamCaption}\item[{}]{P }\end{DoxyParamCaption})~\hyperlink{debugmalloc_8h_a37c186b2e2e471ef7f0a50f98046017e}{debugmalloc\+\_\+free\+\_\+full}(P, \char`\"{}free\char`\"{}, \+\_\+\+\_\+\+F\+I\+L\+E\+\_\+\+\_\+, \+\_\+\+\_\+\+L\+I\+N\+E\+\_\+\+\_\+)}
+
+\mbox{\Hypertarget{debugmalloc_8h_a183c59bc3a5f5116f8490a9335db33a3}\label{debugmalloc_8h_a183c59bc3a5f5116f8490a9335db33a3}} 
+\index{debugmalloc.\+h@{debugmalloc.\+h}!malloc@{malloc}}
+\index{malloc@{malloc}!debugmalloc.\+h@{debugmalloc.\+h}}
+\subsubsection{\texorpdfstring{malloc}{malloc}}
+{\footnotesize\ttfamily \#define malloc(\begin{DoxyParamCaption}\item[{}]{X }\end{DoxyParamCaption})~\hyperlink{debugmalloc_8h_ac93439c705b1780a2e0c0392f0fb29ac}{debugmalloc\+\_\+malloc\+\_\+full}(X, \char`\"{}malloc\char`\"{}, \#X, \+\_\+\+\_\+\+F\+I\+L\+E\+\_\+\+\_\+, \+\_\+\+\_\+\+L\+I\+N\+E\+\_\+\+\_\+, false)}
+
+\mbox{\Hypertarget{debugmalloc_8h_adcb4d5ff54f988a9e07d7640e0b333e5}\label{debugmalloc_8h_adcb4d5ff54f988a9e07d7640e0b333e5}} 
+\index{debugmalloc.\+h@{debugmalloc.\+h}!realloc@{realloc}}
+\index{realloc@{realloc}!debugmalloc.\+h@{debugmalloc.\+h}}
+\subsubsection{\texorpdfstring{realloc}{realloc}}
+{\footnotesize\ttfamily \#define realloc(\begin{DoxyParamCaption}\item[{}]{P,  }\item[{}]{X }\end{DoxyParamCaption})~\hyperlink{debugmalloc_8h_a4668760068bcb278408fe4299c91ed42}{debugmalloc\+\_\+realloc\+\_\+full}(P, X, \char`\"{}realloc\char`\"{}, \#X, \+\_\+\+\_\+\+F\+I\+L\+E\+\_\+\+\_\+, \+\_\+\+\_\+\+L\+I\+N\+E\+\_\+\+\_\+)}
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{debugmalloc_8h_ad88e4b22596045c845856b2e11ddbff9}\label{debugmalloc_8h_ad88e4b22596045c845856b2e11ddbff9}} 
+\index{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+calloc@{debugmalloc\+\_\+calloc}}
+\index{debugmalloc\+\_\+calloc@{debugmalloc\+\_\+calloc}!debugmalloc.\+h@{debugmalloc.\+h}}
+\subsubsection{\texorpdfstring{debugmalloc\+\_\+calloc()}{debugmalloc\_calloc()}}
+{\footnotesize\ttfamily void$\ast$ debugmalloc\+\_\+calloc (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{nmemb,  }\item[{size\+\_\+t}]{meret }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{debugmalloc_8h_ad88e4b22596045c845856b2e11ddbff9_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{debugmalloc_8h_af4f3fa6b1dbe5a06127d3074fee25758}\label{debugmalloc_8h_af4f3fa6b1dbe5a06127d3074fee25758}} 
+\index{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+dump@{debugmalloc\+\_\+dump}}
+\index{debugmalloc\+\_\+dump@{debugmalloc\+\_\+dump}!debugmalloc.\+h@{debugmalloc.\+h}}
+\subsubsection{\texorpdfstring{debugmalloc\+\_\+dump()}{debugmalloc\_dump()}}
+{\footnotesize\ttfamily void debugmalloc\+\_\+dump (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{debugmalloc_8h_aaefe8f6631edc5b13d5801390295740c}\label{debugmalloc_8h_aaefe8f6631edc5b13d5801390295740c}} 
+\index{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+free@{debugmalloc\+\_\+free}}
+\index{debugmalloc\+\_\+free@{debugmalloc\+\_\+free}!debugmalloc.\+h@{debugmalloc.\+h}}
+\subsubsection{\texorpdfstring{debugmalloc\+\_\+free()}{debugmalloc\_free()}}
+{\footnotesize\ttfamily void debugmalloc\+\_\+free (\begin{DoxyParamCaption}\item[{void $\ast$}]{mem }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=320pt]{debugmalloc_8h_aaefe8f6631edc5b13d5801390295740c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{debugmalloc_8h_a37c186b2e2e471ef7f0a50f98046017e}\label{debugmalloc_8h_a37c186b2e2e471ef7f0a50f98046017e}} 
+\index{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+free\+\_\+full@{debugmalloc\+\_\+free\+\_\+full}}
+\index{debugmalloc\+\_\+free\+\_\+full@{debugmalloc\+\_\+free\+\_\+full}!debugmalloc.\+h@{debugmalloc.\+h}}
+\subsubsection{\texorpdfstring{debugmalloc\+\_\+free\+\_\+full()}{debugmalloc\_free\_full()}}
+{\footnotesize\ttfamily void debugmalloc\+\_\+free\+\_\+full (\begin{DoxyParamCaption}\item[{void $\ast$}]{mem,  }\item[{char const $\ast$}]{fv,  }\item[{char const $\ast$}]{file,  }\item[{unsigned}]{line }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{debugmalloc_8h_a37c186b2e2e471ef7f0a50f98046017e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{debugmalloc_8h_a2114257904b92a949d3fcc0eda775aaf}\label{debugmalloc_8h_a2114257904b92a949d3fcc0eda775aaf}} 
+\index{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+malloc@{debugmalloc\+\_\+malloc}}
+\index{debugmalloc\+\_\+malloc@{debugmalloc\+\_\+malloc}!debugmalloc.\+h@{debugmalloc.\+h}}
+\subsubsection{\texorpdfstring{debugmalloc\+\_\+malloc()}{debugmalloc\_malloc()}}
+{\footnotesize\ttfamily void$\ast$ debugmalloc\+\_\+malloc (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{meret }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{debugmalloc_8h_a2114257904b92a949d3fcc0eda775aaf_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{debugmalloc_8h_ac93439c705b1780a2e0c0392f0fb29ac}\label{debugmalloc_8h_ac93439c705b1780a2e0c0392f0fb29ac}} 
+\index{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+malloc\+\_\+full@{debugmalloc\+\_\+malloc\+\_\+full}}
+\index{debugmalloc\+\_\+malloc\+\_\+full@{debugmalloc\+\_\+malloc\+\_\+full}!debugmalloc.\+h@{debugmalloc.\+h}}
+\subsubsection{\texorpdfstring{debugmalloc\+\_\+malloc\+\_\+full()}{debugmalloc\_malloc\_full()}}
+{\footnotesize\ttfamily void$\ast$ debugmalloc\+\_\+malloc\+\_\+full (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{meret,  }\item[{char const $\ast$}]{fv,  }\item[{char const $\ast$}]{cel,  }\item[{char const $\ast$}]{file,  }\item[{unsigned}]{line,  }\item[{bool}]{zero }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{debugmalloc_8h_ac93439c705b1780a2e0c0392f0fb29ac_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{debugmalloc_8h_a5a4971a7e15f7777b075985f0dc76624}\label{debugmalloc_8h_a5a4971a7e15f7777b075985f0dc76624}} 
+\index{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+naplofajl@{debugmalloc\+\_\+naplofajl}}
+\index{debugmalloc\+\_\+naplofajl@{debugmalloc\+\_\+naplofajl}!debugmalloc.\+h@{debugmalloc.\+h}}
+\subsubsection{\texorpdfstring{debugmalloc\+\_\+naplofajl()}{debugmalloc\_naplofajl()}}
+{\footnotesize\ttfamily void debugmalloc\+\_\+naplofajl (\begin{DoxyParamCaption}\item[{char const $\ast$}]{nev }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{debugmalloc_8h_aae4fb167c406177989b98c73cb95e130}\label{debugmalloc_8h_aae4fb167c406177989b98c73cb95e130}} 
+\index{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+realloc@{debugmalloc\+\_\+realloc}}
+\index{debugmalloc\+\_\+realloc@{debugmalloc\+\_\+realloc}!debugmalloc.\+h@{debugmalloc.\+h}}
+\subsubsection{\texorpdfstring{debugmalloc\+\_\+realloc()}{debugmalloc\_realloc()}}
+{\footnotesize\ttfamily void$\ast$ debugmalloc\+\_\+realloc (\begin{DoxyParamCaption}\item[{void $\ast$}]{regimem,  }\item[{size\+\_\+t}]{meret }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{debugmalloc_8h_aae4fb167c406177989b98c73cb95e130_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{debugmalloc_8h_a4668760068bcb278408fe4299c91ed42}\label{debugmalloc_8h_a4668760068bcb278408fe4299c91ed42}} 
+\index{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+realloc\+\_\+full@{debugmalloc\+\_\+realloc\+\_\+full}}
+\index{debugmalloc\+\_\+realloc\+\_\+full@{debugmalloc\+\_\+realloc\+\_\+full}!debugmalloc.\+h@{debugmalloc.\+h}}
+\subsubsection{\texorpdfstring{debugmalloc\+\_\+realloc\+\_\+full()}{debugmalloc\_realloc\_full()}}
+{\footnotesize\ttfamily void$\ast$ debugmalloc\+\_\+realloc\+\_\+full (\begin{DoxyParamCaption}\item[{void $\ast$}]{regimem,  }\item[{size\+\_\+t}]{newsize,  }\item[{char const $\ast$}]{fv,  }\item[{char const $\ast$}]{cel,  }\item[{char const $\ast$}]{file,  }\item[{unsigned}]{line }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{debugmalloc_8h_a4668760068bcb278408fe4299c91ed42_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{debugmalloc_8h_a4668760068bcb278408fe4299c91ed42_icgraph}
+\end{center}
+\end{figure}
