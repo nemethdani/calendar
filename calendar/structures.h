@@ -39,7 +39,7 @@ typedef void (*MenuFv)(EventList*);
 
 typedef struct MenuPont{
    char const *nev;
-   MenuFv pfv;
+   //MenuFv pfv;
 } MenuPont;
 
 typedef struct tm Tm;

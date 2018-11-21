@@ -58,6 +58,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="search.h" />
+		<Unit filename="searchui.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="searchui.h" />
 		<Unit filename="structures.h" />
 		<Extensions>
 			<envvars />

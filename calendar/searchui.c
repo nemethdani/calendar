@@ -11,7 +11,8 @@ char scaninput(){
 }
 
 int searchbyname(EventList* eventlist){
-    printf("\nIrj be legalabb 3 osszefuggo karaktert az esemeny nevebol!\n");
+    printf("\e[1;1H\e[2J");
+    printf("Irj be legalabb 3 osszefuggo karaktert az esemeny nevebol!\n");
     char search[128]={0};
     bool first=true;
     while(strlen(&search)<3){
@@ -27,6 +28,7 @@ int searchbyname(EventList* eventlist){
 }
 
 int searchbyweek(EventList* eventlist){
+    printf("\e[1;1H\e[2J");
     printf("Hanyadik ev, hanyadik het? (eeee.hh)\n");
     int week,year;
     scanf("%d.%d",&year,&week);
@@ -40,6 +42,7 @@ int searchbyweek(EventList* eventlist){
 }
 
 int searchbymonth(EventList* eventlist){
+    printf("\e[1;1H\e[2J");
     printf("Hanyadik ev, hanyadik ho?(eeee.hh)\n");
     int month,year;
     scanf("%d.%d",&year,&month);
@@ -54,6 +57,7 @@ int searchbymonth(EventList* eventlist){
 }
 
 int searchbyday(EventList* eventlist){
+    printf("\e[1;1H\e[2J");
     printf("Hanyadik ev, hanyadik ho,hanyadik nap?(eeee.hh.nn)\n");
     int month,year,day;
     scanf("%d.%d.%d",&year,&month,&day);
@@ -75,6 +79,7 @@ int printfindlist(FindList* findlist, SearchConditions condition,EventList* even
     while(choice!=5 && choice!=0){
         FoundEvent* fe=findlist->first->nextfound;
         int i=1;
+        printf("\e[1;1H\e[2J");
         while(fe->nextfound!=NULL){
             printf("(%d) ",i);
             printevent_short(fe->foundevent);

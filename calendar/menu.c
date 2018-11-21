@@ -19,6 +19,7 @@ void filesave(EventList* eventlist){
     //mainmenu(eventlist);
 }
 int newevent(EventList* eventlist){
+    //printf("\e[1;1H\e[2J");
     printf("Mi az esemeny datuma? (eeee.hh.nn)\n");
     int ev, honap, nap;
     while(scanf("%d.%d.%d",&ev,&honap,&nap)!=3 || honap>12 || honap<1 || nap>31 || nap<1){
@@ -68,7 +69,7 @@ char *hosszu_sort_olvas(int bufferhossz){
     for (int i=0;i<bufferhossz+1;i++)
         sor[i]='\0';
     bool first=true;
-    while(first || strlen(sor)>=bufferhossz && sor[bufferhossz-1]!='\n'){
+    while(first || (strlen(sor)>=bufferhossz && sor[bufferhossz-1]!='\n')){
          first=false;
          fgets(sor,bufferhossz+1,stdin);
          if(strlen(sor)>=bufferhossz && sor[bufferhossz-1]!='\n'){
@@ -93,10 +94,10 @@ char *hosszu_sort_olvas(int bufferhossz){
 
 void mainmenu(){
     MenuPont menupontok[] = {
-       { "Uj esemeny", newevent },
-       { "Kereses", searchmenu },
-       { "Mentes", savemenu },
-       { "Kilepes", exitmenu },
+       { "Uj esemeny"},
+       { "Kereses"},
+       { "Mentes"},
+       { "Kilepes"},
        { NULL, NULL }   /* végjel */
     };
 
@@ -139,10 +140,12 @@ void scanmainmenu(EventList* eventlist){
 }
 
 void searchmenu(EventList* eventlist){
+    printf("\e[1;1H\e[2J");
     int choice=0;
     while(choice!=5){
         if(!(choice>=1 && choice<=4)){
-            printf("\nHogyan szeretnel keresni?\n");
+
+            printf("Hogyan szeretnel keresni?\n");
             printf("(1) Esemeny neve szerint\n");
             printf("(2) Nap szerint\n");
             printf("(3) Het szerint\n");
@@ -226,7 +229,7 @@ int scansavemenu(EventList* eventlist){
 void exitmenu(EventList* eventlist){
     int choice=1;
     while(choice){
-
+    printf("\e[1;1H\e[2J");
     printf("(1) Kilepes mentessel\n(2) Kilepes mentes nelkul\n(3) Vissza\n");
     choice=scanexitmenu(eventlist);
 }
@@ -261,6 +264,7 @@ int scanexitmenu(EventList* eventlist){
 
 int printmenu(MenuPont* menupontok){
     int i;
+    printf("\e[1;1H\e[2J");
     for (i = 1; menupontok[i-1].nev != NULL; ++i)
         printf("(%d) %s\n", i, menupontok[i-1].nev);
     int meret = i;

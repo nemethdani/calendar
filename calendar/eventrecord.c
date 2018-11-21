@@ -113,6 +113,7 @@ int printeventrecord(Event* event,SearchConditions condition,EventList* eventlis
     bool isnewevent=false;
     while(choice>1 && choice!=5){
         int i=1;
+        printf("\e[1;1H\e[2J");
         printf("(%d) Nev:        %s\n",i++,event->name);
         printf("(%d) Datum:      %d.%.2d.%.2d\n",i++,event->year,event->month,event->day);
         printf("(%d) Kezdes:     %.2d:%.2d\n",i++,event->starthour,event->startmin);
