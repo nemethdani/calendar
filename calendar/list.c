@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "structures.h"
 #include <time.h>
-#include "debugmalloc.h"
+
 
 EventList* initeventlist(){
     EventList* eventlist=(EventList*) malloc(sizeof(EventList));

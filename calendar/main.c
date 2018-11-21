@@ -6,7 +6,7 @@
 #include "menu.h"
 #include <stdlib.h>
 #include <stdbool.h>
-#include "debugmalloc.h"
+
 
 
 /** Inicializál egy üres eseméynlistát és feltölti adatokkal a fájlból, ha létezik a naptar.txt

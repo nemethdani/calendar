@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['valodi',['valodi',['../struct_lefoglalt.html#a59522ad17870bd526fae5bbbc8125966',1,'Lefoglalt']]]
+  ['usernek',['usernek',['../struct_lefoglalt.html#a58c09d4017310a90fad327e926330b96',1,'Lefoglalt']]]
 ];

@@ -2,7 +2,7 @@
 #include <stdbool.h>
 #include <stdio.h>
 
-char scaninput(){
+int scaninput(){
     int input;
     scanf("%d",&input);
     getchar();

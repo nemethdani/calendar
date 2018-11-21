@@ -1,21 +1,21 @@
 <map id="searchbyname" name="searchbyname">
-<area shape="rect" id="node2" href="$search_8c.html#a199722ea7869f598848648238f88d274" title="searchiter" alt="" coords="160,81,239,108"/>
-<area shape="rect" id="node3" href="$search_8c.html#ace601ce27f555e73988b2db946d1ca5e" title="inserttofindlist" alt="" coords="287,5,389,32"/>
-<area shape="rect" id="node4" href="$search_8c.html#aa13cd0a956bc531fe1e1329b6aebdef9" title="eventtotm" alt="" coords="298,56,378,83"/>
-<area shape="rect" id="node5" href="$search_8c.html#a4e80bfd47c2fef45e9f6f50632544931" title="tmtoweek" alt="" coords="299,107,377,133"/>
+<area shape="rect" id="node2" href="$group__search.html#ga199722ea7869f598848648238f88d274" title="searchiter" alt="" coords="160,81,239,108"/>
+<area shape="rect" id="node3" href="$group__search.html#gace601ce27f555e73988b2db946d1ca5e" title="inserttofindlist" alt="" coords="287,5,389,32"/>
+<area shape="rect" id="node4" href="$group__search.html#gaa13cd0a956bc531fe1e1329b6aebdef9" title="eventtotm" alt="" coords="298,56,378,83"/>
+<area shape="rect" id="node5" href="$group__search.html#ga4e80bfd47c2fef45e9f6f50632544931" title="tmtoweek" alt="" coords="299,107,377,133"/>
 <area shape="rect" id="node6" href="$searchui_8c.html#a4fc3c2695bbc6aacac6fcdddbbc2c9ea" title="printfindlist" alt="" coords="295,157,381,184"/>
 <area shape="rect" id="node7" href="$searchui_8c.html#a2561d96be1299fd3f5730c6d82143709" title="printevent_short" alt="" coords="437,132,552,159"/>
 <area shape="rect" id="node8" href="$searchui_8c.html#a70f4e24bc56ccfdd7d63df4a84054538" title="scanfindlist" alt="" coords="451,183,539,209"/>
 <area shape="rect" id="node9" href="$group__eventrecord.html#ga43a7dc247171d596d8d808776d8d40f5" title="printeventrecord" alt="" coords="600,183,715,209"/>
 <area shape="rect" id="node10" href="$group__eventrecord.html#gac6e06e3186496cd8eb6618baf3ca9d3e" title="scanrecordcommand" alt="" coords="763,183,905,209"/>
-<area shape="rect" id="node11" href="$menu_8c.html#ab9ac014b764791c1dc71c187dca898f7" title="hosszu_sort_olvas" alt="" coords="953,107,1084,133"/>
+<area shape="rect" id="node11" href="$group__menu.html#gab9ac014b764791c1dc71c187dca898f7" title="hosszu_sort_olvas" alt="" coords="953,107,1084,133"/>
 <area shape="rect" id="node12" href="$group__eventrecord.html#ga610dc34a1e251a16311ca7ac15f64e05" title="moveevent" alt="" coords="975,157,1062,184"/>
 <area shape="rect" id="node15" href="$group__eventrecord.html#gaf69a5ee77b139263897d5e6bfe7d7f2a" title="deleteevent" alt="" coords="974,208,1063,235"/>
-<area shape="rect" id="node17" href="$menu_8c.html#aa28daf84be098b64b8dfea8a88050f13" title="savemenu" alt="" coords="977,259,1060,285"/>
-<area shape="rect" id="node13" href="$list_8c.html#a7ef519287e473ee333204280a5d91403" title="insertevent" alt="" coords="1144,157,1231,184"/>
-<area shape="rect" id="node14" href="$list_8c.html#a8f7708495c6e39bb6e712218711b331f" title="starttime" alt="" coords="1291,157,1364,184"/>
-<area shape="rect" id="node16" href="$list_8c.html#afd63217de3b7f7269aa3ee9d14b6b578" title="free_event" alt="" coords="1146,208,1229,235"/>
-<area shape="rect" id="node18" href="$menu_8c.html#a6ef5647864065ede4ef3b2773cbb9e8d" title="scansavemenu" alt="" coords="1132,259,1243,285"/>
-<area shape="rect" id="node19" href="$menu_8c.html#afc715bc6c0b9a9e85af15dc509a8d34b" title="filesave" alt="" coords="1294,259,1361,285"/>
+<area shape="rect" id="node17" href="$group__menu.html#ga1e8bbce91606e9498fafa46cf96477d0" title="savemenu" alt="" coords="977,259,1060,285"/>
+<area shape="rect" id="node13" href="$group__list.html#ga068e74dedbc5bf00dd54042ab3fac981" title="insertevent" alt="" coords="1144,157,1231,184"/>
+<area shape="rect" id="node14" href="$group__list.html#ga8f7708495c6e39bb6e712218711b331f" title="starttime" alt="" coords="1291,157,1364,184"/>
+<area shape="rect" id="node16" href="$group__list.html#gafd63217de3b7f7269aa3ee9d14b6b578" title="free_event" alt="" coords="1146,208,1229,235"/>
+<area shape="rect" id="node18" href="$group__menu.html#gadaafbda0a45084d074a4d210ec37efac" title="scansavemenu" alt="" coords="1132,259,1243,285"/>
+<area shape="rect" id="node19" href="$group__menu.html#ga6ee903116c3ec27e1a4680b08e6647e2" title="filesave" alt="" coords="1294,259,1361,285"/>
 <area shape="rect" id="node20" href="$group__file.html#ga7f69872489b7c1c4bcdd125319a87b2e" title="calendarsave" alt="" coords="1412,259,1511,285"/>
 </map>

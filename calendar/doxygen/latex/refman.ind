@@ -1,139 +1,141 @@
 \begin{theindex}
 
   \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/debugmalloc.\+c}, 
-		\hyperpage{19}
-  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/debugmalloc.\+h}, 
-		\hyperpage{22}
-  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.\+c}, 
-		\hyperpage{25}
-  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.\+h}, 
-		\hyperpage{25}
-  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.\+c}, 
-		\hyperpage{26}
-  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.\+h}, 
-		\hyperpage{26}
-  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.\+c}, 
-		\hyperpage{27}
-  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.\+h}, 
-		\hyperpage{29}
-  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/main.\+c}, 
-		\hyperpage{31}
-  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.\+c}, 
-		\hyperpage{31}
-  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.\+h}, 
-		\hyperpage{33}
-  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/search.\+c}, 
-		\hyperpage{35}
-  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/search.\+h}, 
 		\hyperpage{37}
-  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/searchui.\+c}, 
-		\hyperpage{38}
-  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/searchui.\+h}, 
+  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/debugmalloc.\+h}, 
 		\hyperpage{40}
+  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.\+c}, 
+		\hyperpage{43}
+  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.\+h}, 
+		\hyperpage{43}
+  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.\+c}, 
+		\hyperpage{44}
+  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.\+h}, 
+		\hyperpage{44}
+  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.\+c}, 
+		\hyperpage{44}
+  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.\+h}, 
+		\hyperpage{45}
+  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/main.\+c}, 
+		\hyperpage{45}
+  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.\+c}, 
+		\hyperpage{46}
+  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.\+h}, 
+		\hyperpage{46}
+  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/search.\+c}, 
+		\hyperpage{47}
+  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/search.\+h}, 
+		\hyperpage{47}
+  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/searchui.\+c}, 
+		\hyperpage{48}
+  \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/searchui.\+h}, 
+		\hyperpage{48}
   \item {/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/structures.\+h}, 
-		\hyperpage{42}
+		\hyperpage{48}
 
   \indexspace
 
   \item {bydate}
     \subitem {Esem\IeC {\'e}nyek r\IeC {\'e}szletei}, \hyperpage{8}
+  \item {byday}
+    \subitem {Keres\IeC {\'e}s kezel\IeC {\H o}}, \hyperpage{20}
   \item {byend}
     \subitem {Esem\IeC {\'e}nyek r\IeC {\'e}szletei}, \hyperpage{8}
+  \item {bymonth}
+    \subitem {Keres\IeC {\'e}s kezel\IeC {\H o}}, \hyperpage{20}
   \item {bystart}
     \subitem {Esem\IeC {\'e}nyek r\IeC {\'e}szletei}, \hyperpage{8}
+  \item {byweek}
+    \subitem {Keres\IeC {\'e}s kezel\IeC {\H o}}, \hyperpage{20}
 
   \indexspace
 
   \item {calendarload}
-    \subitem {file.\+c}, \hyperpage{26}
-    \subitem {file.\+h}, \hyperpage{27}
+    \subitem {File kezel\IeC {\H o}}, \hyperpage{10}
   \item {calendarsave}
-    \subitem {file.\+c}, \hyperpage{26}
-    \subitem {file.\+h}, \hyperpage{27}
+    \subitem {File kezel\IeC {\H o}}, \hyperpage{10}
   \item {calloc}
-    \subitem {debugmalloc.\+h}, \hyperpage{22}
+    \subitem {debugmalloc.\+h}, \hyperpage{40}
   \item {cel}
-    \subitem {Lefoglalt}, \hyperpage{15}
+    \subitem {Lefoglalt}, \hyperpage{32}
   \item {comment}
-    \subitem {Event}, \hyperpage{11}
+    \subitem {Event}, \hyperpage{27}
   \item {createevent}
-    \subitem {list.\+c}, \hyperpage{28}
-    \subitem {list.\+h}, \hyperpage{29}
+    \subitem {Lista kezel\IeC {\H o}}, \hyperpage{12}
 
   \indexspace
 
   \item {day}
-    \subitem {Event}, \hyperpage{11}
-    \subitem {Search\+Conditions}, \hyperpage{17}
+    \subitem {Event}, \hyperpage{27}
+    \subitem {Search\+Conditions}, \hyperpage{34}
   \item {debugmalloc.\+c}
-    \subitem {debugmalloc\+\_\+calloc}, \hyperpage{20}
-    \subitem {debugmalloc\+\_\+dump}, \hyperpage{20}
-    \subitem {debugmalloc\+\_\+free}, \hyperpage{20}
-    \subitem {debugmalloc\+\_\+free\+\_\+full}, \hyperpage{20}
-    \subitem {debugmalloc\+\_\+hash}, \hyperpage{21}
-    \subitem {debugmalloc\+\_\+malloc}, \hyperpage{21}
-    \subitem {debugmalloc\+\_\+malloc\+\_\+full}, \hyperpage{21}
-    \subitem {debugmalloc\+\_\+naplofajl}, \hyperpage{21}
-    \subitem {debugmalloc\+\_\+realloc}, \hyperpage{21}
-    \subitem {debugmalloc\+\_\+realloc\+\_\+full}, \hyperpage{21}
-    \subitem {Lefoglalt}, \hyperpage{20}
+    \subitem {debugmalloc\+\_\+calloc}, \hyperpage{38}
+    \subitem {debugmalloc\+\_\+dump}, \hyperpage{38}
+    \subitem {debugmalloc\+\_\+free}, \hyperpage{38}
+    \subitem {debugmalloc\+\_\+free\+\_\+full}, \hyperpage{38}
+    \subitem {debugmalloc\+\_\+hash}, \hyperpage{39}
+    \subitem {debugmalloc\+\_\+malloc}, \hyperpage{39}
+    \subitem {debugmalloc\+\_\+malloc\+\_\+full}, \hyperpage{39}
+    \subitem {debugmalloc\+\_\+naplofajl}, \hyperpage{39}
+    \subitem {debugmalloc\+\_\+realloc}, \hyperpage{39}
+    \subitem {debugmalloc\+\_\+realloc\+\_\+full}, \hyperpage{39}
+    \subitem {Lefoglalt}, \hyperpage{38}
     \subitem {T\+A\+B\+L\+A\+\_\+\+O\+S\+Z\+L\+O\+P\+OK}, 
-		\hyperpage{20}
+		\hyperpage{38}
   \item {debugmalloc.\+h}
-    \subitem {calloc}, \hyperpage{22}
-    \subitem {debugmalloc\+\_\+calloc}, \hyperpage{23}
-    \subitem {debugmalloc\+\_\+dump}, \hyperpage{23}
-    \subitem {debugmalloc\+\_\+free}, \hyperpage{23}
-    \subitem {debugmalloc\+\_\+free\+\_\+full}, \hyperpage{23}
-    \subitem {debugmalloc\+\_\+malloc}, \hyperpage{24}
-    \subitem {debugmalloc\+\_\+malloc\+\_\+full}, \hyperpage{24}
-    \subitem {debugmalloc\+\_\+naplofajl}, \hyperpage{24}
-    \subitem {debugmalloc\+\_\+realloc}, \hyperpage{24}
-    \subitem {debugmalloc\+\_\+realloc\+\_\+full}, \hyperpage{24}
-    \subitem {free}, \hyperpage{22}
-    \subitem {malloc}, \hyperpage{23}
-    \subitem {realloc}, \hyperpage{23}
+    \subitem {calloc}, \hyperpage{40}
+    \subitem {debugmalloc\+\_\+calloc}, \hyperpage{41}
+    \subitem {debugmalloc\+\_\+dump}, \hyperpage{41}
+    \subitem {debugmalloc\+\_\+free}, \hyperpage{41}
+    \subitem {debugmalloc\+\_\+free\+\_\+full}, \hyperpage{41}
+    \subitem {debugmalloc\+\_\+malloc}, \hyperpage{42}
+    \subitem {debugmalloc\+\_\+malloc\+\_\+full}, \hyperpage{42}
+    \subitem {debugmalloc\+\_\+naplofajl}, \hyperpage{42}
+    \subitem {debugmalloc\+\_\+realloc}, \hyperpage{42}
+    \subitem {debugmalloc\+\_\+realloc\+\_\+full}, \hyperpage{42}
+    \subitem {free}, \hyperpage{40}
+    \subitem {malloc}, \hyperpage{41}
+    \subitem {realloc}, \hyperpage{41}
   \item {debugmalloc\+\_\+calloc}
-    \subitem {debugmalloc.\+c}, \hyperpage{20}
-    \subitem {debugmalloc.\+h}, \hyperpage{23}
+    \subitem {debugmalloc.\+c}, \hyperpage{38}
+    \subitem {debugmalloc.\+h}, \hyperpage{41}
   \item {debugmalloc\+\_\+dump}
-    \subitem {debugmalloc.\+c}, \hyperpage{20}
-    \subitem {debugmalloc.\+h}, \hyperpage{23}
+    \subitem {debugmalloc.\+c}, \hyperpage{38}
+    \subitem {debugmalloc.\+h}, \hyperpage{41}
   \item {debugmalloc\+\_\+free}
-    \subitem {debugmalloc.\+c}, \hyperpage{20}
-    \subitem {debugmalloc.\+h}, \hyperpage{23}
+    \subitem {debugmalloc.\+c}, \hyperpage{38}
+    \subitem {debugmalloc.\+h}, \hyperpage{41}
   \item {debugmalloc\+\_\+free\+\_\+full}
-    \subitem {debugmalloc.\+c}, \hyperpage{20}
-    \subitem {debugmalloc.\+h}, \hyperpage{23}
+    \subitem {debugmalloc.\+c}, \hyperpage{38}
+    \subitem {debugmalloc.\+h}, \hyperpage{41}
   \item {debugmalloc\+\_\+hash}
-    \subitem {debugmalloc.\+c}, \hyperpage{21}
+    \subitem {debugmalloc.\+c}, \hyperpage{39}
   \item {debugmalloc\+\_\+malloc}
-    \subitem {debugmalloc.\+c}, \hyperpage{21}
-    \subitem {debugmalloc.\+h}, \hyperpage{24}
+    \subitem {debugmalloc.\+c}, \hyperpage{39}
+    \subitem {debugmalloc.\+h}, \hyperpage{42}
   \item {debugmalloc\+\_\+malloc\+\_\+full}
-    \subitem {debugmalloc.\+c}, \hyperpage{21}
-    \subitem {debugmalloc.\+h}, \hyperpage{24}
+    \subitem {debugmalloc.\+c}, \hyperpage{39}
+    \subitem {debugmalloc.\+h}, \hyperpage{42}
   \item {debugmalloc\+\_\+naplofajl}
-    \subitem {debugmalloc.\+c}, \hyperpage{21}
-    \subitem {debugmalloc.\+h}, \hyperpage{24}
+    \subitem {debugmalloc.\+c}, \hyperpage{39}
+    \subitem {debugmalloc.\+h}, \hyperpage{42}
   \item {debugmalloc\+\_\+realloc}
-    \subitem {debugmalloc.\+c}, \hyperpage{21}
-    \subitem {debugmalloc.\+h}, \hyperpage{24}
+    \subitem {debugmalloc.\+c}, \hyperpage{39}
+    \subitem {debugmalloc.\+h}, \hyperpage{42}
   \item {debugmalloc\+\_\+realloc\+\_\+full}
-    \subitem {debugmalloc.\+c}, \hyperpage{21}
-    \subitem {debugmalloc.\+h}, \hyperpage{24}
+    \subitem {debugmalloc.\+c}, \hyperpage{39}
+    \subitem {debugmalloc.\+h}, \hyperpage{42}
   \item {deleteevent}
     \subitem {Esem\IeC {\'e}nyek r\IeC {\'e}szletei}, \hyperpage{8}
   \item {dstrcpy}
-    \subitem {file.\+c}, \hyperpage{26}
-    \subitem {file.\+h}, \hyperpage{27}
+    \subitem {File kezel\IeC {\H o}}, \hyperpage{11}
 
   \indexspace
 
   \item {endhour}
-    \subitem {Event}, \hyperpage{11}
+    \subitem {Event}, \hyperpage{28}
   \item {endmin}
-    \subitem {Event}, \hyperpage{12}
+    \subitem {Event}, \hyperpage{28}
   \item {Esem\IeC {\'e}nyek r\IeC {\'e}szletei}, \hyperpage{7}
     \subitem {bydate}, \hyperpage{8}
     \subitem {byend}, \hyperpage{8}
@@ -143,345 +145,288 @@
     \subitem {moveevent}, \hyperpage{8}
     \subitem {printeventrecord}, \hyperpage{9}
     \subitem {scanrecordcommand}, \hyperpage{9}
-  \item {Event}, \hyperpage{11}
-    \subitem {comment}, \hyperpage{11}
-    \subitem {day}, \hyperpage{11}
-    \subitem {endhour}, \hyperpage{11}
-    \subitem {endmin}, \hyperpage{12}
-    \subitem {location}, \hyperpage{12}
-    \subitem {month}, \hyperpage{12}
-    \subitem {name}, \hyperpage{12}
-    \subitem {next}, \hyperpage{12}
-    \subitem {prev}, \hyperpage{12}
-    \subitem {starthour}, \hyperpage{12}
-    \subitem {startmin}, \hyperpage{12}
-    \subitem {structures.\+h}, \hyperpage{42}
-    \subitem {year}, \hyperpage{13}
-  \item {Event\+List}, \hyperpage{13}
-    \subitem {first}, \hyperpage{13}
-    \subitem {last}, \hyperpage{13}
-    \subitem {structures.\+h}, \hyperpage{42}
+  \item {Event}, \hyperpage{27}
+    \subitem {comment}, \hyperpage{27}
+    \subitem {day}, \hyperpage{27}
+    \subitem {endhour}, \hyperpage{28}
+    \subitem {endmin}, \hyperpage{28}
+    \subitem {location}, \hyperpage{28}
+    \subitem {month}, \hyperpage{28}
+    \subitem {name}, \hyperpage{28}
+    \subitem {next}, \hyperpage{28}
+    \subitem {prev}, \hyperpage{28}
+    \subitem {starthour}, \hyperpage{28}
+    \subitem {startmin}, \hyperpage{29}
+    \subitem {Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k}, 
+		\hyperpage{25}
+    \subitem {year}, \hyperpage{29}
+  \item {Event\+List}, \hyperpage{29}
+    \subitem {first}, \hyperpage{29}
+    \subitem {last}, \hyperpage{29}
+    \subitem {Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k}, 
+		\hyperpage{25}
   \item {eventtotm}
-    \subitem {search.\+c}, \hyperpage{36}
-    \subitem {search.\+h}, \hyperpage{38}
+    \subitem {Keres\IeC {\'e}s kezel\IeC {\H o}}, \hyperpage{20}
   \item {exitmenu}
-    \subitem {menu.\+c}, \hyperpage{32}
-    \subitem {menu.\+h}, \hyperpage{34}
+    \subitem {Men\IeC {\"u} kezel\IeC {\H o}}, \hyperpage{15}
 
   \indexspace
 
   \item {file}
-    \subitem {Lefoglalt}, \hyperpage{15}
-  \item {file.\+c}
-    \subitem {calendarload}, \hyperpage{26}
-    \subitem {calendarsave}, \hyperpage{26}
-    \subitem {dstrcpy}, \hyperpage{26}
-  \item {file.\+h}
-    \subitem {calendarload}, \hyperpage{27}
-    \subitem {calendarsave}, \hyperpage{27}
-    \subitem {dstrcpy}, \hyperpage{27}
+    \subitem {Lefoglalt}, \hyperpage{32}
+  \item {File kezel\IeC {\H o}}, \hyperpage{10}
+    \subitem {calendarload}, \hyperpage{10}
+    \subitem {calendarsave}, \hyperpage{10}
+    \subitem {dstrcpy}, \hyperpage{11}
   \item {filesave}
-    \subitem {menu.\+c}, \hyperpage{32}
-    \subitem {menu.\+h}, \hyperpage{34}
-  \item {Find\+List}, \hyperpage{13}
-    \subitem {first}, \hyperpage{14}
-    \subitem {last}, \hyperpage{14}
-    \subitem {structures.\+h}, \hyperpage{43}
+    \subitem {Men\IeC {\"u} kezel\IeC {\H o}}, \hyperpage{15}
+  \item {Find\+List}, \hyperpage{30}
+    \subitem {first}, \hyperpage{30}
+    \subitem {last}, \hyperpage{30}
+    \subitem {Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k}, 
+		\hyperpage{25}
   \item {first}
-    \subitem {Event\+List}, \hyperpage{13}
-    \subitem {Find\+List}, \hyperpage{14}
-  \item {Found\+Event}, \hyperpage{14}
-    \subitem {foundevent}, \hyperpage{14}
-    \subitem {nextfound}, \hyperpage{14}
-    \subitem {prevfound}, \hyperpage{15}
-    \subitem {structures.\+h}, \hyperpage{43}
+    \subitem {Event\+List}, \hyperpage{29}
+    \subitem {Find\+List}, \hyperpage{30}
+  \item {Found\+Event}, \hyperpage{31}
+    \subitem {foundevent}, \hyperpage{31}
+    \subitem {nextfound}, \hyperpage{31}
+    \subitem {prevfound}, \hyperpage{31}
+    \subitem {Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k}, 
+		\hyperpage{25}
   \item {foundevent}
-    \subitem {Found\+Event}, \hyperpage{14}
+    \subitem {Found\+Event}, \hyperpage{31}
   \item {free}
-    \subitem {debugmalloc.\+h}, \hyperpage{22}
+    \subitem {debugmalloc.\+h}, \hyperpage{40}
   \item {free\+\_\+event}
-    \subitem {list.\+c}, \hyperpage{28}
-    \subitem {list.\+h}, \hyperpage{30}
+    \subitem {Lista kezel\IeC {\H o}}, \hyperpage{13}
   \item {free\+Event\+List}
-    \subitem {list.\+c}, \hyperpage{28}
-    \subitem {list.\+h}, \hyperpage{30}
+    \subitem {Lista kezel\IeC {\H o}}, \hyperpage{13}
   \item {fv}
-    \subitem {Lefoglalt}, \hyperpage{15}
+    \subitem {Lefoglalt}, \hyperpage{32}
 
   \indexspace
 
   \item {hosszu\+\_\+sort\+\_\+olvas}
-    \subitem {menu.\+c}, \hyperpage{32}
-    \subitem {menu.\+h}, \hyperpage{34}
+    \subitem {Men\IeC {\"u} kezel\IeC {\H o}}, \hyperpage{16}
 
   \indexspace
 
   \item {initeventlist}
-    \subitem {list.\+c}, \hyperpage{28}
-    \subitem {list.\+h}, \hyperpage{30}
+    \subitem {Lista kezel\IeC {\H o}}, \hyperpage{13}
   \item {insertevent}
-    \subitem {list.\+c}, \hyperpage{28}
-    \subitem {list.\+h}, \hyperpage{30}
+    \subitem {Lista kezel\IeC {\H o}}, \hyperpage{13}
   \item {inserttofindlist}
-    \subitem {search.\+c}, \hyperpage{36}
-    \subitem {search.\+h}, \hyperpage{38}
+    \subitem {Keres\IeC {\'e}s kezel\IeC {\H o}}, \hyperpage{20}
+
+  \indexspace
+
+  \item {Keres\IeC {\'e}s kezel\IeC {\H o}}, \hyperpage{19}
+    \subitem {byday}, \hyperpage{20}
+    \subitem {bymonth}, \hyperpage{20}
+    \subitem {byweek}, \hyperpage{20}
+    \subitem {eventtotm}, \hyperpage{20}
+    \subitem {inserttofindlist}, \hyperpage{20}
+    \subitem {printevent\+\_\+short}, \hyperpage{20}
+    \subitem {printfindlist}, \hyperpage{21}
+    \subitem {scanfindlist}, \hyperpage{21}
+    \subitem {scaninput}, \hyperpage{21}
+    \subitem {Search\+By}, \hyperpage{19}
+    \subitem {searchactual}, \hyperpage{21}
+    \subitem {searchbyday}, \hyperpage{22}
+    \subitem {searchbymonth}, \hyperpage{22}
+    \subitem {searchbyname}, \hyperpage{23}
+    \subitem {searchbyweek}, \hyperpage{23}
+    \subitem {searchiter}, \hyperpage{23}
+    \subitem {tmtoweek}, \hyperpage{24}
 
   \indexspace
 
   \item {last}
-    \subitem {Event\+List}, \hyperpage{13}
-    \subitem {Find\+List}, \hyperpage{14}
-  \item {Lefoglalt}, \hyperpage{15}
-    \subitem {cel}, \hyperpage{15}
-    \subitem {debugmalloc.\+c}, \hyperpage{20}
-    \subitem {file}, \hyperpage{15}
-    \subitem {fv}, \hyperpage{15}
-    \subitem {line}, \hyperpage{16}
-    \subitem {meret}, \hyperpage{16}
-    \subitem {next}, \hyperpage{16}
-    \subitem {prev}, \hyperpage{16}
-    \subitem {usernek}, \hyperpage{16}
-    \subitem {valodi}, \hyperpage{16}
+    \subitem {Event\+List}, \hyperpage{29}
+    \subitem {Find\+List}, \hyperpage{30}
+  \item {Lefoglalt}, \hyperpage{32}
+    \subitem {cel}, \hyperpage{32}
+    \subitem {debugmalloc.\+c}, \hyperpage{38}
+    \subitem {file}, \hyperpage{32}
+    \subitem {fv}, \hyperpage{32}
+    \subitem {line}, \hyperpage{32}
+    \subitem {meret}, \hyperpage{32}
+    \subitem {next}, \hyperpage{32}
+    \subitem {prev}, \hyperpage{33}
+    \subitem {usernek}, \hyperpage{33}
+    \subitem {valodi}, \hyperpage{33}
   \item {line}
-    \subitem {Lefoglalt}, \hyperpage{16}
-  \item {list.\+c}
-    \subitem {createevent}, \hyperpage{28}
-    \subitem {free\+\_\+event}, \hyperpage{28}
-    \subitem {free\+Event\+List}, \hyperpage{28}
-    \subitem {initeventlist}, \hyperpage{28}
-    \subitem {insertevent}, \hyperpage{28}
-    \subitem {starttime}, \hyperpage{28}
-  \item {list.\+h}
-    \subitem {createevent}, \hyperpage{29}
-    \subitem {free\+\_\+event}, \hyperpage{30}
-    \subitem {free\+Event\+List}, \hyperpage{30}
-    \subitem {initeventlist}, \hyperpage{30}
-    \subitem {insertevent}, \hyperpage{30}
-    \subitem {starttime}, \hyperpage{30}
-    \subitem {Tm}, \hyperpage{29}
+    \subitem {Lefoglalt}, \hyperpage{32}
+  \item {Lista kezel\IeC {\H o}}, \hyperpage{12}
+    \subitem {createevent}, \hyperpage{12}
+    \subitem {free\+\_\+event}, \hyperpage{13}
+    \subitem {free\+Event\+List}, \hyperpage{13}
+    \subitem {initeventlist}, \hyperpage{13}
+    \subitem {insertevent}, \hyperpage{13}
+    \subitem {starttime}, \hyperpage{14}
+    \subitem {Tm}, \hyperpage{12}
   \item {location}
-    \subitem {Event}, \hyperpage{12}
+    \subitem {Event}, \hyperpage{28}
 
   \indexspace
 
   \item {main}
-    \subitem {main.\+c}, \hyperpage{31}
+    \subitem {main.\+c}, \hyperpage{45}
   \item {main.\+c}
-    \subitem {main}, \hyperpage{31}
+    \subitem {main}, \hyperpage{45}
   \item {mainmenu}
-    \subitem {menu.\+c}, \hyperpage{32}
-    \subitem {menu.\+h}, \hyperpage{34}
+    \subitem {Men\IeC {\"u} kezel\IeC {\H o}}, \hyperpage{16}
   \item {malloc}
-    \subitem {debugmalloc.\+h}, \hyperpage{23}
-  \item {menu.\+c}
-    \subitem {exitmenu}, \hyperpage{32}
-    \subitem {filesave}, \hyperpage{32}
-    \subitem {hosszu\+\_\+sort\+\_\+olvas}, \hyperpage{32}
-    \subitem {mainmenu}, \hyperpage{32}
-    \subitem {newevent}, \hyperpage{32}
-    \subitem {printmenu}, \hyperpage{32}
-    \subitem {savemenu}, \hyperpage{32}
-    \subitem {scanexitmenu}, \hyperpage{33}
-    \subitem {scanmainmenu}, \hyperpage{33}
-    \subitem {scansavemenu}, \hyperpage{33}
-    \subitem {searchmenu}, \hyperpage{33}
-  \item {menu.\+h}
-    \subitem {exitmenu}, \hyperpage{34}
-    \subitem {filesave}, \hyperpage{34}
-    \subitem {hosszu\+\_\+sort\+\_\+olvas}, \hyperpage{34}
-    \subitem {mainmenu}, \hyperpage{34}
-    \subitem {newevent}, \hyperpage{34}
-    \subitem {printmenu}, \hyperpage{34}
-    \subitem {savemenu}, \hyperpage{34}
-    \subitem {scanexitmenu}, \hyperpage{35}
-    \subitem {scanmainmenu}, \hyperpage{35}
-    \subitem {scansavemenu}, \hyperpage{35}
-    \subitem {searchmenu}, \hyperpage{35}
-  \item {Menu\+Fv}
-    \subitem {structures.\+h}, \hyperpage{43}
-  \item {Menu\+Pont}, \hyperpage{17}
-    \subitem {nev}, \hyperpage{17}
-    \subitem {structures.\+h}, \hyperpage{43}
+    \subitem {debugmalloc.\+h}, \hyperpage{41}
+  \item {Men\IeC {\"u} kezel\IeC {\H o}}, \hyperpage{15}
+    \subitem {exitmenu}, \hyperpage{15}
+    \subitem {filesave}, \hyperpage{15}
+    \subitem {hosszu\+\_\+sort\+\_\+olvas}, \hyperpage{16}
+    \subitem {mainmenu}, \hyperpage{16}
+    \subitem {newevent}, \hyperpage{16}
+    \subitem {printmenu}, \hyperpage{16}
+    \subitem {savemenu}, \hyperpage{17}
+    \subitem {scanexitmenu}, \hyperpage{17}
+    \subitem {scanmainmenu}, \hyperpage{17}
+    \subitem {scansavemenu}, \hyperpage{17}
+    \subitem {searchmenu}, \hyperpage{18}
+  \item {Menu\+Pont}, \hyperpage{33}
+    \subitem {nev}, \hyperpage{33}
+    \subitem {Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k}, 
+		\hyperpage{26}
   \item {meret}
-    \subitem {Lefoglalt}, \hyperpage{16}
+    \subitem {Lefoglalt}, \hyperpage{32}
   \item {Mod\+By}
     \subitem {Esem\IeC {\'e}nyek r\IeC {\'e}szletei}, \hyperpage{7, 8}
   \item {month}
-    \subitem {Event}, \hyperpage{12}
-    \subitem {Search\+Conditions}, \hyperpage{17}
+    \subitem {Event}, \hyperpage{28}
+    \subitem {Search\+Conditions}, \hyperpage{34}
   \item {moveevent}
     \subitem {Esem\IeC {\'e}nyek r\IeC {\'e}szletei}, \hyperpage{8}
 
   \indexspace
 
   \item {name}
-    \subitem {Event}, \hyperpage{12}
-    \subitem {Search\+Conditions}, \hyperpage{18}
+    \subitem {Event}, \hyperpage{28}
+    \subitem {Search\+Conditions}, \hyperpage{34}
   \item {nev}
-    \subitem {Menu\+Pont}, \hyperpage{17}
+    \subitem {Menu\+Pont}, \hyperpage{33}
   \item {newevent}
-    \subitem {menu.\+c}, \hyperpage{32}
-    \subitem {menu.\+h}, \hyperpage{34}
+    \subitem {Men\IeC {\"u} kezel\IeC {\H o}}, \hyperpage{16}
   \item {next}
-    \subitem {Event}, \hyperpage{12}
-    \subitem {Lefoglalt}, \hyperpage{16}
+    \subitem {Event}, \hyperpage{28}
+    \subitem {Lefoglalt}, \hyperpage{32}
   \item {nextfound}
-    \subitem {Found\+Event}, \hyperpage{14}
+    \subitem {Found\+Event}, \hyperpage{31}
 
   \indexspace
 
   \item {prev}
-    \subitem {Event}, \hyperpage{12}
-    \subitem {Lefoglalt}, \hyperpage{16}
+    \subitem {Event}, \hyperpage{28}
+    \subitem {Lefoglalt}, \hyperpage{33}
   \item {prevfound}
-    \subitem {Found\+Event}, \hyperpage{15}
+    \subitem {Found\+Event}, \hyperpage{31}
   \item {printevent\+\_\+short}
-    \subitem {searchui.\+c}, \hyperpage{39}
-    \subitem {searchui.\+h}, \hyperpage{40}
+    \subitem {Keres\IeC {\'e}s kezel\IeC {\H o}}, \hyperpage{20}
   \item {printeventrecord}
     \subitem {Esem\IeC {\'e}nyek r\IeC {\'e}szletei}, \hyperpage{9}
   \item {printfindlist}
-    \subitem {searchui.\+c}, \hyperpage{39}
-    \subitem {searchui.\+h}, \hyperpage{41}
+    \subitem {Keres\IeC {\'e}s kezel\IeC {\H o}}, \hyperpage{21}
   \item {printmenu}
-    \subitem {menu.\+c}, \hyperpage{32}
-    \subitem {menu.\+h}, \hyperpage{34}
+    \subitem {Men\IeC {\"u} kezel\IeC {\H o}}, \hyperpage{16}
 
   \indexspace
 
   \item {realloc}
-    \subitem {debugmalloc.\+h}, \hyperpage{23}
+    \subitem {debugmalloc.\+h}, \hyperpage{41}
 
   \indexspace
 
   \item {savemenu}
-    \subitem {menu.\+c}, \hyperpage{32}
-    \subitem {menu.\+h}, \hyperpage{34}
+    \subitem {Men\IeC {\"u} kezel\IeC {\H o}}, \hyperpage{17}
   \item {scanexitmenu}
-    \subitem {menu.\+c}, \hyperpage{33}
-    \subitem {menu.\+h}, \hyperpage{35}
+    \subitem {Men\IeC {\"u} kezel\IeC {\H o}}, \hyperpage{17}
   \item {scanfindlist}
-    \subitem {searchui.\+c}, \hyperpage{39}
-    \subitem {searchui.\+h}, \hyperpage{41}
+    \subitem {Keres\IeC {\'e}s kezel\IeC {\H o}}, \hyperpage{21}
   \item {scaninput}
-    \subitem {searchui.\+c}, \hyperpage{39}
-    \subitem {searchui.\+h}, \hyperpage{41}
+    \subitem {Keres\IeC {\'e}s kezel\IeC {\H o}}, \hyperpage{21}
   \item {scanmainmenu}
-    \subitem {menu.\+c}, \hyperpage{33}
-    \subitem {menu.\+h}, \hyperpage{35}
+    \subitem {Men\IeC {\"u} kezel\IeC {\H o}}, \hyperpage{17}
   \item {scanrecordcommand}
     \subitem {Esem\IeC {\'e}nyek r\IeC {\'e}szletei}, \hyperpage{9}
   \item {scansavemenu}
-    \subitem {menu.\+c}, \hyperpage{33}
-    \subitem {menu.\+h}, \hyperpage{35}
-  \item {search.\+c}
-    \subitem {eventtotm}, \hyperpage{36}
-    \subitem {inserttofindlist}, \hyperpage{36}
-    \subitem {searchactual}, \hyperpage{36}
-    \subitem {searchiter}, \hyperpage{36}
-    \subitem {tmtoweek}, \hyperpage{36}
-  \item {search.\+h}
-    \subitem {eventtotm}, \hyperpage{38}
-    \subitem {inserttofindlist}, \hyperpage{38}
-    \subitem {Search\+By}, \hyperpage{37}
-    \subitem {searchactual}, \hyperpage{38}
-    \subitem {searchiter}, \hyperpage{38}
-    \subitem {tmtoweek}, \hyperpage{38}
+    \subitem {Men\IeC {\"u} kezel\IeC {\H o}}, \hyperpage{17}
   \item {Search\+By}
-    \subitem {search.\+h}, \hyperpage{37}
-  \item {Search\+Conditions}, \hyperpage{17}
-    \subitem {day}, \hyperpage{17}
-    \subitem {month}, \hyperpage{17}
-    \subitem {name}, \hyperpage{18}
-    \subitem {structures.\+h}, \hyperpage{43}
-    \subitem {week}, \hyperpage{18}
-    \subitem {year}, \hyperpage{18}
+    \subitem {Keres\IeC {\'e}s kezel\IeC {\H o}}, \hyperpage{19}
+  \item {Search\+Conditions}, \hyperpage{34}
+    \subitem {day}, \hyperpage{34}
+    \subitem {month}, \hyperpage{34}
+    \subitem {name}, \hyperpage{34}
+    \subitem {Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k}, 
+		\hyperpage{26}
+    \subitem {week}, \hyperpage{35}
+    \subitem {year}, \hyperpage{35}
   \item {searchactual}
-    \subitem {search.\+c}, \hyperpage{36}
-    \subitem {search.\+h}, \hyperpage{38}
+    \subitem {Keres\IeC {\'e}s kezel\IeC {\H o}}, \hyperpage{21}
   \item {searchbyday}
-    \subitem {searchui.\+c}, \hyperpage{39}
-    \subitem {searchui.\+h}, \hyperpage{41}
+    \subitem {Keres\IeC {\'e}s kezel\IeC {\H o}}, \hyperpage{22}
   \item {searchbymonth}
-    \subitem {searchui.\+c}, \hyperpage{40}
-    \subitem {searchui.\+h}, \hyperpage{41}
+    \subitem {Keres\IeC {\'e}s kezel\IeC {\H o}}, \hyperpage{22}
   \item {searchbyname}
-    \subitem {searchui.\+c}, \hyperpage{40}
-    \subitem {searchui.\+h}, \hyperpage{41}
+    \subitem {Keres\IeC {\'e}s kezel\IeC {\H o}}, \hyperpage{23}
   \item {searchbyweek}
-    \subitem {searchui.\+c}, \hyperpage{40}
-    \subitem {searchui.\+h}, \hyperpage{42}
+    \subitem {Keres\IeC {\'e}s kezel\IeC {\H o}}, \hyperpage{23}
   \item {searchiter}
-    \subitem {search.\+c}, \hyperpage{36}
-    \subitem {search.\+h}, \hyperpage{38}
+    \subitem {Keres\IeC {\'e}s kezel\IeC {\H o}}, \hyperpage{23}
   \item {searchmenu}
-    \subitem {menu.\+c}, \hyperpage{33}
-    \subitem {menu.\+h}, \hyperpage{35}
-  \item {searchui.\+c}
-    \subitem {printevent\+\_\+short}, \hyperpage{39}
-    \subitem {printfindlist}, \hyperpage{39}
-    \subitem {scanfindlist}, \hyperpage{39}
-    \subitem {scaninput}, \hyperpage{39}
-    \subitem {searchbyday}, \hyperpage{39}
-    \subitem {searchbymonth}, \hyperpage{40}
-    \subitem {searchbyname}, \hyperpage{40}
-    \subitem {searchbyweek}, \hyperpage{40}
-  \item {searchui.\+h}
-    \subitem {printevent\+\_\+short}, \hyperpage{40}
-    \subitem {printfindlist}, \hyperpage{41}
-    \subitem {scanfindlist}, \hyperpage{41}
-    \subitem {scaninput}, \hyperpage{41}
-    \subitem {searchbyday}, \hyperpage{41}
-    \subitem {searchbymonth}, \hyperpage{41}
-    \subitem {searchbyname}, \hyperpage{41}
-    \subitem {searchbyweek}, \hyperpage{42}
+    \subitem {Men\IeC {\"u} kezel\IeC {\H o}}, \hyperpage{18}
   \item {starthour}
-    \subitem {Event}, \hyperpage{12}
+    \subitem {Event}, \hyperpage{28}
   \item {startmin}
-    \subitem {Event}, \hyperpage{12}
+    \subitem {Event}, \hyperpage{29}
   \item {starttime}
-    \subitem {list.\+c}, \hyperpage{28}
-    \subitem {list.\+h}, \hyperpage{30}
-  \item {structures.\+h}
-    \subitem {Event}, \hyperpage{42}
-    \subitem {Event\+List}, \hyperpage{42}
-    \subitem {Find\+List}, \hyperpage{43}
-    \subitem {Found\+Event}, \hyperpage{43}
-    \subitem {Menu\+Fv}, \hyperpage{43}
-    \subitem {Menu\+Pont}, \hyperpage{43}
-    \subitem {Search\+Conditions}, \hyperpage{43}
-    \subitem {Tm}, \hyperpage{43}
+    \subitem {Lista kezel\IeC {\H o}}, \hyperpage{14}
+  \item {Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k}, 
+		\hyperpage{25}
+    \subitem {Event}, \hyperpage{25}
+    \subitem {Event\+List}, \hyperpage{25}
+    \subitem {Find\+List}, \hyperpage{25}
+    \subitem {Found\+Event}, \hyperpage{25}
+    \subitem {Menu\+Pont}, \hyperpage{26}
+    \subitem {Search\+Conditions}, \hyperpage{26}
+    \subitem {Tm}, \hyperpage{26}
 
   \indexspace
 
   \item {T\+A\+B\+L\+A\+\_\+\+O\+S\+Z\+L\+O\+P\+OK}
-    \subitem {debugmalloc.\+c}, \hyperpage{20}
+    \subitem {debugmalloc.\+c}, \hyperpage{38}
   \item {Tm}
-    \subitem {list.\+h}, \hyperpage{29}
-    \subitem {structures.\+h}, \hyperpage{43}
+    \subitem {Lista kezel\IeC {\H o}}, \hyperpage{12}
+    \subitem {Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k}, 
+		\hyperpage{26}
   \item {tmtoweek}
-    \subitem {search.\+c}, \hyperpage{36}
-    \subitem {search.\+h}, \hyperpage{38}
+    \subitem {Keres\IeC {\'e}s kezel\IeC {\H o}}, \hyperpage{24}
 
   \indexspace
 
   \item {usernek}
-    \subitem {Lefoglalt}, \hyperpage{16}
+    \subitem {Lefoglalt}, \hyperpage{33}
 
   \indexspace
 
   \item {valodi}
-    \subitem {Lefoglalt}, \hyperpage{16}
+    \subitem {Lefoglalt}, \hyperpage{33}
 
   \indexspace
 
   \item {week}
-    \subitem {Search\+Conditions}, \hyperpage{18}
+    \subitem {Search\+Conditions}, \hyperpage{35}
 
   \indexspace
 
   \item {year}
-    \subitem {Event}, \hyperpage{13}
-    \subitem {Search\+Conditions}, \hyperpage{18}
+    \subitem {Event}, \hyperpage{29}
+    \subitem {Search\+Conditions}, \hyperpage{35}
 
 \end{theindex}

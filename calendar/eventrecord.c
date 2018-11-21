@@ -4,8 +4,9 @@
 #include <stdbool.h>
 #include "menu.h"
 #include "list.h"
-#include "debugmalloc.h"
-//#include "list.c"
+#include <stdlib.h>
+
+
 
 void moveevent(Event* event,EventList const* eventlist,ModBy modby){
     switch(modby){

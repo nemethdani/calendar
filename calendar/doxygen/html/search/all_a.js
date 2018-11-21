@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['prev',['prev',['../struct_lefoglalt.html#a2b1e290e1bec4c24cb7ec2aaf8747687',1,'Lefoglalt::prev()'],['../struct_event.html#a587efee11d7ca5779c56b343342c65f9',1,'Event::prev()']]],
-  ['prevfound',['prevfound',['../struct_found_event.html#add29159b298db5eb8c68bd9314e7c498',1,'FoundEvent']]],
-  ['printevent_5fshort',['printevent_short',['../searchui_8c.html#a2561d96be1299fd3f5730c6d82143709',1,'printevent_short(Event *event):&#160;searchui.c'],['../searchui_8h.html#a2561d96be1299fd3f5730c6d82143709',1,'printevent_short(Event *event):&#160;searchui.c']]],
-  ['printeventrecord',['printeventrecord',['../group__eventrecord.html#ga43a7dc247171d596d8d808776d8d40f5',1,'printeventrecord(Event *event, SearchConditions condition, EventList *eventlist):&#160;eventrecord.c'],['../group__eventrecord.html#ga43a7dc247171d596d8d808776d8d40f5',1,'printeventrecord(Event *event, SearchConditions condition, EventList *eventlist):&#160;eventrecord.c']]],
-  ['printfindlist',['printfindlist',['../searchui_8c.html#a4fc3c2695bbc6aacac6fcdddbbc2c9ea',1,'printfindlist(FindList *findlist, SearchConditions condition, EventList *eventlist):&#160;searchui.c'],['../searchui_8h.html#a4fc3c2695bbc6aacac6fcdddbbc2c9ea',1,'printfindlist(FindList *findlist, SearchConditions condition, EventList *eventlist):&#160;searchui.c']]],
-  ['printmenu',['printmenu',['../menu_8c.html#a1aa7ba6b6941a272c34eea491e4a650d',1,'printmenu(MenuPont *menupontok):&#160;menu.c'],['../menu_8h.html#a1aa7ba6b6941a272c34eea491e4a650d',1,'printmenu(MenuPont *menupontok):&#160;menu.c']]]
+  ['name',['name',['../struct_event.html#a5ac083a645d964373f022d03df4849c8',1,'Event::name()'],['../struct_search_conditions.html#a5ac083a645d964373f022d03df4849c8',1,'SearchConditions::name()']]],
+  ['nev',['nev',['../struct_menu_pont.html#a21c8b004e3b92cd18b29f8a51717956d',1,'MenuPont']]],
+  ['newevent',['newevent',['../group__menu.html#ga069c1b762e46bba28b1f38b87d8d58aa',1,'newevent(EventList *eventlist):&#160;menu.c'],['../group__menu.html#ga069c1b762e46bba28b1f38b87d8d58aa',1,'newevent(EventList *eventlist):&#160;menu.c']]],
+  ['next',['next',['../struct_lefoglalt.html#adc30abdfb5e692e2c216e3673d0d19b9',1,'Lefoglalt::next()'],['../struct_event.html#a306f86f79bc8a24df2ff2989f10ea5b8',1,'Event::next()']]],
+  ['nextfound',['nextfound',['../struct_found_event.html#acbce65ffd090e8c5d45aa15b2ccdf453',1,'FoundEvent']]]
 ];

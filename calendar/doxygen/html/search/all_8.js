@@ -1,15 +1,10 @@
 var searchData=
 [
-  ['main',['main',['../main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main.c']]],
-  ['main_2ec',['main.c',['../main_8c.html',1,'']]],
-  ['mainmenu',['mainmenu',['../menu_8c.html#ac86d3169260f5cacd0f792743957b054',1,'mainmenu():&#160;menu.c'],['../menu_8h.html#ac86d3169260f5cacd0f792743957b054',1,'mainmenu():&#160;menu.c']]],
-  ['malloc',['malloc',['../debugmalloc_8h.html#a183c59bc3a5f5116f8490a9335db33a3',1,'debugmalloc.h']]],
-  ['menu_2ec',['menu.c',['../menu_8c.html',1,'']]],
-  ['menu_2eh',['menu.h',['../menu_8h.html',1,'']]],
-  ['menufv',['MenuFv',['../structures_8h.html#aa04041873905737ffeb12c611f7c5bde',1,'structures.h']]],
-  ['menupont',['MenuPont',['../struct_menu_pont.html',1,'MenuPont'],['../structures_8h.html#a0ef80ab3e0ae7fe6915f17204e5f6211',1,'MenuPont():&#160;structures.h']]],
-  ['meret',['meret',['../struct_lefoglalt.html#a7054394a4199245d774ead13d3bed5d6',1,'Lefoglalt']]],
-  ['modby',['ModBy',['../group__eventrecord.html#ga643f8b09cbc45afc4ad36b27c077b1fd',1,'ModBy():&#160;eventrecord.h'],['../group__eventrecord.html#ga362ee478a7a01737cf42d32360eda02e',1,'ModBy():&#160;eventrecord.h']]],
-  ['month',['month',['../struct_event.html#aedb06abe5aff12fa3e7e0e71a374edfb',1,'Event::month()'],['../struct_search_conditions.html#aedb06abe5aff12fa3e7e0e71a374edfb',1,'SearchConditions::month()']]],
-  ['moveevent',['moveevent',['../group__eventrecord.html#ga610dc34a1e251a16311ca7ac15f64e05',1,'moveevent(Event *event, EventList const *eventlist, ModBy modby):&#160;eventrecord.c'],['../group__eventrecord.html#ga610dc34a1e251a16311ca7ac15f64e05',1,'moveevent(Event *event, EventList const *eventlist, ModBy modby):&#160;eventrecord.c']]]
+  ['last',['last',['../struct_event_list.html#a8e52f53a3606d45d86182ce606e9369d',1,'EventList::last()'],['../struct_find_list.html#ab61e64643b8233c6d9feef3e2aaffef2',1,'FindList::last()']]],
+  ['lefoglalt',['Lefoglalt',['../struct_lefoglalt.html',1,'Lefoglalt'],['../debugmalloc_8c.html#a9045711bae196a1aaff9a38a2c193d19',1,'Lefoglalt():&#160;debugmalloc.c']]],
+  ['line',['line',['../struct_lefoglalt.html#a05ef0c4dbeec4fc8ccb225de9c26d896',1,'Lefoglalt']]],
+  ['lista_20kezelő',['Lista kezelő',['../group__list.html',1,'']]],
+  ['list_2ec',['list.c',['../list_8c.html',1,'']]],
+  ['list_2eh',['list.h',['../list_8h.html',1,'']]],
+  ['location',['location',['../struct_event.html#a6a0d5603410d5eda93c0ff341966cce1',1,'Event']]]
 ];

@@ -7,108 +7,17 @@
 {\ttfamily \#include $<$stdbool.\+h$>$}\newline
 {\ttfamily \#include $<$time.\+h$>$}\newline
 {\ttfamily \#include $<$stdio.\+h$>$}\newline
-{\ttfamily \#include \char`\"{}debugmalloc.\+h\char`\"{}}\newline
-Include dependency graph for search.\+c\+:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=350pt]{search_8c__incl}
-\end{center}
-\end{figure}
+{\ttfamily \#include \char`\"{}searchui.\+h\char`\"{}}\newline
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-int \hyperlink{search_8c_a199722ea7869f598848648238f88d274}{searchiter} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist, \hyperlink{struct_search_conditions}{Search\+Conditions} condition)
+int \hyperlink{group__search_ga199722ea7869f598848648238f88d274}{searchiter} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist, \hyperlink{struct_search_conditions}{Search\+Conditions} condition)
 \item 
-int \hyperlink{search_8c_a9a7e3230097d2f97a58082ff6eb864ac}{searchactual} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist, \hyperlink{search_8h_af9df49b17c9441844cafc15064ec50fc}{Search\+By} searchmode)
+int \hyperlink{group__search_ga9a7e3230097d2f97a58082ff6eb864ac}{searchactual} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist, \hyperlink{group__search_gaf9df49b17c9441844cafc15064ec50fc}{Search\+By} searchmode)
 \item 
-void \hyperlink{search_8c_ace601ce27f555e73988b2db946d1ca5e}{inserttofindlist} (\hyperlink{struct_find_list}{Find\+List} $\ast$findlist, \hyperlink{struct_event}{Event} $\ast$event)
+void \hyperlink{group__search_gace601ce27f555e73988b2db946d1ca5e}{inserttofindlist} (\hyperlink{struct_find_list}{Find\+List} $\ast$findlist, \hyperlink{struct_event}{Event} $\ast$event)
 \item 
-int \hyperlink{search_8c_a4e80bfd47c2fef45e9f6f50632544931}{tmtoweek} (\hyperlink{list_8h_affc453d30a4a6ce81ed778fd04d2d256}{Tm} $\ast$tm)
+int \hyperlink{group__search_ga4e80bfd47c2fef45e9f6f50632544931}{tmtoweek} (\hyperlink{group__list_gaffc453d30a4a6ce81ed778fd04d2d256}{Tm} $\ast$tm)
 \item 
-\hyperlink{list_8h_affc453d30a4a6ce81ed778fd04d2d256}{Tm} $\ast$ \hyperlink{search_8c_aa13cd0a956bc531fe1e1329b6aebdef9}{eventtotm} (\hyperlink{struct_event}{Event} $\ast$event)
+\hyperlink{group__list_gaffc453d30a4a6ce81ed778fd04d2d256}{Tm} $\ast$ \hyperlink{group__search_gaa13cd0a956bc531fe1e1329b6aebdef9}{eventtotm} (\hyperlink{struct_event}{Event} $\ast$event)
 \end{DoxyCompactItemize}
-
-
-\subsection{Function Documentation}
-\mbox{\Hypertarget{search_8c_aa13cd0a956bc531fe1e1329b6aebdef9}\label{search_8c_aa13cd0a956bc531fe1e1329b6aebdef9}} 
-\index{search.\+c@{search.\+c}!eventtotm@{eventtotm}}
-\index{eventtotm@{eventtotm}!search.\+c@{search.\+c}}
-\subsubsection{\texorpdfstring{eventtotm()}{eventtotm()}}
-{\footnotesize\ttfamily \hyperlink{list_8h_affc453d30a4a6ce81ed778fd04d2d256}{Tm}$\ast$ eventtotm (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event}{Event} $\ast$}]{event }\end{DoxyParamCaption})}
-
-Here is the caller graph for this function\+:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=350pt]{search_8c_aa13cd0a956bc531fe1e1329b6aebdef9_icgraph}
-\end{center}
-\end{figure}
-\mbox{\Hypertarget{search_8c_ace601ce27f555e73988b2db946d1ca5e}\label{search_8c_ace601ce27f555e73988b2db946d1ca5e}} 
-\index{search.\+c@{search.\+c}!inserttofindlist@{inserttofindlist}}
-\index{inserttofindlist@{inserttofindlist}!search.\+c@{search.\+c}}
-\subsubsection{\texorpdfstring{inserttofindlist()}{inserttofindlist()}}
-{\footnotesize\ttfamily void inserttofindlist (\begin{DoxyParamCaption}\item[{\hyperlink{struct_find_list}{Find\+List} $\ast$}]{findlist,  }\item[{\hyperlink{struct_event}{Event} $\ast$}]{event }\end{DoxyParamCaption})}
-
-Here is the caller graph for this function\+:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=350pt]{search_8c_ace601ce27f555e73988b2db946d1ca5e_icgraph}
-\end{center}
-\end{figure}
-\mbox{\Hypertarget{search_8c_a9a7e3230097d2f97a58082ff6eb864ac}\label{search_8c_a9a7e3230097d2f97a58082ff6eb864ac}} 
-\index{search.\+c@{search.\+c}!searchactual@{searchactual}}
-\index{searchactual@{searchactual}!search.\+c@{search.\+c}}
-\subsubsection{\texorpdfstring{searchactual()}{searchactual()}}
-{\footnotesize\ttfamily int searchactual (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist,  }\item[{\hyperlink{search_8h_af9df49b17c9441844cafc15064ec50fc}{Search\+By}}]{searchmode }\end{DoxyParamCaption})}
-
-Here is the call graph for this function\+:
-\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=350pt]{search_8c_a9a7e3230097d2f97a58082ff6eb864ac_cgraph}
-\end{center}
-\end{figure}
-Here is the caller graph for this function\+:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=350pt]{search_8c_a9a7e3230097d2f97a58082ff6eb864ac_icgraph}
-\end{center}
-\end{figure}
-\mbox{\Hypertarget{search_8c_a199722ea7869f598848648238f88d274}\label{search_8c_a199722ea7869f598848648238f88d274}} 
-\index{search.\+c@{search.\+c}!searchiter@{searchiter}}
-\index{searchiter@{searchiter}!search.\+c@{search.\+c}}
-\subsubsection{\texorpdfstring{searchiter()}{searchiter()}}
-{\footnotesize\ttfamily int searchiter (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist,  }\item[{\hyperlink{struct_search_conditions}{Search\+Conditions}}]{condition }\end{DoxyParamCaption})}
-
-Here is the call graph for this function\+:
-\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=350pt]{search_8c_a199722ea7869f598848648238f88d274_cgraph}
-\end{center}
-\end{figure}
-Here is the caller graph for this function\+:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=350pt]{search_8c_a199722ea7869f598848648238f88d274_icgraph}
-\end{center}
-\end{figure}
-\mbox{\Hypertarget{search_8c_a4e80bfd47c2fef45e9f6f50632544931}\label{search_8c_a4e80bfd47c2fef45e9f6f50632544931}} 
-\index{search.\+c@{search.\+c}!tmtoweek@{tmtoweek}}
-\index{tmtoweek@{tmtoweek}!search.\+c@{search.\+c}}
-\subsubsection{\texorpdfstring{tmtoweek()}{tmtoweek()}}
-{\footnotesize\ttfamily int tmtoweek (\begin{DoxyParamCaption}\item[{\hyperlink{list_8h_affc453d30a4a6ce81ed778fd04d2d256}{Tm} $\ast$}]{tm }\end{DoxyParamCaption})}
-
-Here is the caller graph for this function\+:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=350pt]{search_8c_a4e80bfd47c2fef45e9f6f50632544931_icgraph}
-\end{center}
-\end{figure}

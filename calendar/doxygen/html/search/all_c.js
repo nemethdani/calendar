@@ -1,27 +1,4 @@
 var searchData=
 [
-  ['savemenu',['savemenu',['../menu_8c.html#aa28daf84be098b64b8dfea8a88050f13',1,'savemenu(EventList *eventlist):&#160;menu.c'],['../menu_8h.html#aa28daf84be098b64b8dfea8a88050f13',1,'savemenu(EventList *eventlist):&#160;menu.c']]],
-  ['scanexitmenu',['scanexitmenu',['../menu_8c.html#aa12eba16d2e2bd5dfc70240d19bd5c8e',1,'scanexitmenu(EventList *eventlist):&#160;menu.c'],['../menu_8h.html#aa12eba16d2e2bd5dfc70240d19bd5c8e',1,'scanexitmenu(EventList *eventlist):&#160;menu.c']]],
-  ['scanfindlist',['scanfindlist',['../searchui_8c.html#a70f4e24bc56ccfdd7d63df4a84054538',1,'scanfindlist(int i, FindList *findlist, SearchConditions condition, EventList *eventlist):&#160;searchui.c'],['../searchui_8h.html#a70f4e24bc56ccfdd7d63df4a84054538',1,'scanfindlist(int i, FindList *findlist, SearchConditions condition, EventList *eventlist):&#160;searchui.c']]],
-  ['scaninput',['scaninput',['../searchui_8c.html#a033e355dbab3723c9d57e8f3e6fe52e1',1,'scaninput():&#160;searchui.c'],['../searchui_8h.html#a033e355dbab3723c9d57e8f3e6fe52e1',1,'scaninput():&#160;searchui.c']]],
-  ['scanmainmenu',['scanmainmenu',['../menu_8c.html#a8e572ab27981dcd7144340fd25a24c80',1,'scanmainmenu(EventList *eventlist):&#160;menu.c'],['../menu_8h.html#a8e572ab27981dcd7144340fd25a24c80',1,'scanmainmenu(EventList *eventlist):&#160;menu.c']]],
-  ['scanrecordcommand',['scanrecordcommand',['../group__eventrecord.html#gac6e06e3186496cd8eb6618baf3ca9d3e',1,'scanrecordcommand(bool isnewevent, int i, Event *event, EventList const *eventlist):&#160;eventrecord.c'],['../group__eventrecord.html#gac6e06e3186496cd8eb6618baf3ca9d3e',1,'scanrecordcommand(bool isnewevent, int i, Event *event, EventList const *eventlist):&#160;eventrecord.c']]],
-  ['scansavemenu',['scansavemenu',['../menu_8c.html#a6ef5647864065ede4ef3b2773cbb9e8d',1,'scansavemenu(EventList *eventlist):&#160;menu.c'],['../menu_8h.html#a6ef5647864065ede4ef3b2773cbb9e8d',1,'scansavemenu(EventList *eventlist):&#160;menu.c']]],
-  ['search_2ec',['search.c',['../search_8c.html',1,'']]],
-  ['search_2eh',['search.h',['../search_8h.html',1,'']]],
-  ['searchactual',['searchactual',['../search_8c.html#a9a7e3230097d2f97a58082ff6eb864ac',1,'searchactual(EventList *eventlist, SearchBy searchmode):&#160;search.c'],['../search_8h.html#a9a7e3230097d2f97a58082ff6eb864ac',1,'searchactual(EventList *eventlist, SearchBy searchmode):&#160;search.c']]],
-  ['searchby',['SearchBy',['../search_8h.html#af9df49b17c9441844cafc15064ec50fc',1,'SearchBy():&#160;search.h'],['../search_8h.html#a2ab4e565bcf990b57e010007e13bec43',1,'SearchBy():&#160;search.h']]],
-  ['searchbyday',['searchbyday',['../searchui_8c.html#a5a5f902f17fae2dda3b8ec6bb7e1a6e9',1,'searchbyday(EventList *eventlist):&#160;searchui.c'],['../searchui_8h.html#a5a5f902f17fae2dda3b8ec6bb7e1a6e9',1,'searchbyday(EventList *eventlist):&#160;searchui.c']]],
-  ['searchbymonth',['searchbymonth',['../searchui_8c.html#ac2a6873263c1a8146c04126b48f8431e',1,'searchbymonth(EventList *eventlist):&#160;searchui.c'],['../searchui_8h.html#ac2a6873263c1a8146c04126b48f8431e',1,'searchbymonth(EventList *eventlist):&#160;searchui.c']]],
-  ['searchbyname',['searchbyname',['../searchui_8c.html#adaf3bc7221b1fe4f2cffb3aaea00415d',1,'searchbyname(EventList *eventlist):&#160;searchui.c'],['../searchui_8h.html#adaf3bc7221b1fe4f2cffb3aaea00415d',1,'searchbyname(EventList *eventlist):&#160;searchui.c']]],
-  ['searchbyweek',['searchbyweek',['../searchui_8c.html#a6b219250779d3af5972611513010a013',1,'searchbyweek(EventList *eventlist):&#160;searchui.c'],['../searchui_8h.html#a6b219250779d3af5972611513010a013',1,'searchbyweek(EventList *eventlist):&#160;searchui.c']]],
-  ['searchconditions',['SearchConditions',['../struct_search_conditions.html',1,'SearchConditions'],['../structures_8h.html#adc5706147428e7cb68faa6fb19085d7a',1,'SearchConditions():&#160;structures.h']]],
-  ['searchiter',['searchiter',['../search_8c.html#a199722ea7869f598848648238f88d274',1,'searchiter(EventList *eventlist, SearchConditions condition):&#160;search.c'],['../search_8h.html#a199722ea7869f598848648238f88d274',1,'searchiter(EventList *eventlist, SearchConditions condition):&#160;search.c']]],
-  ['searchmenu',['searchmenu',['../menu_8c.html#a38d64ff02f60ebcb1988655ea12540a6',1,'searchmenu(EventList *eventlist):&#160;menu.c'],['../menu_8h.html#a38d64ff02f60ebcb1988655ea12540a6',1,'searchmenu(EventList *eventlist):&#160;menu.c']]],
-  ['searchui_2ec',['searchui.c',['../searchui_8c.html',1,'']]],
-  ['searchui_2eh',['searchui.h',['../searchui_8h.html',1,'']]],
-  ['starthour',['starthour',['../struct_event.html#ad40616cbc61c79a6caf6c8c2464bab8d',1,'Event']]],
-  ['startmin',['startmin',['../struct_event.html#a6a7bf86ae11349bf260da9abce25452a',1,'Event']]],
-  ['starttime',['starttime',['../list_8c.html#a8f7708495c6e39bb6e712218711b331f',1,'starttime(Event *event):&#160;list.c'],['../list_8h.html#a8f7708495c6e39bb6e712218711b331f',1,'starttime(Event *event):&#160;list.c']]],
-  ['structures_2eh',['structures.h',['../structures_8h.html',1,'']]]
+  ['realloc',['realloc',['../debugmalloc_8h.html#adcb4d5ff54f988a9e07d7640e0b333e5',1,'debugmalloc.h']]]
 ];

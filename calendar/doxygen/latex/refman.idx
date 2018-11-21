@@ -17,306 +17,243 @@
 \indexentry{printeventrecord@{printeventrecord}!Esem\IeC {\'e}nyek r\IeC {\'e}szletei@{Esem\IeC {\'e}nyek r\IeC {\'e}szletei}|hyperpage}{9}
 \indexentry{Esem\IeC {\'e}nyek r\IeC {\'e}szletei@{Esem\IeC {\'e}nyek r\IeC {\'e}szletei}!scanrecordcommand@{scanrecordcommand}|hyperpage}{9}
 \indexentry{scanrecordcommand@{scanrecordcommand}!Esem\IeC {\'e}nyek r\IeC {\'e}szletei@{Esem\IeC {\'e}nyek r\IeC {\'e}szletei}|hyperpage}{9}
-\indexentry{Event@{Event}|hyperpage}{11}
-\indexentry{Event@{Event}!comment@{comment}|hyperpage}{11}
-\indexentry{comment@{comment}!Event@{Event}|hyperpage}{11}
-\indexentry{Event@{Event}!day@{day}|hyperpage}{11}
-\indexentry{day@{day}!Event@{Event}|hyperpage}{11}
-\indexentry{Event@{Event}!endhour@{endhour}|hyperpage}{11}
-\indexentry{endhour@{endhour}!Event@{Event}|hyperpage}{11}
-\indexentry{Event@{Event}!endmin@{endmin}|hyperpage}{12}
-\indexentry{endmin@{endmin}!Event@{Event}|hyperpage}{12}
-\indexentry{Event@{Event}!location@{location}|hyperpage}{12}
-\indexentry{location@{location}!Event@{Event}|hyperpage}{12}
-\indexentry{Event@{Event}!month@{month}|hyperpage}{12}
-\indexentry{month@{month}!Event@{Event}|hyperpage}{12}
-\indexentry{Event@{Event}!name@{name}|hyperpage}{12}
-\indexentry{name@{name}!Event@{Event}|hyperpage}{12}
-\indexentry{Event@{Event}!next@{next}|hyperpage}{12}
-\indexentry{next@{next}!Event@{Event}|hyperpage}{12}
-\indexentry{Event@{Event}!prev@{prev}|hyperpage}{12}
-\indexentry{prev@{prev}!Event@{Event}|hyperpage}{12}
-\indexentry{Event@{Event}!starthour@{starthour}|hyperpage}{12}
-\indexentry{starthour@{starthour}!Event@{Event}|hyperpage}{12}
-\indexentry{Event@{Event}!startmin@{startmin}|hyperpage}{12}
-\indexentry{startmin@{startmin}!Event@{Event}|hyperpage}{12}
-\indexentry{Event@{Event}!year@{year}|hyperpage}{13}
-\indexentry{year@{year}!Event@{Event}|hyperpage}{13}
-\indexentry{Event\+List@{Event\+List}|hyperpage}{13}
-\indexentry{Event\+List@{Event\+List}!first@{first}|hyperpage}{13}
-\indexentry{first@{first}!Event\+List@{Event\+List}|hyperpage}{13}
-\indexentry{Event\+List@{Event\+List}!last@{last}|hyperpage}{13}
-\indexentry{last@{last}!Event\+List@{Event\+List}|hyperpage}{13}
-\indexentry{Find\+List@{Find\+List}|hyperpage}{13}
-\indexentry{Find\+List@{Find\+List}!first@{first}|hyperpage}{14}
-\indexentry{first@{first}!Find\+List@{Find\+List}|hyperpage}{14}
-\indexentry{Find\+List@{Find\+List}!last@{last}|hyperpage}{14}
-\indexentry{last@{last}!Find\+List@{Find\+List}|hyperpage}{14}
-\indexentry{Found\+Event@{Found\+Event}|hyperpage}{14}
-\indexentry{Found\+Event@{Found\+Event}!foundevent@{foundevent}|hyperpage}{14}
-\indexentry{foundevent@{foundevent}!Found\+Event@{Found\+Event}|hyperpage}{14}
-\indexentry{Found\+Event@{Found\+Event}!nextfound@{nextfound}|hyperpage}{14}
-\indexentry{nextfound@{nextfound}!Found\+Event@{Found\+Event}|hyperpage}{14}
-\indexentry{Found\+Event@{Found\+Event}!prevfound@{prevfound}|hyperpage}{15}
-\indexentry{prevfound@{prevfound}!Found\+Event@{Found\+Event}|hyperpage}{15}
-\indexentry{Lefoglalt@{Lefoglalt}|hyperpage}{15}
-\indexentry{Lefoglalt@{Lefoglalt}!cel@{cel}|hyperpage}{15}
-\indexentry{cel@{cel}!Lefoglalt@{Lefoglalt}|hyperpage}{15}
-\indexentry{Lefoglalt@{Lefoglalt}!file@{file}|hyperpage}{15}
-\indexentry{file@{file}!Lefoglalt@{Lefoglalt}|hyperpage}{15}
-\indexentry{Lefoglalt@{Lefoglalt}!fv@{fv}|hyperpage}{15}
-\indexentry{fv@{fv}!Lefoglalt@{Lefoglalt}|hyperpage}{15}
-\indexentry{Lefoglalt@{Lefoglalt}!line@{line}|hyperpage}{16}
-\indexentry{line@{line}!Lefoglalt@{Lefoglalt}|hyperpage}{16}
-\indexentry{Lefoglalt@{Lefoglalt}!meret@{meret}|hyperpage}{16}
-\indexentry{meret@{meret}!Lefoglalt@{Lefoglalt}|hyperpage}{16}
-\indexentry{Lefoglalt@{Lefoglalt}!next@{next}|hyperpage}{16}
-\indexentry{next@{next}!Lefoglalt@{Lefoglalt}|hyperpage}{16}
-\indexentry{Lefoglalt@{Lefoglalt}!prev@{prev}|hyperpage}{16}
-\indexentry{prev@{prev}!Lefoglalt@{Lefoglalt}|hyperpage}{16}
-\indexentry{Lefoglalt@{Lefoglalt}!usernek@{usernek}|hyperpage}{16}
-\indexentry{usernek@{usernek}!Lefoglalt@{Lefoglalt}|hyperpage}{16}
-\indexentry{Lefoglalt@{Lefoglalt}!valodi@{valodi}|hyperpage}{16}
-\indexentry{valodi@{valodi}!Lefoglalt@{Lefoglalt}|hyperpage}{16}
-\indexentry{Menu\+Pont@{Menu\+Pont}|hyperpage}{17}
-\indexentry{Menu\+Pont@{Menu\+Pont}!nev@{nev}|hyperpage}{17}
-\indexentry{nev@{nev}!Menu\+Pont@{Menu\+Pont}|hyperpage}{17}
-\indexentry{Search\+Conditions@{Search\+Conditions}|hyperpage}{17}
-\indexentry{Search\+Conditions@{Search\+Conditions}!day@{day}|hyperpage}{17}
-\indexentry{day@{day}!Search\+Conditions@{Search\+Conditions}|hyperpage}{17}
-\indexentry{Search\+Conditions@{Search\+Conditions}!month@{month}|hyperpage}{17}
-\indexentry{month@{month}!Search\+Conditions@{Search\+Conditions}|hyperpage}{17}
-\indexentry{Search\+Conditions@{Search\+Conditions}!name@{name}|hyperpage}{18}
-\indexentry{name@{name}!Search\+Conditions@{Search\+Conditions}|hyperpage}{18}
-\indexentry{Search\+Conditions@{Search\+Conditions}!week@{week}|hyperpage}{18}
-\indexentry{week@{week}!Search\+Conditions@{Search\+Conditions}|hyperpage}{18}
-\indexentry{Search\+Conditions@{Search\+Conditions}!year@{year}|hyperpage}{18}
-\indexentry{year@{year}!Search\+Conditions@{Search\+Conditions}|hyperpage}{18}
-\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/debugmalloc.\+c@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/debugmalloc.\+c}|hyperpage}{19}
-\indexentry{debugmalloc.\+c@{debugmalloc.\+c}!T\+A\+B\+L\+A\+\_\+\+O\+S\+Z\+L\+O\+P\+OK@{T\+A\+B\+L\+A\+\_\+\+O\+S\+Z\+L\+O\+P\+OK}|hyperpage}{20}
-\indexentry{T\+A\+B\+L\+A\+\_\+\+O\+S\+Z\+L\+O\+P\+OK@{T\+A\+B\+L\+A\+\_\+\+O\+S\+Z\+L\+O\+P\+OK}!debugmalloc.\+c@{debugmalloc.\+c}|hyperpage}{20}
-\indexentry{debugmalloc.\+c@{debugmalloc.\+c}!Lefoglalt@{Lefoglalt}|hyperpage}{20}
-\indexentry{Lefoglalt@{Lefoglalt}!debugmalloc.\+c@{debugmalloc.\+c}|hyperpage}{20}
-\indexentry{debugmalloc.\+c@{debugmalloc.\+c}!debugmalloc\+\_\+calloc@{debugmalloc\+\_\+calloc}|hyperpage}{20}
-\indexentry{debugmalloc\+\_\+calloc@{debugmalloc\+\_\+calloc}!debugmalloc.\+c@{debugmalloc.\+c}|hyperpage}{20}
-\indexentry{debugmalloc.\+c@{debugmalloc.\+c}!debugmalloc\+\_\+dump@{debugmalloc\+\_\+dump}|hyperpage}{20}
-\indexentry{debugmalloc\+\_\+dump@{debugmalloc\+\_\+dump}!debugmalloc.\+c@{debugmalloc.\+c}|hyperpage}{20}
-\indexentry{debugmalloc.\+c@{debugmalloc.\+c}!debugmalloc\+\_\+free@{debugmalloc\+\_\+free}|hyperpage}{20}
-\indexentry{debugmalloc\+\_\+free@{debugmalloc\+\_\+free}!debugmalloc.\+c@{debugmalloc.\+c}|hyperpage}{20}
-\indexentry{debugmalloc.\+c@{debugmalloc.\+c}!debugmalloc\+\_\+free\+\_\+full@{debugmalloc\+\_\+free\+\_\+full}|hyperpage}{20}
-\indexentry{debugmalloc\+\_\+free\+\_\+full@{debugmalloc\+\_\+free\+\_\+full}!debugmalloc.\+c@{debugmalloc.\+c}|hyperpage}{20}
-\indexentry{debugmalloc.\+c@{debugmalloc.\+c}!debugmalloc\+\_\+hash@{debugmalloc\+\_\+hash}|hyperpage}{21}
-\indexentry{debugmalloc\+\_\+hash@{debugmalloc\+\_\+hash}!debugmalloc.\+c@{debugmalloc.\+c}|hyperpage}{21}
-\indexentry{debugmalloc.\+c@{debugmalloc.\+c}!debugmalloc\+\_\+malloc@{debugmalloc\+\_\+malloc}|hyperpage}{21}
-\indexentry{debugmalloc\+\_\+malloc@{debugmalloc\+\_\+malloc}!debugmalloc.\+c@{debugmalloc.\+c}|hyperpage}{21}
-\indexentry{debugmalloc.\+c@{debugmalloc.\+c}!debugmalloc\+\_\+malloc\+\_\+full@{debugmalloc\+\_\+malloc\+\_\+full}|hyperpage}{21}
-\indexentry{debugmalloc\+\_\+malloc\+\_\+full@{debugmalloc\+\_\+malloc\+\_\+full}!debugmalloc.\+c@{debugmalloc.\+c}|hyperpage}{21}
-\indexentry{debugmalloc.\+c@{debugmalloc.\+c}!debugmalloc\+\_\+naplofajl@{debugmalloc\+\_\+naplofajl}|hyperpage}{21}
-\indexentry{debugmalloc\+\_\+naplofajl@{debugmalloc\+\_\+naplofajl}!debugmalloc.\+c@{debugmalloc.\+c}|hyperpage}{21}
-\indexentry{debugmalloc.\+c@{debugmalloc.\+c}!debugmalloc\+\_\+realloc@{debugmalloc\+\_\+realloc}|hyperpage}{21}
-\indexentry{debugmalloc\+\_\+realloc@{debugmalloc\+\_\+realloc}!debugmalloc.\+c@{debugmalloc.\+c}|hyperpage}{21}
-\indexentry{debugmalloc.\+c@{debugmalloc.\+c}!debugmalloc\+\_\+realloc\+\_\+full@{debugmalloc\+\_\+realloc\+\_\+full}|hyperpage}{21}
-\indexentry{debugmalloc\+\_\+realloc\+\_\+full@{debugmalloc\+\_\+realloc\+\_\+full}!debugmalloc.\+c@{debugmalloc.\+c}|hyperpage}{21}
-\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/debugmalloc.\+h@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/debugmalloc.\+h}|hyperpage}{22}
-\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!calloc@{calloc}|hyperpage}{22}
-\indexentry{calloc@{calloc}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{22}
-\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!free@{free}|hyperpage}{22}
-\indexentry{free@{free}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{22}
-\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!malloc@{malloc}|hyperpage}{23}
-\indexentry{malloc@{malloc}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{23}
-\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!realloc@{realloc}|hyperpage}{23}
-\indexentry{realloc@{realloc}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{23}
-\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+calloc@{debugmalloc\+\_\+calloc}|hyperpage}{23}
-\indexentry{debugmalloc\+\_\+calloc@{debugmalloc\+\_\+calloc}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{23}
-\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+dump@{debugmalloc\+\_\+dump}|hyperpage}{23}
-\indexentry{debugmalloc\+\_\+dump@{debugmalloc\+\_\+dump}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{23}
-\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+free@{debugmalloc\+\_\+free}|hyperpage}{23}
-\indexentry{debugmalloc\+\_\+free@{debugmalloc\+\_\+free}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{23}
-\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+free\+\_\+full@{debugmalloc\+\_\+free\+\_\+full}|hyperpage}{23}
-\indexentry{debugmalloc\+\_\+free\+\_\+full@{debugmalloc\+\_\+free\+\_\+full}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{23}
-\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+malloc@{debugmalloc\+\_\+malloc}|hyperpage}{24}
-\indexentry{debugmalloc\+\_\+malloc@{debugmalloc\+\_\+malloc}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{24}
-\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+malloc\+\_\+full@{debugmalloc\+\_\+malloc\+\_\+full}|hyperpage}{24}
-\indexentry{debugmalloc\+\_\+malloc\+\_\+full@{debugmalloc\+\_\+malloc\+\_\+full}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{24}
-\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+naplofajl@{debugmalloc\+\_\+naplofajl}|hyperpage}{24}
-\indexentry{debugmalloc\+\_\+naplofajl@{debugmalloc\+\_\+naplofajl}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{24}
-\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+realloc@{debugmalloc\+\_\+realloc}|hyperpage}{24}
-\indexentry{debugmalloc\+\_\+realloc@{debugmalloc\+\_\+realloc}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{24}
-\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+realloc\+\_\+full@{debugmalloc\+\_\+realloc\+\_\+full}|hyperpage}{24}
-\indexentry{debugmalloc\+\_\+realloc\+\_\+full@{debugmalloc\+\_\+realloc\+\_\+full}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{24}
-\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.\+c@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.\+c}|hyperpage}{25}
-\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.\+h@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.\+h}|hyperpage}{25}
-\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.\+c@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.\+c}|hyperpage}{26}
-\indexentry{file.\+c@{file.\+c}!calendarload@{calendarload}|hyperpage}{26}
-\indexentry{calendarload@{calendarload}!file.\+c@{file.\+c}|hyperpage}{26}
-\indexentry{file.\+c@{file.\+c}!calendarsave@{calendarsave}|hyperpage}{26}
-\indexentry{calendarsave@{calendarsave}!file.\+c@{file.\+c}|hyperpage}{26}
-\indexentry{file.\+c@{file.\+c}!dstrcpy@{dstrcpy}|hyperpage}{26}
-\indexentry{dstrcpy@{dstrcpy}!file.\+c@{file.\+c}|hyperpage}{26}
-\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.\+h@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.\+h}|hyperpage}{26}
-\indexentry{file.\+h@{file.\+h}!calendarload@{calendarload}|hyperpage}{27}
-\indexentry{calendarload@{calendarload}!file.\+h@{file.\+h}|hyperpage}{27}
-\indexentry{file.\+h@{file.\+h}!calendarsave@{calendarsave}|hyperpage}{27}
-\indexentry{calendarsave@{calendarsave}!file.\+h@{file.\+h}|hyperpage}{27}
-\indexentry{file.\+h@{file.\+h}!dstrcpy@{dstrcpy}|hyperpage}{27}
-\indexentry{dstrcpy@{dstrcpy}!file.\+h@{file.\+h}|hyperpage}{27}
-\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.\+c@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.\+c}|hyperpage}{27}
-\indexentry{list.\+c@{list.\+c}!createevent@{createevent}|hyperpage}{28}
-\indexentry{createevent@{createevent}!list.\+c@{list.\+c}|hyperpage}{28}
-\indexentry{list.\+c@{list.\+c}!free\+\_\+event@{free\+\_\+event}|hyperpage}{28}
-\indexentry{free\+\_\+event@{free\+\_\+event}!list.\+c@{list.\+c}|hyperpage}{28}
-\indexentry{list.\+c@{list.\+c}!free\+Event\+List@{free\+Event\+List}|hyperpage}{28}
-\indexentry{free\+Event\+List@{free\+Event\+List}!list.\+c@{list.\+c}|hyperpage}{28}
-\indexentry{list.\+c@{list.\+c}!initeventlist@{initeventlist}|hyperpage}{28}
-\indexentry{initeventlist@{initeventlist}!list.\+c@{list.\+c}|hyperpage}{28}
-\indexentry{list.\+c@{list.\+c}!insertevent@{insertevent}|hyperpage}{28}
-\indexentry{insertevent@{insertevent}!list.\+c@{list.\+c}|hyperpage}{28}
-\indexentry{list.\+c@{list.\+c}!starttime@{starttime}|hyperpage}{28}
-\indexentry{starttime@{starttime}!list.\+c@{list.\+c}|hyperpage}{28}
-\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.\+h@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.\+h}|hyperpage}{29}
-\indexentry{list.\+h@{list.\+h}!Tm@{Tm}|hyperpage}{29}
-\indexentry{Tm@{Tm}!list.\+h@{list.\+h}|hyperpage}{29}
-\indexentry{list.\+h@{list.\+h}!createevent@{createevent}|hyperpage}{29}
-\indexentry{createevent@{createevent}!list.\+h@{list.\+h}|hyperpage}{29}
-\indexentry{list.\+h@{list.\+h}!free\+\_\+event@{free\+\_\+event}|hyperpage}{30}
-\indexentry{free\+\_\+event@{free\+\_\+event}!list.\+h@{list.\+h}|hyperpage}{30}
-\indexentry{list.\+h@{list.\+h}!free\+Event\+List@{free\+Event\+List}|hyperpage}{30}
-\indexentry{free\+Event\+List@{free\+Event\+List}!list.\+h@{list.\+h}|hyperpage}{30}
-\indexentry{list.\+h@{list.\+h}!initeventlist@{initeventlist}|hyperpage}{30}
-\indexentry{initeventlist@{initeventlist}!list.\+h@{list.\+h}|hyperpage}{30}
-\indexentry{list.\+h@{list.\+h}!insertevent@{insertevent}|hyperpage}{30}
-\indexentry{insertevent@{insertevent}!list.\+h@{list.\+h}|hyperpage}{30}
-\indexentry{list.\+h@{list.\+h}!starttime@{starttime}|hyperpage}{30}
-\indexentry{starttime@{starttime}!list.\+h@{list.\+h}|hyperpage}{30}
-\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/main.\+c@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/main.\+c}|hyperpage}{31}
-\indexentry{main.\+c@{main.\+c}!main@{main}|hyperpage}{31}
-\indexentry{main@{main}!main.\+c@{main.\+c}|hyperpage}{31}
-\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.\+c@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.\+c}|hyperpage}{31}
-\indexentry{menu.\+c@{menu.\+c}!exitmenu@{exitmenu}|hyperpage}{32}
-\indexentry{exitmenu@{exitmenu}!menu.\+c@{menu.\+c}|hyperpage}{32}
-\indexentry{menu.\+c@{menu.\+c}!filesave@{filesave}|hyperpage}{32}
-\indexentry{filesave@{filesave}!menu.\+c@{menu.\+c}|hyperpage}{32}
-\indexentry{menu.\+c@{menu.\+c}!hosszu\+\_\+sort\+\_\+olvas@{hosszu\+\_\+sort\+\_\+olvas}|hyperpage}{32}
-\indexentry{hosszu\+\_\+sort\+\_\+olvas@{hosszu\+\_\+sort\+\_\+olvas}!menu.\+c@{menu.\+c}|hyperpage}{32}
-\indexentry{menu.\+c@{menu.\+c}!mainmenu@{mainmenu}|hyperpage}{32}
-\indexentry{mainmenu@{mainmenu}!menu.\+c@{menu.\+c}|hyperpage}{32}
-\indexentry{menu.\+c@{menu.\+c}!newevent@{newevent}|hyperpage}{32}
-\indexentry{newevent@{newevent}!menu.\+c@{menu.\+c}|hyperpage}{32}
-\indexentry{menu.\+c@{menu.\+c}!printmenu@{printmenu}|hyperpage}{32}
-\indexentry{printmenu@{printmenu}!menu.\+c@{menu.\+c}|hyperpage}{32}
-\indexentry{menu.\+c@{menu.\+c}!savemenu@{savemenu}|hyperpage}{32}
-\indexentry{savemenu@{savemenu}!menu.\+c@{menu.\+c}|hyperpage}{32}
-\indexentry{menu.\+c@{menu.\+c}!scanexitmenu@{scanexitmenu}|hyperpage}{33}
-\indexentry{scanexitmenu@{scanexitmenu}!menu.\+c@{menu.\+c}|hyperpage}{33}
-\indexentry{menu.\+c@{menu.\+c}!scanmainmenu@{scanmainmenu}|hyperpage}{33}
-\indexentry{scanmainmenu@{scanmainmenu}!menu.\+c@{menu.\+c}|hyperpage}{33}
-\indexentry{menu.\+c@{menu.\+c}!scansavemenu@{scansavemenu}|hyperpage}{33}
-\indexentry{scansavemenu@{scansavemenu}!menu.\+c@{menu.\+c}|hyperpage}{33}
-\indexentry{menu.\+c@{menu.\+c}!searchmenu@{searchmenu}|hyperpage}{33}
-\indexentry{searchmenu@{searchmenu}!menu.\+c@{menu.\+c}|hyperpage}{33}
-\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.\+h@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.\+h}|hyperpage}{33}
-\indexentry{menu.\+h@{menu.\+h}!exitmenu@{exitmenu}|hyperpage}{34}
-\indexentry{exitmenu@{exitmenu}!menu.\+h@{menu.\+h}|hyperpage}{34}
-\indexentry{menu.\+h@{menu.\+h}!filesave@{filesave}|hyperpage}{34}
-\indexentry{filesave@{filesave}!menu.\+h@{menu.\+h}|hyperpage}{34}
-\indexentry{menu.\+h@{menu.\+h}!hosszu\+\_\+sort\+\_\+olvas@{hosszu\+\_\+sort\+\_\+olvas}|hyperpage}{34}
-\indexentry{hosszu\+\_\+sort\+\_\+olvas@{hosszu\+\_\+sort\+\_\+olvas}!menu.\+h@{menu.\+h}|hyperpage}{34}
-\indexentry{menu.\+h@{menu.\+h}!mainmenu@{mainmenu}|hyperpage}{34}
-\indexentry{mainmenu@{mainmenu}!menu.\+h@{menu.\+h}|hyperpage}{34}
-\indexentry{menu.\+h@{menu.\+h}!newevent@{newevent}|hyperpage}{34}
-\indexentry{newevent@{newevent}!menu.\+h@{menu.\+h}|hyperpage}{34}
-\indexentry{menu.\+h@{menu.\+h}!printmenu@{printmenu}|hyperpage}{34}
-\indexentry{printmenu@{printmenu}!menu.\+h@{menu.\+h}|hyperpage}{34}
-\indexentry{menu.\+h@{menu.\+h}!savemenu@{savemenu}|hyperpage}{34}
-\indexentry{savemenu@{savemenu}!menu.\+h@{menu.\+h}|hyperpage}{34}
-\indexentry{menu.\+h@{menu.\+h}!scanexitmenu@{scanexitmenu}|hyperpage}{35}
-\indexentry{scanexitmenu@{scanexitmenu}!menu.\+h@{menu.\+h}|hyperpage}{35}
-\indexentry{menu.\+h@{menu.\+h}!scanmainmenu@{scanmainmenu}|hyperpage}{35}
-\indexentry{scanmainmenu@{scanmainmenu}!menu.\+h@{menu.\+h}|hyperpage}{35}
-\indexentry{menu.\+h@{menu.\+h}!scansavemenu@{scansavemenu}|hyperpage}{35}
-\indexentry{scansavemenu@{scansavemenu}!menu.\+h@{menu.\+h}|hyperpage}{35}
-\indexentry{menu.\+h@{menu.\+h}!searchmenu@{searchmenu}|hyperpage}{35}
-\indexentry{searchmenu@{searchmenu}!menu.\+h@{menu.\+h}|hyperpage}{35}
-\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/search.\+c@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/search.\+c}|hyperpage}{35}
-\indexentry{search.\+c@{search.\+c}!eventtotm@{eventtotm}|hyperpage}{36}
-\indexentry{eventtotm@{eventtotm}!search.\+c@{search.\+c}|hyperpage}{36}
-\indexentry{search.\+c@{search.\+c}!inserttofindlist@{inserttofindlist}|hyperpage}{36}
-\indexentry{inserttofindlist@{inserttofindlist}!search.\+c@{search.\+c}|hyperpage}{36}
-\indexentry{search.\+c@{search.\+c}!searchactual@{searchactual}|hyperpage}{36}
-\indexentry{searchactual@{searchactual}!search.\+c@{search.\+c}|hyperpage}{36}
-\indexentry{search.\+c@{search.\+c}!searchiter@{searchiter}|hyperpage}{36}
-\indexentry{searchiter@{searchiter}!search.\+c@{search.\+c}|hyperpage}{36}
-\indexentry{search.\+c@{search.\+c}!tmtoweek@{tmtoweek}|hyperpage}{36}
-\indexentry{tmtoweek@{tmtoweek}!search.\+c@{search.\+c}|hyperpage}{36}
-\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/search.\+h@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/search.\+h}|hyperpage}{37}
-\indexentry{search.\+h@{search.\+h}!Search\+By@{Search\+By}|hyperpage}{37}
-\indexentry{Search\+By@{Search\+By}!search.\+h@{search.\+h}|hyperpage}{37}
-\indexentry{search.\+h@{search.\+h}!Search\+By@{Search\+By}|hyperpage}{37}
-\indexentry{Search\+By@{Search\+By}!search.\+h@{search.\+h}|hyperpage}{37}
-\indexentry{byweek@{byweek}!search.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  $\leftarrow \joinrel  \rhook $}}{}{}h@{search.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  $\leftarrow \joinrel  \rhook $}}{}{}h}|hyperpage}{37}
-\indexentry{search.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  $\leftarrow \joinrel  \rhook $}}{}{}h@{search.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  $\leftarrow \joinrel  \rhook $}}{}{}h}!byweek@{byweek}|hyperpage}{37}
-\indexentry{byday@{byday}!search.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  $\leftarrow \joinrel  \rhook $}}{}{}h@{search.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  $\leftarrow \joinrel  \rhook $}}{}{}h}|hyperpage}{37}
-\indexentry{search.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  $\leftarrow \joinrel  \rhook $}}{}{}h@{search.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  $\leftarrow \joinrel  \rhook $}}{}{}h}!byday@{byday}|hyperpage}{37}
-\indexentry{bymonth@{bymonth}!search.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  $\leftarrow \joinrel  \rhook $}}{}{}h@{search.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  $\leftarrow \joinrel  \rhook $}}{}{}h}|hyperpage}{37}
-\indexentry{search.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  $\leftarrow \joinrel  \rhook $}}{}{}h@{search.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  $\leftarrow \joinrel  \rhook $}}{}{}h}!bymonth@{bymonth}|hyperpage}{37}
-\indexentry{search.\+h@{search.\+h}!eventtotm@{eventtotm}|hyperpage}{38}
-\indexentry{eventtotm@{eventtotm}!search.\+h@{search.\+h}|hyperpage}{38}
-\indexentry{search.\+h@{search.\+h}!inserttofindlist@{inserttofindlist}|hyperpage}{38}
-\indexentry{inserttofindlist@{inserttofindlist}!search.\+h@{search.\+h}|hyperpage}{38}
-\indexentry{search.\+h@{search.\+h}!searchactual@{searchactual}|hyperpage}{38}
-\indexentry{searchactual@{searchactual}!search.\+h@{search.\+h}|hyperpage}{38}
-\indexentry{search.\+h@{search.\+h}!searchiter@{searchiter}|hyperpage}{38}
-\indexentry{searchiter@{searchiter}!search.\+h@{search.\+h}|hyperpage}{38}
-\indexentry{search.\+h@{search.\+h}!tmtoweek@{tmtoweek}|hyperpage}{38}
-\indexentry{tmtoweek@{tmtoweek}!search.\+h@{search.\+h}|hyperpage}{38}
-\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/searchui.\+c@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/searchui.\+c}|hyperpage}{38}
-\indexentry{searchui.\+c@{searchui.\+c}!printevent\+\_\+short@{printevent\+\_\+short}|hyperpage}{39}
-\indexentry{printevent\+\_\+short@{printevent\+\_\+short}!searchui.\+c@{searchui.\+c}|hyperpage}{39}
-\indexentry{searchui.\+c@{searchui.\+c}!printfindlist@{printfindlist}|hyperpage}{39}
-\indexentry{printfindlist@{printfindlist}!searchui.\+c@{searchui.\+c}|hyperpage}{39}
-\indexentry{searchui.\+c@{searchui.\+c}!scanfindlist@{scanfindlist}|hyperpage}{39}
-\indexentry{scanfindlist@{scanfindlist}!searchui.\+c@{searchui.\+c}|hyperpage}{39}
-\indexentry{searchui.\+c@{searchui.\+c}!scaninput@{scaninput}|hyperpage}{39}
-\indexentry{scaninput@{scaninput}!searchui.\+c@{searchui.\+c}|hyperpage}{39}
-\indexentry{searchui.\+c@{searchui.\+c}!searchbyday@{searchbyday}|hyperpage}{39}
-\indexentry{searchbyday@{searchbyday}!searchui.\+c@{searchui.\+c}|hyperpage}{39}
-\indexentry{searchui.\+c@{searchui.\+c}!searchbymonth@{searchbymonth}|hyperpage}{40}
-\indexentry{searchbymonth@{searchbymonth}!searchui.\+c@{searchui.\+c}|hyperpage}{40}
-\indexentry{searchui.\+c@{searchui.\+c}!searchbyname@{searchbyname}|hyperpage}{40}
-\indexentry{searchbyname@{searchbyname}!searchui.\+c@{searchui.\+c}|hyperpage}{40}
-\indexentry{searchui.\+c@{searchui.\+c}!searchbyweek@{searchbyweek}|hyperpage}{40}
-\indexentry{searchbyweek@{searchbyweek}!searchui.\+c@{searchui.\+c}|hyperpage}{40}
-\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/searchui.\+h@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/searchui.\+h}|hyperpage}{40}
-\indexentry{searchui.\+h@{searchui.\+h}!printevent\+\_\+short@{printevent\+\_\+short}|hyperpage}{40}
-\indexentry{printevent\+\_\+short@{printevent\+\_\+short}!searchui.\+h@{searchui.\+h}|hyperpage}{40}
-\indexentry{searchui.\+h@{searchui.\+h}!printfindlist@{printfindlist}|hyperpage}{41}
-\indexentry{printfindlist@{printfindlist}!searchui.\+h@{searchui.\+h}|hyperpage}{41}
-\indexentry{searchui.\+h@{searchui.\+h}!scanfindlist@{scanfindlist}|hyperpage}{41}
-\indexentry{scanfindlist@{scanfindlist}!searchui.\+h@{searchui.\+h}|hyperpage}{41}
-\indexentry{searchui.\+h@{searchui.\+h}!scaninput@{scaninput}|hyperpage}{41}
-\indexentry{scaninput@{scaninput}!searchui.\+h@{searchui.\+h}|hyperpage}{41}
-\indexentry{searchui.\+h@{searchui.\+h}!searchbyday@{searchbyday}|hyperpage}{41}
-\indexentry{searchbyday@{searchbyday}!searchui.\+h@{searchui.\+h}|hyperpage}{41}
-\indexentry{searchui.\+h@{searchui.\+h}!searchbymonth@{searchbymonth}|hyperpage}{41}
-\indexentry{searchbymonth@{searchbymonth}!searchui.\+h@{searchui.\+h}|hyperpage}{41}
-\indexentry{searchui.\+h@{searchui.\+h}!searchbyname@{searchbyname}|hyperpage}{41}
-\indexentry{searchbyname@{searchbyname}!searchui.\+h@{searchui.\+h}|hyperpage}{41}
-\indexentry{searchui.\+h@{searchui.\+h}!searchbyweek@{searchbyweek}|hyperpage}{42}
-\indexentry{searchbyweek@{searchbyweek}!searchui.\+h@{searchui.\+h}|hyperpage}{42}
-\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/structures.\+h@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/structures.\+h}|hyperpage}{42}
-\indexentry{structures.\+h@{structures.\+h}!Event@{Event}|hyperpage}{42}
-\indexentry{Event@{Event}!structures.\+h@{structures.\+h}|hyperpage}{42}
-\indexentry{structures.\+h@{structures.\+h}!Event\+List@{Event\+List}|hyperpage}{42}
-\indexentry{Event\+List@{Event\+List}!structures.\+h@{structures.\+h}|hyperpage}{42}
-\indexentry{structures.\+h@{structures.\+h}!Find\+List@{Find\+List}|hyperpage}{43}
-\indexentry{Find\+List@{Find\+List}!structures.\+h@{structures.\+h}|hyperpage}{43}
-\indexentry{structures.\+h@{structures.\+h}!Found\+Event@{Found\+Event}|hyperpage}{43}
-\indexentry{Found\+Event@{Found\+Event}!structures.\+h@{structures.\+h}|hyperpage}{43}
-\indexentry{structures.\+h@{structures.\+h}!Menu\+Fv@{Menu\+Fv}|hyperpage}{43}
-\indexentry{Menu\+Fv@{Menu\+Fv}!structures.\+h@{structures.\+h}|hyperpage}{43}
-\indexentry{structures.\+h@{structures.\+h}!Menu\+Pont@{Menu\+Pont}|hyperpage}{43}
-\indexentry{Menu\+Pont@{Menu\+Pont}!structures.\+h@{structures.\+h}|hyperpage}{43}
-\indexentry{structures.\+h@{structures.\+h}!Search\+Conditions@{Search\+Conditions}|hyperpage}{43}
-\indexentry{Search\+Conditions@{Search\+Conditions}!structures.\+h@{structures.\+h}|hyperpage}{43}
-\indexentry{structures.\+h@{structures.\+h}!Tm@{Tm}|hyperpage}{43}
-\indexentry{Tm@{Tm}!structures.\+h@{structures.\+h}|hyperpage}{43}
+\indexentry{File kezel\IeC {\H o}@{File kezel\IeC {\H o}}|hyperpage}{10}
+\indexentry{File kezel\IeC {\H o}@{File kezel\IeC {\H o}}!calendarload@{calendarload}|hyperpage}{10}
+\indexentry{calendarload@{calendarload}!File kezel\IeC {\H o}@{File kezel\IeC {\H o}}|hyperpage}{10}
+\indexentry{File kezel\IeC {\H o}@{File kezel\IeC {\H o}}!calendarsave@{calendarsave}|hyperpage}{10}
+\indexentry{calendarsave@{calendarsave}!File kezel\IeC {\H o}@{File kezel\IeC {\H o}}|hyperpage}{10}
+\indexentry{File kezel\IeC {\H o}@{File kezel\IeC {\H o}}!dstrcpy@{dstrcpy}|hyperpage}{11}
+\indexentry{dstrcpy@{dstrcpy}!File kezel\IeC {\H o}@{File kezel\IeC {\H o}}|hyperpage}{11}
+\indexentry{Lista kezel\IeC {\H o}@{Lista kezel\IeC {\H o}}|hyperpage}{12}
+\indexentry{Lista kezel\IeC {\H o}@{Lista kezel\IeC {\H o}}!Tm@{Tm}|hyperpage}{12}
+\indexentry{Tm@{Tm}!Lista kezel\IeC {\H o}@{Lista kezel\IeC {\H o}}|hyperpage}{12}
+\indexentry{Lista kezel\IeC {\H o}@{Lista kezel\IeC {\H o}}!createevent@{createevent}|hyperpage}{12}
+\indexentry{createevent@{createevent}!Lista kezel\IeC {\H o}@{Lista kezel\IeC {\H o}}|hyperpage}{12}
+\indexentry{Lista kezel\IeC {\H o}@{Lista kezel\IeC {\H o}}!free\+\_\+event@{free\+\_\+event}|hyperpage}{13}
+\indexentry{free\+\_\+event@{free\+\_\+event}!Lista kezel\IeC {\H o}@{Lista kezel\IeC {\H o}}|hyperpage}{13}
+\indexentry{Lista kezel\IeC {\H o}@{Lista kezel\IeC {\H o}}!free\+Event\+List@{free\+Event\+List}|hyperpage}{13}
+\indexentry{free\+Event\+List@{free\+Event\+List}!Lista kezel\IeC {\H o}@{Lista kezel\IeC {\H o}}|hyperpage}{13}
+\indexentry{Lista kezel\IeC {\H o}@{Lista kezel\IeC {\H o}}!initeventlist@{initeventlist}|hyperpage}{13}
+\indexentry{initeventlist@{initeventlist}!Lista kezel\IeC {\H o}@{Lista kezel\IeC {\H o}}|hyperpage}{13}
+\indexentry{Lista kezel\IeC {\H o}@{Lista kezel\IeC {\H o}}!insertevent@{insertevent}|hyperpage}{13}
+\indexentry{insertevent@{insertevent}!Lista kezel\IeC {\H o}@{Lista kezel\IeC {\H o}}|hyperpage}{13}
+\indexentry{Lista kezel\IeC {\H o}@{Lista kezel\IeC {\H o}}!starttime@{starttime}|hyperpage}{14}
+\indexentry{starttime@{starttime}!Lista kezel\IeC {\H o}@{Lista kezel\IeC {\H o}}|hyperpage}{14}
+\indexentry{Men\IeC {\"u} kezel\IeC {\H o}@{Men\IeC {\"u} kezel\IeC {\H o}}|hyperpage}{15}
+\indexentry{Men\IeC {\"u} kezel\IeC {\H o}@{Men\IeC {\"u} kezel\IeC {\H o}}!exitmenu@{exitmenu}|hyperpage}{15}
+\indexentry{exitmenu@{exitmenu}!Men\IeC {\"u} kezel\IeC {\H o}@{Men\IeC {\"u} kezel\IeC {\H o}}|hyperpage}{15}
+\indexentry{Men\IeC {\"u} kezel\IeC {\H o}@{Men\IeC {\"u} kezel\IeC {\H o}}!filesave@{filesave}|hyperpage}{15}
+\indexentry{filesave@{filesave}!Men\IeC {\"u} kezel\IeC {\H o}@{Men\IeC {\"u} kezel\IeC {\H o}}|hyperpage}{15}
+\indexentry{Men\IeC {\"u} kezel\IeC {\H o}@{Men\IeC {\"u} kezel\IeC {\H o}}!hosszu\+\_\+sort\+\_\+olvas@{hosszu\+\_\+sort\+\_\+olvas}|hyperpage}{16}
+\indexentry{hosszu\+\_\+sort\+\_\+olvas@{hosszu\+\_\+sort\+\_\+olvas}!Men\IeC {\"u} kezel\IeC {\H o}@{Men\IeC {\"u} kezel\IeC {\H o}}|hyperpage}{16}
+\indexentry{Men\IeC {\"u} kezel\IeC {\H o}@{Men\IeC {\"u} kezel\IeC {\H o}}!mainmenu@{mainmenu}|hyperpage}{16}
+\indexentry{mainmenu@{mainmenu}!Men\IeC {\"u} kezel\IeC {\H o}@{Men\IeC {\"u} kezel\IeC {\H o}}|hyperpage}{16}
+\indexentry{Men\IeC {\"u} kezel\IeC {\H o}@{Men\IeC {\"u} kezel\IeC {\H o}}!newevent@{newevent}|hyperpage}{16}
+\indexentry{newevent@{newevent}!Men\IeC {\"u} kezel\IeC {\H o}@{Men\IeC {\"u} kezel\IeC {\H o}}|hyperpage}{16}
+\indexentry{Men\IeC {\"u} kezel\IeC {\H o}@{Men\IeC {\"u} kezel\IeC {\H o}}!printmenu@{printmenu}|hyperpage}{16}
+\indexentry{printmenu@{printmenu}!Men\IeC {\"u} kezel\IeC {\H o}@{Men\IeC {\"u} kezel\IeC {\H o}}|hyperpage}{16}
+\indexentry{Men\IeC {\"u} kezel\IeC {\H o}@{Men\IeC {\"u} kezel\IeC {\H o}}!savemenu@{savemenu}|hyperpage}{17}
+\indexentry{savemenu@{savemenu}!Men\IeC {\"u} kezel\IeC {\H o}@{Men\IeC {\"u} kezel\IeC {\H o}}|hyperpage}{17}
+\indexentry{Men\IeC {\"u} kezel\IeC {\H o}@{Men\IeC {\"u} kezel\IeC {\H o}}!scanexitmenu@{scanexitmenu}|hyperpage}{17}
+\indexentry{scanexitmenu@{scanexitmenu}!Men\IeC {\"u} kezel\IeC {\H o}@{Men\IeC {\"u} kezel\IeC {\H o}}|hyperpage}{17}
+\indexentry{Men\IeC {\"u} kezel\IeC {\H o}@{Men\IeC {\"u} kezel\IeC {\H o}}!scanmainmenu@{scanmainmenu}|hyperpage}{17}
+\indexentry{scanmainmenu@{scanmainmenu}!Men\IeC {\"u} kezel\IeC {\H o}@{Men\IeC {\"u} kezel\IeC {\H o}}|hyperpage}{17}
+\indexentry{Men\IeC {\"u} kezel\IeC {\H o}@{Men\IeC {\"u} kezel\IeC {\H o}}!scansavemenu@{scansavemenu}|hyperpage}{17}
+\indexentry{scansavemenu@{scansavemenu}!Men\IeC {\"u} kezel\IeC {\H o}@{Men\IeC {\"u} kezel\IeC {\H o}}|hyperpage}{17}
+\indexentry{Men\IeC {\"u} kezel\IeC {\H o}@{Men\IeC {\"u} kezel\IeC {\H o}}!searchmenu@{searchmenu}|hyperpage}{18}
+\indexentry{searchmenu@{searchmenu}!Men\IeC {\"u} kezel\IeC {\H o}@{Men\IeC {\"u} kezel\IeC {\H o}}|hyperpage}{18}
+\indexentry{Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}|hyperpage}{19}
+\indexentry{Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}!Search\+By@{Search\+By}|hyperpage}{19}
+\indexentry{Search\+By@{Search\+By}!Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}|hyperpage}{19}
+\indexentry{Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}!Search\+By@{Search\+By}|hyperpage}{19}
+\indexentry{Search\+By@{Search\+By}!Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}|hyperpage}{19}
+\indexentry{byweek@{byweek}!Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}|hyperpage}{20}
+\indexentry{Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}!byweek@{byweek}|hyperpage}{20}
+\indexentry{byday@{byday}!Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}|hyperpage}{20}
+\indexentry{Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}!byday@{byday}|hyperpage}{20}
+\indexentry{bymonth@{bymonth}!Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}|hyperpage}{20}
+\indexentry{Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}!bymonth@{bymonth}|hyperpage}{20}
+\indexentry{Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}!eventtotm@{eventtotm}|hyperpage}{20}
+\indexentry{eventtotm@{eventtotm}!Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}|hyperpage}{20}
+\indexentry{Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}!inserttofindlist@{inserttofindlist}|hyperpage}{20}
+\indexentry{inserttofindlist@{inserttofindlist}!Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}|hyperpage}{20}
+\indexentry{Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}!printevent\+\_\+short@{printevent\+\_\+short}|hyperpage}{20}
+\indexentry{printevent\+\_\+short@{printevent\+\_\+short}!Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}|hyperpage}{20}
+\indexentry{Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}!printfindlist@{printfindlist}|hyperpage}{21}
+\indexentry{printfindlist@{printfindlist}!Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}|hyperpage}{21}
+\indexentry{Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}!scanfindlist@{scanfindlist}|hyperpage}{21}
+\indexentry{scanfindlist@{scanfindlist}!Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}|hyperpage}{21}
+\indexentry{Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}!scaninput@{scaninput}|hyperpage}{21}
+\indexentry{scaninput@{scaninput}!Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}|hyperpage}{21}
+\indexentry{Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}!searchactual@{searchactual}|hyperpage}{21}
+\indexentry{searchactual@{searchactual}!Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}|hyperpage}{21}
+\indexentry{Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}!searchbyday@{searchbyday}|hyperpage}{22}
+\indexentry{searchbyday@{searchbyday}!Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}|hyperpage}{22}
+\indexentry{Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}!searchbymonth@{searchbymonth}|hyperpage}{22}
+\indexentry{searchbymonth@{searchbymonth}!Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}|hyperpage}{22}
+\indexentry{Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}!searchbyname@{searchbyname}|hyperpage}{23}
+\indexentry{searchbyname@{searchbyname}!Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}|hyperpage}{23}
+\indexentry{Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}!searchbyweek@{searchbyweek}|hyperpage}{23}
+\indexentry{searchbyweek@{searchbyweek}!Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}|hyperpage}{23}
+\indexentry{Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}!searchiter@{searchiter}|hyperpage}{23}
+\indexentry{searchiter@{searchiter}!Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}|hyperpage}{23}
+\indexentry{Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}!tmtoweek@{tmtoweek}|hyperpage}{24}
+\indexentry{tmtoweek@{tmtoweek}!Keres\IeC {\'e}s kezel\IeC {\H o}@{Keres\IeC {\'e}s kezel\IeC {\H o}}|hyperpage}{24}
+\indexentry{Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k@{Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k}|hyperpage}{25}
+\indexentry{Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k@{Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k}!Event@{Event}|hyperpage}{25}
+\indexentry{Event@{Event}!Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k@{Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k}|hyperpage}{25}
+\indexentry{Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k@{Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k}!Event\+List@{Event\+List}|hyperpage}{25}
+\indexentry{Event\+List@{Event\+List}!Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k@{Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k}|hyperpage}{25}
+\indexentry{Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k@{Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k}!Find\+List@{Find\+List}|hyperpage}{25}
+\indexentry{Find\+List@{Find\+List}!Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k@{Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k}|hyperpage}{25}
+\indexentry{Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k@{Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k}!Found\+Event@{Found\+Event}|hyperpage}{25}
+\indexentry{Found\+Event@{Found\+Event}!Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k@{Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k}|hyperpage}{25}
+\indexentry{Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k@{Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k}!Menu\+Pont@{Menu\+Pont}|hyperpage}{26}
+\indexentry{Menu\+Pont@{Menu\+Pont}!Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k@{Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k}|hyperpage}{26}
+\indexentry{Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k@{Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k}!Search\+Conditions@{Search\+Conditions}|hyperpage}{26}
+\indexentry{Search\+Conditions@{Search\+Conditions}!Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k@{Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k}|hyperpage}{26}
+\indexentry{Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k@{Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k}!Tm@{Tm}|hyperpage}{26}
+\indexentry{Tm@{Tm}!Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k@{Sz\IeC {\"u}ks\IeC {\'e}ges strukt\IeC {\'u}r\IeC {\'a}k}|hyperpage}{26}
+\indexentry{Event@{Event}|hyperpage}{27}
+\indexentry{Event@{Event}!comment@{comment}|hyperpage}{27}
+\indexentry{comment@{comment}!Event@{Event}|hyperpage}{27}
+\indexentry{Event@{Event}!day@{day}|hyperpage}{27}
+\indexentry{day@{day}!Event@{Event}|hyperpage}{27}
+\indexentry{Event@{Event}!endhour@{endhour}|hyperpage}{28}
+\indexentry{endhour@{endhour}!Event@{Event}|hyperpage}{28}
+\indexentry{Event@{Event}!endmin@{endmin}|hyperpage}{28}
+\indexentry{endmin@{endmin}!Event@{Event}|hyperpage}{28}
+\indexentry{Event@{Event}!location@{location}|hyperpage}{28}
+\indexentry{location@{location}!Event@{Event}|hyperpage}{28}
+\indexentry{Event@{Event}!month@{month}|hyperpage}{28}
+\indexentry{month@{month}!Event@{Event}|hyperpage}{28}
+\indexentry{Event@{Event}!name@{name}|hyperpage}{28}
+\indexentry{name@{name}!Event@{Event}|hyperpage}{28}
+\indexentry{Event@{Event}!next@{next}|hyperpage}{28}
+\indexentry{next@{next}!Event@{Event}|hyperpage}{28}
+\indexentry{Event@{Event}!prev@{prev}|hyperpage}{28}
+\indexentry{prev@{prev}!Event@{Event}|hyperpage}{28}
+\indexentry{Event@{Event}!starthour@{starthour}|hyperpage}{28}
+\indexentry{starthour@{starthour}!Event@{Event}|hyperpage}{28}
+\indexentry{Event@{Event}!startmin@{startmin}|hyperpage}{29}
+\indexentry{startmin@{startmin}!Event@{Event}|hyperpage}{29}
+\indexentry{Event@{Event}!year@{year}|hyperpage}{29}
+\indexentry{year@{year}!Event@{Event}|hyperpage}{29}
+\indexentry{Event\+List@{Event\+List}|hyperpage}{29}
+\indexentry{Event\+List@{Event\+List}!first@{first}|hyperpage}{29}
+\indexentry{first@{first}!Event\+List@{Event\+List}|hyperpage}{29}
+\indexentry{Event\+List@{Event\+List}!last@{last}|hyperpage}{29}
+\indexentry{last@{last}!Event\+List@{Event\+List}|hyperpage}{29}
+\indexentry{Find\+List@{Find\+List}|hyperpage}{30}
+\indexentry{Find\+List@{Find\+List}!first@{first}|hyperpage}{30}
+\indexentry{first@{first}!Find\+List@{Find\+List}|hyperpage}{30}
+\indexentry{Find\+List@{Find\+List}!last@{last}|hyperpage}{30}
+\indexentry{last@{last}!Find\+List@{Find\+List}|hyperpage}{30}
+\indexentry{Found\+Event@{Found\+Event}|hyperpage}{31}
+\indexentry{Found\+Event@{Found\+Event}!foundevent@{foundevent}|hyperpage}{31}
+\indexentry{foundevent@{foundevent}!Found\+Event@{Found\+Event}|hyperpage}{31}
+\indexentry{Found\+Event@{Found\+Event}!nextfound@{nextfound}|hyperpage}{31}
+\indexentry{nextfound@{nextfound}!Found\+Event@{Found\+Event}|hyperpage}{31}
+\indexentry{Found\+Event@{Found\+Event}!prevfound@{prevfound}|hyperpage}{31}
+\indexentry{prevfound@{prevfound}!Found\+Event@{Found\+Event}|hyperpage}{31}
+\indexentry{Lefoglalt@{Lefoglalt}|hyperpage}{32}
+\indexentry{Lefoglalt@{Lefoglalt}!cel@{cel}|hyperpage}{32}
+\indexentry{cel@{cel}!Lefoglalt@{Lefoglalt}|hyperpage}{32}
+\indexentry{Lefoglalt@{Lefoglalt}!file@{file}|hyperpage}{32}
+\indexentry{file@{file}!Lefoglalt@{Lefoglalt}|hyperpage}{32}
+\indexentry{Lefoglalt@{Lefoglalt}!fv@{fv}|hyperpage}{32}
+\indexentry{fv@{fv}!Lefoglalt@{Lefoglalt}|hyperpage}{32}
+\indexentry{Lefoglalt@{Lefoglalt}!line@{line}|hyperpage}{32}
+\indexentry{line@{line}!Lefoglalt@{Lefoglalt}|hyperpage}{32}
+\indexentry{Lefoglalt@{Lefoglalt}!meret@{meret}|hyperpage}{32}
+\indexentry{meret@{meret}!Lefoglalt@{Lefoglalt}|hyperpage}{32}
+\indexentry{Lefoglalt@{Lefoglalt}!next@{next}|hyperpage}{32}
+\indexentry{next@{next}!Lefoglalt@{Lefoglalt}|hyperpage}{32}
+\indexentry{Lefoglalt@{Lefoglalt}!prev@{prev}|hyperpage}{33}
+\indexentry{prev@{prev}!Lefoglalt@{Lefoglalt}|hyperpage}{33}
+\indexentry{Lefoglalt@{Lefoglalt}!usernek@{usernek}|hyperpage}{33}
+\indexentry{usernek@{usernek}!Lefoglalt@{Lefoglalt}|hyperpage}{33}
+\indexentry{Lefoglalt@{Lefoglalt}!valodi@{valodi}|hyperpage}{33}
+\indexentry{valodi@{valodi}!Lefoglalt@{Lefoglalt}|hyperpage}{33}
+\indexentry{Menu\+Pont@{Menu\+Pont}|hyperpage}{33}
+\indexentry{Menu\+Pont@{Menu\+Pont}!nev@{nev}|hyperpage}{33}
+\indexentry{nev@{nev}!Menu\+Pont@{Menu\+Pont}|hyperpage}{33}
+\indexentry{Search\+Conditions@{Search\+Conditions}|hyperpage}{34}
+\indexentry{Search\+Conditions@{Search\+Conditions}!day@{day}|hyperpage}{34}
+\indexentry{day@{day}!Search\+Conditions@{Search\+Conditions}|hyperpage}{34}
+\indexentry{Search\+Conditions@{Search\+Conditions}!month@{month}|hyperpage}{34}
+\indexentry{month@{month}!Search\+Conditions@{Search\+Conditions}|hyperpage}{34}
+\indexentry{Search\+Conditions@{Search\+Conditions}!name@{name}|hyperpage}{34}
+\indexentry{name@{name}!Search\+Conditions@{Search\+Conditions}|hyperpage}{34}
+\indexentry{Search\+Conditions@{Search\+Conditions}!week@{week}|hyperpage}{35}
+\indexentry{week@{week}!Search\+Conditions@{Search\+Conditions}|hyperpage}{35}
+\indexentry{Search\+Conditions@{Search\+Conditions}!year@{year}|hyperpage}{35}
+\indexentry{year@{year}!Search\+Conditions@{Search\+Conditions}|hyperpage}{35}
+\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/debugmalloc.\+c@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/debugmalloc.\+c}|hyperpage}{37}
+\indexentry{debugmalloc.\+c@{debugmalloc.\+c}!T\+A\+B\+L\+A\+\_\+\+O\+S\+Z\+L\+O\+P\+OK@{T\+A\+B\+L\+A\+\_\+\+O\+S\+Z\+L\+O\+P\+OK}|hyperpage}{38}
+\indexentry{T\+A\+B\+L\+A\+\_\+\+O\+S\+Z\+L\+O\+P\+OK@{T\+A\+B\+L\+A\+\_\+\+O\+S\+Z\+L\+O\+P\+OK}!debugmalloc.\+c@{debugmalloc.\+c}|hyperpage}{38}
+\indexentry{debugmalloc.\+c@{debugmalloc.\+c}!Lefoglalt@{Lefoglalt}|hyperpage}{38}
+\indexentry{Lefoglalt@{Lefoglalt}!debugmalloc.\+c@{debugmalloc.\+c}|hyperpage}{38}
+\indexentry{debugmalloc.\+c@{debugmalloc.\+c}!debugmalloc\+\_\+calloc@{debugmalloc\+\_\+calloc}|hyperpage}{38}
+\indexentry{debugmalloc\+\_\+calloc@{debugmalloc\+\_\+calloc}!debugmalloc.\+c@{debugmalloc.\+c}|hyperpage}{38}
+\indexentry{debugmalloc.\+c@{debugmalloc.\+c}!debugmalloc\+\_\+dump@{debugmalloc\+\_\+dump}|hyperpage}{38}
+\indexentry{debugmalloc\+\_\+dump@{debugmalloc\+\_\+dump}!debugmalloc.\+c@{debugmalloc.\+c}|hyperpage}{38}
+\indexentry{debugmalloc.\+c@{debugmalloc.\+c}!debugmalloc\+\_\+free@{debugmalloc\+\_\+free}|hyperpage}{38}
+\indexentry{debugmalloc\+\_\+free@{debugmalloc\+\_\+free}!debugmalloc.\+c@{debugmalloc.\+c}|hyperpage}{38}
+\indexentry{debugmalloc.\+c@{debugmalloc.\+c}!debugmalloc\+\_\+free\+\_\+full@{debugmalloc\+\_\+free\+\_\+full}|hyperpage}{38}
+\indexentry{debugmalloc\+\_\+free\+\_\+full@{debugmalloc\+\_\+free\+\_\+full}!debugmalloc.\+c@{debugmalloc.\+c}|hyperpage}{38}
+\indexentry{debugmalloc.\+c@{debugmalloc.\+c}!debugmalloc\+\_\+hash@{debugmalloc\+\_\+hash}|hyperpage}{39}
+\indexentry{debugmalloc\+\_\+hash@{debugmalloc\+\_\+hash}!debugmalloc.\+c@{debugmalloc.\+c}|hyperpage}{39}
+\indexentry{debugmalloc.\+c@{debugmalloc.\+c}!debugmalloc\+\_\+malloc@{debugmalloc\+\_\+malloc}|hyperpage}{39}
+\indexentry{debugmalloc\+\_\+malloc@{debugmalloc\+\_\+malloc}!debugmalloc.\+c@{debugmalloc.\+c}|hyperpage}{39}
+\indexentry{debugmalloc.\+c@{debugmalloc.\+c}!debugmalloc\+\_\+malloc\+\_\+full@{debugmalloc\+\_\+malloc\+\_\+full}|hyperpage}{39}
+\indexentry{debugmalloc\+\_\+malloc\+\_\+full@{debugmalloc\+\_\+malloc\+\_\+full}!debugmalloc.\+c@{debugmalloc.\+c}|hyperpage}{39}
+\indexentry{debugmalloc.\+c@{debugmalloc.\+c}!debugmalloc\+\_\+naplofajl@{debugmalloc\+\_\+naplofajl}|hyperpage}{39}
+\indexentry{debugmalloc\+\_\+naplofajl@{debugmalloc\+\_\+naplofajl}!debugmalloc.\+c@{debugmalloc.\+c}|hyperpage}{39}
+\indexentry{debugmalloc.\+c@{debugmalloc.\+c}!debugmalloc\+\_\+realloc@{debugmalloc\+\_\+realloc}|hyperpage}{39}
+\indexentry{debugmalloc\+\_\+realloc@{debugmalloc\+\_\+realloc}!debugmalloc.\+c@{debugmalloc.\+c}|hyperpage}{39}
+\indexentry{debugmalloc.\+c@{debugmalloc.\+c}!debugmalloc\+\_\+realloc\+\_\+full@{debugmalloc\+\_\+realloc\+\_\+full}|hyperpage}{39}
+\indexentry{debugmalloc\+\_\+realloc\+\_\+full@{debugmalloc\+\_\+realloc\+\_\+full}!debugmalloc.\+c@{debugmalloc.\+c}|hyperpage}{39}
+\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/debugmalloc.\+h@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/debugmalloc.\+h}|hyperpage}{40}
+\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!calloc@{calloc}|hyperpage}{40}
+\indexentry{calloc@{calloc}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{40}
+\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!free@{free}|hyperpage}{40}
+\indexentry{free@{free}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{40}
+\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!malloc@{malloc}|hyperpage}{41}
+\indexentry{malloc@{malloc}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{41}
+\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!realloc@{realloc}|hyperpage}{41}
+\indexentry{realloc@{realloc}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{41}
+\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+calloc@{debugmalloc\+\_\+calloc}|hyperpage}{41}
+\indexentry{debugmalloc\+\_\+calloc@{debugmalloc\+\_\+calloc}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{41}
+\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+dump@{debugmalloc\+\_\+dump}|hyperpage}{41}
+\indexentry{debugmalloc\+\_\+dump@{debugmalloc\+\_\+dump}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{41}
+\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+free@{debugmalloc\+\_\+free}|hyperpage}{41}
+\indexentry{debugmalloc\+\_\+free@{debugmalloc\+\_\+free}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{41}
+\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+free\+\_\+full@{debugmalloc\+\_\+free\+\_\+full}|hyperpage}{41}
+\indexentry{debugmalloc\+\_\+free\+\_\+full@{debugmalloc\+\_\+free\+\_\+full}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{41}
+\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+malloc@{debugmalloc\+\_\+malloc}|hyperpage}{42}
+\indexentry{debugmalloc\+\_\+malloc@{debugmalloc\+\_\+malloc}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{42}
+\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+malloc\+\_\+full@{debugmalloc\+\_\+malloc\+\_\+full}|hyperpage}{42}
+\indexentry{debugmalloc\+\_\+malloc\+\_\+full@{debugmalloc\+\_\+malloc\+\_\+full}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{42}
+\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+naplofajl@{debugmalloc\+\_\+naplofajl}|hyperpage}{42}
+\indexentry{debugmalloc\+\_\+naplofajl@{debugmalloc\+\_\+naplofajl}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{42}
+\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+realloc@{debugmalloc\+\_\+realloc}|hyperpage}{42}
+\indexentry{debugmalloc\+\_\+realloc@{debugmalloc\+\_\+realloc}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{42}
+\indexentry{debugmalloc.\+h@{debugmalloc.\+h}!debugmalloc\+\_\+realloc\+\_\+full@{debugmalloc\+\_\+realloc\+\_\+full}|hyperpage}{42}
+\indexentry{debugmalloc\+\_\+realloc\+\_\+full@{debugmalloc\+\_\+realloc\+\_\+full}!debugmalloc.\+h@{debugmalloc.\+h}|hyperpage}{42}
+\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.\+c@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.\+c}|hyperpage}{43}
+\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.\+h@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.\+h}|hyperpage}{43}
+\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.\+c@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.\+c}|hyperpage}{44}
+\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.\+h@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.\+h}|hyperpage}{44}
+\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.\+c@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.\+c}|hyperpage}{44}
+\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.\+h@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.\+h}|hyperpage}{45}
+\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/main.\+c@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/main.\+c}|hyperpage}{45}
+\indexentry{main.\+c@{main.\+c}!main@{main}|hyperpage}{45}
+\indexentry{main@{main}!main.\+c@{main.\+c}|hyperpage}{45}
+\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.\+c@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.\+c}|hyperpage}{46}
+\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.\+h@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.\+h}|hyperpage}{46}
+\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/search.\+c@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/search.\+c}|hyperpage}{47}
+\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/search.\+h@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/search.\+h}|hyperpage}{47}
+\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/searchui.\+c@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/searchui.\+c}|hyperpage}{48}
+\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/searchui.\+h@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/searchui.\+h}|hyperpage}{48}
+\indexentry{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/structures.\+h@{/home/dani/\+Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/structures.\+h}|hyperpage}{48}

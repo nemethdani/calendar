@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['week',['week',['../struct_search_conditions.html#a3560bdec25d509ef8f4f02409eaa9f1d',1,'SearchConditions']]]
+  ['valodi',['valodi',['../struct_lefoglalt.html#a59522ad17870bd526fae5bbbc8125966',1,'Lefoglalt']]]
 ];

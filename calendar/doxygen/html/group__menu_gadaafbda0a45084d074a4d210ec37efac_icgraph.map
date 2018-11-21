@@ -1,0 +1,17 @@
+<map id="scansavemenu" name="scansavemenu">
+<area shape="rect" id="node2" href="$group__menu.html#ga1e8bbce91606e9498fafa46cf96477d0" title="savemenu" alt="" coords="164,210,247,237"/>
+<area shape="rect" id="node3" href="$group__eventrecord.html#gac6e06e3186496cd8eb6618baf3ca9d3e" title="scanrecordcommand" alt="" coords="295,171,437,198"/>
+<area shape="rect" id="node6" href="$group__menu.html#ga8e572ab27981dcd7144340fd25a24c80" title="scanmainmenu" alt="" coords="1344,134,1455,161"/>
+<area shape="rect" id="node4" href="$group__eventrecord.html#ga43a7dc247171d596d8d808776d8d40f5" title="printeventrecord" alt="" coords="485,134,600,161"/>
+<area shape="rect" id="node5" href="$group__menu.html#ga069c1b762e46bba28b1f38b87d8d58aa" title="newevent" alt="" coords="787,7,866,34"/>
+<area shape="rect" id="node8" href="$group__search.html#ga70f4e24bc56ccfdd7d63df4a84054538" title="scanfindlist" alt="" coords="648,134,736,161"/>
+<area shape="rect" id="node7" href="$main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1503,134,1553,161"/>
+<area shape="rect" id="node9" href="$group__search.html#ga4fc3c2695bbc6aacac6fcdddbbc2c9ea" title="printfindlist" alt="" coords="784,134,869,161"/>
+<area shape="rect" id="node10" href="$group__search.html#ga199722ea7869f598848648238f88d274" title="searchiter" alt="" coords="917,134,996,161"/>
+<area shape="rect" id="node11" href="$group__search.html#ga9a7e3230097d2f97a58082ff6eb864ac" title="searchactual" alt="" coords="1051,33,1147,59"/>
+<area shape="rect" id="node13" href="$group__search.html#gadaf3bc7221b1fe4f2cffb3aaea00415d" title="searchbyname" alt="" coords="1046,83,1153,110"/>
+<area shape="rect" id="node14" href="$group__search.html#ga6b219250779d3af5972611513010a013" title="searchbyweek" alt="" coords="1046,134,1153,161"/>
+<area shape="rect" id="node15" href="$group__search.html#gac2a6873263c1a8146c04126b48f8431e" title="searchbymonth" alt="" coords="1044,185,1155,211"/>
+<area shape="rect" id="node16" href="$group__search.html#ga5a5f902f17fae2dda3b8ec6bb7e1a6e9" title="searchbyday" alt="" coords="1051,235,1147,262"/>
+<area shape="rect" id="node12" href="$group__menu.html#ga38d64ff02f60ebcb1988655ea12540a6" title="searchmenu" alt="" coords="1203,134,1296,161"/>
+</map>

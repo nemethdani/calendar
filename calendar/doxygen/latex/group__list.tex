@@ -1,0 +1,122 @@
+\hypertarget{group__list}{}\section{Lista kezelő}
+\label{group__list}\index{Lista kezelő@{Lista kezelő}}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct tm \hyperlink{group__list_gaffc453d30a4a6ce81ed778fd04d2d256}{Tm}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{struct_event_list}{Event\+List} $\ast$ \hyperlink{group__list_ga48f44148563512bd32274821f478bd1b}{initeventlist} ()
+\item 
+void \hyperlink{group__list_ga4293a94245f5abec38c480114aa58b23}{free\+Event\+List} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
+\item 
+\hyperlink{struct_event}{Event} $\ast$ \hyperlink{group__list_ga24fd1b37eee54600b66c42e86b52244a}{createevent} (int ev, int honap, int nap, int ora, int perc, int bora, int bperc, char $\ast$nev, char $\ast$hely, char $\ast$comment)
+\item 
+void \hyperlink{group__list_ga068e74dedbc5bf00dd54042ab3fac981}{insertevent} (\hyperlink{struct_event_list}{Event\+List} const $\ast$eventlist, \hyperlink{struct_event}{Event} $\ast$event)
+\item 
+int \hyperlink{group__list_ga8f7708495c6e39bb6e712218711b331f}{starttime} (\hyperlink{struct_event}{Event} $\ast$event)
+\item 
+void \hyperlink{group__list_gafd63217de3b7f7269aa3ee9d14b6b578}{free\+\_\+event} (\hyperlink{struct_event}{Event} $\ast$event)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+listák, események létrehozás, törlése 
+
+\subsection{Typedef Documentation}
+\mbox{\Hypertarget{group__list_gaffc453d30a4a6ce81ed778fd04d2d256}\label{group__list_gaffc453d30a4a6ce81ed778fd04d2d256}} 
+\index{Lista kezelő@{Lista kezelő}!Tm@{Tm}}
+\index{Tm@{Tm}!Lista kezelő@{Lista kezelő}}
+\subsubsection{\texorpdfstring{Tm}{Tm}}
+{\footnotesize\ttfamily typedef struct tm \hyperlink{group__list_gaffc453d30a4a6ce81ed778fd04d2d256}{Tm}}
+
+időponthoz tartozó struktúra 
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group__list_ga24fd1b37eee54600b66c42e86b52244a}\label{group__list_ga24fd1b37eee54600b66c42e86b52244a}} 
+\index{Lista kezelő@{Lista kezelő}!createevent@{createevent}}
+\index{createevent@{createevent}!Lista kezelő@{Lista kezelő}}
+\subsubsection{\texorpdfstring{createevent()}{createevent()}}
+{\footnotesize\ttfamily \hyperlink{struct_event}{Event}$\ast$ createevent (\begin{DoxyParamCaption}\item[{int}]{ev,  }\item[{int}]{honap,  }\item[{int}]{nap,  }\item[{int}]{ora,  }\item[{int}]{perc,  }\item[{int}]{bora,  }\item[{int}]{bperc,  }\item[{char $\ast$}]{nev,  }\item[{char $\ast$}]{hely,  }\item[{char $\ast$}]{comment }\end{DoxyParamCaption})}
+
+Létrehoz egy eseményt dianmiusan, és feltölti a megadott adatokkal 
+\begin{DoxyParams}{Parameters}
+{\em ev} & Esemény éve \\
+\hline
+{\em honap} & Esemény hava \\
+\hline
+{\em nap} & Esemény napja \\
+\hline
+{\em ora} & Esemény kezdő órája \\
+\hline
+{\em perc} & Esemény kezdő perce \\
+\hline
+{\em bora} & Esemény befejező órája \\
+\hline
+{\em bperc} & Esemény befejező perce \\
+\hline
+{\em nev} & Esemény nevét tartalmazó char típusú stringre mutató pointer. A megadott string már legyen lefoglalva. Max 128 karakter lezáró nullával együtt. \\
+\hline
+{\em nev} & Esemény helyét tartalmazó char típusú stringre mutató pointer. A megadott string már legyen lefoglalva. Max 128 karakter lezáró nullával együtt. \\
+\hline
+{\em nev} & Eseményre vonatkozó megjegyzést tartalmazó char típusú stringre mutató pointer. A megadott string már legyen lefoglalva. Max 256 karakter lezáró nullával együtt. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+event\+: \hyperlink{struct_event}{Event} típusú létrehozott eseményre mutató pointer 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__list_gafd63217de3b7f7269aa3ee9d14b6b578}\label{group__list_gafd63217de3b7f7269aa3ee9d14b6b578}} 
+\index{Lista kezelő@{Lista kezelő}!free\+\_\+event@{free\+\_\+event}}
+\index{free\+\_\+event@{free\+\_\+event}!Lista kezelő@{Lista kezelő}}
+\subsubsection{\texorpdfstring{free\+\_\+event()}{free\_event()}}
+{\footnotesize\ttfamily void free\+\_\+event (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event}{Event} $\ast$}]{event }\end{DoxyParamCaption})}
+
+Felszabadítja az eseményt és a tartalmazott karaktertömböket 
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__list_ga4293a94245f5abec38c480114aa58b23}\label{group__list_ga4293a94245f5abec38c480114aa58b23}} 
+\index{Lista kezelő@{Lista kezelő}!free\+Event\+List@{free\+Event\+List}}
+\index{free\+Event\+List@{free\+Event\+List}!Lista kezelő@{Lista kezelő}}
+\subsubsection{\texorpdfstring{free\+Event\+List()}{freeEventList()}}
+{\footnotesize\ttfamily void free\+Event\+List (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
+
+Felszabadítja az eseménylistát eseményekkel együtt A felszabadítandó \hyperlink{struct_event_list}{Event\+List} típusú litsára mutató pointer \mbox{\Hypertarget{group__list_ga48f44148563512bd32274821f478bd1b}\label{group__list_ga48f44148563512bd32274821f478bd1b}} 
+\index{Lista kezelő@{Lista kezelő}!initeventlist@{initeventlist}}
+\index{initeventlist@{initeventlist}!Lista kezelő@{Lista kezelő}}
+\subsubsection{\texorpdfstring{initeventlist()}{initeventlist()}}
+{\footnotesize\ttfamily \hyperlink{struct_event_list}{Event\+List}$\ast$ initeventlist (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Létrehoz egy új eseméynlistát duplán láncolt listaként, 2 db üres, nem használt őrszemmel \begin{DoxyReturn}{Returns}
+a létrehozott \hyperlink{struct_event_list}{Event\+List} típusú listára mutató pointer 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__list_ga068e74dedbc5bf00dd54042ab3fac981}\label{group__list_ga068e74dedbc5bf00dd54042ab3fac981}} 
+\index{Lista kezelő@{Lista kezelő}!insertevent@{insertevent}}
+\index{insertevent@{insertevent}!Lista kezelő@{Lista kezelő}}
+\subsubsection{\texorpdfstring{insertevent()}{insertevent()}}
+{\footnotesize\ttfamily void insertevent (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} const $\ast$}]{eventlist,  }\item[{\hyperlink{struct_event}{Event} $\ast$}]{event }\end{DoxyParamCaption})}
+
+Beilleszt egy már létrehozott eseményt az eseménylistába Az eseményeket kezdő dátum és kezdő idő szerint növekvően rendezve szúrja be A keresést visszafelé (hátulról előre) végzi 
+\begin{DoxyParams}{Parameters}
+{\em eventlist} & Ebbe az \hyperlink{struct_event_list}{Event\+List} típusó listába szúrjuk az eseményt. címmel adjuk meg \\
+\hline
+{\em event} & Ezt az \hyperlink{struct_event}{Event} típusú eseményt szúrjuk be. Címmel adjuk meg \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__list_ga8f7708495c6e39bb6e712218711b331f}\label{group__list_ga8f7708495c6e39bb6e712218711b331f}} 
+\index{Lista kezelő@{Lista kezelő}!starttime@{starttime}}
+\index{starttime@{starttime}!Lista kezelő@{Lista kezelő}}
+\subsubsection{\texorpdfstring{starttime()}{starttime()}}
+{\footnotesize\ttfamily int starttime (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event}{Event} $\ast$}]{event }\end{DoxyParamCaption})}
+
+Létrehozza az események kezdőidejét jelző számot másodperc nagyságrendben a kezdőidő összehasonlításához 
+\begin{DoxyParams}{Parameters}
+{\em event} & ennek az \hyperlink{struct_event}{Event} típusú eseménynek keressük a kezdőidejét. Az esemény kezdőmásodpercét nullának vettük \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+másodperc nagyságrendben adja vissza, hogy hol helyezkedik el az esemény az időben. 
+\end{DoxyReturn}

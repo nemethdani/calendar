@@ -1,6 +1,28 @@
 var searchData=
 [
-  ['tabla_5foszlopok',['TABLA_OSZLOPOK',['../debugmalloc_8c.html#a5d5ca1decbb4ee3ccdeb6db6ba45ba41',1,'debugmalloc.c']]],
-  ['tm',['Tm',['../list_8h.html#affc453d30a4a6ce81ed778fd04d2d256',1,'Tm():&#160;list.h'],['../structures_8h.html#affc453d30a4a6ce81ed778fd04d2d256',1,'Tm():&#160;structures.h']]],
-  ['tmtoweek',['tmtoweek',['../search_8c.html#a4e80bfd47c2fef45e9f6f50632544931',1,'tmtoweek(Tm *tm):&#160;search.c'],['../search_8h.html#a4e80bfd47c2fef45e9f6f50632544931',1,'tmtoweek(Tm *tm):&#160;search.c']]]
+  ['savemenu',['savemenu',['../group__menu.html#ga1e8bbce91606e9498fafa46cf96477d0',1,'savemenu(EventList const *eventlist):&#160;menu.c'],['../group__menu.html#ga1e8bbce91606e9498fafa46cf96477d0',1,'savemenu(EventList const *eventlist):&#160;menu.c']]],
+  ['scanexitmenu',['scanexitmenu',['../group__menu.html#gaa12eba16d2e2bd5dfc70240d19bd5c8e',1,'scanexitmenu(EventList *eventlist):&#160;menu.c'],['../group__menu.html#gaa12eba16d2e2bd5dfc70240d19bd5c8e',1,'scanexitmenu(EventList *eventlist):&#160;menu.c']]],
+  ['scanfindlist',['scanfindlist',['../group__search.html#ga70f4e24bc56ccfdd7d63df4a84054538',1,'scanfindlist(int i, FindList *findlist, SearchConditions condition, EventList *eventlist):&#160;searchui.c'],['../group__search.html#ga70f4e24bc56ccfdd7d63df4a84054538',1,'scanfindlist(int i, FindList *findlist, SearchConditions condition, EventList *eventlist):&#160;searchui.c']]],
+  ['scaninput',['scaninput',['../group__search.html#ga0ab78ad9b3d9c7fe1975fd416a1f1c5c',1,'scaninput():&#160;searchui.c'],['../group__search.html#ga0ab78ad9b3d9c7fe1975fd416a1f1c5c',1,'scaninput():&#160;searchui.c']]],
+  ['scanmainmenu',['scanmainmenu',['../group__menu.html#ga8e572ab27981dcd7144340fd25a24c80',1,'scanmainmenu(EventList *eventlist):&#160;menu.c'],['../group__menu.html#ga8e572ab27981dcd7144340fd25a24c80',1,'scanmainmenu(EventList *eventlist):&#160;menu.c']]],
+  ['scanrecordcommand',['scanrecordcommand',['../group__eventrecord.html#gac6e06e3186496cd8eb6618baf3ca9d3e',1,'scanrecordcommand(bool isnewevent, int i, Event *event, EventList const *eventlist):&#160;eventrecord.c'],['../group__eventrecord.html#gac6e06e3186496cd8eb6618baf3ca9d3e',1,'scanrecordcommand(bool isnewevent, int i, Event *event, EventList const *eventlist):&#160;eventrecord.c']]],
+  ['scansavemenu',['scansavemenu',['../group__menu.html#gadaafbda0a45084d074a4d210ec37efac',1,'scansavemenu(EventList const *eventlist):&#160;menu.c'],['../group__menu.html#gadaafbda0a45084d074a4d210ec37efac',1,'scansavemenu(EventList const *eventlist):&#160;menu.c']]],
+  ['search_2ec',['search.c',['../search_8c.html',1,'']]],
+  ['search_2eh',['search.h',['../search_8h.html',1,'']]],
+  ['searchactual',['searchactual',['../group__search.html#ga9a7e3230097d2f97a58082ff6eb864ac',1,'searchactual(EventList *eventlist, SearchBy searchmode):&#160;search.c'],['../group__search.html#ga9a7e3230097d2f97a58082ff6eb864ac',1,'searchactual(EventList *eventlist, SearchBy searchmode):&#160;search.c']]],
+  ['searchby',['SearchBy',['../group__search.html#gaf9df49b17c9441844cafc15064ec50fc',1,'SearchBy():&#160;search.h'],['../group__search.html#ga2ab4e565bcf990b57e010007e13bec43',1,'SearchBy():&#160;search.h']]],
+  ['searchbyday',['searchbyday',['../group__search.html#ga5a5f902f17fae2dda3b8ec6bb7e1a6e9',1,'searchbyday(EventList *eventlist):&#160;searchui.c'],['../group__search.html#ga5a5f902f17fae2dda3b8ec6bb7e1a6e9',1,'searchbyday(EventList *eventlist):&#160;searchui.c']]],
+  ['searchbymonth',['searchbymonth',['../group__search.html#gac2a6873263c1a8146c04126b48f8431e',1,'searchbymonth(EventList *eventlist):&#160;searchui.c'],['../group__search.html#gac2a6873263c1a8146c04126b48f8431e',1,'searchbymonth(EventList *eventlist):&#160;searchui.c']]],
+  ['searchbyname',['searchbyname',['../group__search.html#gadaf3bc7221b1fe4f2cffb3aaea00415d',1,'searchbyname(EventList *eventlist):&#160;searchui.c'],['../group__search.html#gadaf3bc7221b1fe4f2cffb3aaea00415d',1,'searchbyname(EventList *eventlist):&#160;searchui.c']]],
+  ['searchbyweek',['searchbyweek',['../group__search.html#ga6b219250779d3af5972611513010a013',1,'searchbyweek(EventList *eventlist):&#160;searchui.c'],['../group__search.html#ga6b219250779d3af5972611513010a013',1,'searchbyweek(EventList *eventlist):&#160;searchui.c']]],
+  ['searchconditions',['SearchConditions',['../struct_search_conditions.html',1,'SearchConditions'],['../group__structures.html#gadc5706147428e7cb68faa6fb19085d7a',1,'SearchConditions():&#160;structures.h']]],
+  ['searchiter',['searchiter',['../group__search.html#ga199722ea7869f598848648238f88d274',1,'searchiter(EventList *eventlist, SearchConditions condition):&#160;search.c'],['../group__search.html#ga199722ea7869f598848648238f88d274',1,'searchiter(EventList *eventlist, SearchConditions condition):&#160;search.c']]],
+  ['searchmenu',['searchmenu',['../group__menu.html#ga38d64ff02f60ebcb1988655ea12540a6',1,'searchmenu(EventList *eventlist):&#160;menu.c'],['../group__menu.html#ga38d64ff02f60ebcb1988655ea12540a6',1,'searchmenu(EventList *eventlist):&#160;menu.c']]],
+  ['searchui_2ec',['searchui.c',['../searchui_8c.html',1,'']]],
+  ['searchui_2eh',['searchui.h',['../searchui_8h.html',1,'']]],
+  ['starthour',['starthour',['../struct_event.html#ad40616cbc61c79a6caf6c8c2464bab8d',1,'Event']]],
+  ['startmin',['startmin',['../struct_event.html#a6a7bf86ae11349bf260da9abce25452a',1,'Event']]],
+  ['starttime',['starttime',['../group__list.html#ga8f7708495c6e39bb6e712218711b331f',1,'starttime(Event *event):&#160;list.c'],['../group__list.html#ga8f7708495c6e39bb6e712218711b331f',1,'starttime(Event *event):&#160;list.c']]],
+  ['szükséges_20struktúrák',['Szükséges struktúrák',['../group__structures.html',1,'']]],
+  ['structures_2eh',['structures.h',['../structures_8h.html',1,'']]]
 ];

@@ -1,0 +1,33 @@
+<map id="scanmainmenu" name="scanmainmenu">
+<area shape="rect" id="node2" href="$group__menu.html#ga069c1b762e46bba28b1f38b87d8d58aa" title="newevent" alt="" coords="759,93,838,120"/>
+<area shape="rect" id="node12" href="$group__menu.html#ga1e8bbce91606e9498fafa46cf96477d0" title="savemenu" alt="" coords="1281,397,1364,424"/>
+<area shape="rect" id="node16" href="$group__menu.html#ga38d64ff02f60ebcb1988655ea12540a6" title="searchmenu" alt="" coords="164,195,257,221"/>
+<area shape="rect" id="node30" href="$group__menu.html#gac651d3838f4da7bf6055fa839621e289" title="exitmenu" alt="" coords="173,309,248,336"/>
+<area shape="rect" id="node3" href="$group__menu.html#gab9ac014b764791c1dc71c187dca898f7" title="hosszu_sort_olvas" alt="" coords="1257,144,1388,171"/>
+<area shape="rect" id="node4" href="$group__list.html#ga24fd1b37eee54600b66c42e86b52244a" title="createevent" alt="" coords="916,93,1007,120"/>
+<area shape="rect" id="node5" href="$group__list.html#ga068e74dedbc5bf00dd54042ab3fac981" title="insertevent" alt="" coords="1448,183,1535,209"/>
+<area shape="rect" id="node7" href="$group__eventrecord.html#ga43a7dc247171d596d8d808776d8d40f5" title="printeventrecord" alt="" coords="904,195,1019,221"/>
+<area shape="rect" id="node6" href="$group__list.html#ga8f7708495c6e39bb6e712218711b331f" title="starttime" alt="" coords="1595,183,1668,209"/>
+<area shape="rect" id="node8" href="$group__eventrecord.html#gac6e06e3186496cd8eb6618baf3ca9d3e" title="scanrecordcommand" alt="" coords="1067,195,1209,221"/>
+<area shape="rect" id="node9" href="$group__eventrecord.html#ga610dc34a1e251a16311ca7ac15f64e05" title="moveevent" alt="" coords="1279,195,1366,221"/>
+<area shape="rect" id="node10" href="$group__eventrecord.html#gaf69a5ee77b139263897d5e6bfe7d7f2a" title="deleteevent" alt="" coords="1278,245,1367,272"/>
+<area shape="rect" id="node11" href="$group__list.html#gafd63217de3b7f7269aa3ee9d14b6b578" title="free_event" alt="" coords="1450,259,1533,285"/>
+<area shape="rect" id="node13" href="$group__menu.html#gadaafbda0a45084d074a4d210ec37efac" title="scansavemenu" alt="" coords="1436,397,1547,424"/>
+<area shape="rect" id="node14" href="$group__menu.html#ga6ee903116c3ec27e1a4680b08e6647e2" title="filesave" alt="" coords="1598,372,1665,399"/>
+<area shape="rect" id="node15" href="$group__file.html#ga7f69872489b7c1c4bcdd125319a87b2e" title="calendarsave" alt="" coords="1716,372,1815,399"/>
+<area shape="rect" id="node17" href="$group__search.html#ga0ab78ad9b3d9c7fe1975fd416a1f1c5c" title="scaninput" alt="" coords="321,144,400,171"/>
+<area shape="rect" id="node18" href="$group__search.html#gadaf3bc7221b1fe4f2cffb3aaea00415d" title="searchbyname" alt="" coords="307,93,414,120"/>
+<area shape="rect" id="node26" href="$group__search.html#ga9a7e3230097d2f97a58082ff6eb864ac" title="searchactual" alt="" coords="313,43,409,69"/>
+<area shape="rect" id="node27" href="$group__search.html#ga5a5f902f17fae2dda3b8ec6bb7e1a6e9" title="searchbyday" alt="" coords="313,195,409,221"/>
+<area shape="rect" id="node28" href="$group__search.html#ga6b219250779d3af5972611513010a013" title="searchbyweek" alt="" coords="307,245,414,272"/>
+<area shape="rect" id="node29" href="$group__search.html#gac2a6873263c1a8146c04126b48f8431e" title="searchbymonth" alt="" coords="305,296,416,323"/>
+<area shape="rect" id="node19" href="$group__search.html#ga199722ea7869f598848648238f88d274" title="searchiter" alt="" coords="464,195,543,221"/>
+<area shape="rect" id="node20" href="$group__search.html#gace601ce27f555e73988b2db946d1ca5e" title="inserttofindlist" alt="" coords="591,245,693,272"/>
+<area shape="rect" id="node21" href="$group__search.html#gaa13cd0a956bc531fe1e1329b6aebdef9" title="eventtotm" alt="" coords="602,144,682,171"/>
+<area shape="rect" id="node22" href="$group__search.html#ga4e80bfd47c2fef45e9f6f50632544931" title="tmtoweek" alt="" coords="603,68,681,95"/>
+<area shape="rect" id="node23" href="$group__search.html#ga4fc3c2695bbc6aacac6fcdddbbc2c9ea" title="printfindlist" alt="" coords="599,195,685,221"/>
+<area shape="rect" id="node24" href="$group__search.html#ga2561d96be1299fd3f5730c6d82143709" title="printevent_short" alt="" coords="741,245,856,272"/>
+<area shape="rect" id="node25" href="$group__search.html#ga70f4e24bc56ccfdd7d63df4a84054538" title="scanfindlist" alt="" coords="755,195,843,221"/>
+<area shape="rect" id="node31" href="$group__menu.html#gaa12eba16d2e2bd5dfc70240d19bd5c8e" title="scanexitmenu" alt="" coords="1087,347,1189,373"/>
+<area shape="rect" id="node32" href="$group__list.html#ga4293a94245f5abec38c480114aa58b23" title="freeEventList" alt="" coords="1273,296,1372,323"/>
+</map>

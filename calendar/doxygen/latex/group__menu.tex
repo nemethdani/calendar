@@ -1,0 +1,152 @@
+\hypertarget{group__menu}{}\section{Menü kezelő}
+\label{group__menu}\index{Menü kezelő@{Menü kezelő}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{group__menu_ga6ee903116c3ec27e1a4680b08e6647e2}{filesave} (\hyperlink{struct_event_list}{Event\+List} const $\ast$eventlist)
+\item 
+int \hyperlink{group__menu_ga069c1b762e46bba28b1f38b87d8d58aa}{newevent} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
+\item 
+char $\ast$ \hyperlink{group__menu_gab9ac014b764791c1dc71c187dca898f7}{hosszu\+\_\+sort\+\_\+olvas} (int bufferhossz)
+\item 
+void \hyperlink{group__menu_gac86d3169260f5cacd0f792743957b054}{mainmenu} ()
+\item 
+void \hyperlink{group__menu_ga8e572ab27981dcd7144340fd25a24c80}{scanmainmenu} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
+\item 
+void \hyperlink{group__menu_ga38d64ff02f60ebcb1988655ea12540a6}{searchmenu} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
+\item 
+void \hyperlink{group__menu_ga1e8bbce91606e9498fafa46cf96477d0}{savemenu} (\hyperlink{struct_event_list}{Event\+List} const $\ast$eventlist)
+\item 
+int \hyperlink{group__menu_gadaafbda0a45084d074a4d210ec37efac}{scansavemenu} (\hyperlink{struct_event_list}{Event\+List} const $\ast$eventlist)
+\item 
+void \hyperlink{group__menu_gac651d3838f4da7bf6055fa839621e289}{exitmenu} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
+\item 
+int \hyperlink{group__menu_gaa12eba16d2e2bd5dfc70240d19bd5c8e}{scanexitmenu} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
+\item 
+void \hyperlink{group__menu_gac95f6c8c1de4749a4ae8fb342329e6dc}{printmenu} (\hyperlink{struct_menu_pont}{Menu\+Pont} const $\ast$menupontok)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+menük kiírása, parancsok, adatok bekérése 
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group__menu_gac651d3838f4da7bf6055fa839621e289}\label{group__menu_gac651d3838f4da7bf6055fa839621e289}} 
+\index{Menü kezelő@{Menü kezelő}!exitmenu@{exitmenu}}
+\index{exitmenu@{exitmenu}!Menü kezelő@{Menü kezelő}}
+\subsubsection{\texorpdfstring{exitmenu()}{exitmenu()}}
+{\footnotesize\ttfamily void exitmenu (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
+
+Kiírja a kilépéssel kapcsolatos opciókat és meghívja a parancsbeolvasó függvényt 
+\begin{DoxyParams}{Parameters}
+{\em eventlist} & Ezt az \hyperlink{struct_event_list}{Event\+List} típusú eseménylistát menthetjük, ha úgy választunk. címmel megadva \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__menu_ga6ee903116c3ec27e1a4680b08e6647e2}\label{group__menu_ga6ee903116c3ec27e1a4680b08e6647e2}} 
+\index{Menü kezelő@{Menü kezelő}!filesave@{filesave}}
+\index{filesave@{filesave}!Menü kezelő@{Menü kezelő}}
+\subsubsection{\texorpdfstring{filesave()}{filesave()}}
+{\footnotesize\ttfamily void filesave (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} const $\ast$}]{eventlist }\end{DoxyParamCaption})}
+
+Meghívja a mentéssel kapcsolatos menüt, és kiírja, hogy sikeres volt-\/e a mentés 
+\begin{DoxyParams}{Parameters}
+{\em eventlist} & Ennek az \hyperlink{struct_event_list}{Event\+List} típusú listának az eseményeit menti. címmel megadva. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__menu_gab9ac014b764791c1dc71c187dca898f7}\label{group__menu_gab9ac014b764791c1dc71c187dca898f7}} 
+\index{Menü kezelő@{Menü kezelő}!hosszu\+\_\+sort\+\_\+olvas@{hosszu\+\_\+sort\+\_\+olvas}}
+\index{hosszu\+\_\+sort\+\_\+olvas@{hosszu\+\_\+sort\+\_\+olvas}!Menü kezelő@{Menü kezelő}}
+\subsubsection{\texorpdfstring{hosszu\+\_\+sort\+\_\+olvas()}{hosszu\_sort\_olvas()}}
+{\footnotesize\ttfamily char$\ast$ hosszu\+\_\+sort\+\_\+olvas (\begin{DoxyParamCaption}\item[{int}]{bufferhossz }\end{DoxyParamCaption})}
+
+Bekér egy max hosszúságú karaktersort. Szól, ha a megadott sor túl, hosszú, és újra bekéri a szöveget 
+\begin{DoxyParams}{Parameters}
+{\em bufferhossz} & max ekkora lehet a hossza a megadott stringnek, lezáró 0-\/val együtt \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a létrehozott dinamikusan foglalt karaktertömbre mutató pointer 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__menu_gac86d3169260f5cacd0f792743957b054}\label{group__menu_gac86d3169260f5cacd0f792743957b054}} 
+\index{Menü kezelő@{Menü kezelő}!mainmenu@{mainmenu}}
+\index{mainmenu@{mainmenu}!Menü kezelő@{Menü kezelő}}
+\subsubsection{\texorpdfstring{mainmenu()}{mainmenu()}}
+{\footnotesize\ttfamily void mainmenu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Kiírja a főmenüt és meghívja a kapcsolódó parancsokat bekérő függvényt \mbox{\Hypertarget{group__menu_ga069c1b762e46bba28b1f38b87d8d58aa}\label{group__menu_ga069c1b762e46bba28b1f38b87d8d58aa}} 
+\index{Menü kezelő@{Menü kezelő}!newevent@{newevent}}
+\index{newevent@{newevent}!Menü kezelő@{Menü kezelő}}
+\subsubsection{\texorpdfstring{newevent()}{newevent()}}
+{\footnotesize\ttfamily int newevent (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
+
+Bekéri a létrehozandó esemény adatait, meghívja a létrehozó függvényeket, meghívja az esemény részleteit kiíró és módosításra szolgáló menüt 
+\begin{DoxyParams}{Parameters}
+{\em eventlist} & Ebbe az \hyperlink{struct_event_list}{Event\+List} típusú listába szúrjuk be az eseményt. címmel megadva \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+továbbítja a printeventrecord-\/ban előállított kimenetet 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__menu_gac95f6c8c1de4749a4ae8fb342329e6dc}\label{group__menu_gac95f6c8c1de4749a4ae8fb342329e6dc}} 
+\index{Menü kezelő@{Menü kezelő}!printmenu@{printmenu}}
+\index{printmenu@{printmenu}!Menü kezelő@{Menü kezelő}}
+\subsubsection{\texorpdfstring{printmenu()}{printmenu()}}
+{\footnotesize\ttfamily void printmenu (\begin{DoxyParamCaption}\item[{\hyperlink{struct_menu_pont}{Menu\+Pont} const $\ast$}]{menupontok }\end{DoxyParamCaption})}
+
+\hyperlink{struct_menu_pont}{Menu\+Pont} típusú tömbben megadott menüpontok nevének kiírása 
+\begin{DoxyParams}{Parameters}
+{\em menupontok} & \hyperlink{struct_menu_pont}{Menu\+Pont} típusú tömb, mely tartalmazza a menüpontok nevét és a kapcsolódó parancs függvénypointerét \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__menu_ga1e8bbce91606e9498fafa46cf96477d0}\label{group__menu_ga1e8bbce91606e9498fafa46cf96477d0}} 
+\index{Menü kezelő@{Menü kezelő}!savemenu@{savemenu}}
+\index{savemenu@{savemenu}!Menü kezelő@{Menü kezelő}}
+\subsubsection{\texorpdfstring{savemenu()}{savemenu()}}
+{\footnotesize\ttfamily void savemenu (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} const $\ast$}]{eventlist }\end{DoxyParamCaption})}
+
+Megkérdezi, hogy tényleg mentse-\/e a fájlt. (Le lehet mégsézni) Meghívja a választ beolvasó függvényt 
+\begin{DoxyParams}{Parameters}
+{\em eventlist} & Ennek az \hyperlink{struct_event_list}{Event\+List} típusú listának az eseményeit menti. címmel megadva. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__menu_gaa12eba16d2e2bd5dfc70240d19bd5c8e}\label{group__menu_gaa12eba16d2e2bd5dfc70240d19bd5c8e}} 
+\index{Menü kezelő@{Menü kezelő}!scanexitmenu@{scanexitmenu}}
+\index{scanexitmenu@{scanexitmenu}!Menü kezelő@{Menü kezelő}}
+\subsubsection{\texorpdfstring{scanexitmenu()}{scanexitmenu()}}
+{\footnotesize\ttfamily int scanexitmenu (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
+
+beolvassa az exitmenu-\/ben felkínált lehetőségekhez kapcsolódó parancsot 
+\begin{DoxyParams}{Parameters}
+{\em eventlist} & Ezt az \hyperlink{struct_event_list}{Event\+List} típusú eseménylistát menthetjük, ha úgy választunk. címmel megadva \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mindig 0. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__menu_ga8e572ab27981dcd7144340fd25a24c80}\label{group__menu_ga8e572ab27981dcd7144340fd25a24c80}} 
+\index{Menü kezelő@{Menü kezelő}!scanmainmenu@{scanmainmenu}}
+\index{scanmainmenu@{scanmainmenu}!Menü kezelő@{Menü kezelő}}
+\subsubsection{\texorpdfstring{scanmainmenu()}{scanmainmenu()}}
+{\footnotesize\ttfamily void scanmainmenu (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
+
+Beolvassa a főmenünél megadott parancsot, és végrehajtja az utasítást \mbox{\Hypertarget{group__menu_gadaafbda0a45084d074a4d210ec37efac}\label{group__menu_gadaafbda0a45084d074a4d210ec37efac}} 
+\index{Menü kezelő@{Menü kezelő}!scansavemenu@{scansavemenu}}
+\index{scansavemenu@{scansavemenu}!Menü kezelő@{Menü kezelő}}
+\subsubsection{\texorpdfstring{scansavemenu()}{scansavemenu()}}
+{\footnotesize\ttfamily int scansavemenu (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} const $\ast$}]{eventlist }\end{DoxyParamCaption})}
+
+Beolvassa a savemenu-\/ben felkínált opciókhoz kapcsolódó parancsot és végrehajta az utasítást 
+\begin{DoxyParams}{Parameters}
+{\em eventlist} & Ennek az \hyperlink{struct_event_list}{Event\+List} típusú listának az eseményeit menti. címmel megadva. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mindig 0; 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__menu_ga38d64ff02f60ebcb1988655ea12540a6}\label{group__menu_ga38d64ff02f60ebcb1988655ea12540a6}} 
+\index{Menü kezelő@{Menü kezelő}!searchmenu@{searchmenu}}
+\index{searchmenu@{searchmenu}!Menü kezelő@{Menü kezelő}}
+\subsubsection{\texorpdfstring{searchmenu()}{searchmenu()}}
+{\footnotesize\ttfamily void searchmenu (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
+
+Kiírja a keresési módot választó menüt, beolvassa a felhasználó által megadott parancsot, és meghívja a fonatkozó függvényt 

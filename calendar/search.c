@@ -5,7 +5,8 @@
 #include <stdbool.h>
 #include <time.h>
 #include <stdio.h>
-#include "debugmalloc.h"
+#include "searchui.h"
+
 
 
 
@@ -27,7 +28,7 @@ int searchiter(EventList* eventlist, SearchConditions condition){
 
         if(condition.name!=NULL && strstr(iter->name,condition.name)!=NULL)
                 inserttofindlist(&findlist,iter);
-        else if(condition.name==NULL && condition.week!=NULL){
+        else if(condition.name==NULL && condition.week!=0){
                    //printf("%d\n",eventtoweek(iter));
                    if(iter->year==condition.year){
                        Tm* tm=eventtotm(iter);
@@ -37,7 +38,7 @@ int searchiter(EventList* eventlist, SearchConditions condition){
                             inserttofindlist(&findlist,iter);
                    }
         }
-        else if(condition.month!=NULL && condition.day==NULL &&
+        else if(condition.month!=0 && condition.day==0 &&
                 iter->year==condition.year &&
                 iter->month==condition.month)
                     inserttofindlist(&findlist,iter);
@@ -79,12 +80,12 @@ int searchactual(EventList* eventlist,SearchBy searchmode){
         cond.week=tmtoweek(timeinfo);
         break;
     case bymonth:
-        cond.week=NULL;
+        cond.week=0;
         cond.month=timeinfo->tm_mon+1;
-        cond.day=NULL;
+        cond.day=0;
         break;
     case byday:
-        cond.week=NULL;
+        cond.week=0;
         cond.month=timeinfo->tm_mon+1;
         cond.day=timeinfo->tm_mday;
         break;

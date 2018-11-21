@@ -1,0 +1,260 @@
+\hypertarget{group__search}{}\section{Keresés kezelő}
+\label{group__search}\index{Keresés kezelő@{Keresés kezelő}}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef enum \hyperlink{group__search_gaf9df49b17c9441844cafc15064ec50fc}{Search\+By} \hyperlink{group__search_ga2ab4e565bcf990b57e010007e13bec43}{Search\+By}
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{group__search_gaf9df49b17c9441844cafc15064ec50fc}{Search\+By} \{ \hyperlink{group__search_ggaf9df49b17c9441844cafc15064ec50fca22234af7e39a964f41baef92fdd17c14}{byweek}, 
+\hyperlink{group__search_ggaf9df49b17c9441844cafc15064ec50fca5efad3bcd6c0ae75087b25e99c9483fa}{byday}, 
+\hyperlink{group__search_ggaf9df49b17c9441844cafc15064ec50fca1079e56084842bedf75f880e98175b84}{bymonth}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{group__search_ga199722ea7869f598848648238f88d274}{searchiter} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist, \hyperlink{struct_search_conditions}{Search\+Conditions} condition)
+\item 
+int \hyperlink{group__search_ga9a7e3230097d2f97a58082ff6eb864ac}{searchactual} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist, \hyperlink{group__search_gaf9df49b17c9441844cafc15064ec50fc}{Search\+By} searchmode)
+\item 
+void \hyperlink{group__search_gace601ce27f555e73988b2db946d1ca5e}{inserttofindlist} (\hyperlink{struct_find_list}{Find\+List} $\ast$findlist, \hyperlink{struct_event}{Event} $\ast$event)
+\item 
+int \hyperlink{group__search_ga4e80bfd47c2fef45e9f6f50632544931}{tmtoweek} (\hyperlink{group__list_gaffc453d30a4a6ce81ed778fd04d2d256}{Tm} $\ast$tm)
+\item 
+\hyperlink{group__list_gaffc453d30a4a6ce81ed778fd04d2d256}{Tm} $\ast$ \hyperlink{group__search_gaa13cd0a956bc531fe1e1329b6aebdef9}{eventtotm} (\hyperlink{struct_event}{Event} $\ast$event)
+\item 
+int \hyperlink{group__search_ga0ab78ad9b3d9c7fe1975fd416a1f1c5c}{scaninput} ()
+\item 
+int \hyperlink{group__search_gadaf3bc7221b1fe4f2cffb3aaea00415d}{searchbyname} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
+\item 
+int \hyperlink{group__search_ga6b219250779d3af5972611513010a013}{searchbyweek} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
+\item 
+int \hyperlink{group__search_gac2a6873263c1a8146c04126b48f8431e}{searchbymonth} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
+\item 
+int \hyperlink{group__search_ga5a5f902f17fae2dda3b8ec6bb7e1a6e9}{searchbyday} (\hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
+\item 
+int \hyperlink{group__search_ga4fc3c2695bbc6aacac6fcdddbbc2c9ea}{printfindlist} (\hyperlink{struct_find_list}{Find\+List} $\ast$findlist, \hyperlink{struct_search_conditions}{Search\+Conditions} condition, \hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
+\item 
+int \hyperlink{group__search_ga70f4e24bc56ccfdd7d63df4a84054538}{scanfindlist} (int i, \hyperlink{struct_find_list}{Find\+List} $\ast$findlist, \hyperlink{struct_search_conditions}{Search\+Conditions} condition, \hyperlink{struct_event_list}{Event\+List} $\ast$eventlist)
+\item 
+void \hyperlink{group__search_ga2561d96be1299fd3f5730c6d82143709}{printevent\+\_\+short} (\hyperlink{struct_event}{Event} $\ast$event)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+a keresést támogató háttérfüggvények
+
+a kereséshez szükséges adatok bekérése, találatok kiírása 
+
+\subsection{Typedef Documentation}
+\mbox{\Hypertarget{group__search_ga2ab4e565bcf990b57e010007e13bec43}\label{group__search_ga2ab4e565bcf990b57e010007e13bec43}} 
+\index{Keresés kezelő@{Keresés kezelő}!Search\+By@{Search\+By}}
+\index{Search\+By@{Search\+By}!Keresés kezelő@{Keresés kezelő}}
+\subsubsection{\texorpdfstring{Search\+By}{SearchBy}}
+{\footnotesize\ttfamily typedef enum \hyperlink{group__search_gaf9df49b17c9441844cafc15064ec50fc}{Search\+By} \hyperlink{group__search_gaf9df49b17c9441844cafc15064ec50fc}{Search\+By}}
+
+Keresés módjának megadására szolgáló enum 
+
+\subsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{group__search_gaf9df49b17c9441844cafc15064ec50fc}\label{group__search_gaf9df49b17c9441844cafc15064ec50fc}} 
+\index{Keresés kezelő@{Keresés kezelő}!Search\+By@{Search\+By}}
+\index{Search\+By@{Search\+By}!Keresés kezelő@{Keresés kezelő}}
+\subsubsection{\texorpdfstring{Search\+By}{SearchBy}}
+{\footnotesize\ttfamily enum \hyperlink{group__search_gaf9df49b17c9441844cafc15064ec50fc}{Search\+By}}
+
+Keresés módjának megadására szolgáló enum \begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{byweek@{byweek}!Keresés kezelő@{Keresés kezelő}}\index{Keresés kezelő@{Keresés kezelő}!byweek@{byweek}}}\mbox{\Hypertarget{group__search_ggaf9df49b17c9441844cafc15064ec50fca22234af7e39a964f41baef92fdd17c14}\label{group__search_ggaf9df49b17c9441844cafc15064ec50fca22234af7e39a964f41baef92fdd17c14}} 
+byweek&hét szerint \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{byday@{byday}!Keresés kezelő@{Keresés kezelő}}\index{Keresés kezelő@{Keresés kezelő}!byday@{byday}}}\mbox{\Hypertarget{group__search_ggaf9df49b17c9441844cafc15064ec50fca5efad3bcd6c0ae75087b25e99c9483fa}\label{group__search_ggaf9df49b17c9441844cafc15064ec50fca5efad3bcd6c0ae75087b25e99c9483fa}} 
+byday&nap szerint \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{bymonth@{bymonth}!Keresés kezelő@{Keresés kezelő}}\index{Keresés kezelő@{Keresés kezelő}!bymonth@{bymonth}}}\mbox{\Hypertarget{group__search_ggaf9df49b17c9441844cafc15064ec50fca1079e56084842bedf75f880e98175b84}\label{group__search_ggaf9df49b17c9441844cafc15064ec50fca1079e56084842bedf75f880e98175b84}} 
+bymonth&hónap szerint \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group__search_gaa13cd0a956bc531fe1e1329b6aebdef9}\label{group__search_gaa13cd0a956bc531fe1e1329b6aebdef9}} 
+\index{Keresés kezelő@{Keresés kezelő}!eventtotm@{eventtotm}}
+\index{eventtotm@{eventtotm}!Keresés kezelő@{Keresés kezelő}}
+\subsubsection{\texorpdfstring{eventtotm()}{eventtotm()}}
+{\footnotesize\ttfamily \hyperlink{group__list_gaffc453d30a4a6ce81ed778fd04d2d256}{Tm}$\ast$ eventtotm (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event}{Event} $\ast$}]{event }\end{DoxyParamCaption})}
+
+Esemény kezdőidejét Tm típussá alakítja 
+\begin{DoxyParams}{Parameters}
+{\em event} & ennek az eseménynek a kezdőidejét alakítjuk át \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Tm típusú pointer (struct tm) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__search_gace601ce27f555e73988b2db946d1ca5e}\label{group__search_gace601ce27f555e73988b2db946d1ca5e}} 
+\index{Keresés kezelő@{Keresés kezelő}!inserttofindlist@{inserttofindlist}}
+\index{inserttofindlist@{inserttofindlist}!Keresés kezelő@{Keresés kezelő}}
+\subsubsection{\texorpdfstring{inserttofindlist()}{inserttofindlist()}}
+{\footnotesize\ttfamily void inserttofindlist (\begin{DoxyParamCaption}\item[{\hyperlink{struct_find_list}{Find\+List} $\ast$}]{findlist,  }\item[{\hyperlink{struct_event}{Event} $\ast$}]{event }\end{DoxyParamCaption})}
+
+A talált elemek beillesztése egy találati listába 
+\begin{DoxyParams}{Parameters}
+{\em findlist} & ebbe a találati listába illesztünk be (a searchiter létrehozza). cím szerint adjuk meg. \\
+\hline
+{\em event} & ezt az eseményt illesztjük be. cím szerint. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__search_ga2561d96be1299fd3f5730c6d82143709}\label{group__search_ga2561d96be1299fd3f5730c6d82143709}} 
+\index{Keresés kezelő@{Keresés kezelő}!printevent\+\_\+short@{printevent\+\_\+short}}
+\index{printevent\+\_\+short@{printevent\+\_\+short}!Keresés kezelő@{Keresés kezelő}}
+\subsubsection{\texorpdfstring{printevent\+\_\+short()}{printevent\_short()}}
+{\footnotesize\ttfamily void printevent\+\_\+short (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event}{Event} $\ast$}]{event }\end{DoxyParamCaption})}
+
+Kiírja az esemény nevét, dátumát, kezdőidejét \mbox{\Hypertarget{group__search_ga4fc3c2695bbc6aacac6fcdddbbc2c9ea}\label{group__search_ga4fc3c2695bbc6aacac6fcdddbbc2c9ea}} 
+\index{Keresés kezelő@{Keresés kezelő}!printfindlist@{printfindlist}}
+\index{printfindlist@{printfindlist}!Keresés kezelő@{Keresés kezelő}}
+\subsubsection{\texorpdfstring{printfindlist()}{printfindlist()}}
+{\footnotesize\ttfamily int printfindlist (\begin{DoxyParamCaption}\item[{\hyperlink{struct_find_list}{Find\+List} $\ast$}]{findlist,  }\item[{\hyperlink{struct_search_conditions}{Search\+Conditions}}]{condition,  }\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
+
+kiírja a keresés által talált események listáját és az elérhető menüpontokat. Meghívja a parancsbeolvasó függvényt a menüpontokhoz 
+\begin{DoxyParams}{Parameters}
+{\em findlist} & ebben vannak tárolva a keresés által talált elemek \\
+\hline
+{\em condition} & itt tároljuk a keresési feltétleket. lásd\+: searchiter \\
+\hline
+{\em eventlist} & ebben a listában keresünk \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__search_ga70f4e24bc56ccfdd7d63df4a84054538}\label{group__search_ga70f4e24bc56ccfdd7d63df4a84054538}} 
+\index{Keresés kezelő@{Keresés kezelő}!scanfindlist@{scanfindlist}}
+\index{scanfindlist@{scanfindlist}!Keresés kezelő@{Keresés kezelő}}
+\subsubsection{\texorpdfstring{scanfindlist()}{scanfindlist()}}
+{\footnotesize\ttfamily int scanfindlist (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{\hyperlink{struct_find_list}{Find\+List} $\ast$}]{findlist,  }\item[{\hyperlink{struct_search_conditions}{Search\+Conditions}}]{condition,  }\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
+
+Beolvassa a találati listán érvényes parancsokat a felhasználótól és meghívja a vonatkozó függvényt 
+\begin{DoxyParams}{Parameters}
+{\em i} & a printfindlist-\/ben kiírt menüpontok száma+1 \\
+\hline
+{\em findlist} & a keresés által visszaadott események listája \\
+\hline
+{\em condition} & keresési feltételek \\
+\hline
+{\em eventlist} & az események listája, amiben keresünk \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1\+: keresés ugyanígy, 0\+: keresés máshogy, 5\+: főmenü 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__search_ga0ab78ad9b3d9c7fe1975fd416a1f1c5c}\label{group__search_ga0ab78ad9b3d9c7fe1975fd416a1f1c5c}} 
+\index{Keresés kezelő@{Keresés kezelő}!scaninput@{scaninput}}
+\index{scaninput@{scaninput}!Keresés kezelő@{Keresés kezelő}}
+\subsubsection{\texorpdfstring{scaninput()}{scaninput()}}
+{\footnotesize\ttfamily int scaninput (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Bekér egy számot, és ezt adja vissza \mbox{\Hypertarget{group__search_ga9a7e3230097d2f97a58082ff6eb864ac}\label{group__search_ga9a7e3230097d2f97a58082ff6eb864ac}} 
+\index{Keresés kezelő@{Keresés kezelő}!searchactual@{searchactual}}
+\index{searchactual@{searchactual}!Keresés kezelő@{Keresés kezelő}}
+\subsubsection{\texorpdfstring{searchactual()}{searchactual()}}
+{\footnotesize\ttfamily int searchactual (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist,  }\item[{\hyperlink{group__search_gaf9df49b17c9441844cafc15064ec50fc}{Search\+By}}]{searchmode }\end{DoxyParamCaption})}
+
+Keresést futtat a jelenlegi hétre, hónapra vagy napra 
+\begin{DoxyParams}{Parameters}
+{\em eventlist} & ebben a listában keresünk \\
+\hline
+{\em searchmode} & mi szerint keresünk (byweek, byday, bymonth) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+továbbítja a searchiter-\/ből kapott visszatérési értéket 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__search_ga5a5f902f17fae2dda3b8ec6bb7e1a6e9}\label{group__search_ga5a5f902f17fae2dda3b8ec6bb7e1a6e9}} 
+\index{Keresés kezelő@{Keresés kezelő}!searchbyday@{searchbyday}}
+\index{searchbyday@{searchbyday}!Keresés kezelő@{Keresés kezelő}}
+\subsubsection{\texorpdfstring{searchbyday()}{searchbyday()}}
+{\footnotesize\ttfamily int searchbyday (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
+
+Nap szerinti kereséshez bekéri az évet, hónapot és napot, majd meghívja a searchiter-\/t kereséshez 
+\begin{DoxyParams}{Parameters}
+{\em eventlist} & ebben a listában keresünk \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a searchiter visszatérési értékét továbbítja 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__search_gac2a6873263c1a8146c04126b48f8431e}\label{group__search_gac2a6873263c1a8146c04126b48f8431e}} 
+\index{Keresés kezelő@{Keresés kezelő}!searchbymonth@{searchbymonth}}
+\index{searchbymonth@{searchbymonth}!Keresés kezelő@{Keresés kezelő}}
+\subsubsection{\texorpdfstring{searchbymonth()}{searchbymonth()}}
+{\footnotesize\ttfamily int searchbymonth (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
+
+Hó szerinti kereséshez bekéri az évet és a hónapot, majd meghívja a searchiter-\/t kereséshez 
+\begin{DoxyParams}{Parameters}
+{\em eventlist} & ebben a listában keresünk \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a searchiter visszatérési értékét továbbítja 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__search_gadaf3bc7221b1fe4f2cffb3aaea00415d}\label{group__search_gadaf3bc7221b1fe4f2cffb3aaea00415d}} 
+\index{Keresés kezelő@{Keresés kezelő}!searchbyname@{searchbyname}}
+\index{searchbyname@{searchbyname}!Keresés kezelő@{Keresés kezelő}}
+\subsubsection{\texorpdfstring{searchbyname()}{searchbyname()}}
+{\footnotesize\ttfamily int searchbyname (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
+
+Név szerinti kereséshez bekéri a nevet, majd meghívja a searchiter-\/t kereséshez 
+\begin{DoxyParams}{Parameters}
+{\em eventlist} & ebben a listában keresünk \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a searchiter visszatérési értékét továbbítja 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__search_ga6b219250779d3af5972611513010a013}\label{group__search_ga6b219250779d3af5972611513010a013}} 
+\index{Keresés kezelő@{Keresés kezelő}!searchbyweek@{searchbyweek}}
+\index{searchbyweek@{searchbyweek}!Keresés kezelő@{Keresés kezelő}}
+\subsubsection{\texorpdfstring{searchbyweek()}{searchbyweek()}}
+{\footnotesize\ttfamily int searchbyweek (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist }\end{DoxyParamCaption})}
+
+Hét szerinti kereséshez bekéri az évet és a hetet, majd meghívja a searchiter-\/t kereséshez 
+\begin{DoxyParams}{Parameters}
+{\em eventlist} & ebben a listában keresünk \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a searchiter visszatérési értékét továbbítja 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__search_ga199722ea7869f598848648238f88d274}\label{group__search_ga199722ea7869f598848648238f88d274}} 
+\index{Keresés kezelő@{Keresés kezelő}!searchiter@{searchiter}}
+\index{searchiter@{searchiter}!Keresés kezelő@{Keresés kezelő}}
+\subsubsection{\texorpdfstring{searchiter()}{searchiter()}}
+{\footnotesize\ttfamily int searchiter (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist,  }\item[{\hyperlink{struct_search_conditions}{Search\+Conditions}}]{condition }\end{DoxyParamCaption})}
+
+A megadott keresési feltételeknek megfelelően végig megy a listán hátulról előre. Ha telál a feltételnek megfelelő eseményt, beteszi a találati listába az insertofindlist függvénnyel kiírja a találati listát Visszatérés előtt felszabadítja a találati listát 
+\begin{DoxyParams}{Parameters}
+{\em eventlist} & ebben az \hyperlink{struct_event_list}{Event\+List} típusú eseménylistában keresünk. cím szerint megadva \\
+\hline
+{\em condition} & ebben a \hyperlink{struct_search_conditions}{Search\+Conditions} típusú változóban adjuk meg az adott kereséshez szükséges adatokat. ha nem név szerint keresünk akkor condition.\+name=N\+U\+LL. ha nem hét szerint keresünk, akkor condition.\+week=0. ha nem nap szerint keresünk, akkor condition.\+day=0; \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+továbbítja a printfindlist visszatérési értékét 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__search_ga4e80bfd47c2fef45e9f6f50632544931}\label{group__search_ga4e80bfd47c2fef45e9f6f50632544931}} 
+\index{Keresés kezelő@{Keresés kezelő}!tmtoweek@{tmtoweek}}
+\index{tmtoweek@{tmtoweek}!Keresés kezelő@{Keresés kezelő}}
+\subsubsection{\texorpdfstring{tmtoweek()}{tmtoweek()}}
+{\footnotesize\ttfamily int tmtoweek (\begin{DoxyParamCaption}\item[{\hyperlink{group__list_gaffc453d30a4a6ce81ed778fd04d2d256}{Tm} $\ast$}]{tm }\end{DoxyParamCaption})}
+
+Kiszámítja, hogy adott dátum az év hányadik hetére esik (I\+SO 8601 szabvány szerint) 
+\begin{DoxyParams}{Parameters}
+{\em tm} & Tm típusú pointer cím szerint. Itt adjuk meg a vizsgált dátumot \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a hét száma (1-\/53) 
+\end{DoxyReturn}
