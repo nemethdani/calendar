@@ -51,13 +51,15 @@ void moveevent(Event* event,EventList const* eventlist,ModBy modby){
 void deleteevent(Event* event){
     printf("tenyleg törölni szeretned? (i)/(n)");
     char valasz;
-    getchar();
+    //getchar();
     scanf("%c",&valasz);
+    getchar();
     if(valasz=='i'){
         event->prev->next=event->next;
         event->next->prev=event->prev;
         free_event(event);
     }
+
     else return;
 
 }
@@ -70,7 +72,7 @@ int scanrecordcommand(bool isnewevent, int i,Event* event,EventList const* event
     else if(valasztas==1){
             free(event->name);
             printf("Mi az esemeny neve? (max 127 karakter)\n");
-            getchar();
+            //getchar();
             char* newname=hosszu_sort_olvas(128);
             event->name=newname;
             return 2;
@@ -80,14 +82,14 @@ int scanrecordcommand(bool isnewevent, int i,Event* event,EventList const* event
     else if(valasztas==4) moveevent(event,eventlist,byend);
     else if(valasztas==5){
         free(event->location);
-        getchar();
+        //getchar();
         printf("Mi az esemeny helye? (max 127 karakter)\n");
         event->location=hosszu_sort_olvas(128);
         return 2;
     }
     else if(valasztas==6){
         free(event->comment);
-        getchar();
+        //getchar();
         printf("Van megjegyzesed? (max 255 karakter)\n");
         event->comment=hosszu_sort_olvas(256);
         return 2;
