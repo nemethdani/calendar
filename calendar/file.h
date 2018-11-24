@@ -6,7 +6,8 @@
 #include <stdbool.h>
 /**
 * @defgroup file File kezelő
-* adatok fájlba mentése és ebből betöltése
+* @brief adatok fájlba mentése és ebből betöltése
+* mivel az adatok betöltésénél először fix méretű tömbbe tesszük az adatokat, fontos, hogy amikor a felhasználó új adatot ad meg, korlátozzuk annak hosszát, hogy megfeleljen a betöltéskor beolvasható max hosszal.
 * @{
 */
 

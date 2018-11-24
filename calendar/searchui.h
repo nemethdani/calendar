@@ -3,7 +3,10 @@
 
 /**
 * @defgroup search Keresés-menü kezelő
-* a kereséshez szükséges adatok bekérése, találatok kiírása
+* @brief a kereséshez szükséges adatok bekérése, találatok kiírása
+* a keresés típusától függően bekérjük a felhasználótól a szükséges adatokat, ezt típusonként egy-egy fv kezeli.7
+* Ezek a függvények átadják az infót a külön modulban található searchiter fv-nek, ami meghívja a printfindlist fv-t a találati lista kiírásához
+* a tlálati listában az eseményekhez tartózó szám bevitelével (amit a scanfindlist olvas be) az eseményrekordra jutunk, ahol módosítani és törölni tudjuk az eseményt.
 * @{
 */
 

@@ -6,7 +6,10 @@
 
 /**
 * @defgroup list Lista kezelő
-* listák, események létrehozás, törlése
+* @brief listák, események létrehozás, törlése
+* az eseményeket duplán láncolt listában tároljuk két üres strázsával, időben növekvő sorrendben.
+* a sorrend miatt kell az eseménynek találnunk egy "egyesített" időmértékegységet, amivel össze tudjuk hasonlítani a többi eseményét. Ezt a starttime függvény oldja meg.
+* A beszúráshoz visszafelé keresünk, mivel várhatóan mindig időben későbbi eseményeket szeretnénk bevinni
 * @{
 */
 

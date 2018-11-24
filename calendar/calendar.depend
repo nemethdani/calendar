@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1542827112 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/main.c
+1543055969 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/main.c
 	<stdio.h>
 	<stdlib.h>
 	"structures.h"
@@ -12,17 +12,18 @@
 1542827112 /home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/structures.h
 	<time.h>
 
-1542827112 /home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.h
+1543056273 /home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.h
 	"structures.h"
 	<stdbool.h>
 
-1542827112 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.c
+1543058701 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/file.c
 	"file.h"
 	<stdio.h>
 	<stdbool.h>
 	"structures.h"
 	"list.h"
 	<string.h>
+	<stdlib.h>
 
 1542827112 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.c
 	"list.h"
@@ -30,11 +31,11 @@
 	"structures.h"
 	<time.h>
 
-1542827112 /home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.h
+1543056570 /home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/list.h
 	"structures.h"
 	<time.h>
 
-1542827112 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.c
+1543058822 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.c
 	"menu.h"
 	"structures.h"
 	<stdlib.h>
@@ -47,14 +48,14 @@
 	"eventrecord.h"
 	"searchui.h"
 
-1542827112 /home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.h
+1543058974 /home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/menu.h
 	"structures.h"
 
-1542827112 /home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/search.h
+1543057030 /home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/search.h
 	<stdbool.h>
 	"structures.h"
 
-1542827112 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/search.c
+1543054689 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/search.c
 	"search.h"
 	"structures.h"
 	<stdlib.h>
@@ -73,7 +74,7 @@
 	"list.h"
 	<stdlib.h>
 
-1542827112 /home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.h
+1543056142 /home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/eventrecord.h
 	"structures.h"
 	<stdbool.h>
 
@@ -98,10 +99,10 @@
 	<stdlib.h>
 	<stdbool.h>
 
-1542827112 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/searchui.c
+1543058094 source:/home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/searchui.c
 	"structures.h"
 	<stdbool.h>
 	<stdio.h>
 
-1542827112 /home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/searchui.h
+1543056892 /home/dani/Documents/egyetem/prog1/nagyhazi/hazi2/calendar2/calendar/searchui.h
 

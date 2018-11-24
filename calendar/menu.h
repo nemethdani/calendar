@@ -4,7 +4,10 @@
 
 /**
 * @defgroup menu Menü kezelő
-* menük kiírása, parancsok, adatok bekérése
+* @brief menük kiírása, parancsok, adatok bekérése
+* A menüknél a függvények egyik része kiírja a menüben végrehajtható parancsokat a hozzájuk tartozó, azt meghívó számmal
+* A függvények másik része beolvassa a felhasználó által megadott parancsot, és végrehajtja azt.
+* A menük integereket adnak vissza, ezzel vezérelhetők a visszalépések.
 * @{
 */
 

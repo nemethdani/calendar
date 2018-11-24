@@ -6,7 +6,9 @@
 
 /**
 * @defgroup search Keresés kezelő
-* a keresést támogató háttérfüggvények
+* @brief a keresést támogató háttérfüggvények
+* A keresés fő részét a searchiter fv végzi, ami a megadott feltételek alapján a megfelelő eseményeket egy találati listába teszi, és erre meghívja a printfindlist fv-t
+* A keresés időben visszafelé történik, és megáll, ha átléptük a keresett évet vagy elértük a lista elejét.
 * @{
 */
 
@@ -19,9 +21,10 @@ typedef enum SearchBy{
 }SearchBy;
 
 /** A megadott keresési feltételeknek megfelelően végig megy a listán hátulról előre.
-* Ha telál a feltételnek megfelelő eseményt, beteszi a találati listába az insertofindlist függvénnyel
-* kiírja a találati listát
-* Visszatérés előtt felszabadítja a találati listát
+* A keresés addig fut, amíg el nem érjük a lista elejét, vagy ha nem név szerint keresünk addig amíg az iterált esemény éve>=keresett év.
+* Ha talál a feltételnek megfelelő eseményt, beteszi a találati listába az insertofindlist függvénnyel
+* kiírja a találati listát.
+* Visszatérés előtt felszabadítja a találati listát.
 * @param eventlist: ebben az EventList típusú eseménylistában keresünk. cím szerint megadva
 * @param condition: ebben a SearchConditions típusú változóban adjuk meg az adott kereséshez szükséges adatokat.
 *   ha nem név szerint keresünk akkor condition.name=NULL.

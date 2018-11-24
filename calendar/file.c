@@ -4,6 +4,7 @@
 #include "structures.h"
 #include "list.h"
 #include <string.h>
+#include <stdlib.h>
 
 
 
@@ -38,7 +39,7 @@ bool calendarload(EventList const* eventlist){
                 name,location,comment)==10){
         //karaktereket átalakítani dinamikussá!
 
-        Event* event= createevent(year,month,day,starthour,startmin,endhour, endmin, dstrcpy(&name),dstrcpy(&location),dstrcpy(&comment));
+        Event* event= createevent(year,month,day,starthour,startmin,endhour, endmin, dstrcpy(name),dstrcpy(location),dstrcpy(comment));
         if(event==NULL) return false;
         insertevent(eventlist, event);
 

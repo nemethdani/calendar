@@ -1,5 +1,10 @@
 \hypertarget{group__list}{}\section{Lista kezelő}
 \label{group__list}\index{Lista kezelő@{Lista kezelő}}
+
+
+listák, események létrehozás, törlése az eseményeket duplán láncolt listában tároljuk két üres strázsával, időben növekvő sorrendben. a sorrend miatt kell az eseménynek találnunk egy \char`\"{}egyesített\char`\"{} időmértékegységet, amivel össze tudjuk hasonlítani a többi eseményét. Ezt a starttime függvény oldja meg. A beszúráshoz visszafelé keresünk, mivel várhatóan mindig időben későbbi eseményeket szeretnénk bevinni  
+
+
 \subsection*{Typedefs}
 \begin{DoxyCompactItemize}
 \item 
@@ -23,7 +28,9 @@ void \hyperlink{group__list_gafd63217de3b7f7269aa3ee9d14b6b578}{free\+\_\+event}
 
 
 \subsection{Detailed Description}
-listák, események létrehozás, törlése 
+listák, események létrehozás, törlése az eseményeket duplán láncolt listában tároljuk két üres strázsával, időben növekvő sorrendben. a sorrend miatt kell az eseménynek találnunk egy \char`\"{}egyesített\char`\"{} időmértékegységet, amivel össze tudjuk hasonlítani a többi eseményét. Ezt a starttime függvény oldja meg. A beszúráshoz visszafelé keresünk, mivel várhatóan mindig időben későbbi eseményeket szeretnénk bevinni 
+
+
 
 \subsection{Typedef Documentation}
 \mbox{\Hypertarget{group__list_gaffc453d30a4a6ce81ed778fd04d2d256}\label{group__list_gaffc453d30a4a6ce81ed778fd04d2d256}} 

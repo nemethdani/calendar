@@ -1,5 +1,10 @@
 \hypertarget{group__search}{}\section{Keresés kezelő}
 \label{group__search}\index{Keresés kezelő@{Keresés kezelő}}
+
+
+a keresést támogató háttérfüggvények A keresés fő részét a searchiter fv végzi, ami a megadott feltételek alapján a megfelelő eseményeket egy találati listába teszi, és erre meghívja a printfindlist fv-\/t A keresés időben visszafelé történik, és megáll, ha átléptük a keresett évet vagy elértük a lista elejét.  
+
+
 \subsection*{Typedefs}
 \begin{DoxyCompactItemize}
 \item 
@@ -45,9 +50,9 @@ void \hyperlink{group__search_ga2561d96be1299fd3f5730c6d82143709}{printevent\+\_
 
 
 \subsection{Detailed Description}
-a keresést támogató háttérfüggvények
+a keresést támogató háttérfüggvények A keresés fő részét a searchiter fv végzi, ami a megadott feltételek alapján a megfelelő eseményeket egy találati listába teszi, és erre meghívja a printfindlist fv-\/t A keresés időben visszafelé történik, és megáll, ha átléptük a keresett évet vagy elértük a lista elejét. 
 
-a kereséshez szükséges adatok bekérése, találatok kiírása 
+a kereséshez szükséges adatok bekérése, találatok kiírása a keresés típusától függően bekérjük a felhasználótól a szükséges adatokat, ezt típusonként egy-\/egy fv kezeli.\+7 Ezek a függvények átadják az infót a külön modulban található searchiter fv-\/nek, ami meghívja a printfindlist fv-\/t a találati lista kiírásához a tlálati listában az eseményekhez tartózó szám bevitelével (amit a scanfindlist olvas be) az eseményrekordra jutunk, ahol módosítani és törölni tudjuk az eseményt.
 
 \subsection{Typedef Documentation}
 \mbox{\Hypertarget{group__search_ga2ab4e565bcf990b57e010007e13bec43}\label{group__search_ga2ab4e565bcf990b57e010007e13bec43}} 
@@ -234,7 +239,7 @@ a searchiter visszatérési értékét továbbítja
 \subsubsection{\texorpdfstring{searchiter()}{searchiter()}}
 {\footnotesize\ttfamily int searchiter (\begin{DoxyParamCaption}\item[{\hyperlink{struct_event_list}{Event\+List} $\ast$}]{eventlist,  }\item[{\hyperlink{struct_search_conditions}{Search\+Conditions}}]{condition }\end{DoxyParamCaption})}
 
-A megadott keresési feltételeknek megfelelően végig megy a listán hátulról előre. Ha telál a feltételnek megfelelő eseményt, beteszi a találati listába az insertofindlist függvénnyel kiírja a találati listát Visszatérés előtt felszabadítja a találati listát 
+A megadott keresési feltételeknek megfelelően végig megy a listán hátulról előre. A keresés addig fut, amíg el nem érjük a lista elejét, vagy ha nem név szerint keresünk addig amíg az iterált esemény éve$>$=keresett év. Ha talál a feltételnek megfelelő eseményt, beteszi a találati listába az insertofindlist függvénnyel kiírja a találati listát. Visszatérés előtt felszabadítja a találati listát. 
 \begin{DoxyParams}{Parameters}
 {\em eventlist} & ebben az \hyperlink{struct_event_list}{Event\+List} típusú eseménylistában keresünk. cím szerint megadva \\
 \hline

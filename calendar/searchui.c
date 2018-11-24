@@ -132,5 +132,5 @@ int scanfindlist(int i, FindList* findlist,SearchConditions condition,EventList*
 }
 
 void printevent_short(Event* event){
-    printf("%d.%d.%d %d:%d %s\n",event->year,event->month,event->day,event->starthour,event->startmin,event->name);
+    printf("%d.%d.%d %d:%d %s %s\n",event->year,event->month,event->day,event->starthour,event->startmin,event->name,event->location);
 }

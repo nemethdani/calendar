@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.16)  21 NOV 2018 20:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.16)  24 NOV 2018 12:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1195,14 +1195,14 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 6.29996pt on input line 11.
+(Font)              scaled to size 6.29996pt on input line 12.
  [1
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 67.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 66.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 6.29996pt on input line 67.
+(Font)              scaled to size 6.29996pt on input line 66.
  [2] [3] [4]
 [5] [6])
 \tf@toc=\write5
@@ -1222,6 +1222,12 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 18.66588pt on input line 141.
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
 (Font)              scaled to size 18.66588pt on input line 141.
+(./index.tex) [1
+
+] [2
+
+]
+Chapter 2.
 (./modules.tex
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 1.
@@ -1229,20 +1235,18 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 12.9599pt on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
 (Font)              scaled to size 12.9599pt on input line 1.
-) [1
-
-] [2
-
-]
-Chapter 2.
-(./annotated.tex) [3] [4
+) [3] [4
 
 ]
 Chapter 3.
-(./files.tex) [5] [6
+(./annotated.tex) [5] [6
 
 ]
 Chapter 4.
+(./files.tex) [7] [8
+
+]
+Chapter 5.
 (./group__eventrecord.tex
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 3.
@@ -1267,14 +1271,14 @@ LaTeX Font Info:    Try loading font information for T1+pcr on input line 37.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [7]
+) [9]
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 69.
 
 Overfull \vbox (20.41457pt too high) has occurred while \output is active []
 
 
-[8]
+[10]
 Underfull \hbox (badness 10000) detected at line 104
 [][][]
  []
@@ -1284,85 +1288,65 @@ Underfull \hbox (badness 10000) detected at line 124
 [][][]
  []
 
-) [9]
+) [11]
 \openout2 = `group__file.aux'.
 
  (./group__file.tex
-Underfull \hbox (badness 10000) detected at line 29
+Underfull \hbox (badness 10000) detected at line 36
 [][][]
  []
 
-[10
+[12
 
 ]
-Underfull \hbox (badness 10000) detected at line 43
+Underfull \hbox (badness 10000) detected at line 50
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 57
+Underfull \hbox (badness 10000) detected at line 64
 [][][]
  []
 
-) [11]
+) [13]
 \openout2 = `group__list.aux'.
 
- (./group__list.tex [12
+ (./group__list.tex [14
 
 
 ]
-Underfull \hbox (badness 10000) detected at line 67
+Underfull \hbox (badness 10000) detected at line 74
 [][][]
  []
 
-
-Underfull \hbox (badness 10000) detected at line 93
-[][][]
- []
-
-[13]
-Underfull \hbox (badness 10000) detected at line 120
-[][][]
- []
-
-) [14]
-\openout2 = `group__menu.aux'.
-
- (./group__menu.tex
-Overfull \vbox (2.62837pt too high) has occurred while \output is active []
-
-
-[15
-
-
-]
-Underfull \hbox (badness 10000) detected at line 67
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 87
+[15]
+Underfull \hbox (badness 10000) detected at line 100
 [][][]
  []
 
 [16]
-Underfull \hbox (badness 10000) detected at line 123
+Underfull \hbox (badness 10000) detected at line 127
 [][][]
  []
 
-[17]
-Underfull \hbox (badness 10000) detected at line 143
-[][][]
- []
+) [17]
+\openout2 = `group__menu.aux'.
 
-) [18]
-\openout2 = `group__search.aux'.
-
- (./group__search.tex [19
+ (./group__menu.tex [18
 
 
 ]
-Underfull \hbox (badness 10000) detected at line 96
+Underfull \hbox (badness 10000) detected at line 74
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 94
+[][][]
+ []
+
+[19]
+Underfull \hbox (badness 10000) detected at line 130
 [][][]
  []
 
@@ -1371,59 +1355,79 @@ Underfull \hbox (badness 10000) detected at line 150
 [][][]
  []
 
-[21]
-Underfull \hbox (badness 10000) detected at line 172
+) [21]
+\openout2 = `group__search.aux'.
+
+ (./group__search.tex [22
+
+
+]
+Underfull \hbox (badness 10000) detected at line 101
+[][][]
+ []
+
+[23] [24]
+Underfull \hbox (badness 10000) detected at line 155
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 186
-[][][]
- []
-
-[22]
-Underfull \hbox (badness 10000) detected at line 200
+Underfull \hbox (badness 10000) detected at line 177
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 214
+Overfull \vbox (7.72404pt too high) has occurred while \output is active []
+
+
+[25]
+Underfull \hbox (badness 10000) detected at line 191
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 228
-[][][]
- []
-
-[23]
-Underfull \hbox (badness 10000) detected at line 244
+Underfull \hbox (badness 10000) detected at line 205
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 258
+Underfull \hbox (badness 10000) detected at line 219
 [][][]
  []
 
-) [24]
+[26]
+Underfull \hbox (badness 10000) detected at line 233
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 249
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 263
+[][][]
+ []
+
+) [27]
 \openout2 = `group__structures.aux'.
 
- (./group__structures.tex [25
+ (./group__structures.tex [28
 
 
-]) [26]
-Chapter 5.
-(./struct_event.tex [27
+]) [29] [30
 
-
-] [28]) (./struct_event_list.tex)
-(./struct_find_list.tex [29]) (./struct_found_event.tex [30])
-(./struct_lefoglalt.tex [31] [32]) (./struct_menu_pont.tex)
-(./struct_search_conditions.tex [33] [34]) [35] [36
 
 ]
 Chapter 6.
+(./struct_event.tex [31] [32]) (./struct_event_list.tex)
+(./struct_find_list.tex [33]) (./struct_found_event.tex [34])
+(./struct_lefoglalt.tex [35] [36]) (./struct_menu_pont.tex)
+(./struct_search_conditions.tex [37] [38]) [39] [40
+
+]
+Chapter 7.
 (./debugmalloc_8c.tex
 Overfull \hbox (21.96867pt too wide) in paragraph at lines 1--1
 []\T1/phv/bc/n/14.4 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calenda
@@ -1435,14 +1439,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--11
 
  []
 
-[37] [38]) (./debugmalloc_8h.tex
+[41] [42]) (./debugmalloc_8h.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 22.16548pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39]
+[43]
 Overfull \hbox (22.5518pt too wide) in paragraph at lines 1--1
 []\T1/phv/bc/n/14.4 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calenda
 r2/calendar/debugmalloc.h
@@ -1453,14 +1457,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-[40]
+[44]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 22.16548pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41]) (./eventrecord_8c.tex
+[45]) (./eventrecord_8c.tex
 Overfull \hbox (17.10901pt too wide) in paragraph at lines 1--1
 []\T1/phv/bc/n/14.4 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calenda
 r2/calendar/eventrecord.c
@@ -1471,7 +1475,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--10
 
  []
 
-[42]) (./eventrecord_8h.tex
+[46]) (./eventrecord_8h.tex
 Overfull \hbox (17.69214pt too wide) in paragraph at lines 1--1
 []\T1/phv/bc/n/14.4 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calenda
 r2/calendar/eventrecord.h
@@ -1489,11 +1493,11 @@ r2/calendar/file.c File
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--9
+Underfull \hbox (badness 10000) in paragraph at lines 3--10
 
  []
 
-[43]) (./file_8h.tex
+[47]) (./file_8h.tex
 Underfull \hbox (badness 3884) in paragraph at lines 1--1
 []\T1/phv/bc/n/14.4 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calenda
 r2/calendar/file.h File
@@ -1526,7 +1530,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-[44]) (./main_8c.tex
+[48]) (./main_8c.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 []\T1/phv/bc/n/14.4 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calenda
 r2/calendar/main.c
@@ -1548,7 +1552,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--14
 
  []
 
-[45]) (./menu_8h.tex
+[49]) (./menu_8h.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 []\T1/phv/bc/n/14.4 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calenda
 r2/calendar/menu.h
@@ -1570,7 +1574,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--11
 
  []
 
-[46]) (./search_8h.tex
+[50]) (./search_8h.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 []\T1/phv/bc/n/14.4 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calenda
 r2/calendar/search.h
@@ -1586,7 +1590,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
 
-[47]) (./searchui_8h.tex) (./structures_8h.tex
+[51]) (./searchui_8h.tex) (./structures_8h.tex
 Overfull \hbox (15.07422pt too wide) in paragraph at lines 1--1
 []\T1/phv/bc/n/14.4 /home/dani/[]Documents/egyetem/prog1/nagyhazi/hazi2/calenda
 r2/calendar/structures.h
@@ -1597,7 +1601,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[48]) [49] [50
+[52]) [53] [54
 
 ] (./refman.ind
 Overfull \hbox (138.65775pt too wide) in paragraph at lines 3--5
@@ -1695,27 +1699,27 @@ Overfull \hbox (127.32684pt too wide) in paragraph at lines 33--35
 calendar/structures.[]
  []
 
-[51
+[55
 
 
-] [52] [53] [54
+] [56] [57] [58
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 189.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 189.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 191.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
  (./refman.aux (./group__file.aux) (./group__list.aux)
 (./group__menu.aux) (./group__search.aux) (./group__structures.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 189.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 189.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 191.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 191.
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: 6CCEF57CA7CDCE10326B089243BCB288;39221.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 189.
+(rerunfilecheck)             Checksum: 68D2BA36E450B47B49105D46C8580BEA;39353.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 191.
  ) 
 Here is how much of TeX's memory you used:
- 15705 strings out of 494923
- 231315 string characters out of 6180741
- 317356 words of memory out of 5000000
- 18226 multiletter control sequences out of 15000+600000
+ 15715 strings out of 494923
+ 231395 string characters out of 6180741
+ 317403 words of memory out of 5000000
+ 18228 multiletter control sequences out of 15000+600000
  58796 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  53i,16n,92p,1612b,630s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1730,10 +1734,10 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8ac.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (64 pages, 231536 bytes).
+Output written on refman.pdf (68 pages, 237402 bytes).
 PDF statistics:
- 2421 PDF objects out of 2487 (max. 8388607)
- 2289 compressed objects within 23 object streams
- 461 named destinations out of 1000 (max. 500000)
- 1473 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2448 PDF objects out of 2487 (max. 8388607)
+ 2311 compressed objects within 24 object streams
+ 467 named destinations out of 1000 (max. 500000)
+ 1481 words of extra memory for PDF output out of 10000 (max. 10000000)
 

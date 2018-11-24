@@ -5,7 +5,9 @@
 #include <stdbool.h>
 /**
 * @defgroup eventrecord Események részletei
-* Események részleteinek kiírásával és módosításával kapcsolatos függvények
+* @breief Események részleteinek kiírásával és módosításával kapcsolatos függvények
+* Az eseményrekord adott eleméhez tartozó szám lenyomásával módosítani tudjuk az adott elemet, illetve meghívhatunk más menüpontot.
+* Ha az esemény kezdő idejét szertnénk módosítani, át kell helyezni az eseményt, egyébként elég az adott adat cseréje
 * @{
 */
 

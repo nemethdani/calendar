@@ -66,6 +66,9 @@ $(function() {
 <div class="title">Keresés kezelő</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>a keresést támogató háttérfüggvények A keresés fő részét a searchiter fv végzi, ami a megadott feltételek alapján a megfelelő eseményeket egy találati listába teszi, és erre meghívja a printfindlist fv-t A keresés időben visszafelé történik, és megáll, ha átléptük a keresett évet vagy elértük a lista elejét.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -110,8 +113,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga2561d96be1299fd3f5730c6d82143709"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>a keresést támogató háttérfüggvények</p>
-<p>a kereséshez szükséges adatok bekérése, találatok kiírása </p>
+<p>a keresést támogató háttérfüggvények A keresés fő részét a searchiter fv végzi, ami a megadott feltételek alapján a megfelelő eseményeket egy találati listába teszi, és erre meghívja a printfindlist fv-t A keresés időben visszafelé történik, és megáll, ha átléptük a keresett évet vagy elértük a lista elejét. </p>
+<p>a kereséshez szükséges adatok bekérése, találatok kiírása a keresés típusától függően bekérjük a felhasználótól a szükséges adatokat, ezt típusonként egy-egy fv kezeli.7 Ezek a függvények átadják az infót a külön modulban található searchiter fv-nek, ami meghívja a printfindlist fv-t a találati lista kiírásához a tlálati listában az eseményekhez tartózó szám bevitelével (amit a scanfindlist olvas be) az eseményrekordra jutunk, ahol módosítani és törölni tudjuk az eseményt.</p>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="ga2ab4e565bcf990b57e010007e13bec43"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga2ab4e565bcf990b57e010007e13bec43">&#9670;&nbsp;</a></span>SearchBy</h2>
@@ -503,7 +506,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>A megadott keresési feltételeknek megfelelően végig megy a listán hátulról előre. Ha telál a feltételnek megfelelő eseményt, beteszi a találati listába az insertofindlist függvénnyel kiírja a találati listát Visszatérés előtt felszabadítja a találati listát </p><dl class="params"><dt>Parameters</dt><dd>
+<p>A megadott keresési feltételeknek megfelelően végig megy a listán hátulról előre. A keresés addig fut, amíg el nem érjük a lista elejét, vagy ha nem név szerint keresünk addig amíg az iterált esemény éve&gt;=keresett év. Ha talál a feltételnek megfelelő eseményt, beteszi a találati listába az insertofindlist függvénnyel kiírja a találati listát. Visszatérés előtt felszabadítja a találati listát. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">eventlist</td><td>ebben az <a class="el" href="struct_event_list.html">EventList</a> típusú eseménylistában keresünk. cím szerint megadva </td></tr>
     <tr><td class="paramname">condition</td><td>ebben a <a class="el" href="struct_search_conditions.html">SearchConditions</a> típusú változóban adjuk meg az adott kereséshez szükséges adatokat. ha nem név szerint keresünk akkor condition.name=NULL. ha nem hét szerint keresünk, akkor condition.week=0. ha nem nap szerint keresünk, akkor condition.day=0; </td></tr>
