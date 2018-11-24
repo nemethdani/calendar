@@ -24,7 +24,7 @@ int searchiter(EventList* eventlist, SearchConditions condition){
     findlist.first=&sentinel1;
     findlist.last=&sentinel2;
 
-    while(iter!=eventlist->first){
+    while((iter!=eventlist->first) && ((condition.name==NULL && iter->year>=condition.year) || (condition.name!=NULL))){
 
         if(condition.name!=NULL && strstr(iter->name,condition.name)!=NULL)
                 inserttofindlist(&findlist,iter);
